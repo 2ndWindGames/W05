@@ -1,0 +1,4 @@
+PASS Touchscreen drag moves penguin through real input path
+PASS touch release clears movement
+PASS touch UI pauses game
+PASS touch UI resumes game

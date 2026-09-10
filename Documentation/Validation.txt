@@ -1,0 +1,34 @@
+PASS: normalized diagonal movement
+PASS: movement speed and acceleration
+PASS: responsive stop
+PASS: arena bounds
+PASS: pause clears controls
+PASS: enemy cap 100
+PASS: effect cap 200
+PASS: snowflake contact awards score once
+PASS: dead enemy cannot score twice
+PASS: simultaneous contact costs one heart
+PASS: invulnerability
+PASS: zero health ends combat
+PASS: result flow
+PASS: restart 1
+PASS: restart 2
+PASS: restart 3
+PASS: restart 4
+PASS: restart 5
+PASS: restart 6
+PASS: restart 7
+PASS: restart 8
+PASS: restart 9
+PASS: restart 10
+PASS: restart 11
+PASS: restart 12
+PASS: restart 13
+PASS: restart 14
+PASS: restart 15
+PASS: restart 16
+PASS: restart 17
+PASS: restart 18
+PASS: restart 19
+PASS: restart 20
+PASS: 10 minute simulation bounded

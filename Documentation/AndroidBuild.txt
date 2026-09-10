@@ -1,0 +1,13 @@
+Result: Succeeded
+Size: 1078165014
+Duration: 00:03:08.2887023
+Errors: 0
+Warnings: 1
+Unity: 6000.3.23f1
+ARM64 IL2CPP / Android 8.0+ / Development APK
+
+APK bytes: 92472783
+SHA256: D2EFACBA2E1B716DCA9155994158A27C499F5674242C32021F80538EF4FCD9C8
+Simulation checks: 34 PASS
+Synthetic touchscreen checks: 4 PASS
+Physical Android device: not connected; device test pending
