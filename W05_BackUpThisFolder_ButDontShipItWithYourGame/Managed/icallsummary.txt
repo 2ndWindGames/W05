@@ -307,10 +307,10 @@ UnityEngine.Application::get_runInBackground
 UnityEngine.Application::get_unityVersionMaj
 UnityEngine.Application::get_unityVersionVer
 UnityEngine.Application::OpenURL_Injected
+UnityEngine.Application::get_persistentDataPath_Injected
 UnityEngine.Application::get_streamingAssetsPath_Injected
 UnityEngine.Application::set_targetFrameRate
 UnityEngine.Application::get_platform
-UnityEngine.Application::get_systemLanguage
 UnityEngine.AssetBundle::LoadAsset_Internal_Injected
 UnityEngine.Audio.ScriptableProcessorBindings::CheckProcessorExistsInternal_Injected
 UnityEngine.AudioClip::SetData_Injected
@@ -1025,9 +1025,7 @@ UnityEngine.PlayerConnectionInternal::PollInternal
 UnityEngine.PlayerConnectionInternal::RegisterInternal_Injected
 UnityEngine.PlayerConnectionInternal::SendMessage_Injected
 UnityEngine.PlayerConnectionInternal::UnregisterInternal_Injected
-UnityEngine.PlayerPrefs::TrySetInt_Injected
 UnityEngine.PlayerPrefs::GetInt_Injected
-UnityEngine.PlayerPrefs::Save
 UnityEngine.Profiling.Profiler::GetRuntimeMemorySizeLong_Injected
 UnityEngine.PropertyNameUtils::PropertyNameFromString_Injected
 UnityEngine.QualitySettings::get_billboardsFaceCameraPosition
@@ -1051,7 +1049,6 @@ UnityEngine.Quaternion::Internal_ToEulerRad_Injected
 UnityEngine.Random::RandomRangeInt
 UnityEngine.Random::Range
 UnityEngine.Random::get_value
-UnityEngine.Random::GetRandomUnitCircle
 UnityEngine.Random::InitState
 UnityEngine.Random::get_state_Injected
 UnityEngine.Random::set_state_Injected
@@ -1418,7 +1415,6 @@ UnityEngine.Screen::get_width
 UnityEngine.Screen::get_dpi
 UnityEngine.Screen::RequestOrientation
 UnityEngine.Screen::SetMSAASamples
-UnityEngine.Screen::SetOrientationEnabled
 UnityEngine.Screen::get_safeArea_Injected
 UnityEngine.Screen::set_sleepTimeout
 UnityEngine.Screen::GetScreenOrientation
@@ -1688,7 +1684,6 @@ UnityEngine.Transform::GetChild_Injected
 UnityEngine.Transform::GetParent_Injected
 UnityEngine.Transform::InverseTransformPoint_Injected
 UnityEngine.Transform::SetAsFirstSibling_Injected
-UnityEngine.Transform::SetAsLastSibling_Injected
 UnityEngine.Transform::SetLocalPositionAndRotation_Injected
 UnityEngine.Transform::SetParent_Injected
 UnityEngine.Transform::SetPositionAndRotation_Injected

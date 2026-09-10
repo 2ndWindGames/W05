@@ -1,0 +1,2 @@
+C:\SecondWindGames\Repositoires\Go\W05\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\SecondWindGames\Repositoires\Go\W05\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

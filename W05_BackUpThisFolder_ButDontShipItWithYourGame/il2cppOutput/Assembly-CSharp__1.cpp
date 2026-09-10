@@ -1,0 +1,14305 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+template <typename T1>
+struct VirtualActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename T1, typename T2, typename T3>
+struct VirtualActionInvoker3
+{
+	typedef void (*Action)(void*, T1, T2, T3, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		((Action)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+	}
+};
+template <typename R, typename T1>
+struct VirtualFuncInvoker1
+{
+	typedef R (*Func)(void*, T1, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+struct InterfaceActionInvoker0
+{
+	typedef void (*Action)(void*, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+
+struct Comparison_1_t62E531E7B8260E2C6C2718C3BDB8CF8655139645;
+struct Comparison_1_t3E40BFBAAB790D384FB8BF1344105F64A532FD35;
+struct Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54;
+struct List_1_t7177B811EF7E8A8A9633AEC3E32FCCCB94C9BFC6;
+struct List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73;
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+struct List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79;
+struct List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34;
+struct List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA;
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD;
+struct List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B;
+struct Predicate_1_t39E6A45E264C9EA977BDCF92A7EE05CEB60F43F3;
+struct Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12;
+struct Predicate_1_tA0375D69D6F895A0E2EA6BDF1862CBBF11B0799C;
+struct Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A;
+struct Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489;
+struct BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct CozyRecordU5BU5D_tF9D13D6F95E18395C080A7F8F5648808C1FCB444;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct RunAttackU5BU5D_tC3E6E6CC9E6C821636D6F840031FA885B00B096B;
+struct RunEnemyU5BU5D_tBB0E5A923373BE515C12026C8A382C785BE51620;
+struct RunPickupU5BU5D_t4AEE080050F3BF9695ACA3EADC713A905AB5F9AC;
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB;
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
+struct Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235;
+struct CodePageDataItem_t52460FA30AE37F4F26ACB81055E58002262F19F2;
+struct CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E;
+struct CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932;
+struct CozyRun_t664438D37D010E4092B526226781841855621066;
+struct CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83;
+struct CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9;
+struct CozySettings_t00CF42F3FBEF7AD3710791EF2BF184080AA0DB47;
+struct CozyTuning_t2C3A8E24B6F8AE2378DB121DA1F9D19095B1142C;
+struct DecoderFallback_t7324102215E4ED41EC065C02EB501CB0BC23CD90;
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+struct DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2;
+struct EncoderFallback_tD2C40CE114AA9D8E1F7196608B2D088548015293;
+struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095;
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2;
+struct Exception_t;
+struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8;
+struct HashAlgorithm_t299ECE61BBF4582B1F75734D43A96DDEC9B2004D;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910;
+struct InvalidDataException_t9D62CAAA10DD31CCD9C0F92AA5729A05282F18A1;
+struct MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553;
+struct MethodInfo_t;
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A;
+struct RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F;
+struct RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F;
+struct RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625;
+struct SHA256_t6FEDD761EE6301127DAAF13320E8FD63296837F9;
+struct SafeFileHandle_t033FA6AAAC65F4BB25F4CBA9A242A58C95CD406E;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A;
+struct SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2;
+struct String_t;
+struct Type_t;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508;
+struct U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61;
+struct U3CU3Ec__DisplayClass83_0_tFF30C2917164E7EDAFF1506FD4F6623D33FEE32A;
+struct U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1;
+struct U3CU3Ec__DisplayClass89_0_tA49972326A06567F6670E6D335892A279618B867;
+struct U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461;
+struct U3CU3Ec__DisplayClass95_0_t096646496251236E96DB200120C51ED84B3395D8;
+struct ReadWriteTask_t0821BF49EE38596C7734E86E1A6A39D769BE2C05;
+
+IL2CPP_EXTERN_C RuntimeClass* Animal_t81F9C91803B62D788C9E2C043CFF5DAAF4BE6D6A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Comparison_1_t3E40BFBAAB790D384FB8BF1344105F64A532FD35_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CozyRun_t664438D37D010E4092B526226781841855621066_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* CozySettings_t00CF42F3FBEF7AD3710791EF2BF184080AA0DB47_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Difficulty_t6F49E0019DDC17D3B6F8C2AB5B511CD41BA48266_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* EnemyRole_t67636F30712C7B1FA00D44AA8FC2849E8469F703_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* InvalidDataException_t9D62CAAA10DD31CCD9C0F92AA5729A05282F18A1_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t7177B811EF7E8A8A9633AEC3E32FCCCB94C9BFC6_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NullReferenceException_tBDE63A6D24569B964908408389070C6A9F5005BB_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Predicate_1_t39E6A45E264C9EA977BDCF92A7EE05CEB60F43F3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Predicate_1_tA0375D69D6F895A0E2EA6BDF1862CBBF11B0799C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Region_tDA6CA4B2041350E05694103664D0031C18A68170_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RunPhase_tAE933FC45AF5DA79FA1EF0AFA317D3AFBE13F3B1_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass83_0_tFF30C2917164E7EDAFF1506FD4F6623D33FEE32A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass89_0_tA49972326A06567F6670E6D335892A279618B867_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass95_0_t096646496251236E96DB200120C51ED84B3395D8_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnauthorizedAccessException_t8FC1F1DE7AA62456E9E25EFDFC658A623A626791_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____3138ACB76E34991B4550467779E3B895418E22E332EEB37372E06F36E416DD9E_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____D4BF2DE4934B00534A45106A7271306A161FC689068E95AF4CBB680BE2F8CDFF_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral061C5A045E3C39E537BA1A713752B4C17D27C2EB;
+IL2CPP_EXTERN_C String_t* _stringLiteral077D0AB4023FE0C8C7EAD05529867803240F6F0D;
+IL2CPP_EXTERN_C String_t* _stringLiteral0A04B971B03DA607CE6C455184037B660CA89F78;
+IL2CPP_EXTERN_C String_t* _stringLiteral0BD5CB4D7CD0B29A5EBB1C2E01C49A483CBB309C;
+IL2CPP_EXTERN_C String_t* _stringLiteral24E67EB8B9B345363DDF8E18EABA8A5D2142547D;
+IL2CPP_EXTERN_C String_t* _stringLiteral27F7187DDBDCB1D903C12131AD19C29540EFC26D;
+IL2CPP_EXTERN_C String_t* _stringLiteral2A23C97478AD482C40AACCFEC10D259F41155975;
+IL2CPP_EXTERN_C String_t* _stringLiteral2DF144C28E67D4948B4794A2FB4429625F0BEAB0;
+IL2CPP_EXTERN_C String_t* _stringLiteral2F67EDD17F502E8BE5C9CE81D80F4F4BC64E79B1;
+IL2CPP_EXTERN_C String_t* _stringLiteral309158D5045C01408A3469928795FFA8F434FB7B;
+IL2CPP_EXTERN_C String_t* _stringLiteral40866342D5EA7852DF2154D8AC99B9DE56BB00D6;
+IL2CPP_EXTERN_C String_t* _stringLiteral5E2668F20FF14B96790BC5B6CADB121E596316B3;
+IL2CPP_EXTERN_C String_t* _stringLiteral73E080F828F070B686771B1A0ABDB475771ADA34;
+IL2CPP_EXTERN_C String_t* _stringLiteral7868F985E675B44B2B7D9F20C00EE844214B4F51;
+IL2CPP_EXTERN_C String_t* _stringLiteral836E1BF3FCEE83FCCE50B1BE1D0795D7AE1DA758;
+IL2CPP_EXTERN_C String_t* _stringLiteralA02431CF7C501A5B368C91E41283419D8FA9FB03;
+IL2CPP_EXTERN_C String_t* _stringLiteralA9FEAF5F50923952C1AC3A473DE3C7E17D23B907;
+IL2CPP_EXTERN_C String_t* _stringLiteralBA8530B7221B48C2C179C2A0618B26B4CBCEF04E;
+IL2CPP_EXTERN_C String_t* _stringLiteralCD709B71FD7EA79FECD9A1E3EB699029C5D0C549;
+IL2CPP_EXTERN_C String_t* _stringLiteralD2D2F8D3F9F04A081FFBE6B2AF7917BAAADFC052;
+IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+IL2CPP_EXTERN_C String_t* _stringLiteralDAF2BD03270A51BF9C135F3694DCAD2D3E66F465;
+IL2CPP_EXTERN_C String_t* _stringLiteralDD7CC68B9AF36896667037EB7C3EBF00EF044EF2;
+IL2CPP_EXTERN_C String_t* _stringLiteralE42E8BB820D4F7550A0F04619F4E15FDC56943B9;
+IL2CPP_EXTERN_C String_t* _stringLiteralEFAE8EF92F4B8319E09BFF83A2988483AA4FB113;
+IL2CPP_EXTERN_C String_t* _stringLiteralF0C44AECF717C8023FB058DEA0E7D69DA2D57F5A;
+IL2CPP_EXTERN_C String_t* _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D;
+IL2CPP_EXTERN_C const RuntimeMethod* CozySave_Read_mEDD911E1654EE7D3C931436CA211E20441958F34_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CozySave_Validate_m29FFB6618B8967A147F7C46F370D3D8770A79F89_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* CozySave_Write_mF3EE811583D7660666EB4A63BEF1098D635574F8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m314583AF4AE8B324C324837742A372315B82CBB0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_mB81CF7652B515EB410D99E9EA7BA74A4F8BF13D3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_mCD48FDD0F418E976C266AF07E14C127B6E896A8C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_mE1483223C0C26DE4B8CA758AED9843C35D077BFE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m00E5E6E6760FB7077A289C583A7C00017AC7A2F1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m5DDD3E697A492E99DDE91E6AB7B2390C491F89AA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m90509CE97D6039564E21527D786ACD293EDD0CC8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_mB5403C087B0E1DA2D99CB2E81507E3B41DB4FF98_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m03DDB9D6C95434581544F1F2FF0D1A36EEAB09AF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m29415D9BDBCD2EFBDE9B663F84ABB5E6840E9DF1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_mADA2EBE27214C8BC6C662B18AD1349C662D7330A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_mCB4C6D54334620706B95E03839D1EE47E45BD3E0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* JsonUtility_FromJson_TisCozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E_m76F8AF5249D05653795FF65DDB6B6DA4D13774B4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* JsonUtility_FromJson_TisCozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9_m676D06558EE41538D74AC6E5DC5CC938D20E9ECE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m730B8D58DE948D3712F27E22B5F35534AAB55217_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m7E4E38CB2AAE4DDD3A6466EF36C8442FF571B318_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mB12B1FC1D3B21FB02A0599647C582EE755CD3625_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mB5FDF069171C4CB1778BFAC3B9015A22EA7DFBCD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mCC62C2303011895A1568EC3C1F63BF804DAE9959_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_mA212D2AA4F348A299F0D31D9A373C4E137A9018D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Contains_m359254483BE42CAD4DCA8FBAFB87473FB4CF00E1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Contains_m4FD96E89F15844C90032C7386BAB528817F1FF5B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Exists_mD9022D833B97B9F31A5D988B4F6F697F39921A9C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_FindAll_mAC13138EB3BB3FA2451F2007983874725A60987C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Find_m2A360402F775AEA01490093221EC2A69061C00BC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Find_mD457FA9D5FADE5659E518809320E67375E70BC4B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_m1970681665298691F4A00951673F858AFC54EDAD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_m364A3AEEAB3BB8DF30D96A441D10C68262E67D43_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_m3FE49C02F31954ACBAF7DF56A1CFED61E50524BA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_m56D5B37CBC67F5D6C255CB01AB4594F3620C62EB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_RemoveAll_m588FE5A5C149EDDBAE5A0B7945BF807BC43B6649_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_RemoveAll_m6515A2A4EE90A240D3EF48A2E1FBAA1095A9E2ED_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_RemoveAll_m83F4906DB3E60DC559B257A28E7BF8B8F4965662_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_RemoveAt_m76C4CDACF47BA529BAFADFC8D5E13DB9587F4004_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_RemoveAt_mA68E50F0CD9A33C519086FDDA3AEB775C79B5C7F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_RemoveAt_mF22A6FA4B3EDAC94C1BDFF09BD9315C5166C0C26_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Remove_m2B41E5B9E061DD4D5F58B693018024AADF2AD7F5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Sort_m3502D6AA8CE534169673D40951145B2154ACD6E5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m3D00AE5E752341FC004F7FD6D1398B8132DF8990_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m57423E91B85CCD15652E51AB2F9790F6BE236082_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m861CCAEEDF7952AFBFDDB43F92C0BF3202042B55_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m88C4BD8AC607DB3585552068F4DC437406358D5F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mACCD403943C43689954D7FB8BC64A121D55D54B6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m3552503E26080C4967038EA720B27376E3F8A81F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m5DC6DFF17E95330D019CA465D891602BC21908FB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m8741074C01924227C0648E079670E35685B9E6C6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m2299FEC727450CC0D4078EBBE4CD8A7C4FAD008E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m821ABB87762B6A0A93E9563731A684E250112F66_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mD3D689030A1F6F485922BE57B00C3EDD099E9689_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_GetValueOrDefault_m5D8208F74E7F81ED6503E51361C8705A887AD96B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1__ctor_m5B4AD6C29FA5950EF6C215B9A459707DCC95EF73_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1_get_HasValue_m2E9343B9161EB12C0123A2A9801D2BD86422CEEB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CDirectorU3Eb__82_0_m1892FCE5DC55E40D23458F20EB63E27C1B194312_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CDirectorU3Eb__82_1_m7B07AEEF0D6CB2214194B8CACF4DEEE908024C58_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CDropXPU3Eb__95_1_m5C0342801081FA1534B8EC037EE90871C7A6C893_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CObjectiveRewardEffectsU3Eb__102_0_mE743DC39088461A221FC4E458582A7D458F874A0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CRemoveDeadU3Eb__93_0_m1D65A5C7D49B73EABD9768B2D7F7F29CFE15F167_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass21_0_U3CSettleU3Eb__0_mBD527A7D2EA394D20AFA669D69F46327C50C4A3D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass83_0_U3CSpawnU3Eb__0_mD151A76B00274644431AEB24B2B27239AB4E01FB_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass84_0_U3CMoveEnemiesU3Eb__0_mD1DFC48BC819269B07354B2EED99066E86E2824B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass89_0_U3CPlayerAttackU3Eb__0_m7D5F332A235831389261D383CFD4B49FCC16D0C3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass89_0_U3CPlayerAttackU3Eb__1_mE88C6B55B55A15EC40C4364848D5165E7D29BB58_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass90_0_U3CUpdateAttacksU3Eb__0_m0DE2E8B25E945EF6D3D4A258B6AA6A2872BBF11C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass90_0_U3CUpdateAttacksU3Eb__1_m431966FAE820CACFCA2B1003F47C5EA6A30F6618_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass95_0_U3CDropXPU3Eb__0_m473DE503CE8B1681C7E80E95F1C53874645F4FAF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* Animal_t81F9C91803B62D788C9E2C043CFF5DAAF4BE6D6A_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Difficulty_t6F49E0019DDC17D3B6F8C2AB5B511CD41BA48266_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Region_tDA6CA4B2041350E05694103664D0031C18A68170_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* RunPhase_tAE933FC45AF5DA79FA1EF0AFA317D3AFBE13F3B1_0_0_0_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+
+struct BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct List_1_t7177B811EF7E8A8A9633AEC3E32FCCCB94C9BFC6  : public RuntimeObject
+{
+	CozyRecordU5BU5D_tF9D13D6F95E18395C080A7F8F5648808C1FCB444* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79  : public RuntimeObject
+{
+	RunAttackU5BU5D_tC3E6E6CC9E6C821636D6F840031FA885B00B096B* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34  : public RuntimeObject
+{
+	RunEnemyU5BU5D_tBB0E5A923373BE515C12026C8A382C785BE51620* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA  : public RuntimeObject
+{
+	RunPickupU5BU5D_t4AEE080050F3BF9695ACA3EADC713A905AB5F9AC* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD  : public RuntimeObject
+{
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B  : public RuntimeObject
+{
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA  : public RuntimeObject
+{
+};
+struct CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E  : public RuntimeObject
+{
+	int32_t ___profileVersion;
+	int32_t ___stars;
+	int32_t ___failures;
+	int32_t ___legacyBest;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___cleared;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___cosmetics;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___achievements;
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___settledRuns;
+	List_1_t7177B811EF7E8A8A9633AEC3E32FCCCB94C9BFC6* ___records;
+	CozySettings_t00CF42F3FBEF7AD3710791EF2BF184080AA0DB47* ___settings;
+	CozyRun_t664438D37D010E4092B526226781841855621066* ___activeRun;
+};
+struct CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932  : public RuntimeObject
+{
+	String_t* ___key;
+	int32_t ___score;
+	float ___survival;
+	float ___bossTime;
+};
+struct CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409  : public RuntimeObject
+{
+};
+struct CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83  : public RuntimeObject
+{
+	String_t* ___Path;
+	String_t* ___U3CNoticeU3Ek__BackingField;
+	bool ___U3CReadOnlyU3Ek__BackingField;
+};
+struct CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9  : public RuntimeObject
+{
+	String_t* ___payload;
+	String_t* ___sha256;
+};
+struct CozySettings_t00CF42F3FBEF7AD3710791EF2BF184080AA0DB47  : public RuntimeObject
+{
+	bool ___english;
+	bool ___muted;
+	bool ___largeText;
+	bool ___reducedDecoration;
+	bool ___testUnlockAll;
+	bool ___testUnlockConfigured;
+	int32_t ___testUnlockRevision;
+	float ___music;
+	float ___effects;
+	String_t* ___up;
+	String_t* ___down;
+	String_t* ___left;
+	String_t* ___right;
+};
+struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095  : public RuntimeObject
+{
+	int32_t ___m_codePage;
+	CodePageDataItem_t52460FA30AE37F4F26ACB81055E58002262F19F2* ___dataItem;
+	bool ___m_deserializedFromEverett;
+	bool ___m_isReadOnly;
+	EncoderFallback_tD2C40CE114AA9D8E1F7196608B2D088548015293* ___encoderFallback;
+	DecoderFallback_t7324102215E4ED41EC065C02EB501CB0BC23CD90* ___decoderFallback;
+};
+struct HashAlgorithm_t299ECE61BBF4582B1F75734D43A96DDEC9B2004D  : public RuntimeObject
+{
+	bool ____disposed;
+	int32_t ___HashSizeValue;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___HashValue;
+	int32_t ___State;
+};
+struct MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE  : public RuntimeObject
+{
+	RuntimeObject* ____identity;
+};
+struct MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE_marshaled_pinvoke
+{
+	Il2CppIUnknown* ____identity;
+};
+struct MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE_marshaled_com
+{
+	Il2CppIUnknown* ____identity;
+};
+struct MemberInfo_t  : public RuntimeObject
+{
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508  : public RuntimeObject
+{
+	CozyRun_t664438D37D010E4092B526226781841855621066* ___run;
+};
+struct U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61  : public RuntimeObject
+{
+};
+struct U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1  : public RuntimeObject
+{
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* ___e;
+};
+struct Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A 
+{
+	List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	RuntimeObject* ____current;
+};
+struct Enumerator_tF2C0745E31E31F7223BA52800D550A029C0C0C70 
+{
+	List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* ____current;
+};
+struct Enumerator_t95CD58E6484B263166F72826D6E7AF91675B49D7 
+{
+	List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* ____current;
+};
+struct Enumerator_t4329742FEFDBB6BEB3BFCF6FA377D093A39F5ABF 
+{
+	List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* ____current;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	double ___m_value;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Guid_t 
+{
+	int32_t ____a;
+	int16_t ____b;
+	int16_t ____c;
+	uint8_t ____d;
+	uint8_t ____e;
+	uint8_t ____f;
+	uint8_t ____g;
+	uint8_t ____h;
+	uint8_t ____i;
+	uint8_t ____j;
+	uint8_t ____k;
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct SHA256_t6FEDD761EE6301127DAAF13320E8FD63296837F9  : public HashAlgorithm_t299ECE61BBF4582B1F75734D43A96DDEC9B2004D
+{
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE  : public MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE
+{
+	ReadWriteTask_t0821BF49EE38596C7734E86E1A6A39D769BE2C05* ____activeReadWriteTask;
+	SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2* ____asyncActiveSemaphore;
+};
+struct UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B 
+{
+	uint32_t ___m_value;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	float ___x;
+	float ___y;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+struct WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C 
+{
+	float ___damage;
+	float ___interval;
+	float ___range;
+	int32_t ___count;
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D12_t1BDD2193C3F925556BCD5FF35C0AC52DDB0CAB8F 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D12_t1BDD2193C3F925556BCD5FF35C0AC52DDB0CAB8F__padding[12];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D16_tFB2D94E174C3DFBC336BBEE6AD92E07462831A23 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D16_tFB2D94E174C3DFBC336BBEE6AD92E07462831A23__padding[16];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D32_tC3894D25C1E879699FE1C9BAB1BBF2787B405069 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D32_tC3894D25C1E879699FE1C9BAB1BBF2787B405069__padding[32];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D36_tE3135E025C70F21BBD65107243EE57F8AA699792 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D36_tE3135E025C70F21BBD65107243EE57F8AA699792__padding[36];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D64_tC5DCC92F71FF4937EDBB6F52C59AD832172ABE88 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D64_tC5DCC92F71FF4937EDBB6F52C59AD832172ABE88__padding[64];
+	};
+};
+#pragma pack(pop, tp)
+struct Enumerator_t24E4C96B84374CD9F71B748A47AB020F220D9931 
+{
+	List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* ____list;
+	int32_t ____index;
+	int32_t ____version;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ____current;
+};
+struct Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD 
+{
+	bool ___hasValue;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___value;
+};
+struct Animal_t81F9C91803B62D788C9E2C043CFF5DAAF4BE6D6A 
+{
+	int32_t ___value__;
+};
+struct Delegate_t  : public RuntimeObject
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
+};
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Difficulty_t6F49E0019DDC17D3B6F8C2AB5B511CD41BA48266 
+{
+	int32_t ___value__;
+};
+struct EnemyRole_t67636F30712C7B1FA00D44AA8FC2849E8469F703 
+{
+	int32_t ___value__;
+};
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct FileAccess_t3992FF4CCC61971B804DD291F06F696C3CF33C30 
+{
+	int32_t ___value__;
+};
+struct FileMode_t111B48D5347628AEFCBF9A0EC2833827A302ECBA 
+{
+	int32_t ___value__;
+};
+struct FileShare_t0A0E9739F5AB44D6B8026C9D2A2F1CEEE442733A 
+{
+	int32_t ___value__;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Region_tDA6CA4B2041350E05694103664D0031C18A68170 
+{
+	int32_t ___value__;
+};
+struct RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F  : public RuntimeObject
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___p;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___v;
+	float ___life;
+	float ___age;
+	float ___radius;
+	float ___damage;
+	int32_t ___kind;
+	int32_t ___pierce;
+	String_t* ___source;
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___hit;
+};
+struct RunPhase_tAE933FC45AF5DA79FA1EF0AFA317D3AFBE13F3B1 
+{
+	int32_t ___value__;
+};
+struct RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625  : public RuntimeObject
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___p;
+	int32_t ___kind;
+	float ___value;
+	float ___life;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B 
+{
+	intptr_t ___value;
+};
+struct U3CU3Ec__DisplayClass89_0_tA49972326A06567F6670E6D335892A279618B867  : public RuntimeObject
+{
+	CozyRun_t664438D37D010E4092B526226781841855621066* ___U3CU3E4__this;
+	WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C ___w;
+};
+struct U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461  : public RuntimeObject
+{
+	RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* ___a;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___before;
+};
+struct U3CU3Ec__DisplayClass95_0_t096646496251236E96DB200120C51ED84B3395D8  : public RuntimeObject
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___p;
+};
+struct FileStatusFlags_tB53E2B9A54305CDCEA49884DEEDB8C62C8ACC9C9 
+{
+	int32_t ___value__;
+};
+struct CozyRun_t664438D37D010E4092B526226781841855621066  : public RuntimeObject
+{
+	String_t* ___rulesVersion;
+	String_t* ___runId;
+	uint32_t ___rng;
+	int32_t ___seed;
+	int32_t ___nextId;
+	int32_t ___animal;
+	int32_t ___region;
+	int32_t ___difficulty;
+	bool ___endless;
+	int32_t ___phase;
+	int32_t ___resumePhase;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___position;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___velocity;
+	float ___elapsed;
+	float ___invincible;
+	float ___orbitAngle;
+	float ___attackTimer;
+	float ___spawnTimer;
+	float ___xp;
+	float ___bossStarted;
+	int32_t ___hp;
+	int32_t ___level;
+	int32_t ___weaponLevel;
+	int32_t ___branch;
+	int32_t ___pendingLevels;
+	int32_t ___rerolls;
+	int32_t ___score;
+	int32_t ___kills;
+	int32_t ___objectives;
+	int32_t ___windKills;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___passives;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___relics;
+	bool ___shield;
+	bool ___bossSpawned;
+	bool ___rewardClaimed;
+	int32_t ___villageReward;
+	String_t* ___lastDamage;
+	String_t* ___resultReason;
+	List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* ___enemies;
+	List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79* ___attacks;
+	List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA* ___pickups;
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___choices;
+	bool ___choosingBranch;
+	bool ___relicPending;
+	int32_t ___objectiveIndex;
+	int32_t ___nextObjective;
+	int32_t ___nextHeal;
+	int32_t ___nextElite;
+	int32_t ___objectiveCollected;
+	float ___objectiveRemaining;
+	float ___objectiveHeld;
+	bool ___carrying;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* ___collected;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___objectivePoints;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___blockers;
+	float ___eliteRelief;
+};
+struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8  : public Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buf;
+	String_t* ___name;
+	SafeFileHandle_t033FA6AAAC65F4BB25F4CBA9A242A58C95CD406E* ___safeHandle;
+	bool ___isExposed;
+	int64_t ___append_startpos;
+	int32_t ___access;
+	bool ___owner;
+	bool ___async;
+	bool ___canseek;
+	bool ___anonymous;
+	bool ___buf_dirty;
+	int32_t ___buf_size;
+	int32_t ___buf_length;
+	int32_t ___buf_offset;
+	int64_t ___buf_start;
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F  : public RuntimeObject
+{
+	int32_t ___id;
+	int32_t ___role;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___p;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___aim;
+	float ___hp;
+	float ___maxHP;
+	float ___speed;
+	float ___warmup;
+	float ___hitCooldown;
+	float ___slow;
+	float ___timer;
+	float ___actionTime;
+	int32_t ___action;
+	int32_t ___cycle;
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_pinvoke : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+};
+struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A_marshaled_com : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+};
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+struct Type_t  : public MemberInfo_t
+{
+	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl;
+};
+struct U3CU3Ec__DisplayClass83_0_tFF30C2917164E7EDAFF1506FD4F6623D33FEE32A  : public RuntimeObject
+{
+	int32_t ___role;
+};
+struct FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 
+{
+	int32_t ___Flags;
+	int32_t ___Mode;
+	uint32_t ___Uid;
+	uint32_t ___Gid;
+	int64_t ___Size;
+	int64_t ___ATime;
+	int64_t ___ATimeNsec;
+	int64_t ___MTime;
+	int64_t ___MTimeNsec;
+	int64_t ___CTime;
+	int64_t ___CTimeNsec;
+	int64_t ___BirthTime;
+	int64_t ___BirthTimeNsec;
+	int64_t ___Dev;
+	int64_t ___Ino;
+	uint32_t ___UserFlags;
+};
+struct Comparison_1_t3E40BFBAAB790D384FB8BF1344105F64A532FD35  : public MulticastDelegate_t
+{
+};
+struct Predicate_1_t39E6A45E264C9EA977BDCF92A7EE05CEB60F43F3  : public MulticastDelegate_t
+{
+};
+struct Predicate_1_tA0375D69D6F895A0E2EA6BDF1862CBBF11B0799C  : public MulticastDelegate_t
+{
+};
+struct Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A  : public MulticastDelegate_t
+{
+};
+struct Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489  : public MulticastDelegate_t
+{
+};
+struct ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+	String_t* ____paramName;
+};
+struct CozyTuning_t2C3A8E24B6F8AE2378DB121DA1F9D19095B1142C  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
+{
+	float ___moveSpeed;
+	float ___responseSeconds;
+	float ___joystickRadius;
+	float ___deadZone;
+	float ___orbitRadius;
+	float ___orbitSeconds;
+	float ___attackRadius;
+	float ___hitCooldown;
+	int32_t ___health;
+	float ___invulnerability;
+	int32_t ___enemyLimit;
+	bool ___gentleMode;
+	float ___gentleSpawnRate;
+};
+struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5 
+{
+	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus;
+	int32_t ____fileStatusInitialized;
+	bool ___U3CInitiallyDirectoryU3Ek__BackingField;
+	bool ____isDirectory;
+	bool ____exists;
+};
+struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshaled_pinvoke
+{
+	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus;
+	int32_t ____fileStatusInitialized;
+	int32_t ___U3CInitiallyDirectoryU3Ek__BackingField;
+	int32_t ____isDirectory;
+	int32_t ____exists;
+};
+struct FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5_marshaled_com
+{
+	FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2 ____fileStatus;
+	int32_t ____fileStatusInitialized;
+	int32_t ___U3CInitiallyDirectoryU3Ek__BackingField;
+	int32_t ____isDirectory;
+	int32_t ____exists;
+};
+struct IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct InvalidDataException_t9D62CAAA10DD31CCD9C0F92AA5729A05282F18A1  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct NullReferenceException_tBDE63A6D24569B964908408389070C6A9F5005BB  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct UnauthorizedAccessException_t8FC1F1DE7AA62456E9E25EFDFC658A623A626791  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9  : public MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE
+{
+	FileStatus_tABB5F252F1E597EC95E9041035DC424EF66712A5 ____fileStatus;
+	String_t* ___FullPath;
+	String_t* ___OriginalPath;
+	String_t* ____name;
+};
+struct DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2  : public FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9
+{
+};
+struct List_1_t7177B811EF7E8A8A9633AEC3E32FCCCB94C9BFC6_StaticFields
+{
+	CozyRecordU5BU5D_tF9D13D6F95E18395C080A7F8F5648808C1FCB444* ___s_emptyArray;
+};
+struct List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_StaticFields
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_emptyArray;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray;
+};
+struct List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79_StaticFields
+{
+	RunAttackU5BU5D_tC3E6E6CC9E6C821636D6F840031FA885B00B096B* ___s_emptyArray;
+};
+struct List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34_StaticFields
+{
+	RunEnemyU5BU5D_tBB0E5A923373BE515C12026C8A382C785BE51620* ___s_emptyArray;
+};
+struct List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA_StaticFields
+{
+	RunPickupU5BU5D_t4AEE080050F3BF9695ACA3EADC713A905AB5F9AC* ___s_emptyArray;
+};
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_StaticFields
+{
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___s_emptyArray;
+};
+struct List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B_StaticFields
+{
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___s_emptyArray;
+};
+struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D36_tE3135E025C70F21BBD65107243EE57F8AA699792 ___24BE9D900C8ED6E5124AC9464BA71678A56105963EA7BC739072BF62A6A94A1F;
+	__StaticArrayInitTypeSizeU3D12_t1BDD2193C3F925556BCD5FF35C0AC52DDB0CAB8F ___3138ACB76E34991B4550467779E3B895418E22E332EEB37372E06F36E416DD9E;
+	__StaticArrayInitTypeSizeU3D32_tC3894D25C1E879699FE1C9BAB1BBF2787B405069 ___63C0CA5EA31E00833B03C17FCBB48631CD2C25ACB9BE77F6F65AB15C143363D1;
+	__StaticArrayInitTypeSizeU3D36_tE3135E025C70F21BBD65107243EE57F8AA699792 ___A9BF1B9FE70CD2C0068E40FC5FA67C9BC7C5B419C06051209D4759FC61087357;
+	__StaticArrayInitTypeSizeU3D64_tC5DCC92F71FF4937EDBB6F52C59AD832172ABE88 ___AB354B3D07B37593B8C534ACA7FF85A194C451A3E2629A877206FDA15CB89CE2;
+	__StaticArrayInitTypeSizeU3D36_tE3135E025C70F21BBD65107243EE57F8AA699792 ___BCBBE7272A171990EC8AFFDE1B77A8481564E287EE8D85F04EC295D33DD62189;
+	__StaticArrayInitTypeSizeU3D16_tFB2D94E174C3DFBC336BBEE6AD92E07462831A23 ___D4BF2DE4934B00534A45106A7271306A161FC689068E95AF4CBB680BE2F8CDFF;
+	__StaticArrayInitTypeSizeU3D36_tE3135E025C70F21BBD65107243EE57F8AA699792 ___E1FD59B0DAA82B5E69D3D3EC5922D5F82ADB40C5AF920CA3BC8C94F1FA03E08A;
+};
+struct CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_StaticFields
+{
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___EnemyHP;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___EnemySpeed;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___EnemyXP;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___EnemyScore;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___AnimalsKO;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___AnimalsEN;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___RegionsKO;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___RegionsEN;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___DifficultyKO;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___DifficultyEN;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___BossKO;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___BossEN;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___PassiveKO;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___PassiveEN;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___PassiveEffectKO;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___PassiveEffectEN;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___RelicKO;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___RelicEN;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___RelicEffectKO;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___RelicEffectEN;
+};
+struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
+{
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___defaultEncoding;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___unicodeEncoding;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___bigEndianUnicode;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf7Encoding;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf8Encoding;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf32Encoding;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___asciiEncoding;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___latin1Encoding;
+	Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54* ___encodings;
+	RuntimeObject* ___s_InternalSyncObject;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_StaticFields
+{
+	U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61* ___U3CU3E9;
+	Predicate_1_tA0375D69D6F895A0E2EA6BDF1862CBBF11B0799C* ___U3CU3E9__82_0;
+	Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A* ___U3CU3E9__82_1;
+	Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A* ___U3CU3E9__93_0;
+	Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489* ___U3CU3E9__95_1;
+	Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489* ___U3CU3E9__102_0;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_StaticFields
+{
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___enumSeperatorCharArray;
+};
+struct Guid_t_StaticFields
+{
+	Guid_t ___Empty;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+struct Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE_StaticFields
+{
+	Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___Null;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector;
+};
+struct Exception_t_StaticFields
+{
+	RuntimeObject* ___s_EDILock;
+};
+struct CozyRun_t664438D37D010E4092B526226781841855621066_StaticFields
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___NormalHealTimes;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___CozyHealTimes;
+};
+struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8_StaticFields
+{
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buf_recycle;
+	RuntimeObject* ___buf_recycle_lock;
+};
+struct Type_t_StaticFields
+{
+	Binder_t91BFCE95A7057FADF4D8A1A342AFE52872246235* ___s_defaultBinder;
+	Il2CppChar ___Delimiter;
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___EmptyTypes;
+	RuntimeObject* ___Missing;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterAttribute;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterName;
+	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) int32_t m_Items[1];
+
+	inline int32_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, int32_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline int32_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, int32_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4  : public RuntimeArray
+{
+	ALIGN_FIELD (8) bool m_Items[1];
+
+	inline bool GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline bool* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, bool value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline bool GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline bool* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, bool value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 m_Items[1];
+
+	inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) float m_Items[1];
+
+	inline float GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline float* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, float value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline float GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline float* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, float value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248  : public RuntimeArray
+{
+	ALIGN_FIELD (8) String_t* m_Items[1];
+
+	inline String_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, String_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline String_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, String_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Predicate_1__ctor_m3E007299121A15DF80F4A210FF8C20E5DF688F20_gshared (Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t List_1_RemoveAll_m1A8DE2A7640CC473609F3ADAC38FDB960520636D_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___0_match, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1__ctor_m5B4AD6C29FA5950EF6C215B9A459707DCC95EF73_gshared (Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool List_1_Exists_mE124D5A8B431C8B9B4C77EA23AD8B4C543829643_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___0_match, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_m2E9343B9161EB12C0123A2A9801D2BD86422CEEB_gshared_inline (Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Nullable_1_GetValueOrDefault_m5D8208F74E7F81ED6503E51361C8705A887AD96B_gshared_inline (Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* List_1_FindAll_m87FB5AB35229967D01B9DF933BF70D470B32F0AF_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___0_match, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Comparison_1__ctor_mC1E8799BBCE317B612875123C9C894BD470BFE6A_gshared (Comparison_1_t62E531E7B8260E2C6C2718C3BDB8CF8655139645* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_Sort_mEB3B61CB86B1419919338B0668DC4E568C2FFF93_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, Comparison_1_t62E531E7B8260E2C6C2718C3BDB8CF8655139645* ___0_comparison, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_gshared_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m88C4BD8AC607DB3585552068F4DC437406358D5F_gshared (List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mB5FDF069171C4CB1778BFAC3B9015A22EA7DFBCD_gshared_inline (List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t24E4C96B84374CD9F71B748A47AB020F220D9931 List_1_GetEnumerator_m3FE49C02F31954ACBAF7DF56A1CFED61E50524BA_gshared (List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mCD48FDD0F418E976C266AF07E14C127B6E896A8C_gshared (Enumerator_t24E4C96B84374CD9F71B748A47AB020F220D9931* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Enumerator_get_Current_m03DDB9D6C95434581544F1F2FF0D1A36EEAB09AF_gshared_inline (Enumerator_t24E4C96B84374CD9F71B748A47AB020F220D9931* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m5DDD3E697A492E99DDE91E6AB7B2390C491F89AA_gshared (Enumerator_t24E4C96B84374CD9F71B748A47AB020F220D9931* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_gshared_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_Find_m5E78A210541B0D844FE27B94F509313623BE33D3_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* ___0_match, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_gshared_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_RemoveAt_m76C4CDACF47BA529BAFADFC8D5E13DB9587F4004_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool List_1_Remove_m2B41E5B9E061DD4D5F58B693018024AADF2AD7F5_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool List_1_Contains_m4FD96E89F15844C90032C7386BAB528817F1FF5B_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool List_1_Contains_m4C9139C2A6B23E9343D3F87807B32C6E2CFE660D_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* JsonUtility_FromJson_TisRuntimeObject_m0CCF0FE109BF4C85AECC9C5D0DBB43422A24FB40_gshared (String_t* ___0_json, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m378B392086AAB6F400944FA9839516326B3F7BB8_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m192785B048EDA211AEC7A758A37D0B1ACCB94B9C_gshared (List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_item, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+inline void List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8 (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, const RuntimeMethod*))List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_gshared)(__this, method);
+}
+inline void List_1__ctor_m57423E91B85CCD15652E51AB2F9790F6BE236082 (List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+inline void List_1__ctor_m861CCAEEDF7952AFBFDDB43F92C0BF3202042B55 (List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+inline void List_1__ctor_m3D00AE5E752341FC004F7FD6D1398B8132DF8990 (List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Guid_t Guid_NewGuid_m1F4894E8DC089811D6252148AD5858E58D43A7BD (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Guid_ToString_mDAA91A4A993E3A7AD8339665E3F0CC35FE00E833 (Guid_t* __this, String_t* ___0_format, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* CozyRules_Blockers_m543055FBBBA0864EFA72BAD435F04A3097D05C7C (int32_t ___0_r, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C CozyRules_Weapon_m7587A43FE5962741967D1D5E6D68CE1AC2468176 (int32_t ___0_animal, int32_t ___1_level, int32_t ___2_branch, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CozyRun_RandomValue_m8211AFEF6A8158FD559654C1AB225E45516FC9C3 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline (int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C CozyRun_get_Weapon_m02AE9839EE20002858EF9AF84224A7E7FEC9C3D5 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, float ___1_d, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyRun_get_Finished_mD3D28BDCB939B30F5436468DCE1E184360860888 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 CozyRules_Clamp_m40ABBE1ADFFBDA3BD866F726F94D377F354EF21F (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_p, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CozyRules_BlockerRadius_m43B06E2E3C1FF86EDACB10F90C1D6736D110923C (int32_t ___0_r, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_normalized_mF6722883AEFB5027690A778DF8ACC20F0FA65297_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_right_m99043ED6B3D5AEA5033313FE3DA9571F39D1B280_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_ClampMagnitude_m9BF093877BD11282C41088022FE4AE70A3A0ECA9_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_vector, float ___1_maxLength, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CozyRun_get_MoveSpeed_m8D1CEDBEBE1E56F31AD6ED608C7A6005CA8F72D3 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_MoveTowards_m138E823B0F25EF10A2261E57C5706232E8EA9A9A_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_current, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_target, float ___2_maxDistanceDelta, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 CozyRun_ResolvePosition_m03F6BDDBF7F973D5E96EEB40C148DB6CDF9E25CF (CozyRun_t664438D37D010E4092B526226781841855621066* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_p, float ___1_radius, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CozyRun_get_AttackSpeed_m476DC3BCDCCDA190566AC9FD0EA56D757664CC91 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Repeat_m6F1560A163481BB311D685294E1B463C3E4EB3BA_inline (float ___0_t, float ___1_length, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_Director_mD6F170219F82235BD54012D5430174435A1705D7 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, float ___0_dt, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_MoveEnemies_m3AABF20122E64C613EB7AD11B793F66CEC15FC51 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, float ___0_dt, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_PlayerAttack_mEDE64E658A57D05572B72BB7B106BE4889C843A6 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, float ___0_dt, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_oldPosition, float ___2_oldAngle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_UpdateAttacks_m30AF8138D54DF34AAE3DBB8147810C7237958B8E (CozyRun_t664438D37D010E4092B526226781841855621066* __this, float ___0_dt, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_UpdateObjective_mAADCCE9E639D7488376CF26FC5BA86191DBA9340 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, float ___0_dt, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_CollectPickups_mA181C8F33D566B561D1597241A0F686477A9F046 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, float ___0_dt, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_ResolveChoices_mDAFEE6246C410432B7A4969D0C897CB6181EB2A8 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) ;
+inline void List_1_Clear_mA212D2AA4F348A299F0D31D9A373C4E137A9018D_inline (List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34*, const RuntimeMethod*))List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline)(__this, method);
+}
+inline void Predicate_1__ctor_m44110A293E9DC3EAE64F03C3BA7A585E40767823 (Predicate_1_tA0375D69D6F895A0E2EA6BDF1862CBBF11B0799C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Predicate_1_tA0375D69D6F895A0E2EA6BDF1862CBBF11B0799C*, RuntimeObject*, intptr_t, const RuntimeMethod*))Predicate_1__ctor_m3E007299121A15DF80F4A210FF8C20E5DF688F20_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline int32_t List_1_RemoveAll_m83F4906DB3E60DC559B257A28E7BF8B8F4965662 (List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79* __this, Predicate_1_tA0375D69D6F895A0E2EA6BDF1862CBBF11B0799C* ___0_match, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79*, Predicate_1_tA0375D69D6F895A0E2EA6BDF1862CBBF11B0799C*, const RuntimeMethod*))List_1_RemoveAll_m1A8DE2A7640CC473609F3ADAC38FDB960520636D_gshared)(__this, ___0_match, method);
+}
+inline void Nullable_1__ctor_m5B4AD6C29FA5950EF6C215B9A459707DCC95EF73 (Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, const RuntimeMethod*))Nullable_1__ctor_m5B4AD6C29FA5950EF6C215B9A459707DCC95EF73_gshared)(__this, ___0_value, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* CozyRun_Spawn_mB7E0FE04A82EEB26BE7BC19D9D102ED84FD07A91 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, int32_t ___0_role, Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD ___1_requested, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_StartObjective_mCC28D3B8522D11C8589AD13B4258F7FC0911F642 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RunPickup__ctor_m36A52F4351CC854201809D6A7DDE6EE54E8D883F (RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* __this, const RuntimeMethod* method) ;
+inline void List_1_Add_mCC62C2303011895A1568EC3C1F63BF804DAE9959_inline (List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA* __this, RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA*, RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
+}
+inline void Predicate_1__ctor_mDEB896FDC610359DC86FA6332332EBB4D965EBA3 (Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A*, RuntimeObject*, intptr_t, const RuntimeMethod*))Predicate_1__ctor_m3E007299121A15DF80F4A210FF8C20E5DF688F20_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline int32_t List_1_RemoveAll_m6515A2A4EE90A240D3EF48A2E1FBAA1095A9E2ED (List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* __this, Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A* ___0_match, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34*, Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A*, const RuntimeMethod*))List_1_RemoveAll_m1A8DE2A7640CC473609F3ADAC38FDB960520636D_gshared)(__this, ___0_match, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CozyRules_SpawnRate_mD1555F119A8F806B8ECA35F08B53F5080FE4B90D (float ___0_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass83_0__ctor_m3F8515C3AC5E1BC88BCC828868A663346AC020A0 (U3CU3Ec__DisplayClass83_0_tFF30C2917164E7EDAFF1506FD4F6623D33FEE32A* __this, const RuntimeMethod* method) ;
+inline Enumerator_t95CD58E6484B263166F72826D6E7AF91675B49D7 List_1_GetEnumerator_m364A3AEEAB3BB8DF30D96A441D10C68262E67D43 (List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_t95CD58E6484B263166F72826D6E7AF91675B49D7 (*) (List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34*, const RuntimeMethod*))List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared)(__this, method);
+}
+inline void Enumerator_Dispose_mB81CF7652B515EB410D99E9EA7BA74A4F8BF13D3 (Enumerator_t95CD58E6484B263166F72826D6E7AF91675B49D7* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_t95CD58E6484B263166F72826D6E7AF91675B49D7*, const RuntimeMethod*))Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared)(__this, method);
+}
+inline RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* Enumerator_get_Current_mCB4C6D54334620706B95E03839D1EE47E45BD3E0_inline (Enumerator_t95CD58E6484B263166F72826D6E7AF91675B49D7* __this, const RuntimeMethod* method)
+{
+	return ((  RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* (*) (Enumerator_t95CD58E6484B263166F72826D6E7AF91675B49D7*, const RuntimeMethod*))Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline)(__this, method);
+}
+inline bool Enumerator_MoveNext_m90509CE97D6039564E21527D786ACD293EDD0CC8 (Enumerator_t95CD58E6484B263166F72826D6E7AF91675B49D7* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_t95CD58E6484B263166F72826D6E7AF91675B49D7*, const RuntimeMethod*))Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared)(__this, method);
+}
+inline bool List_1_Exists_mD9022D833B97B9F31A5D988B4F6F697F39921A9C (List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* __this, Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A* ___0_match, const RuntimeMethod* method)
+{
+	return ((  bool (*) (List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34*, Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A*, const RuntimeMethod*))List_1_Exists_mE124D5A8B431C8B9B4C77EA23AD8B4C543829643_gshared)(__this, ___0_match, method);
+}
+inline bool Nullable_1_get_HasValue_m2E9343B9161EB12C0123A2A9801D2BD86422CEEB_inline (Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD*, const RuntimeMethod*))Nullable_1_get_HasValue_m2E9343B9161EB12C0123A2A9801D2BD86422CEEB_gshared_inline)(__this, method);
+}
+inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Nullable_1_GetValueOrDefault_m5D8208F74E7F81ED6503E51361C8705A887AD96B_inline (Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD* __this, const RuntimeMethod* method)
+{
+	return ((  Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 (*) (Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD*, const RuntimeMethod*))Nullable_1_GetValueOrDefault_m5D8208F74E7F81ED6503E51361C8705A887AD96B_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CozyRun_RandomInt_m599F43D0DF64581BC618A38B30BF2A18F2B49768 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, int32_t ___0_max, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CozyRules_HPScale_m22D08EA13A008B893DE39F926BF02A1D00287376 (float ___0_t, bool ___1_endless, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RunEnemy__ctor_m13A21244BB5E0766C6FCDC0F0FDC58AB45262614 (RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CozyRules_HPScale_mB7D778F60D9DC71B7DD39B5150B7FC95E5150FC6 (int32_t ___0_d, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CozyRules_SpeedScale_m488D9FF881FB558C680BE2724C1445B41291EB7A (int32_t ___0_d, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CozyRules_SpeedScale_mB677F85AA21B1C2D328A9A375577CA4DA50560AC (float ___0_t, bool ___1_endless, const RuntimeMethod* method) ;
+inline void List_1_Add_mB12B1FC1D3B21FB02A0599647C582EE755CD3625_inline (List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* __this, RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34*, RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass84_0__ctor_mD00E46CE0FA2F5258020B2764BC8DDDCAF95383A (U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_BossAI_m585D0E9E05D789323E92FFDD5430D905D024BDAC (CozyRun_t664438D37D010E4092B526226781841855621066* __this, RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* ___0_e, float ___1_dt, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_EnemyBullet_m569917278757E11E53B6623898FD02FAC238F60E (CozyRun_t664438D37D010E4092B526226781841855621066* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_p, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_v, float ___2_life, String_t* ___3_source, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_Lerp_m1A36103F7967F653A929556E26E6D052C298C00C_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RunEnemy_get_Radius_mC2651F2F441DBE6EB0E69603BAC0F7DBCA004344 (RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_Dot_mC1E68FDB4FB462A279A303C043B8FD0AC11C8458_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_lhs, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_UnaryNegation_mBA9FC53A2194EE3CC067A12D11879F695B34D6F9_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CozyRules_SegmentDistance_m6254C97D8C8D2A58CEAD24E635C9D8B67D041D03 (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_b, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___2_p, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_DamagePlayer_m682B715A7169CBCFA169A2916D2C71372B2B6FAB (CozyRun_t664438D37D010E4092B526226781841855621066* __this, String_t* ___0_source, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_attacker, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_Fan_m029287DF38A362DC2D96257174942D16B6E60A11 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_p, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_aim, int32_t ___2_count, float ___3_speed, float ___4_life, String_t* ___5_source, float ___6_rotate, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CozyRun_CountAttacks_m9A5C155DC44FC4AF275FFA1BC7F8827EB0B74700 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, bool ___0_hostile, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RunAttack__ctor_mD814F9E517F24E2D604108F397FF494396013D30 (RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* __this, const RuntimeMethod* method) ;
+inline void List_1_Add_m730B8D58DE948D3712F27E22B5F35534AAB55217_inline (List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79* __this, RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79*, RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
+}
+inline Enumerator_tF2C0745E31E31F7223BA52800D550A029C0C0C70 List_1_GetEnumerator_m1970681665298691F4A00951673F858AFC54EDAD (List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_tF2C0745E31E31F7223BA52800D550A029C0C0C70 (*) (List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79*, const RuntimeMethod*))List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared)(__this, method);
+}
+inline void Enumerator_Dispose_m314583AF4AE8B324C324837742A372315B82CBB0 (Enumerator_tF2C0745E31E31F7223BA52800D550A029C0C0C70* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_tF2C0745E31E31F7223BA52800D550A029C0C0C70*, const RuntimeMethod*))Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared)(__this, method);
+}
+inline RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* Enumerator_get_Current_mADA2EBE27214C8BC6C662B18AD1349C662D7330A_inline (Enumerator_tF2C0745E31E31F7223BA52800D550A029C0C0C70* __this, const RuntimeMethod* method)
+{
+	return ((  RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* (*) (Enumerator_tF2C0745E31E31F7223BA52800D550A029C0C0C70*, const RuntimeMethod*))Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline)(__this, method);
+}
+inline bool Enumerator_MoveNext_mB5403C087B0E1DA2D99CB2E81507E3B41DB4FF98 (Enumerator_tF2C0745E31E31F7223BA52800D550A029C0C0C70* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_tF2C0745E31E31F7223BA52800D550A029C0C0C70*, const RuntimeMethod*))Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass89_0__ctor_mAB37FE63201321C40B70DCB0D6C70988993F4129 (U3CU3Ec__DisplayClass89_0_tA49972326A06567F6670E6D335892A279618B867* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 CozyRun_FlakePosition_mD33D4BE48264D8069114A48762737C47EF7A6024 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, int32_t ___0_i, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CozyRun_get_RangeScale_m48FD557617562D376DFB30C4D9A26758D36B60B0 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_Hit_m30924FB9EFCF69D3782322FBEB147A132EAF6DB8 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* ___0_e, float ___1_baseDamage, float ___2_knockback, bool ___3_fromWind, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_RemoveDead_mCB1AB9943D4264EB51962BFCD79B67EEFF4D50C9 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) ;
+inline List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* List_1_FindAll_mAC13138EB3BB3FA2451F2007983874725A60987C (List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* __this, Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A* ___0_match, const RuntimeMethod* method)
+{
+	return ((  List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* (*) (List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34*, Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A*, const RuntimeMethod*))List_1_FindAll_m87FB5AB35229967D01B9DF933BF70D470B32F0AF_gshared)(__this, ___0_match, method);
+}
+inline void Comparison_1__ctor_m99C92D611797C8E18E7FD841D4B3263A1AF4F083 (Comparison_1_t3E40BFBAAB790D384FB8BF1344105F64A532FD35* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Comparison_1_t3E40BFBAAB790D384FB8BF1344105F64A532FD35*, RuntimeObject*, intptr_t, const RuntimeMethod*))Comparison_1__ctor_mC1E8799BBCE317B612875123C9C894BD470BFE6A_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline void List_1_Sort_m3502D6AA8CE534169673D40951145B2154ACD6E5 (List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* __this, Comparison_1_t3E40BFBAAB790D384FB8BF1344105F64A532FD35* ___0_comparison, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34*, Comparison_1_t3E40BFBAAB790D384FB8BF1344105F64A532FD35*, const RuntimeMethod*))List_1_Sort_mEB3B61CB86B1419919338B0668DC4E568C2FFF93_gshared)(__this, ___0_comparison, method);
+}
+inline RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* List_1_get_Item_m821ABB87762B6A0A93E9563731A684E250112F66 (List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* (*) (List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
+}
+inline int32_t List_1_get_Count_m3552503E26080C4967038EA720B27376E3F8A81F_inline (List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
+}
+inline int32_t List_1_get_Count_m8741074C01924227C0648E079670E35685B9E6C6_inline (List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass90_0__ctor_m6BD9189458763FC826CFFF84197A5B3D1B556B81 (U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* __this, const RuntimeMethod* method) ;
+inline RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* List_1_get_Item_mD3D689030A1F6F485922BE57B00C3EDD099E9689 (List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* (*) (List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) ;
+inline void List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_gshared_inline)(__this, ___0_item, method);
+}
+inline void List_1_RemoveAt_mF22A6FA4B3EDAC94C1BDFF09BD9315C5166C0C26 (List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79*, int32_t, const RuntimeMethod*))List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared)(__this, ___0_index, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_magnitude_m5C59B4056420AEFDB291AD0914A3F675330A75CE_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyRun_InObjectiveZone_m86ABBF4BCC1800668BE44CB4BDC813BB6A538B8E (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_DropXP_m8984B99394BD69ADE0782C2BEB5727A3908A351A (CozyRun_t664438D37D010E4092B526226781841855621066* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_p, float ___1_amount, const RuntimeMethod* method) ;
+inline void List_1__ctor_m88C4BD8AC607DB3585552068F4DC437406358D5F (List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B*, const RuntimeMethod*))List_1__ctor_m88C4BD8AC607DB3585552068F4DC437406358D5F_gshared)(__this, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_left_m851D1A435131CE336F60115E19FC8C21480284BC_inline (const RuntimeMethod* method) ;
+inline void List_1_Add_mB5FDF069171C4CB1778BFAC3B9015A22EA7DFBCD_inline (List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, const RuntimeMethod*))List_1_Add_mB5FDF069171C4CB1778BFAC3B9015A22EA7DFBCD_gshared_inline)(__this, ___0_item, method);
+}
+inline Enumerator_t24E4C96B84374CD9F71B748A47AB020F220D9931 List_1_GetEnumerator_m3FE49C02F31954ACBAF7DF56A1CFED61E50524BA (List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_t24E4C96B84374CD9F71B748A47AB020F220D9931 (*) (List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B*, const RuntimeMethod*))List_1_GetEnumerator_m3FE49C02F31954ACBAF7DF56A1CFED61E50524BA_gshared)(__this, method);
+}
+inline void Enumerator_Dispose_mCD48FDD0F418E976C266AF07E14C127B6E896A8C (Enumerator_t24E4C96B84374CD9F71B748A47AB020F220D9931* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_t24E4C96B84374CD9F71B748A47AB020F220D9931*, const RuntimeMethod*))Enumerator_Dispose_mCD48FDD0F418E976C266AF07E14C127B6E896A8C_gshared)(__this, method);
+}
+inline Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Enumerator_get_Current_m03DDB9D6C95434581544F1F2FF0D1A36EEAB09AF_inline (Enumerator_t24E4C96B84374CD9F71B748A47AB020F220D9931* __this, const RuntimeMethod* method)
+{
+	return ((  Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 (*) (Enumerator_t24E4C96B84374CD9F71B748A47AB020F220D9931*, const RuntimeMethod*))Enumerator_get_Current_m03DDB9D6C95434581544F1F2FF0D1A36EEAB09AF_gshared_inline)(__this, method);
+}
+inline bool Enumerator_MoveNext_m5DDD3E697A492E99DDE91E6AB7B2390C491F89AA (Enumerator_t24E4C96B84374CD9F71B748A47AB020F220D9931* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_t24E4C96B84374CD9F71B748A47AB020F220D9931*, const RuntimeMethod*))Enumerator_MoveNext_m5DDD3E697A492E99DDE91E6AB7B2390C491F89AA_gshared)(__this, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline (int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_down_m7672D87B9C778FB2AEF7BB79758142D01166B493_inline (const RuntimeMethod* method) ;
+inline void List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, const RuntimeMethod*))List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass95_0__ctor_m4946E528E3559478AAA0A2147A346BBFFE499525 (U3CU3Ec__DisplayClass95_0_t096646496251236E96DB200120C51ED84B3395D8* __this, const RuntimeMethod* method) ;
+inline void Predicate_1__ctor_mE3C39AC82ABCC317564200BDC23326111F54F0C3 (Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489*, RuntimeObject*, intptr_t, const RuntimeMethod*))Predicate_1__ctor_m3E007299121A15DF80F4A210FF8C20E5DF688F20_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* List_1_Find_m2A360402F775AEA01490093221EC2A69061C00BC (List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA* __this, Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489* ___0_match, const RuntimeMethod* method)
+{
+	return ((  RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* (*) (List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA*, Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489*, const RuntimeMethod*))List_1_Find_m5E78A210541B0D844FE27B94F509313623BE33D3_gshared)(__this, ___0_match, method);
+}
+inline int32_t List_1_get_Count_m5DC6DFF17E95330D019CA465D891602BC21908FB_inline (List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CozyRules_XPRequired_mFD06706C12B7EDCD9000EB9F85F033EEDCE6F0AC (int32_t ___0_level, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CozyRun_get_MaxHP_m498A7D819E9CC585DE4A1343105255CCE7009566 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) ;
+inline RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* List_1_get_Item_m2299FEC727450CC0D4078EBBE4CD8A7C4FAD008E (List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* (*) (List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CozyRun_get_AbsorbRadius_m7E8F3146B8EC578DE05BC214DA19B77974CCD615 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_AddXP_m251486862A032EFD4B4FC599B0D351FBF6E81331 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, float ___0_amount, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_Heal_m4F582133AE57922D40C3F16FDC477DA39925C0F9 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, int32_t ___0_amount, const RuntimeMethod* method) ;
+inline void List_1_RemoveAt_mA68E50F0CD9A33C519086FDDA3AEB775C79B5C7F (List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA*, int32_t, const RuntimeMethod*))List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* CozyRules_ObjectivePoints_mECC28FEFB43C52EC506C95227F38BC6B4C5ABF90 (int32_t ___0_r, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_CompleteObjective_m2FBE7F45DD0BC62E32FEA25968328675E747859B (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) ;
+inline Enumerator_t4329742FEFDBB6BEB3BFCF6FA377D093A39F5ABF List_1_GetEnumerator_m56D5B37CBC67F5D6C255CB01AB4594F3620C62EB (List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA* __this, const RuntimeMethod* method)
+{
+	return ((  Enumerator_t4329742FEFDBB6BEB3BFCF6FA377D093A39F5ABF (*) (List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA*, const RuntimeMethod*))List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared)(__this, method);
+}
+inline void Enumerator_Dispose_mE1483223C0C26DE4B8CA758AED9843C35D077BFE (Enumerator_t4329742FEFDBB6BEB3BFCF6FA377D093A39F5ABF* __this, const RuntimeMethod* method)
+{
+	((  void (*) (Enumerator_t4329742FEFDBB6BEB3BFCF6FA377D093A39F5ABF*, const RuntimeMethod*))Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared)(__this, method);
+}
+inline RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* Enumerator_get_Current_m29415D9BDBCD2EFBDE9B663F84ABB5E6840E9DF1_inline (Enumerator_t4329742FEFDBB6BEB3BFCF6FA377D093A39F5ABF* __this, const RuntimeMethod* method)
+{
+	return ((  RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* (*) (Enumerator_t4329742FEFDBB6BEB3BFCF6FA377D093A39F5ABF*, const RuntimeMethod*))Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline)(__this, method);
+}
+inline bool Enumerator_MoveNext_m00E5E6E6760FB7077A289C583A7C00017AC7A2F1 (Enumerator_t4329742FEFDBB6BEB3BFCF6FA377D093A39F5ABF* __this, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Enumerator_t4329742FEFDBB6BEB3BFCF6FA377D093A39F5ABF*, const RuntimeMethod*))Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared)(__this, method);
+}
+inline int32_t List_1_RemoveAll_m588FE5A5C149EDDBAE5A0B7945BF807BC43B6649 (List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA* __this, Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489* ___0_match, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA*, Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489*, const RuntimeMethod*))List_1_RemoveAll_m1A8DE2A7640CC473609F3ADAC38FDB960520636D_gshared)(__this, ___0_match, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_RollChoices_mE49093AE85E354A2B3DA6A9E7263EBCA029FDE77 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) ;
+inline int32_t List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, const RuntimeMethod*))List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_gshared_inline)(__this, method);
+}
+inline int32_t List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_gshared)(__this, ___0_index, method);
+}
+inline void List_1_RemoveAt_m76C4CDACF47BA529BAFADFC8D5E13DB9587F4004 (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1_RemoveAt_m76C4CDACF47BA529BAFADFC8D5E13DB9587F4004_gshared)(__this, ___0_index, method);
+}
+inline bool List_1_Remove_m2B41E5B9E061DD4D5F58B693018024AADF2AD7F5 (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method)
+{
+	return ((  bool (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1_Remove_m2B41E5B9E061DD4D5F58B693018024AADF2AD7F5_gshared)(__this, ___0_item, method);
+}
+inline bool List_1_Contains_m4FD96E89F15844C90032C7386BAB528817F1FF5B (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method)
+{
+	return ((  bool (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1_Contains_m4FD96E89F15844C90032C7386BAB528817F1FF5B_gshared)(__this, ___0_item, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_ObjectiveRewardEffects_mED48046550A853330AB9F62439D173135ED92A27 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline (float ___0_f, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_values, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m697E646FF9D12E43B23493212E25A4DC4B50CBB6 (U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Single_CompareTo_m06F7868162EB392D3E99103D1A0BD27463C9E66F (float* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Int32_CompareTo_mFA011811D4447442ED442B4A507BD4267621C586 (int32_t* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyProfile_get_TestUnlocksEnabled_m07000EB665A8B2793112A28B70FC1ECF975AA390 (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyProfile_EndlessUnlocked_m2584075999E46B38B2E79BC3A0CAD71B966F0EA6 (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* __this, int32_t ___0_region, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyProfile_DecorationAvailable_m965EF4D4D2732F201CBC38D52A0392AC06FF1F37 (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* __this, int32_t ___0_id, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass21_0__ctor_mE03613CC0386E8E7762360E1157ADCC9AEFC0940 (U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* __this, const RuntimeMethod* method) ;
+inline bool List_1_Contains_m359254483BE42CAD4DCA8FBAFB87473FB4CF00E1 (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, String_t* ___0_item, const RuntimeMethod* method)
+{
+	return ((  bool (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, String_t*, const RuntimeMethod*))List_1_Contains_m4C9139C2A6B23E9343D3F87807B32C6E2CFE660D_gshared)(__this, ___0_item, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CozyRun_CalculateStars_m331F5A0F2B211A1C31012726128950190BBDCFB7 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) ;
+inline void Predicate_1__ctor_mF085A3C599CF5CFE76AA6C5FBA9D4837EC39FB68 (Predicate_1_t39E6A45E264C9EA977BDCF92A7EE05CEB60F43F3* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+{
+	((  void (*) (Predicate_1_t39E6A45E264C9EA977BDCF92A7EE05CEB60F43F3*, RuntimeObject*, intptr_t, const RuntimeMethod*))Predicate_1__ctor_m3E007299121A15DF80F4A210FF8C20E5DF688F20_gshared)(__this, ___0_object, ___1_method, method);
+}
+inline CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* List_1_Find_mD457FA9D5FADE5659E518809320E67375E70BC4B (List_1_t7177B811EF7E8A8A9633AEC3E32FCCCB94C9BFC6* __this, Predicate_1_t39E6A45E264C9EA977BDCF92A7EE05CEB60F43F3* ___0_match, const RuntimeMethod* method)
+{
+	return ((  CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* (*) (List_1_t7177B811EF7E8A8A9633AEC3E32FCCCB94C9BFC6*, Predicate_1_t39E6A45E264C9EA977BDCF92A7EE05CEB60F43F3*, const RuntimeMethod*))List_1_Find_m5E78A210541B0D844FE27B94F509313623BE33D3_gshared)(__this, ___0_match, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRecord__ctor_m00002DB5AE4467D4A747EFCCD21610645E3CEBCB (CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CozyRun_get_RecordKey_m899AC5343E7B76B88C611F1C1491DF4EB3D9A3BA (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) ;
+inline void List_1_Add_m7E4E38CB2AAE4DDD3A6466EF36C8442FF571B318_inline (List_1_t7177B811EF7E8A8A9633AEC3E32FCCCB94C9BFC6* __this, CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t7177B811EF7E8A8A9633AEC3E32FCCCB94C9BFC6*, CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF (int32_t ___0_val1, int32_t ___1_val2, const RuntimeMethod* method) ;
+inline void List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, String_t* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, String_t*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
+}
+inline void List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+inline void List_1__ctor_mACCD403943C43689954D7FB8BC64A121D55D54B6 (List_1_t7177B811EF7E8A8A9633AEC3E32FCCCB94C9BFC6* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t7177B811EF7E8A8A9633AEC3E32FCCCB94C9BFC6*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozySettings__ctor_m3E6E6E71AD2510DCBE6AC505E0D41FEF500E2EEA (CozySettings_t00CF42F3FBEF7AD3710791EF2BF184080AA0DB47* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1 (String_t* ___0_a, String_t* ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SHA256_t6FEDD761EE6301127DAAF13320E8FD63296837F9* SHA256_Create_m41FBBA07C26677E1028E44E3530AC1BA17D26BBC (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* HashAlgorithm_ComputeHash_mC9CD24714D75A8D61F12509BF952A26347FF22FB (HashAlgorithm_t299ECE61BBF4582B1F75734D43A96DDEC9B2004D* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_buffer, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Convert_ToBase64String_mD0680EF77270244071965AFA1207921C73EEA323 (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_inArray, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidDataException__ctor_m514879053D89E3C8229A01AA8970237FA5409532 (InvalidDataException_t9D62CAAA10DD31CCD9C0F92AA5729A05282F18A1* __this, String_t* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6 (String_t* ___0_a, String_t* ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_mE174750CF0247BBB47544FFD71D66BB89630945B (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, String_t* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57 (RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ___0_handle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enum_IsDefined_m1C9A0C4F54B0538351585FF563A01091A6FE2F28 (Type_t* ___0_enumType, RuntimeObject* ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* File_ReadAllText_mA4A939F853D573379F7129AFDC469B91E9747BAA (String_t* ___0_path, const RuntimeMethod* method) ;
+inline CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9* JsonUtility_FromJson_TisCozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9_m676D06558EE41538D74AC6E5DC5CC938D20E9ECE (String_t* ___0_json, const RuntimeMethod* method)
+{
+	return ((  CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9* (*) (String_t*, const RuntimeMethod*))JsonUtility_FromJson_TisRuntimeObject_m0CCF0FE109BF4C85AECC9C5D0DBB43422A24FB40_gshared)(___0_json, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CozySave_Digest_m4639E7B0045A7354F6D028E5141E156B76B8EC9D (String_t* ___0_data, const RuntimeMethod* method) ;
+inline CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* JsonUtility_FromJson_TisCozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E_m76F8AF5249D05653795FF65DDB6B6DA4D13774B4 (String_t* ___0_json, const RuntimeMethod* method)
+{
+	return ((  CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* (*) (String_t*, const RuntimeMethod*))JsonUtility_FromJson_TisRuntimeObject_m0CCF0FE109BF4C85AECC9C5D0DBB43422A24FB40_gshared)(___0_json, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JsonUtility_ToJson_m28CC6843B9D3723D88AD13EA3829B71FDE7826BA (RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun__ctor_m40872D30751075A5D9E4B319F6CF3D532AB7E954 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozySave_Validate_m29FFB6618B8967A147F7C46F370D3D8770A79F89 (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* ___0_p, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CozySave_set_Notice_m72C28B92F668CE984077DCAD59802BBE0C3FE93A_inline (CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CozySave_set_ReadOnly_m00E0409EAF25726F6439A6C9AA6E9437C9288EF0_inline (CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool File_Exists_m95E329ABBE3EAD6750FE1989BBA6884457136D4A (String_t* ___0_path, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyProfile__ctor_m1B8C957BDF7C9DD9B69CE4A5C05FA3A249001D0D (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* CozySave_Read_mEDD911E1654EE7D3C931436CA211E20441958F34 (CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83* __this, String_t* ___0_path, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool CozySave_get_ReadOnly_m523A3BFEE6FAA79B44629ECEC795F8033EC2A800_inline (CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IOException__ctor_mE0612A16064F93C7EBB468D6874777BD70CB50CA (IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910* __this, String_t* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_GetDirectoryName_m428BADBE493A3927B51A13DEF658929B430516F6 (String_t* ___0_path, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* Directory_CreateDirectory_m16EC5CE8561A997C6635E06DC24C77590F29D94F (String_t* ___0_path, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozySaveEnvelope__ctor_mA850EB8783A3FE90ADEEBDDDF698E0AD5178C0B7 (CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FileStream__ctor_mA39506EF7A1F33FCA0199B880BE1D82217E33EEC (FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* __this, String_t* ___0_path, int32_t ___1_mode, int32_t ___2_access, int32_t ___3_share, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* CozySave_get_Notice_m2FE22EF927F14E85DB958FF18A5A2EDE19336B32_inline (CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void File_Replace_m2850C0BC483E696258D433AEF1DBFAA82185CD47 (String_t* ___0_sourceFileName, String_t* ___1_destinationFileName, String_t* ___2_destinationBackupFileName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void File_Move_mBC9450111E0144A55D893A720F19E612D658AC37 (String_t* ___0_sourceFileName, String_t* ___1_destFileName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF (ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_Normalize_m52526AC1D25ED668DF8A5DE540769FA7D5671FC7 (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB (RuntimeArray* ___0_array, int32_t ___1_index, int32_t ___2_length, const RuntimeMethod* method) ;
+inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, RuntimeObject*, const RuntimeMethod*))List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared)(__this, ___0_item, method);
+}
+inline void List_1_AddWithResize_m378B392086AAB6F400944FA9839516326B3F7BB8 (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1_AddWithResize_m378B392086AAB6F400944FA9839516326B3F7BB8_gshared)(__this, ___0_item, method);
+}
+inline void List_1_AddWithResize_m192785B048EDA211AEC7A758A37D0B1ACCB94B9C (List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B*, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7, const RuntimeMethod*))List_1_AddWithResize_m192785B048EDA211AEC7A758A37D0B1ACCB94B9C_gshared)(__this, ___0_item, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 65289
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RunEnemy_get_Radius_mC2651F2F441DBE6EB0E69603BAC0F7DBCA004344 (RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* __this, const RuntimeMethod* method) 
+{
+	int32_t G_B9_0 = 0;
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:14>
+		int32_t L_0 = __this->___role;
+		if ((((int32_t)L_0) == ((int32_t)8)))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_1 = __this->___role;
+		if ((((int32_t)L_1) == ((int32_t)7)))
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		int32_t L_2 = __this->___role;
+		if ((((int32_t)L_2) == ((int32_t)1)))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		int32_t L_3 = __this->___role;
+		if ((((int32_t)L_3) == ((int32_t)6)))
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		G_B9_0 = ((int32_t)18);
+		goto IL_0036;
+	}
+
+IL_0028:
+	{
+		G_B9_0 = ((int32_t)12);
+		goto IL_0036;
+	}
+
+IL_002c:
+	{
+		G_B9_0 = ((int32_t)23);
+		goto IL_0036;
+	}
+
+IL_0030:
+	{
+		G_B9_0 = ((int32_t)30);
+		goto IL_0036;
+	}
+
+IL_0034:
+	{
+		G_B9_0 = ((int32_t)45);
+	}
+
+IL_0036:
+	{
+		return ((float)G_B9_0);
+	}
+}
+// Method Definition Index: 65290
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RunEnemy__ctor_m13A21244BB5E0766C6FCDC0F0FDC58AB45262614 (RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:12>
+		__this->___warmup = (0.5f);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:12>
+		__this->___timer = (2.0f);
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 65291
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RunAttack__ctor_mD814F9E517F24E2D604108F397FF494396013D30 (RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:20>
+		__this->___pierce = 1;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:22>
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_0 = (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*)il2cpp_codegen_object_new(List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
+		List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8(L_0, List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var);
+		__this->___hit = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___hit), (void*)L_0);
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 65292
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RunPickup__ctor_m36A52F4351CC854201809D6A7DDE6EE54E8D883F (RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:28>
+		__this->___life = (3600.0f);
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 65293
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun__ctor_m40872D30751075A5D9E4B319F6CF3D532AB7E954 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m3D00AE5E752341FC004F7FD6D1398B8132DF8990_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m57423E91B85CCD15652E51AB2F9790F6BE236082_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m861CCAEEDF7952AFBFDDB43F92C0BF3202042B55_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBA8530B7221B48C2C179C2A0618B26B4CBCEF04E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:34>
+		__this->___rulesVersion = _stringLiteralBA8530B7221B48C2C179C2A0618B26B4CBCEF04E;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___rulesVersion), (void*)_stringLiteralBA8530B7221B48C2C179C2A0618B26B4CBCEF04E);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:36>
+		__this->___nextId = 1;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:43>
+		__this->___spawnTimer = (1.5f);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:43>
+		__this->___bossStarted = (-1.0f);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:44>
+		__this->___hp = ((int32_t)10);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:44>
+		__this->___level = 1;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:44>
+		__this->___weaponLevel = 1;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:44>
+		__this->___rerolls = 2;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:45>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)12));
+		__this->___passives = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___passives), (void*)L_0);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:46>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_1 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)6);
+		__this->___relics = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___relics), (void*)L_1);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:49>
+		__this->___lastDamage = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lastDamage), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:49>
+		__this->___resultReason = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___resultReason), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:50>
+		List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* L_2 = (List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34*)il2cpp_codegen_object_new(List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34_il2cpp_TypeInfo_var);
+		List_1__ctor_m57423E91B85CCD15652E51AB2F9790F6BE236082(L_2, List_1__ctor_m57423E91B85CCD15652E51AB2F9790F6BE236082_RuntimeMethod_var);
+		__this->___enemies = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___enemies), (void*)L_2);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:51>
+		List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79* L_3 = (List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79*)il2cpp_codegen_object_new(List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79_il2cpp_TypeInfo_var);
+		List_1__ctor_m861CCAEEDF7952AFBFDDB43F92C0BF3202042B55(L_3, List_1__ctor_m861CCAEEDF7952AFBFDDB43F92C0BF3202042B55_RuntimeMethod_var);
+		__this->___attacks = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___attacks), (void*)L_3);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:52>
+		List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA* L_4 = (List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA*)il2cpp_codegen_object_new(List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA_il2cpp_TypeInfo_var);
+		List_1__ctor_m3D00AE5E752341FC004F7FD6D1398B8132DF8990(L_4, List_1__ctor_m3D00AE5E752341FC004F7FD6D1398B8132DF8990_RuntimeMethod_var);
+		__this->___pickups = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___pickups), (void*)L_4);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:53>
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_5 = (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*)il2cpp_codegen_object_new(List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
+		List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8(L_5, List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var);
+		__this->___choices = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___choices), (void*)L_5);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:55>
+		__this->___nextElite = ((int32_t)240);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:58>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_6 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)5);
+		__this->___collected = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___collected), (void*)L_6);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:59>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_7 = (Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)SZArrayNew(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var, (uint32_t)0);
+		__this->___objectivePoints = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___objectivePoints), (void*)L_7);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:65>
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:65>
+		return;
+	}
+}
+// Method Definition Index: 65294
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun__ctor_mE22611FF29264C676515112F55266C147759D2EC (CozyRun_t664438D37D010E4092B526226781841855621066* __this, int32_t ___0_a, int32_t ___1_r, int32_t ___2_d, bool ___3_infinite, int32_t ___4_randomSeed, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m3D00AE5E752341FC004F7FD6D1398B8132DF8990_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m57423E91B85CCD15652E51AB2F9790F6BE236082_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m861CCAEEDF7952AFBFDDB43F92C0BF3202042B55_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBA8530B7221B48C2C179C2A0618B26B4CBCEF04E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE42E8BB820D4F7550A0F04619F4E15FDC56943B9);
+		s_Il2CppMethodInitialized = true;
+	}
+	Guid_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:34>
+		__this->___rulesVersion = _stringLiteralBA8530B7221B48C2C179C2A0618B26B4CBCEF04E;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___rulesVersion), (void*)_stringLiteralBA8530B7221B48C2C179C2A0618B26B4CBCEF04E);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:36>
+		__this->___nextId = 1;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:43>
+		__this->___spawnTimer = (1.5f);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:43>
+		__this->___bossStarted = (-1.0f);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:44>
+		__this->___hp = ((int32_t)10);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:44>
+		__this->___level = 1;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:44>
+		__this->___weaponLevel = 1;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:44>
+		__this->___rerolls = 2;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:45>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)12));
+		__this->___passives = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___passives), (void*)L_0);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:46>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_1 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)6);
+		__this->___relics = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___relics), (void*)L_1);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:49>
+		__this->___lastDamage = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lastDamage), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:49>
+		__this->___resultReason = _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___resultReason), (void*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:50>
+		List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* L_2 = (List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34*)il2cpp_codegen_object_new(List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34_il2cpp_TypeInfo_var);
+		List_1__ctor_m57423E91B85CCD15652E51AB2F9790F6BE236082(L_2, List_1__ctor_m57423E91B85CCD15652E51AB2F9790F6BE236082_RuntimeMethod_var);
+		__this->___enemies = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___enemies), (void*)L_2);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:51>
+		List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79* L_3 = (List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79*)il2cpp_codegen_object_new(List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79_il2cpp_TypeInfo_var);
+		List_1__ctor_m861CCAEEDF7952AFBFDDB43F92C0BF3202042B55(L_3, List_1__ctor_m861CCAEEDF7952AFBFDDB43F92C0BF3202042B55_RuntimeMethod_var);
+		__this->___attacks = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___attacks), (void*)L_3);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:52>
+		List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA* L_4 = (List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA*)il2cpp_codegen_object_new(List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA_il2cpp_TypeInfo_var);
+		List_1__ctor_m3D00AE5E752341FC004F7FD6D1398B8132DF8990(L_4, List_1__ctor_m3D00AE5E752341FC004F7FD6D1398B8132DF8990_RuntimeMethod_var);
+		__this->___pickups = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___pickups), (void*)L_4);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:53>
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_5 = (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*)il2cpp_codegen_object_new(List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
+		List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8(L_5, List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var);
+		__this->___choices = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___choices), (void*)L_5);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:55>
+		__this->___nextElite = ((int32_t)240);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:58>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_6 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)5);
+		__this->___collected = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___collected), (void*)L_6);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:59>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_7 = (Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)SZArrayNew(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var, (uint32_t)0);
+		__this->___objectivePoints = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___objectivePoints), (void*)L_7);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:66>
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:68>
+		int32_t L_8 = ___0_a;
+		__this->___animal = L_8;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:68>
+		int32_t L_9 = ___1_r;
+		__this->___region = L_9;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:68>
+		int32_t L_10 = ___2_d;
+		__this->___difficulty = L_10;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:68>
+		bool L_11 = ___3_infinite;
+		__this->___endless = L_11;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:68>
+		int32_t L_12 = ___4_randomSeed;
+		__this->___seed = L_12;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:69>
+		int32_t L_13 = ___4_randomSeed;
+		__this->___rng = L_13;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:69>
+		uint32_t L_14 = __this->___rng;
+		if (L_14)
+		{
+			goto IL_0105;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:69>
+		__this->___rng = 1;
+	}
+
+IL_0105:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:70>
+		Guid_t L_15;
+		L_15 = Guid_NewGuid_m1F4894E8DC089811D6252148AD5858E58D43A7BD(NULL);
+		V_0 = L_15;
+		String_t* L_16;
+		L_16 = Guid_ToString_mDAA91A4A993E3A7AD8339665E3F0CC35FE00E833((&V_0), _stringLiteralE42E8BB820D4F7550A0F04619F4E15FDC56943B9, NULL);
+		__this->___runId = L_16;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___runId), (void*)L_16);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:70>
+		int32_t L_17 = ___1_r;
+		il2cpp_codegen_runtime_class_init_inline(CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_18;
+		L_18 = CozyRules_Blockers_m543055FBBBA0864EFA72BAD435F04A3097D05C7C(L_17, NULL);
+		__this->___blockers = L_18;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___blockers), (void*)L_18);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:71>
+		return;
+	}
+}
+// Method Definition Index: 65295
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyRun_get_Finished_mD3D28BDCB939B30F5436468DCE1E184360860888 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:72>
+		int32_t L_0 = __this->___phase;
+		if ((((int32_t)L_0) == ((int32_t)4)))
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		int32_t L_1 = __this->___phase;
+		if ((((int32_t)L_1) == ((int32_t)5)))
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		int32_t L_2 = __this->___phase;
+		return (bool)((((int32_t)L_2) == ((int32_t)6))? 1 : 0);
+	}
+
+IL_001c:
+	{
+		return (bool)1;
+	}
+}
+// Method Definition Index: 65296
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CozyRun_get_MaxHP_m498A7D819E9CC585DE4A1343105255CCE7009566 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) 
+{
+	int32_t G_B2_0 = 0;
+	int32_t G_B1_0 = 0;
+	int32_t G_B3_0 = 0;
+	int32_t G_B3_1 = 0;
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:73>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = __this->___passives;
+		NullCheck(L_0);
+		int32_t L_1 = 4;
+		int32_t L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_3 = __this->___relics;
+		NullCheck(L_3);
+		int32_t L_4 = 5;
+		uint8_t L_5 = (uint8_t)(L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		if (L_5)
+		{
+			G_B2_0 = ((int32_t)il2cpp_codegen_add(((int32_t)10), ((int32_t)il2cpp_codegen_multiply(L_2, 2))));
+			goto IL_001a;
+		}
+		G_B1_0 = ((int32_t)il2cpp_codegen_add(((int32_t)10), ((int32_t)il2cpp_codegen_multiply(L_2, 2))));
+	}
+	{
+		G_B3_0 = 0;
+		G_B3_1 = G_B1_0;
+		goto IL_001b;
+	}
+
+IL_001a:
+	{
+		G_B3_0 = 2;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_001b:
+	{
+		return ((int32_t)il2cpp_codegen_add(G_B3_1, G_B3_0));
+	}
+}
+// Method Definition Index: 65297
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CozyRun_get_MoveSpeed_m8D1CEDBEBE1E56F31AD6ED608C7A6005CA8F72D3 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) 
+{
+	float G_B2_0 = 0.0f;
+	float G_B2_1 = 0.0f;
+	float G_B1_0 = 0.0f;
+	float G_B1_1 = 0.0f;
+	float G_B3_0 = 0.0f;
+	float G_B3_1 = 0.0f;
+	float G_B3_2 = 0.0f;
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:74>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = __this->___passives;
+		NullCheck(L_0);
+		int32_t L_1 = 1;
+		int32_t L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_3 = __this->___relics;
+		NullCheck(L_3);
+		int32_t L_4 = 5;
+		uint8_t L_5 = (uint8_t)(L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		if (L_5)
+		{
+			G_B2_0 = ((float)il2cpp_codegen_add((1.0f), ((float)il2cpp_codegen_multiply((0.0599999987f), ((float)L_2)))));
+			G_B2_1 = (220.0f);
+			goto IL_002b;
+		}
+		G_B1_0 = ((float)il2cpp_codegen_add((1.0f), ((float)il2cpp_codegen_multiply((0.0599999987f), ((float)L_2)))));
+		G_B1_1 = (220.0f);
+	}
+	{
+		G_B3_0 = (0.0f);
+		G_B3_1 = G_B1_0;
+		G_B3_2 = G_B1_1;
+		goto IL_0030;
+	}
+
+IL_002b:
+	{
+		G_B3_0 = (0.0500000007f);
+		G_B3_1 = G_B2_0;
+		G_B3_2 = G_B2_1;
+	}
+
+IL_0030:
+	{
+		return ((float)il2cpp_codegen_multiply(G_B3_2, ((float)il2cpp_codegen_add(G_B3_1, G_B3_0))));
+	}
+}
+// Method Definition Index: 65298
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C CozyRun_get_Weapon_m02AE9839EE20002858EF9AF84224A7E7FEC9C3D5 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:75>
+		int32_t L_0 = __this->___animal;
+		int32_t L_1 = __this->___weaponLevel;
+		int32_t L_2 = __this->___branch;
+		il2cpp_codegen_runtime_class_init_inline(CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+		WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C L_3;
+		L_3 = CozyRules_Weapon_m7587A43FE5962741967D1D5E6D68CE1AC2468176(L_0, L_1, L_2, NULL);
+		return L_3;
+	}
+}
+// Method Definition Index: 65299
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CozyRun_get_AbsorbRadius_m7E8F3146B8EC578DE05BC214DA19B77974CCD615 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:76>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = __this->___passives;
+		NullCheck(L_0);
+		int32_t L_1 = 6;
+		int32_t L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
+		return ((float)((int32_t)il2cpp_codegen_add(((int32_t)48), ((int32_t)il2cpp_codegen_multiply(((int32_t)25), L_2)))));
+	}
+}
+// Method Definition Index: 65300
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CozyRun_get_RangeScale_m48FD557617562D376DFB30C4D9A26758D36B60B0 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:77>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = __this->___passives;
+		NullCheck(L_0);
+		int32_t L_1 = 3;
+		int32_t L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
+		return ((float)il2cpp_codegen_add((1.0f), ((float)il2cpp_codegen_multiply((0.0799999982f), ((float)L_2)))));
+	}
+}
+// Method Definition Index: 65301
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CozyRun_get_AttackSpeed_m476DC3BCDCCDA190566AC9FD0EA56D757664CC91 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:78>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = __this->___passives;
+		NullCheck(L_0);
+		int32_t L_1 = 2;
+		int32_t L_2 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
+		return ((float)il2cpp_codegen_add((1.0f), ((float)il2cpp_codegen_multiply((0.0799999982f), ((float)L_2)))));
+	}
+}
+// Method Definition Index: 65302
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CozyRun_RandomValue_m8211AFEF6A8158FD559654C1AB225E45516FC9C3 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:79>
+		uint32_t L_0 = __this->___rng;
+		uint32_t L_1 = __this->___rng;
+		__this->___rng = ((int32_t)((int32_t)L_0^((int32_t)((int32_t)L_1<<((int32_t)13)))));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:79>
+		uint32_t L_2 = __this->___rng;
+		uint32_t L_3 = __this->___rng;
+		__this->___rng = ((int32_t)((int32_t)L_2^((int32_t)((uint32_t)L_3>>((int32_t)17)))));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:79>
+		uint32_t L_4 = __this->___rng;
+		uint32_t L_5 = __this->___rng;
+		__this->___rng = ((int32_t)((int32_t)L_4^((int32_t)((int32_t)L_5<<5))));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:79>
+		uint32_t L_6 = __this->___rng;
+		return ((float)(((float)((double)(uint32_t)((int32_t)((int32_t)L_6&((int32_t)16777215)))))/(16777216.0f)));
+	}
+}
+// Method Definition Index: 65303
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CozyRun_RandomInt_m599F43D0DF64581BC618A38B30BF2A18F2B49768 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, int32_t ___0_max, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:80>
+		int32_t L_0 = ___0_max;
+		float L_1;
+		L_1 = CozyRun_RandomValue_m8211AFEF6A8158FD559654C1AB225E45516FC9C3(__this, NULL);
+		int32_t L_2 = ___0_max;
+		int32_t L_3;
+		L_3 = Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline(((int32_t)il2cpp_codegen_subtract(L_0, 1)), il2cpp_codegen_cast_double_to_int<int32_t>(((float)il2cpp_codegen_multiply(L_1, ((float)L_2)))), NULL);
+		return L_3;
+	}
+}
+// Method Definition Index: 65304
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 CozyRun_FlakePosition_mD33D4BE48264D8069114A48762737C47EF7A6024 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, int32_t ___0_i, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:81>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = __this->___position;
+		float L_1 = __this->___orbitAngle;
+		int32_t L_2 = ___0_i;
+		WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C L_3;
+		L_3 = CozyRun_get_Weapon_m02AE9839EE20002858EF9AF84224A7E7FEC9C3D5(__this, NULL);
+		int32_t L_4 = L_3.___count;
+		float L_5;
+		L_5 = cosf(((float)il2cpp_codegen_add(L_1, ((float)(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)L_2), (3.14159274f))), (2.0f)))/((float)L_4))))));
+		float L_6 = __this->___orbitAngle;
+		int32_t L_7 = ___0_i;
+		WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C L_8;
+		L_8 = CozyRun_get_Weapon_m02AE9839EE20002858EF9AF84224A7E7FEC9C3D5(__this, NULL);
+		int32_t L_9 = L_8.___count;
+		float L_10;
+		L_10 = sinf(((float)il2cpp_codegen_add(L_6, ((float)(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)L_7), (3.14159274f))), (2.0f)))/((float)L_9))))));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11;
+		memset((&L_11), 0, sizeof(L_11));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_11), L_5, L_10, NULL);
+		WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C L_12;
+		L_12 = CozyRun_get_Weapon_m02AE9839EE20002858EF9AF84224A7E7FEC9C3D5(__this, NULL);
+		float L_13 = L_12.___range;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14;
+		L_14 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_11, L_13, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15;
+		L_15 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_0, L_14, NULL);
+		return L_15;
+	}
+}
+// Method Definition Index: 65305
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_Pause_mFF73153BA4CB37C23AB6D162636A16CA11E9F13F (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:82>
+		bool L_0;
+		L_0 = CozyRun_get_Finished_mD3D28BDCB939B30F5436468DCE1E184360860888(__this, NULL);
+		if (L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		int32_t L_1 = __this->___phase;
+		if ((!(((uint32_t)L_1) == ((uint32_t)3))))
+		{
+			goto IL_0012;
+		}
+	}
+
+IL_0011:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:82>
+		return;
+	}
+
+IL_0012:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:82>
+		int32_t L_2 = __this->___phase;
+		__this->___resumePhase = L_2;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:82>
+		__this->___phase = 3;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:82>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
+		L_3 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
+		__this->___velocity = L_3;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:82>
+		return;
+	}
+}
+// Method Definition Index: 65306
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_Resume_mB75EEF1EC65B420DF62D9EE5415F71BF3FB9BCD0 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:83>
+		int32_t L_0 = __this->___phase;
+		if ((!(((uint32_t)L_0) == ((uint32_t)3))))
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:83>
+		int32_t L_1 = __this->___resumePhase;
+		__this->___phase = L_1;
+	}
+
+IL_0015:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:83>
+		return;
+	}
+}
+// Method Definition Index: 65307
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_Retire_m30E5C0259F7CDAD1A9F6C3DFE0B881E496FECB4F (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCD709B71FD7EA79FECD9A1E3EB699029C5D0C549);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:84>
+		bool L_0;
+		L_0 = CozyRun_get_Finished_mD3D28BDCB939B30F5436468DCE1E184360860888(__this, NULL);
+		if (L_0)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:84>
+		__this->___phase = 6;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:84>
+		__this->___resultReason = _stringLiteralCD709B71FD7EA79FECD9A1E3EB699029C5D0C549;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___resultReason), (void*)_stringLiteralCD709B71FD7EA79FECD9A1E3EB699029C5D0C549);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:84>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
+		L_1 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
+		__this->___velocity = L_1;
+	}
+
+IL_0025:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:84>
+		return;
+	}
+}
+// Method Definition Index: 65308
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 CozyRun_ResolvePosition_m03F6BDDBF7F973D5E96EEB40C148DB6CDF9E25CF (CozyRun_t664438D37D010E4092B526226781841855621066* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_p, float ___1_radius, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* V_0 = NULL;
+	int32_t V_1 = 0;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B4_0;
+	memset((&G_B4_0), 0, sizeof(G_B4_0));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B3_0;
+	memset((&G_B3_0), 0, sizeof(G_B3_0));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B5_0;
+	memset((&G_B5_0), 0, sizeof(G_B5_0));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B5_1;
+	memset((&G_B5_1), 0, sizeof(G_B5_1));
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:88>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_p;
+		il2cpp_codegen_runtime_class_init_inline(CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
+		L_1 = CozyRules_Clamp_m40ABBE1ADFFBDA3BD866F726F94D377F354EF21F(L_0, NULL);
+		___0_p = L_1;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:89>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_2 = __this->___blockers;
+		V_0 = L_2;
+		V_1 = 0;
+		goto IL_006f;
+	}
+
+IL_0013:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:89>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_3 = V_0;
+		int32_t L_4 = V_1;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		V_2 = L_6;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:91>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7 = ___0_p;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8 = V_2;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9;
+		L_9 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_7, L_8, NULL);
+		V_3 = L_9;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:91>
+		int32_t L_10 = __this->___region;
+		il2cpp_codegen_runtime_class_init_inline(CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+		float L_11;
+		L_11 = CozyRules_BlockerRadius_m43B06E2E3C1FF86EDACB10F90C1D6736D110923C(L_10, NULL);
+		float L_12 = ___1_radius;
+		V_4 = ((float)il2cpp_codegen_add(L_11, L_12));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:92>
+		float L_13;
+		L_13 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&V_3), NULL);
+		float L_14 = V_4;
+		float L_15 = V_4;
+		if ((!(((float)L_13) < ((float)((float)il2cpp_codegen_multiply(L_14, L_15))))))
+		{
+			goto IL_006b;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:92>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_16 = V_2;
+		float L_17;
+		L_17 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&V_3), NULL);
+		if ((((float)L_17) < ((float)(0.00100000005f))))
+		{
+			G_B4_0 = L_16;
+			goto IL_0058;
+		}
+		G_B3_0 = L_16;
+	}
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18;
+		L_18 = Vector2_get_normalized_mF6722883AEFB5027690A778DF8ACC20F0FA65297_inline((&V_3), NULL);
+		G_B5_0 = L_18;
+		G_B5_1 = G_B3_0;
+		goto IL_005d;
+	}
+
+IL_0058:
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_19;
+		L_19 = Vector2_get_right_m99043ED6B3D5AEA5033313FE3DA9571F39D1B280_inline(NULL);
+		G_B5_0 = L_19;
+		G_B5_1 = G_B4_0;
+	}
+
+IL_005d:
+	{
+		float L_20 = V_4;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_21;
+		L_21 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(G_B5_0, L_20, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_22;
+		L_22 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(G_B5_1, L_21, NULL);
+		___0_p = L_22;
+	}
+
+IL_006b:
+	{
+		int32_t L_23 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_23, 1));
+	}
+
+IL_006f:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:89>
+		int32_t L_24 = V_1;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_25 = V_0;
+		NullCheck(L_25);
+		if ((((int32_t)L_24) < ((int32_t)((int32_t)(((RuntimeArray*)L_25)->max_length)))))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:94>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_26 = ___0_p;
+		il2cpp_codegen_runtime_class_init_inline(CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_27;
+		L_27 = CozyRules_Clamp_m40ABBE1ADFFBDA3BD866F726F94D377F354EF21F(L_26, NULL);
+		return L_27;
+	}
+}
+// Method Definition Index: 65309
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_Tick_m3C966CBC8B88142079FB0196D3F635179D266A93 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, float ___0_dt, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_input, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral73E080F828F070B686771B1A0ABDB475771ADA34);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	float V_1 = 0.0f;
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:98>
+		int32_t L_0 = __this->___phase;
+		if (L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		float L_1 = ___0_dt;
+		if ((!(((float)L_1) <= ((float)(0.0f)))))
+		{
+			goto IL_0011;
+		}
+	}
+
+IL_0010:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:98>
+		return;
+	}
+
+IL_0011:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:99>
+		float L_2 = ___0_dt;
+		float L_3;
+		L_3 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_2, (0.0500000007f), NULL);
+		___0_dt = L_3;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:100>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = __this->___position;
+		V_0 = L_4;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:100>
+		float L_5 = __this->___orbitAngle;
+		V_1 = L_5;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:101>
+		float L_6 = __this->___elapsed;
+		float L_7 = ___0_dt;
+		__this->___elapsed = ((float)il2cpp_codegen_add(L_6, L_7));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:101>
+		float L_8 = __this->___invincible;
+		float L_9 = ___0_dt;
+		float L_10;
+		L_10 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.0f), ((float)il2cpp_codegen_subtract(L_8, L_9)), NULL);
+		__this->___invincible = L_10;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:101>
+		float L_11 = __this->___eliteRelief;
+		float L_12 = ___0_dt;
+		float L_13;
+		L_13 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.0f), ((float)il2cpp_codegen_subtract(L_11, L_12)), NULL);
+		__this->___eliteRelief = L_13;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:102>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14 = __this->___velocity;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15 = ___1_input;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_16;
+		L_16 = Vector2_ClampMagnitude_m9BF093877BD11282C41088022FE4AE70A3A0ECA9_inline(L_15, (1.0f), NULL);
+		float L_17;
+		L_17 = CozyRun_get_MoveSpeed_m8D1CEDBEBE1E56F31AD6ED608C7A6005CA8F72D3(__this, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18;
+		L_18 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_16, L_17, NULL);
+		float L_19;
+		L_19 = CozyRun_get_MoveSpeed_m8D1CEDBEBE1E56F31AD6ED608C7A6005CA8F72D3(__this, NULL);
+		float L_20 = ___0_dt;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_21;
+		L_21 = Vector2_MoveTowards_m138E823B0F25EF10A2261E57C5706232E8EA9A9A_inline(L_14, L_18, ((float)il2cpp_codegen_multiply(((float)(L_19/(0.0799999982f))), L_20)), NULL);
+		__this->___velocity = L_21;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:103>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_22 = __this->___position;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_23 = __this->___velocity;
+		float L_24 = ___0_dt;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_25;
+		L_25 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_23, L_24, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_26;
+		L_26 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_22, L_25, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_27;
+		L_27 = CozyRun_ResolvePosition_m03F6BDDBF7F973D5E96EEB40C148DB6CDF9E25CF(__this, L_26, (13.0f), NULL);
+		__this->___position = L_27;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:104>
+		float L_28 = __this->___orbitAngle;
+		float L_29 = ___0_dt;
+		WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C L_30;
+		L_30 = CozyRun_get_Weapon_m02AE9839EE20002858EF9AF84224A7E7FEC9C3D5(__this, NULL);
+		float L_31 = L_30.___interval;
+		float L_32;
+		L_32 = CozyRun_get_AttackSpeed_m476DC3BCDCCDA190566AC9FD0EA56D757664CC91(__this, NULL);
+		float L_33;
+		L_33 = Mathf_Repeat_m6F1560A163481BB311D685294E1B463C3E4EB3BA_inline(((float)il2cpp_codegen_add(L_28, ((float)il2cpp_codegen_multiply(((float)(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_29, (3.14159274f))), (2.0f)))/L_31)), L_32)))), (6.28318548f), NULL);
+		__this->___orbitAngle = L_33;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:105>
+		float L_34 = ___0_dt;
+		CozyRun_Director_mD6F170219F82235BD54012D5430174435A1705D7(__this, L_34, NULL);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:107>
+		float L_35 = ___0_dt;
+		CozyRun_MoveEnemies_m3AABF20122E64C613EB7AD11B793F66CEC15FC51(__this, L_35, NULL);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:108>
+		bool L_36;
+		L_36 = CozyRun_get_Finished_mD3D28BDCB939B30F5436468DCE1E184360860888(__this, NULL);
+		if (!L_36)
+		{
+			goto IL_0115;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:108>
+		return;
+	}
+
+IL_0115:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:109>
+		float L_37 = ___0_dt;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_38 = V_0;
+		float L_39 = V_1;
+		CozyRun_PlayerAttack_mEDE64E658A57D05572B72BB7B106BE4889C843A6(__this, L_37, L_38, L_39, NULL);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:110>
+		float L_40 = ___0_dt;
+		CozyRun_UpdateAttacks_m30AF8138D54DF34AAE3DBB8147810C7237958B8E(__this, L_40, NULL);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:111>
+		bool L_41;
+		L_41 = CozyRun_get_Finished_mD3D28BDCB939B30F5436468DCE1E184360860888(__this, NULL);
+		if (!L_41)
+		{
+			goto IL_012e;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:111>
+		return;
+	}
+
+IL_012e:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:112>
+		float L_42 = ___0_dt;
+		CozyRun_UpdateObjective_mAADCCE9E639D7488376CF26FC5BA86191DBA9340(__this, L_42, NULL);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:113>
+		float L_43 = ___0_dt;
+		CozyRun_CollectPickups_mA181C8F33D566B561D1597241A0F686477A9F046(__this, L_43, NULL);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:114>
+		bool L_44 = __this->___bossSpawned;
+		if (!L_44)
+		{
+			goto IL_0172;
+		}
+	}
+	{
+		float L_45 = __this->___elapsed;
+		float L_46 = __this->___bossStarted;
+		if ((!(((float)((float)il2cpp_codegen_subtract(L_45, L_46))) >= ((float)(90.0f)))))
+		{
+			goto IL_0172;
+		}
+	}
+	{
+		bool L_47;
+		L_47 = CozyRun_get_Finished_mD3D28BDCB939B30F5436468DCE1E184360860888(__this, NULL);
+		if (L_47)
+		{
+			goto IL_0172;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:115>
+		__this->___phase = 5;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:115>
+		__this->___resultReason = _stringLiteral73E080F828F070B686771B1A0ABDB475771ADA34;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___resultReason), (void*)_stringLiteral73E080F828F070B686771B1A0ABDB475771ADA34);
+	}
+
+IL_0172:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:116>
+		CozyRun_ResolveChoices_mDAFEE6246C410432B7A4969D0C897CB6181EB2A8(__this, NULL);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:117>
+		return;
+	}
+}
+// Method Definition Index: 65310
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_Director_mD6F170219F82235BD54012D5430174435A1705D7 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, float ___0_dt, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CozyRun_t664438D37D010E4092B526226781841855621066_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mCC62C2303011895A1568EC3C1F63BF804DAE9959_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_mA212D2AA4F348A299F0D31D9A373C4E137A9018D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_RemoveAll_m6515A2A4EE90A240D3EF48A2E1FBAA1095A9E2ED_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_RemoveAll_m83F4906DB3E60DC559B257A28E7BF8B8F4965662_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1__ctor_m5B4AD6C29FA5950EF6C215B9A459707DCC95EF73_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Predicate_1_tA0375D69D6F895A0E2EA6BDF1862CBBF11B0799C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CDirectorU3Eb__82_0_m1892FCE5DC55E40D23458F20EB63E27C1B194312_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CDirectorU3Eb__82_1_m7B07AEEF0D6CB2214194B8CACF4DEEE908024C58_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_0 = NULL;
+	int32_t V_1 = 0;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	int32_t V_5 = 0;
+	float V_6 = 0.0f;
+	float V_7 = 0.0f;
+	Predicate_1_tA0375D69D6F895A0E2EA6BDF1862CBBF11B0799C* G_B5_0 = NULL;
+	List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79* G_B5_1 = NULL;
+	Predicate_1_tA0375D69D6F895A0E2EA6BDF1862CBBF11B0799C* G_B4_0 = NULL;
+	List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79* G_B4_1 = NULL;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* G_B14_0 = NULL;
+	Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A* G_B26_0 = NULL;
+	List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* G_B26_1 = NULL;
+	Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A* G_B25_0 = NULL;
+	List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* G_B25_1 = NULL;
+	float G_B30_0 = 0.0f;
+	float G_B30_1 = 0.0f;
+	CozyRun_t664438D37D010E4092B526226781841855621066* G_B30_2 = NULL;
+	float G_B29_0 = 0.0f;
+	float G_B29_1 = 0.0f;
+	CozyRun_t664438D37D010E4092B526226781841855621066* G_B29_2 = NULL;
+	float G_B31_0 = 0.0f;
+	float G_B31_1 = 0.0f;
+	float G_B31_2 = 0.0f;
+	CozyRun_t664438D37D010E4092B526226781841855621066* G_B31_3 = NULL;
+	float G_B36_0 = 0.0f;
+	float G_B40_0 = 0.0f;
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:120>
+		bool L_0 = __this->___endless;
+		if (L_0)
+		{
+			goto IL_009b;
+		}
+	}
+	{
+		float L_1 = __this->___elapsed;
+		if ((!(((float)L_1) >= ((float)(720.0f)))))
+		{
+			goto IL_009b;
+		}
+	}
+	{
+		bool L_2 = __this->___bossSpawned;
+		if (L_2)
+		{
+			goto IL_009b;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:122>
+		__this->___bossSpawned = (bool)1;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:122>
+		float L_3 = __this->___elapsed;
+		__this->___bossStarted = L_3;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:122>
+		__this->___objectiveRemaining = (0.0f);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:122>
+		__this->___carrying = (bool)0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:123>
+		List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* L_4 = __this->___enemies;
+		NullCheck(L_4);
+		List_1_Clear_mA212D2AA4F348A299F0D31D9A373C4E137A9018D_inline(L_4, List_1_Clear_mA212D2AA4F348A299F0D31D9A373C4E137A9018D_RuntimeMethod_var);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:123>
+		List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79* L_5 = __this->___attacks;
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var);
+		Predicate_1_tA0375D69D6F895A0E2EA6BDF1862CBBF11B0799C* L_6 = ((U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var))->___U3CU3E9__82_0;
+		Predicate_1_tA0375D69D6F895A0E2EA6BDF1862CBBF11B0799C* L_7 = L_6;
+		if (L_7)
+		{
+			G_B5_0 = L_7;
+			G_B5_1 = L_5;
+			goto IL_0078;
+		}
+		G_B4_0 = L_7;
+		G_B4_1 = L_5;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var);
+		U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61* L_8 = ((U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var))->___U3CU3E9;
+		Predicate_1_tA0375D69D6F895A0E2EA6BDF1862CBBF11B0799C* L_9 = (Predicate_1_tA0375D69D6F895A0E2EA6BDF1862CBBF11B0799C*)il2cpp_codegen_object_new(Predicate_1_tA0375D69D6F895A0E2EA6BDF1862CBBF11B0799C_il2cpp_TypeInfo_var);
+		Predicate_1__ctor_m44110A293E9DC3EAE64F03C3BA7A585E40767823(L_9, L_8, (intptr_t)((void*)U3CU3Ec_U3CDirectorU3Eb__82_0_m1892FCE5DC55E40D23458F20EB63E27C1B194312_RuntimeMethod_var), NULL);
+		Predicate_1_tA0375D69D6F895A0E2EA6BDF1862CBBF11B0799C* L_10 = L_9;
+		((U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var))->___U3CU3E9__82_0 = L_10;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var))->___U3CU3E9__82_0), (void*)L_10);
+		G_B5_0 = L_10;
+		G_B5_1 = G_B4_1;
+	}
+
+IL_0078:
+	{
+		NullCheck(G_B5_1);
+		int32_t L_11;
+		L_11 = List_1_RemoveAll_m83F4906DB3E60DC559B257A28E7BF8B8F4965662(G_B5_1, G_B5_0, List_1_RemoveAll_m83F4906DB3E60DC559B257A28E7BF8B8F4965662_RuntimeMethod_var);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:124>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_12), (0.0f), (215.0f), NULL);
+		Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD L_13;
+		memset((&L_13), 0, sizeof(L_13));
+		Nullable_1__ctor_m5B4AD6C29FA5950EF6C215B9A459707DCC95EF73((&L_13), L_12, Nullable_1__ctor_m5B4AD6C29FA5950EF6C215B9A459707DCC95EF73_RuntimeMethod_var);
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_14;
+		L_14 = CozyRun_Spawn_mB7E0FE04A82EEB26BE7BC19D9D102ED84FD07A91(__this, 8, L_13, NULL);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:125>
+		return;
+	}
+
+IL_009b:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:127>
+		bool L_15 = __this->___bossSpawned;
+		if (!L_15)
+		{
+			goto IL_00a4;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:127>
+		return;
+	}
+
+IL_00a4:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:128>
+		int32_t L_16 = __this->___nextObjective;
+		if ((((int32_t)L_16) >= ((int32_t)3)))
+		{
+			goto IL_00cb;
+		}
+	}
+	{
+		float L_17 = __this->___elapsed;
+		int32_t L_18 = __this->___nextObjective;
+		if ((!(((float)L_17) >= ((float)((float)((int32_t)il2cpp_codegen_add(((int32_t)120), ((int32_t)il2cpp_codegen_multiply(L_18, ((int32_t)240))))))))))
+		{
+			goto IL_00cb;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:128>
+		CozyRun_StartObjective_mCC28D3B8522D11C8589AD13B4258F7FC0911F642(__this, NULL);
+	}
+
+IL_00cb:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:129>
+		int32_t L_19 = __this->___difficulty;
+		if (!L_19)
+		{
+			goto IL_00da;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(CozyRun_t664438D37D010E4092B526226781841855621066_il2cpp_TypeInfo_var);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_20 = ((CozyRun_t664438D37D010E4092B526226781841855621066_StaticFields*)il2cpp_codegen_static_fields_for(CozyRun_t664438D37D010E4092B526226781841855621066_il2cpp_TypeInfo_var))->___NormalHealTimes;
+		G_B14_0 = L_20;
+		goto IL_00df;
+	}
+
+IL_00da:
+	{
+		il2cpp_codegen_runtime_class_init_inline(CozyRun_t664438D37D010E4092B526226781841855621066_il2cpp_TypeInfo_var);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_21 = ((CozyRun_t664438D37D010E4092B526226781841855621066_StaticFields*)il2cpp_codegen_static_fields_for(CozyRun_t664438D37D010E4092B526226781841855621066_il2cpp_TypeInfo_var))->___CozyHealTimes;
+		G_B14_0 = L_21;
+	}
+
+IL_00df:
+	{
+		V_0 = G_B14_0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:130>
+		int32_t L_22 = __this->___nextHeal;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_23 = V_0;
+		NullCheck(L_23);
+		if ((((int32_t)L_22) >= ((int32_t)((int32_t)(((RuntimeArray*)L_23)->max_length)))))
+		{
+			goto IL_01ac;
+		}
+	}
+	{
+		float L_24 = __this->___elapsed;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_25 = V_0;
+		int32_t L_26 = __this->___nextHeal;
+		NullCheck(L_25);
+		int32_t L_27 = L_26;
+		int32_t L_28 = (L_25)->GetAt(static_cast<il2cpp_array_size_t>(L_27));
+		if ((!(((float)L_24) >= ((float)((float)L_28)))))
+		{
+			goto IL_01ac;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:132>
+		int32_t L_29 = __this->___nextHeal;
+		__this->___nextHeal = ((int32_t)il2cpp_codegen_add(L_29, 1));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:133>
+		V_1 = 0;
+		goto IL_01a5;
+	}
+
+IL_0117:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:135>
+		float L_30;
+		L_30 = CozyRun_RandomValue_m8211AFEF6A8158FD559654C1AB225E45516FC9C3(__this, NULL);
+		float L_31;
+		L_31 = CozyRun_RandomValue_m8211AFEF6A8158FD559654C1AB225E45516FC9C3(__this, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_32;
+		memset((&L_32), 0, sizeof(L_32));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_32), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_30, (2.0f))), (1.0f))), (520.0f))), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_31, (2.0f))), (1.0f))), (265.0f))), NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_33;
+		L_33 = CozyRun_ResolvePosition_m03F6BDDBF7F973D5E96EEB40C148DB6CDF9E25CF(__this, L_32, (13.0f), NULL);
+		V_2 = L_33;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:136>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_34 = V_2;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_35 = __this->___position;
+		float L_36;
+		L_36 = Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_inline(L_34, L_35, NULL);
+		if ((((float)L_36) < ((float)(180.0f))))
+		{
+			goto IL_01a1;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:137>
+		List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA* L_37 = __this->___pickups;
+		RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_38 = (RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625*)il2cpp_codegen_object_new(RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625_il2cpp_TypeInfo_var);
+		RunPickup__ctor_m36A52F4351CC854201809D6A7DDE6EE54E8D883F(L_38, NULL);
+		RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_39 = L_38;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_40 = V_2;
+		NullCheck(L_39);
+		L_39->___p = L_40;
+		RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_41 = L_39;
+		NullCheck(L_41);
+		L_41->___kind = 1;
+		RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_42 = L_41;
+		NullCheck(L_42);
+		L_42->___value = (2.0f);
+		RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_43 = L_42;
+		NullCheck(L_43);
+		L_43->___life = (60.0f);
+		NullCheck(L_37);
+		List_1_Add_mCC62C2303011895A1568EC3C1F63BF804DAE9959_inline(L_37, L_43, List_1_Add_mCC62C2303011895A1568EC3C1F63BF804DAE9959_RuntimeMethod_var);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:137>
+		goto IL_01ac;
+	}
+
+IL_01a1:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:133>
+		int32_t L_44 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_44, 1));
+	}
+
+IL_01a5:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:133>
+		int32_t L_45 = V_1;
+		if ((((int32_t)L_45) < ((int32_t)8)))
+		{
+			goto IL_0117;
+		}
+	}
+
+IL_01ac:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:140>
+		float L_46 = __this->___elapsed;
+		int32_t L_47 = __this->___nextElite;
+		if ((!(((float)L_46) >= ((float)((float)L_47)))))
+		{
+			goto IL_0229;
+		}
+	}
+	{
+		bool L_48 = __this->___endless;
+		if (L_48)
+		{
+			goto IL_01d0;
+		}
+	}
+	{
+		int32_t L_49 = __this->___nextElite;
+		if ((((int32_t)L_49) >= ((int32_t)((int32_t)720))))
+		{
+			goto IL_0229;
+		}
+	}
+
+IL_01d0:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:142>
+		List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* L_50 = __this->___enemies;
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var);
+		Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A* L_51 = ((U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var))->___U3CU3E9__82_1;
+		Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A* L_52 = L_51;
+		if (L_52)
+		{
+			G_B26_0 = L_52;
+			G_B26_1 = L_50;
+			goto IL_01f5;
+		}
+		G_B25_0 = L_52;
+		G_B25_1 = L_50;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var);
+		U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61* L_53 = ((U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var))->___U3CU3E9;
+		Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A* L_54 = (Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A*)il2cpp_codegen_object_new(Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A_il2cpp_TypeInfo_var);
+		Predicate_1__ctor_mDEB896FDC610359DC86FA6332332EBB4D965EBA3(L_54, L_53, (intptr_t)((void*)U3CU3Ec_U3CDirectorU3Eb__82_1_m7B07AEEF0D6CB2214194B8CACF4DEEE908024C58_RuntimeMethod_var), NULL);
+		Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A* L_55 = L_54;
+		((U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var))->___U3CU3E9__82_1 = L_55;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var))->___U3CU3E9__82_1), (void*)L_55);
+		G_B26_0 = L_55;
+		G_B26_1 = G_B25_1;
+	}
+
+IL_01f5:
+	{
+		NullCheck(G_B26_1);
+		int32_t L_56;
+		L_56 = List_1_RemoveAll_m6515A2A4EE90A240D3EF48A2E1FBAA1095A9E2ED(G_B26_1, G_B26_0, List_1_RemoveAll_m6515A2A4EE90A240D3EF48A2E1FBAA1095A9E2ED_RuntimeMethod_var);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:142>
+		il2cpp_codegen_initobj((&V_3), sizeof(Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD));
+		Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD L_57 = V_3;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_58;
+		L_58 = CozyRun_Spawn_mB7E0FE04A82EEB26BE7BC19D9D102ED84FD07A91(__this, 7, L_57, NULL);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:143>
+		int32_t L_59 = __this->___nextElite;
+		__this->___nextElite = ((int32_t)il2cpp_codegen_add(L_59, ((int32_t)240)));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:143>
+		__this->___eliteRelief = (20.0f);
+	}
+
+IL_0229:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:145>
+		float L_60 = __this->___spawnTimer;
+		float L_61 = ___0_dt;
+		__this->___spawnTimer = ((float)il2cpp_codegen_subtract(L_60, L_61));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:146>
+		float L_62 = __this->___spawnTimer;
+		if ((!(((float)L_62) <= ((float)(0.0f)))))
+		{
+			goto IL_036a;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:148>
+		float L_63 = __this->___elapsed;
+		il2cpp_codegen_runtime_class_init_inline(CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+		float L_64;
+		L_64 = CozyRules_SpawnRate_mD1555F119A8F806B8ECA35F08B53F5080FE4B90D(L_63, NULL);
+		float L_65 = __this->___eliteRelief;
+		if ((((float)L_65) > ((float)(0.0f))))
+		{
+			G_B30_0 = L_64;
+			G_B30_1 = (1.0f);
+			G_B30_2 = __this;
+			goto IL_026c;
+		}
+		G_B29_0 = L_64;
+		G_B29_1 = (1.0f);
+		G_B29_2 = __this;
+	}
+	{
+		G_B31_0 = (1.0f);
+		G_B31_1 = G_B29_0;
+		G_B31_2 = G_B29_1;
+		G_B31_3 = G_B29_2;
+		goto IL_0271;
+	}
+
+IL_026c:
+	{
+		G_B31_0 = (0.699999988f);
+		G_B31_1 = G_B30_0;
+		G_B31_2 = G_B30_1;
+		G_B31_3 = G_B30_2;
+	}
+
+IL_0271:
+	{
+		NullCheck(G_B31_3);
+		G_B31_3->___spawnTimer = ((float)(G_B31_2/((float)il2cpp_codegen_multiply(G_B31_1, G_B31_0))));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:149>
+		float L_66;
+		L_66 = CozyRun_RandomValue_m8211AFEF6A8158FD559654C1AB225E45516FC9C3(__this, NULL);
+		V_4 = L_66;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:149>
+		V_5 = 0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:150>
+		float L_67 = __this->___elapsed;
+		if ((!(((float)L_67) >= ((float)(60.0f)))))
+		{
+			goto IL_0358;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:152>
+		float L_68 = __this->___elapsed;
+		if ((!(((float)L_68) >= ((float)(300.0f)))))
+		{
+			goto IL_02a9;
+		}
+	}
+	{
+		int32_t L_69 = __this->___region;
+		if ((((int32_t)L_69) == ((int32_t)1)))
+		{
+			goto IL_02b0;
+		}
+	}
+
+IL_02a9:
+	{
+		G_B36_0 = (0.150000006f);
+		goto IL_02b5;
+	}
+
+IL_02b0:
+	{
+		G_B36_0 = (0.25f);
+	}
+
+IL_02b5:
+	{
+		V_6 = G_B36_0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:153>
+		int32_t L_70 = __this->___region;
+		if ((!(((uint32_t)L_70) == ((uint32_t)2))))
+		{
+			goto IL_02cd;
+		}
+	}
+	{
+		float L_71 = __this->___elapsed;
+		if ((((float)L_71) >= ((float)(300.0f))))
+		{
+			goto IL_02d4;
+		}
+	}
+
+IL_02cd:
+	{
+		G_B40_0 = (0.100000001f);
+		goto IL_02d9;
+	}
+
+IL_02d4:
+	{
+		G_B40_0 = (0.150000006f);
+	}
+
+IL_02d9:
+	{
+		V_7 = G_B40_0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:154>
+		float L_72 = V_4;
+		float L_73 = V_6;
+		if ((!(((float)L_72) < ((float)L_73))))
+		{
+			goto IL_02e6;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:154>
+		V_5 = 1;
+		goto IL_0358;
+	}
+
+IL_02e6:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:155>
+		float L_74 = V_4;
+		float L_75 = V_6;
+		if ((!(((float)L_74) < ((float)((float)il2cpp_codegen_add(L_75, (0.100000001f)))))))
+		{
+			goto IL_02f7;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:155>
+		V_5 = 2;
+		goto IL_0358;
+	}
+
+IL_02f7:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:156>
+		float L_76 = __this->___elapsed;
+		if ((!(((float)L_76) >= ((float)(180.0f)))))
+		{
+			goto IL_0318;
+		}
+	}
+	{
+		float L_77 = V_4;
+		float L_78 = V_6;
+		float L_79 = V_7;
+		if ((!(((float)L_77) < ((float)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_78, (0.100000001f))), L_79))))))
+		{
+			goto IL_0318;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:156>
+		V_5 = 3;
+		goto IL_0358;
+	}
+
+IL_0318:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:157>
+		float L_80 = __this->___elapsed;
+		if ((!(((float)L_80) >= ((float)(300.0f)))))
+		{
+			goto IL_0339;
+		}
+	}
+	{
+		float L_81 = V_4;
+		float L_82 = V_6;
+		float L_83 = V_7;
+		if ((!(((float)L_81) < ((float)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_82, (0.200000003f))), L_83))))))
+		{
+			goto IL_0339;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:157>
+		V_5 = 4;
+		goto IL_0358;
+	}
+
+IL_0339:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:158>
+		float L_84 = __this->___elapsed;
+		if ((!(((float)L_84) >= ((float)(300.0f)))))
+		{
+			goto IL_0358;
+		}
+	}
+	{
+		float L_85 = V_4;
+		float L_86 = V_6;
+		float L_87 = V_7;
+		if ((!(((float)L_85) < ((float)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_86, (0.25f))), L_87))))))
+		{
+			goto IL_0358;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:158>
+		V_5 = 5;
+	}
+
+IL_0358:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:160>
+		int32_t L_88 = V_5;
+		il2cpp_codegen_initobj((&V_3), sizeof(Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD));
+		Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD L_89 = V_3;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_90;
+		L_90 = CozyRun_Spawn_mB7E0FE04A82EEB26BE7BC19D9D102ED84FD07A91(__this, L_88, L_89, NULL);
+	}
+
+IL_036a:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:162>
+		return;
+	}
+}
+// Method Definition Index: 65311
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* CozyRun_Spawn_mB7E0FE04A82EEB26BE7BC19D9D102ED84FD07A91 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, int32_t ___0_role, Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD ___1_requested, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_mB81CF7652B515EB410D99E9EA7BA74A4F8BF13D3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m90509CE97D6039564E21527D786ACD293EDD0CC8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_mCB4C6D54334620706B95E03839D1EE47E45BD3E0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mB12B1FC1D3B21FB02A0599647C582EE755CD3625_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Exists_mD9022D833B97B9F31A5D988B4F6F697F39921A9C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_m364A3AEEAB3BB8DF30D96A441D10C68262E67D43_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_GetValueOrDefault_m5D8208F74E7F81ED6503E51361C8705A887AD96B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1_get_HasValue_m2E9343B9161EB12C0123A2A9801D2BD86422CEEB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass83_0_U3CSpawnU3Eb__0_mD151A76B00274644431AEB24B2B27239AB4E01FB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass83_0_tFF30C2917164E7EDAFF1506FD4F6623D33FEE32A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass83_0_tFF30C2917164E7EDAFF1506FD4F6623D33FEE32A* V_0 = NULL;
+	bool V_1 = false;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	float V_6 = 0.0f;
+	float V_7 = 0.0f;
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* V_8 = NULL;
+	Enumerator_t95CD58E6484B263166F72826D6E7AF91675B49D7 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* V_10 = NULL;
+	Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	bool V_12 = false;
+	int32_t V_13 = 0;
+	int32_t V_14 = 0;
+	float V_15 = 0.0f;
+	int32_t V_16 = 0;
+	int32_t G_B23_0 = 0;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B28_0;
+	memset((&G_B28_0), 0, sizeof(G_B28_0));
+	float G_B33_0 = 0.0f;
+	float G_B32_0 = 0.0f;
+	int32_t G_B34_0 = 0;
+	float G_B34_1 = 0.0f;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B39_0;
+	memset((&G_B39_0), 0, sizeof(G_B39_0));
+	int32_t G_B38_0 = 0;
+	float G_B60_0 = 0.0f;
+	int32_t G_B55_0 = 0;
+	int32_t G_B59_0 = 0;
+	float G_B64_0 = 0.0f;
+	float G_B66_0 = 0.0f;
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B66_1 = NULL;
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B66_2 = NULL;
+	float G_B65_0 = 0.0f;
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B65_1 = NULL;
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B65_2 = NULL;
+	float G_B67_0 = 0.0f;
+	float G_B67_1 = 0.0f;
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B67_2 = NULL;
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B67_3 = NULL;
+	{
+		U3CU3Ec__DisplayClass83_0_tFF30C2917164E7EDAFF1506FD4F6623D33FEE32A* L_0 = (U3CU3Ec__DisplayClass83_0_tFF30C2917164E7EDAFF1506FD4F6623D33FEE32A*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass83_0_tFF30C2917164E7EDAFF1506FD4F6623D33FEE32A_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass83_0__ctor_m3F8515C3AC5E1BC88BCC828868A663346AC020A0(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass83_0_tFF30C2917164E7EDAFF1506FD4F6623D33FEE32A* L_1 = V_0;
+		int32_t L_2 = ___0_role;
+		NullCheck(L_1);
+		L_1->___role = L_2;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:165>
+		U3CU3Ec__DisplayClass83_0_tFF30C2917164E7EDAFF1506FD4F6623D33FEE32A* L_3 = V_0;
+		NullCheck(L_3);
+		int32_t L_4 = L_3->___role;
+		V_1 = (bool)((((int32_t)((((int32_t)L_4) < ((int32_t)7))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:166>
+		V_2 = 0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:166>
+		V_3 = 0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:167>
+		List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* L_5 = __this->___enemies;
+		NullCheck(L_5);
+		Enumerator_t95CD58E6484B263166F72826D6E7AF91675B49D7 L_6;
+		L_6 = List_1_GetEnumerator_m364A3AEEAB3BB8DF30D96A441D10C68262E67D43(L_5, List_1_GetEnumerator_m364A3AEEAB3BB8DF30D96A441D10C68262E67D43_RuntimeMethod_var);
+		V_9 = L_6;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0070:
+			{
+				Enumerator_Dispose_mB81CF7652B515EB410D99E9EA7BA74A4F8BF13D3((&V_9), Enumerator_Dispose_mB81CF7652B515EB410D99E9EA7BA74A4F8BF13D3_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_0065_1;
+			}
+
+IL_002d_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:167>
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_7;
+				L_7 = Enumerator_get_Current_mCB4C6D54334620706B95E03839D1EE47E45BD3E0_inline((&V_9), Enumerator_get_Current_mCB4C6D54334620706B95E03839D1EE47E45BD3E0_RuntimeMethod_var);
+				V_10 = L_7;
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:167>
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_8 = V_10;
+				NullCheck(L_8);
+				float L_9 = L_8->___hp;
+				if ((!(((float)L_9) > ((float)(0.0f)))))
+				{
+					goto IL_0065_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:167>
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_10 = V_10;
+				NullCheck(L_10);
+				int32_t L_11 = L_10->___role;
+				if ((((int32_t)L_11) >= ((int32_t)7)))
+				{
+					goto IL_0052_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:167>
+				int32_t L_12 = V_2;
+				V_2 = ((int32_t)il2cpp_codegen_add(L_12, 1));
+			}
+
+IL_0052_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:167>
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_13 = V_10;
+				NullCheck(L_13);
+				int32_t L_14 = L_13->___role;
+				U3CU3Ec__DisplayClass83_0_tFF30C2917164E7EDAFF1506FD4F6623D33FEE32A* L_15 = V_0;
+				NullCheck(L_15);
+				int32_t L_16 = L_15->___role;
+				if ((!(((uint32_t)L_14) == ((uint32_t)L_16))))
+				{
+					goto IL_0065_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:167>
+				int32_t L_17 = V_3;
+				V_3 = ((int32_t)il2cpp_codegen_add(L_17, 1));
+			}
+
+IL_0065_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:167>
+				bool L_18;
+				L_18 = Enumerator_MoveNext_m90509CE97D6039564E21527D786ACD293EDD0CC8((&V_9), Enumerator_MoveNext_m90509CE97D6039564E21527D786ACD293EDD0CC8_RuntimeMethod_var);
+				if (L_18)
+				{
+					goto IL_002d_1;
+				}
+			}
+			{
+				goto IL_007e;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_007e:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:168>
+		bool L_19 = V_1;
+		if (L_19)
+		{
+			goto IL_008b;
+		}
+	}
+	{
+		int32_t L_20 = V_2;
+		if ((((int32_t)L_20) < ((int32_t)((int32_t)160))))
+		{
+			goto IL_008b;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:168>
+		return (RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F*)NULL;
+	}
+
+IL_008b:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:169>
+		bool L_21 = V_1;
+		if (!L_21)
+		{
+			goto IL_00a9;
+		}
+	}
+	{
+		List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* L_22 = __this->___enemies;
+		U3CU3Ec__DisplayClass83_0_tFF30C2917164E7EDAFF1506FD4F6623D33FEE32A* L_23 = V_0;
+		Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A* L_24 = (Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A*)il2cpp_codegen_object_new(Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A_il2cpp_TypeInfo_var);
+		Predicate_1__ctor_mDEB896FDC610359DC86FA6332332EBB4D965EBA3(L_24, L_23, (intptr_t)((void*)U3CU3Ec__DisplayClass83_0_U3CSpawnU3Eb__0_mD151A76B00274644431AEB24B2B27239AB4E01FB_RuntimeMethod_var), NULL);
+		NullCheck(L_22);
+		bool L_25;
+		L_25 = List_1_Exists_mD9022D833B97B9F31A5D988B4F6F697F39921A9C(L_22, L_24, List_1_Exists_mD9022D833B97B9F31A5D988B4F6F697F39921A9C_RuntimeMethod_var);
+		if (!L_25)
+		{
+			goto IL_00a9;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:169>
+		return (RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F*)NULL;
+	}
+
+IL_00a9:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:170>
+		U3CU3Ec__DisplayClass83_0_tFF30C2917164E7EDAFF1506FD4F6623D33FEE32A* L_26 = V_0;
+		NullCheck(L_26);
+		int32_t L_27 = L_26->___role;
+		if ((((int32_t)L_27) == ((int32_t)2)))
+		{
+			goto IL_00d1;
+		}
+	}
+	{
+		U3CU3Ec__DisplayClass83_0_tFF30C2917164E7EDAFF1506FD4F6623D33FEE32A* L_28 = V_0;
+		NullCheck(L_28);
+		int32_t L_29 = L_28->___role;
+		if ((((int32_t)L_29) == ((int32_t)3)))
+		{
+			goto IL_00ce;
+		}
+	}
+	{
+		U3CU3Ec__DisplayClass83_0_tFF30C2917164E7EDAFF1506FD4F6623D33FEE32A* L_30 = V_0;
+		NullCheck(L_30);
+		int32_t L_31 = L_30->___role;
+		if ((((int32_t)L_31) == ((int32_t)5)))
+		{
+			goto IL_00cb;
+		}
+	}
+	{
+		G_B23_0 = ((int32_t)2147483647LL);
+		goto IL_00d2;
+	}
+
+IL_00cb:
+	{
+		G_B23_0 = 3;
+		goto IL_00d2;
+	}
+
+IL_00ce:
+	{
+		G_B23_0 = 6;
+		goto IL_00d2;
+	}
+
+IL_00d1:
+	{
+		G_B23_0 = 8;
+	}
+
+IL_00d2:
+	{
+		V_4 = G_B23_0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:171>
+		int32_t L_32 = V_3;
+		int32_t L_33 = V_4;
+		if ((((int32_t)L_32) < ((int32_t)L_33)))
+		{
+			goto IL_00e0;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:171>
+		U3CU3Ec__DisplayClass83_0_tFF30C2917164E7EDAFF1506FD4F6623D33FEE32A* L_34 = V_0;
+		NullCheck(L_34);
+		L_34->___role = 0;
+	}
+
+IL_00e0:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:172>
+		Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD L_35 = ___1_requested;
+		V_11 = L_35;
+		bool L_36;
+		L_36 = Nullable_1_get_HasValue_m2E9343B9161EB12C0123A2A9801D2BD86422CEEB_inline((&V_11), Nullable_1_get_HasValue_m2E9343B9161EB12C0123A2A9801D2BD86422CEEB_RuntimeMethod_var);
+		if (L_36)
+		{
+			goto IL_00f3;
+		}
+	}
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_37;
+		L_37 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
+		G_B28_0 = L_37;
+		goto IL_00fa;
+	}
+
+IL_00f3:
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_38;
+		L_38 = Nullable_1_GetValueOrDefault_m5D8208F74E7F81ED6503E51361C8705A887AD96B_inline((&V_11), Nullable_1_GetValueOrDefault_m5D8208F74E7F81ED6503E51361C8705A887AD96B_RuntimeMethod_var);
+		G_B28_0 = L_38;
+	}
+
+IL_00fa:
+	{
+		V_5 = G_B28_0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:173>
+		bool L_39;
+		L_39 = Nullable_1_get_HasValue_m2E9343B9161EB12C0123A2A9801D2BD86422CEEB_inline((&___1_requested), Nullable_1_get_HasValue_m2E9343B9161EB12C0123A2A9801D2BD86422CEEB_RuntimeMethod_var);
+		if (L_39)
+		{
+			goto IL_01fe;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:175>
+		V_12 = (bool)0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:176>
+		V_13 = 0;
+		goto IL_01f0;
+	}
+
+IL_0113:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:178>
+		int32_t L_40;
+		L_40 = CozyRun_RandomInt_m599F43D0DF64581BC618A38B30BF2A18F2B49768(__this, 4, NULL);
+		V_14 = L_40;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:178>
+		float L_41;
+		L_41 = CozyRun_RandomValue_m8211AFEF6A8158FD559654C1AB225E45516FC9C3(__this, NULL);
+		V_15 = ((float)il2cpp_codegen_add((24.0f), ((float)il2cpp_codegen_multiply(L_41, (40.0f)))));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:179>
+		int32_t L_42 = V_14;
+		if ((((int32_t)L_42) < ((int32_t)2)))
+		{
+			goto IL_0167;
+		}
+	}
+	{
+		float L_43;
+		L_43 = CozyRun_RandomValue_m8211AFEF6A8158FD559654C1AB225E45516FC9C3(__this, NULL);
+		int32_t L_44 = V_14;
+		if ((((int32_t)L_44) == ((int32_t)2)))
+		{
+			G_B33_0 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_43, (2.0f))), (1.0f))), (590.0f)));
+			goto IL_0155;
+		}
+		G_B32_0 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_43, (2.0f))), (1.0f))), (590.0f)));
+	}
+	{
+		G_B34_0 = 1;
+		G_B34_1 = G_B32_0;
+		goto IL_0156;
+	}
+
+IL_0155:
+	{
+		G_B34_0 = (-1);
+		G_B34_1 = G_B33_0;
+	}
+
+IL_0156:
+	{
+		float L_45 = V_15;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_46;
+		memset((&L_46), 0, sizeof(L_46));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_46), G_B34_1, ((float)il2cpp_codegen_multiply(((float)G_B34_0), ((float)il2cpp_codegen_add((360.0f), L_45)))), NULL);
+		G_B39_0 = L_46;
+		goto IL_0196;
+	}
+
+IL_0167:
+	{
+		int32_t L_47 = V_14;
+		if (!L_47)
+		{
+			goto IL_016e;
+		}
+	}
+	{
+		G_B38_0 = 1;
+		goto IL_016f;
+	}
+
+IL_016e:
+	{
+		G_B38_0 = (-1);
+	}
+
+IL_016f:
+	{
+		float L_48 = V_15;
+		float L_49;
+		L_49 = CozyRun_RandomValue_m8211AFEF6A8158FD559654C1AB225E45516FC9C3(__this, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_50;
+		memset((&L_50), 0, sizeof(L_50));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_50), ((float)il2cpp_codegen_multiply(((float)G_B38_0), ((float)il2cpp_codegen_add((640.0f), L_48)))), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_49, (2.0f))), (1.0f))), (310.0f))), NULL);
+		G_B39_0 = L_50;
+	}
+
+IL_0196:
+	{
+		V_5 = G_B39_0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:180>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_51 = V_5;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_52 = __this->___position;
+		float L_53;
+		L_53 = Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_inline(L_51, L_52, NULL);
+		if ((((float)L_53) < ((float)(180.0f))))
+		{
+			goto IL_01ea;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:181>
+		U3CU3Ec__DisplayClass83_0_tFF30C2917164E7EDAFF1506FD4F6623D33FEE32A* L_54 = V_0;
+		NullCheck(L_54);
+		int32_t L_55 = L_54->___role;
+		if ((!(((uint32_t)L_55) == ((uint32_t)2))))
+		{
+			goto IL_01e5;
+		}
+	}
+	{
+		int32_t L_56 = __this->___region;
+		if ((!(((uint32_t)L_56) == ((uint32_t)1))))
+		{
+			goto IL_01e5;
+		}
+	}
+	{
+		float L_57 = __this->___objectiveRemaining;
+		if ((!(((float)L_57) > ((float)(0.0f)))))
+		{
+			goto IL_01e5;
+		}
+	}
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_58 = V_5;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_59 = __this->___objectivePoints;
+		NullCheck(L_59);
+		int32_t L_60 = 0;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_61 = (L_59)->GetAt(static_cast<il2cpp_array_size_t>(L_60));
+		float L_62;
+		L_62 = Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_inline(L_58, L_61, NULL);
+		if ((((float)L_62) < ((float)(180.0f))))
+		{
+			goto IL_01ea;
+		}
+	}
+
+IL_01e5:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:182>
+		V_12 = (bool)1;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:182>
+		goto IL_01f8;
+	}
+
+IL_01ea:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:176>
+		int32_t L_63 = V_13;
+		V_13 = ((int32_t)il2cpp_codegen_add(L_63, 1));
+	}
+
+IL_01f0:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:176>
+		int32_t L_64 = V_13;
+		if ((((int32_t)L_64) < ((int32_t)8)))
+		{
+			goto IL_0113;
+		}
+	}
+
+IL_01f8:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:184>
+		bool L_65 = V_12;
+		if (L_65)
+		{
+			goto IL_01fe;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:184>
+		return (RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F*)NULL;
+	}
+
+IL_01fe:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:186>
+		U3CU3Ec__DisplayClass83_0_tFF30C2917164E7EDAFF1506FD4F6623D33FEE32A* L_66 = V_0;
+		NullCheck(L_66);
+		int32_t L_67 = L_66->___role;
+		if ((((int32_t)L_67) == ((int32_t)7)))
+		{
+			goto IL_0236;
+		}
+	}
+	{
+		U3CU3Ec__DisplayClass83_0_tFF30C2917164E7EDAFF1506FD4F6623D33FEE32A* L_68 = V_0;
+		NullCheck(L_68);
+		int32_t L_69 = L_68->___role;
+		if ((((int32_t)L_69) == ((int32_t)8)))
+		{
+			goto IL_021e;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_70 = ((CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_StaticFields*)il2cpp_codegen_static_fields_for(CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var))->___EnemyHP;
+		U3CU3Ec__DisplayClass83_0_tFF30C2917164E7EDAFF1506FD4F6623D33FEE32A* L_71 = V_0;
+		NullCheck(L_71);
+		int32_t L_72 = L_71->___role;
+		NullCheck(L_70);
+		int32_t L_73 = L_72;
+		float L_74 = (L_70)->GetAt(static_cast<il2cpp_array_size_t>(L_73));
+		G_B60_0 = L_74;
+		goto IL_0250;
+	}
+
+IL_021e:
+	{
+		int32_t L_75 = __this->___region;
+		if ((((int32_t)L_75) == ((int32_t)1)))
+		{
+			goto IL_022e;
+		}
+	}
+	{
+		G_B55_0 = ((int32_t)1800);
+		goto IL_0233;
+	}
+
+IL_022e:
+	{
+		G_B55_0 = ((int32_t)2000);
+	}
+
+IL_0233:
+	{
+		G_B60_0 = ((float)G_B55_0);
+		goto IL_0250;
+	}
+
+IL_0236:
+	{
+		float L_76 = __this->___elapsed;
+		if ((((float)L_76) < ((float)(480.0f))))
+		{
+			goto IL_024a;
+		}
+	}
+	{
+		G_B59_0 = ((int32_t)650);
+		goto IL_024f;
+	}
+
+IL_024a:
+	{
+		G_B59_0 = ((int32_t)350);
+	}
+
+IL_024f:
+	{
+		G_B60_0 = ((float)G_B59_0);
+	}
+
+IL_0250:
+	{
+		V_6 = G_B60_0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:187>
+		bool L_77 = V_1;
+		if (L_77)
+		{
+			goto IL_0271;
+		}
+	}
+	{
+		U3CU3Ec__DisplayClass83_0_tFF30C2917164E7EDAFF1506FD4F6623D33FEE32A* L_78 = V_0;
+		NullCheck(L_78);
+		int32_t L_79 = L_78->___role;
+		if ((((int32_t)L_79) == ((int32_t)6)))
+		{
+			goto IL_0271;
+		}
+	}
+	{
+		float L_80 = __this->___elapsed;
+		bool L_81 = __this->___endless;
+		il2cpp_codegen_runtime_class_init_inline(CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+		float L_82;
+		L_82 = CozyRules_HPScale_m22D08EA13A008B893DE39F926BF02A1D00287376(L_80, L_81, NULL);
+		G_B64_0 = L_82;
+		goto IL_0276;
+	}
+
+IL_0271:
+	{
+		G_B64_0 = (1.0f);
+	}
+
+IL_0276:
+	{
+		V_7 = G_B64_0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:188>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_83 = (RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F*)il2cpp_codegen_object_new(RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F_il2cpp_TypeInfo_var);
+		RunEnemy__ctor_m13A21244BB5E0766C6FCDC0F0FDC58AB45262614(L_83, NULL);
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_84 = L_83;
+		int32_t L_85 = __this->___nextId;
+		V_16 = L_85;
+		int32_t L_86 = V_16;
+		__this->___nextId = ((int32_t)il2cpp_codegen_add(L_86, 1));
+		int32_t L_87 = V_16;
+		NullCheck(L_84);
+		L_84->___id = L_87;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_88 = L_84;
+		U3CU3Ec__DisplayClass83_0_tFF30C2917164E7EDAFF1506FD4F6623D33FEE32A* L_89 = V_0;
+		NullCheck(L_89);
+		int32_t L_90 = L_89->___role;
+		NullCheck(L_88);
+		L_88->___role = L_90;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_91 = L_88;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_92 = V_5;
+		NullCheck(L_91);
+		L_91->___p = L_92;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_93 = L_91;
+		float L_94 = V_6;
+		float L_95 = V_7;
+		int32_t L_96 = __this->___difficulty;
+		il2cpp_codegen_runtime_class_init_inline(CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+		float L_97;
+		L_97 = CozyRules_HPScale_mB7D778F60D9DC71B7DD39B5150B7FC95E5150FC6(L_96, NULL);
+		float L_98;
+		L_98 = ceilf(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_94, L_95)), L_97)));
+		NullCheck(L_93);
+		L_93->___hp = L_98;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_99 = L_93;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_100 = ((CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_StaticFields*)il2cpp_codegen_static_fields_for(CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var))->___EnemySpeed;
+		U3CU3Ec__DisplayClass83_0_tFF30C2917164E7EDAFF1506FD4F6623D33FEE32A* L_101 = V_0;
+		NullCheck(L_101);
+		int32_t L_102 = L_101->___role;
+		NullCheck(L_100);
+		int32_t L_103 = L_102;
+		float L_104 = (L_100)->GetAt(static_cast<il2cpp_array_size_t>(L_103));
+		int32_t L_105 = __this->___difficulty;
+		float L_106;
+		L_106 = CozyRules_SpeedScale_m488D9FF881FB558C680BE2724C1445B41291EB7A(L_105, NULL);
+		bool L_107 = V_1;
+		if (L_107)
+		{
+			G_B66_0 = ((float)il2cpp_codegen_multiply(L_104, L_106));
+			G_B66_1 = L_99;
+			G_B66_2 = L_99;
+			goto IL_02f6;
+		}
+		G_B65_0 = ((float)il2cpp_codegen_multiply(L_104, L_106));
+		G_B65_1 = L_99;
+		G_B65_2 = L_99;
+	}
+	{
+		float L_108 = __this->___elapsed;
+		bool L_109 = __this->___endless;
+		il2cpp_codegen_runtime_class_init_inline(CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+		float L_110;
+		L_110 = CozyRules_SpeedScale_mB677F85AA21B1C2D328A9A375577CA4DA50560AC(L_108, L_109, NULL);
+		G_B67_0 = L_110;
+		G_B67_1 = G_B65_0;
+		G_B67_2 = G_B65_1;
+		G_B67_3 = G_B65_2;
+		goto IL_02fb;
+	}
+
+IL_02f6:
+	{
+		G_B67_0 = (1.0f);
+		G_B67_1 = G_B66_0;
+		G_B67_2 = G_B66_1;
+		G_B67_3 = G_B66_2;
+	}
+
+IL_02fb:
+	{
+		NullCheck(G_B67_2);
+		G_B67_2->___speed = ((float)il2cpp_codegen_multiply(G_B67_1, G_B67_0));
+		V_8 = G_B67_3;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:189>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_111 = V_8;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_112 = V_8;
+		NullCheck(L_112);
+		float L_113 = L_112->___hp;
+		NullCheck(L_111);
+		L_111->___maxHP = L_113;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:189>
+		List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* L_114 = __this->___enemies;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_115 = V_8;
+		NullCheck(L_114);
+		List_1_Add_mB12B1FC1D3B21FB02A0599647C582EE755CD3625_inline(L_114, L_115, List_1_Add_mB12B1FC1D3B21FB02A0599647C582EE755CD3625_RuntimeMethod_var);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:189>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_116 = V_8;
+		return L_116;
+	}
+}
+// Method Definition Index: 65312
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_MoveEnemies_m3AABF20122E64C613EB7AD11B793F66CEC15FC51 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, float ___0_dt, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&EnemyRole_t67636F30712C7B1FA00D44AA8FC2849E8469F703_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_mB81CF7652B515EB410D99E9EA7BA74A4F8BF13D3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m90509CE97D6039564E21527D786ACD293EDD0CC8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_mCB4C6D54334620706B95E03839D1EE47E45BD3E0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Exists_mD9022D833B97B9F31A5D988B4F6F697F39921A9C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_m364A3AEEAB3BB8DF30D96A441D10C68262E67D43_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass84_0_U3CMoveEnemiesU3Eb__0_mD1DFC48BC819269B07354B2EED99066E86E2824B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2DF144C28E67D4948B4794A2FB4429625F0BEAB0);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_t95CD58E6484B263166F72826D6E7AF91675B49D7 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* V_1 = NULL;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	float V_5 = 0.0f;
+	bool V_6 = false;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* V_7 = NULL;
+	int32_t V_8 = 0;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_9;
+	memset((&V_9), 0, sizeof(V_9));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	float V_11 = 0.0f;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_13;
+	memset((&V_13), 0, sizeof(V_13));
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B12_0 = NULL;
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B11_0 = NULL;
+	float G_B13_0 = 0.0f;
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B13_1 = NULL;
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B22_0 = NULL;
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B21_0 = NULL;
+	int32_t G_B23_0 = 0;
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B23_1 = NULL;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B36_0;
+	memset((&G_B36_0), 0, sizeof(G_B36_0));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B36_1;
+	memset((&G_B36_1), 0, sizeof(G_B36_1));
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B36_2 = NULL;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B33_0;
+	memset((&G_B33_0), 0, sizeof(G_B33_0));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B33_1;
+	memset((&G_B33_1), 0, sizeof(G_B33_1));
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B33_2 = NULL;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B35_0;
+	memset((&G_B35_0), 0, sizeof(G_B35_0));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B35_1;
+	memset((&G_B35_1), 0, sizeof(G_B35_1));
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B35_2 = NULL;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B34_0;
+	memset((&G_B34_0), 0, sizeof(G_B34_0));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B34_1;
+	memset((&G_B34_1), 0, sizeof(G_B34_1));
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B34_2 = NULL;
+	int32_t G_B37_0 = 0;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B37_1;
+	memset((&G_B37_1), 0, sizeof(G_B37_1));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B37_2;
+	memset((&G_B37_2), 0, sizeof(G_B37_2));
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B37_3 = NULL;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B40_0;
+	memset((&G_B40_0), 0, sizeof(G_B40_0));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B40_1;
+	memset((&G_B40_1), 0, sizeof(G_B40_1));
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B40_2 = NULL;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B39_0;
+	memset((&G_B39_0), 0, sizeof(G_B39_0));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B39_1;
+	memset((&G_B39_1), 0, sizeof(G_B39_1));
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B39_2 = NULL;
+	float G_B41_0 = 0.0f;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B41_1;
+	memset((&G_B41_1), 0, sizeof(G_B41_1));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B41_2;
+	memset((&G_B41_2), 0, sizeof(G_B41_2));
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B41_3 = NULL;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B50_0;
+	memset((&G_B50_0), 0, sizeof(G_B50_0));
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:193>
+		List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* L_0 = __this->___enemies;
+		NullCheck(L_0);
+		Enumerator_t95CD58E6484B263166F72826D6E7AF91675B49D7 L_1;
+		L_1 = List_1_GetEnumerator_m364A3AEEAB3BB8DF30D96A441D10C68262E67D43(L_0, List_1_GetEnumerator_m364A3AEEAB3BB8DF30D96A441D10C68262E67D43_RuntimeMethod_var);
+		V_0 = L_1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_062f:
+			{
+				Enumerator_Dispose_mB81CF7652B515EB410D99E9EA7BA74A4F8BF13D3((&V_0), Enumerator_Dispose_mB81CF7652B515EB410D99E9EA7BA74A4F8BF13D3_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_0621_1;
+			}
+
+IL_0011_1:
+			{
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_2 = (U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1_il2cpp_TypeInfo_var);
+				U3CU3Ec__DisplayClass84_0__ctor_mD00E46CE0FA2F5258020B2764BC8DDDCAF95383A(L_2, NULL);
+				V_1 = L_2;
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:193>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_3 = V_1;
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_4;
+				L_4 = Enumerator_get_Current_mCB4C6D54334620706B95E03839D1EE47E45BD3E0_inline((&V_0), Enumerator_get_Current_mCB4C6D54334620706B95E03839D1EE47E45BD3E0_RuntimeMethod_var);
+				NullCheck(L_3);
+				L_3->___e = L_4;
+				Il2CppCodeGenWriteBarrier((void**)(&L_3->___e), (void*)L_4);
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:195>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_5 = V_1;
+				NullCheck(L_5);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_6 = L_5->___e;
+				NullCheck(L_6);
+				float L_7 = L_6->___hp;
+				if ((((float)L_7) <= ((float)(0.0f))))
+				{
+					goto IL_0621_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:196>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_8 = V_1;
+				NullCheck(L_8);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_9 = L_8->___e;
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_10 = L_9;
+				NullCheck(L_10);
+				float L_11 = L_10->___hitCooldown;
+				float L_12 = ___0_dt;
+				NullCheck(L_10);
+				L_10->___hitCooldown = ((float)il2cpp_codegen_subtract(L_11, L_12));
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:196>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_13 = V_1;
+				NullCheck(L_13);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_14 = L_13->___e;
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_15 = L_14;
+				NullCheck(L_15);
+				float L_16 = L_15->___slow;
+				float L_17 = ___0_dt;
+				NullCheck(L_15);
+				L_15->___slow = ((float)il2cpp_codegen_subtract(L_16, L_17));
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:196>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_18 = V_1;
+				NullCheck(L_18);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_19 = L_18->___e;
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_20 = L_19;
+				NullCheck(L_20);
+				float L_21 = L_20->___warmup;
+				float L_22 = ___0_dt;
+				NullCheck(L_20);
+				L_20->___warmup = ((float)il2cpp_codegen_subtract(L_21, L_22));
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:197>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_23 = V_1;
+				NullCheck(L_23);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_24 = L_23->___e;
+				NullCheck(L_24);
+				float L_25 = L_24->___warmup;
+				if ((((float)L_25) > ((float)(0.0f))))
+				{
+					goto IL_0621_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:198>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_26 = V_1;
+				NullCheck(L_26);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_27 = L_26->___e;
+				NullCheck(L_27);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_28 = L_27->___p;
+				V_2 = L_28;
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:198>
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_29 = __this->___position;
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_30 = V_1;
+				NullCheck(L_30);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_31 = L_30->___e;
+				NullCheck(L_31);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_32 = L_31->___p;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_33;
+				L_33 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_29, L_32, NULL);
+				V_4 = L_33;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_34;
+				L_34 = Vector2_get_normalized_mF6722883AEFB5027690A778DF8ACC20F0FA65297_inline((&V_4), NULL);
+				V_3 = L_34;
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:199>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_35 = V_1;
+				NullCheck(L_35);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_36 = L_35->___e;
+				NullCheck(L_36);
+				int32_t L_37 = L_36->___role;
+				if ((!(((uint32_t)L_37) == ((uint32_t)8))))
+				{
+					goto IL_00d3_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:199>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_38 = V_1;
+				NullCheck(L_38);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_39 = L_38->___e;
+				float L_40 = ___0_dt;
+				CozyRun_BossAI_m585D0E9E05D789323E92FFDD5430D905D024BDAC(__this, L_39, L_40, NULL);
+				goto IL_0441_1;
+			}
+
+IL_00d3_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:200>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_41 = V_1;
+				NullCheck(L_41);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_42 = L_41->___e;
+				NullCheck(L_42);
+				int32_t L_43 = L_42->___role;
+				if ((((int32_t)L_43) == ((int32_t)2)))
+				{
+					goto IL_00f2_1;
+				}
+			}
+			{
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_44 = V_1;
+				NullCheck(L_44);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_45 = L_44->___e;
+				NullCheck(L_45);
+				int32_t L_46 = L_45->___role;
+				if ((!(((uint32_t)L_46) == ((uint32_t)7))))
+				{
+					goto IL_028e_1;
+				}
+			}
+
+IL_00f2_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:202>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_47 = V_1;
+				NullCheck(L_47);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_48 = L_47->___e;
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_49 = L_48;
+				NullCheck(L_49);
+				float L_50 = L_49->___timer;
+				float L_51 = ___0_dt;
+				NullCheck(L_49);
+				L_49->___timer = ((float)il2cpp_codegen_subtract(L_50, L_51));
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:203>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_52 = V_1;
+				NullCheck(L_52);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_53 = L_52->___e;
+				NullCheck(L_53);
+				int32_t L_54 = L_53->___action;
+				if (L_54)
+				{
+					goto IL_0161_1;
+				}
+			}
+			{
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_55 = V_1;
+				NullCheck(L_55);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_56 = L_55->___e;
+				NullCheck(L_56);
+				float L_57 = L_56->___timer;
+				if ((!(((float)L_57) <= ((float)(0.0f)))))
+				{
+					goto IL_0161_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:203>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_58 = V_1;
+				NullCheck(L_58);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_59 = L_58->___e;
+				NullCheck(L_59);
+				L_59->___action = 1;
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:203>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_60 = V_1;
+				NullCheck(L_60);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_61 = L_60->___e;
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_62 = V_1;
+				NullCheck(L_62);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_63 = L_62->___e;
+				NullCheck(L_63);
+				int32_t L_64 = L_63->___role;
+				if ((((int32_t)L_64) == ((int32_t)7)))
+				{
+					G_B12_0 = L_61;
+					goto IL_014b_1;
+				}
+				G_B11_0 = L_61;
+			}
+			{
+				G_B13_0 = (0.800000012f);
+				G_B13_1 = G_B11_0;
+				goto IL_0150_1;
+			}
+
+IL_014b_1:
+			{
+				G_B13_0 = (0.899999976f);
+				G_B13_1 = G_B12_0;
+			}
+
+IL_0150_1:
+			{
+				NullCheck(G_B13_1);
+				G_B13_1->___actionTime = G_B13_0;
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:203>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_65 = V_1;
+				NullCheck(L_65);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_66 = L_65->___e;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_67 = V_3;
+				NullCheck(L_66);
+				L_66->___aim = L_67;
+			}
+
+IL_0161_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:204>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_68 = V_1;
+				NullCheck(L_68);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_69 = L_68->___e;
+				NullCheck(L_69);
+				int32_t L_70 = L_69->___action;
+				if ((((int32_t)L_70) <= ((int32_t)0)))
+				{
+					goto IL_025c_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:206>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_71 = V_1;
+				NullCheck(L_71);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_72 = L_71->___e;
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_73 = L_72;
+				NullCheck(L_73);
+				float L_74 = L_73->___actionTime;
+				float L_75 = ___0_dt;
+				NullCheck(L_73);
+				L_73->___actionTime = ((float)il2cpp_codegen_subtract(L_74, L_75));
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:207>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_76 = V_1;
+				NullCheck(L_76);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_77 = L_76->___e;
+				NullCheck(L_77);
+				int32_t L_78 = L_77->___action;
+				if ((!(((uint32_t)L_78) == ((uint32_t)1))))
+				{
+					goto IL_01c6_1;
+				}
+			}
+			{
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_79 = V_1;
+				NullCheck(L_79);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_80 = L_79->___e;
+				NullCheck(L_80);
+				float L_81 = L_80->___actionTime;
+				if ((!(((float)L_81) <= ((float)(0.0f)))))
+				{
+					goto IL_01c6_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:207>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_82 = V_1;
+				NullCheck(L_82);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_83 = L_82->___e;
+				NullCheck(L_83);
+				L_83->___action = 2;
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:207>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_84 = V_1;
+				NullCheck(L_84);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_85 = L_84->___e;
+				NullCheck(L_85);
+				L_85->___actionTime = (0.600000024f);
+				goto IL_0441_1;
+			}
+
+IL_01c6_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:208>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_86 = V_1;
+				NullCheck(L_86);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_87 = L_86->___e;
+				NullCheck(L_87);
+				int32_t L_88 = L_87->___action;
+				if ((!(((uint32_t)L_88) == ((uint32_t)2))))
+				{
+					goto IL_0441_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:208>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_89 = V_1;
+				NullCheck(L_89);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_90 = L_89->___e;
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_91 = L_90;
+				NullCheck(L_91);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_92 = L_91->___p;
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_93 = V_1;
+				NullCheck(L_93);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_94 = L_93->___e;
+				NullCheck(L_94);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_95 = L_94->___aim;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_96;
+				L_96 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_95, (260.0f), NULL);
+				int32_t L_97 = __this->___difficulty;
+				il2cpp_codegen_runtime_class_init_inline(CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+				float L_98;
+				L_98 = CozyRules_SpeedScale_m488D9FF881FB558C680BE2724C1445B41291EB7A(L_97, NULL);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_99;
+				L_99 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_96, L_98, NULL);
+				float L_100 = ___0_dt;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_101;
+				L_101 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_99, L_100, NULL);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_102;
+				L_102 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_92, L_101, NULL);
+				NullCheck(L_91);
+				L_91->___p = L_102;
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:208>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_103 = V_1;
+				NullCheck(L_103);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_104 = L_103->___e;
+				NullCheck(L_104);
+				float L_105 = L_104->___actionTime;
+				if ((!(((float)L_105) <= ((float)(0.0f)))))
+				{
+					goto IL_0441_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:208>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_106 = V_1;
+				NullCheck(L_106);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_107 = L_106->___e;
+				NullCheck(L_107);
+				L_107->___action = 0;
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:208>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_108 = V_1;
+				NullCheck(L_108);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_109 = L_108->___e;
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_110 = V_1;
+				NullCheck(L_110);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_111 = L_110->___e;
+				NullCheck(L_111);
+				int32_t L_112 = L_111->___role;
+				if ((((int32_t)L_112) == ((int32_t)7)))
+				{
+					G_B22_0 = L_109;
+					goto IL_0250_1;
+				}
+				G_B21_0 = L_109;
+			}
+			{
+				G_B23_0 = 4;
+				G_B23_1 = G_B21_0;
+				goto IL_0251_1;
+			}
+
+IL_0250_1:
+			{
+				G_B23_0 = 6;
+				G_B23_1 = G_B22_0;
+			}
+
+IL_0251_1:
+			{
+				NullCheck(G_B23_1);
+				G_B23_1->___timer = ((float)G_B23_0);
+				goto IL_0441_1;
+			}
+
+IL_025c_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:210>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_113 = V_1;
+				NullCheck(L_113);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_114 = L_113->___e;
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_115 = L_114;
+				NullCheck(L_115);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_116 = L_115->___p;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_117 = V_3;
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_118 = V_1;
+				NullCheck(L_118);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_119 = L_118->___e;
+				NullCheck(L_119);
+				float L_120 = L_119->___speed;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_121;
+				L_121 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_117, L_120, NULL);
+				float L_122 = ___0_dt;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_123;
+				L_123 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_121, L_122, NULL);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_124;
+				L_124 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_116, L_123, NULL);
+				NullCheck(L_115);
+				L_115->___p = L_124;
+				goto IL_0441_1;
+			}
+
+IL_028e_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:212>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_125 = V_1;
+				NullCheck(L_125);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_126 = L_125->___e;
+				NullCheck(L_126);
+				int32_t L_127 = L_126->___role;
+				if ((!(((uint32_t)L_127) == ((uint32_t)3))))
+				{
+					goto IL_03e6_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:214>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_128 = V_1;
+				NullCheck(L_128);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_129 = L_128->___e;
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_130 = L_129;
+				NullCheck(L_130);
+				float L_131 = L_130->___timer;
+				float L_132 = ___0_dt;
+				NullCheck(L_130);
+				L_130->___timer = ((float)il2cpp_codegen_subtract(L_131, L_132));
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:215>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_133 = V_1;
+				NullCheck(L_133);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_134 = L_133->___e;
+				NullCheck(L_134);
+				int32_t L_135 = L_134->___action;
+				if (L_135)
+				{
+					goto IL_02f9_1;
+				}
+			}
+			{
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_136 = V_1;
+				NullCheck(L_136);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_137 = L_136->___e;
+				NullCheck(L_137);
+				float L_138 = L_137->___timer;
+				if ((!(((float)L_138) <= ((float)(0.0f)))))
+				{
+					goto IL_02f9_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:215>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_139 = V_1;
+				NullCheck(L_139);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_140 = L_139->___e;
+				NullCheck(L_140);
+				L_140->___action = 1;
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:215>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_141 = V_1;
+				NullCheck(L_141);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_142 = L_141->___e;
+				NullCheck(L_142);
+				L_142->___actionTime = (1.0f);
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:215>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_143 = V_1;
+				NullCheck(L_143);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_144 = L_143->___e;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_145 = V_3;
+				NullCheck(L_144);
+				L_144->___aim = L_145;
+			}
+
+IL_02f9_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:216>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_146 = V_1;
+				NullCheck(L_146);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_147 = L_146->___e;
+				NullCheck(L_147);
+				int32_t L_148 = L_147->___action;
+				if ((!(((uint32_t)L_148) == ((uint32_t)1))))
+				{
+					goto IL_0380_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:218>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_149 = V_1;
+				NullCheck(L_149);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_150 = L_149->___e;
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_151 = L_150;
+				NullCheck(L_151);
+				float L_152 = L_151->___actionTime;
+				float L_153 = ___0_dt;
+				NullCheck(L_151);
+				L_151->___actionTime = ((float)il2cpp_codegen_subtract(L_152, L_153));
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:219>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_154 = V_1;
+				NullCheck(L_154);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_155 = L_154->___e;
+				NullCheck(L_155);
+				float L_156 = L_155->___actionTime;
+				if ((!(((float)L_156) <= ((float)(0.0f)))))
+				{
+					goto IL_0441_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:219>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_157 = V_1;
+				NullCheck(L_157);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_158 = L_157->___e;
+				NullCheck(L_158);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_159 = L_158->___p;
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_160 = V_1;
+				NullCheck(L_160);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_161 = L_160->___e;
+				NullCheck(L_161);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_162 = L_161->___aim;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_163;
+				L_163 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_162, (140.0f), NULL);
+				CozyRun_EnemyBullet_m569917278757E11E53B6623898FD02FAC238F60E(__this, L_159, L_163, (4.0f), _stringLiteral2DF144C28E67D4948B4794A2FB4429625F0BEAB0, NULL);
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:219>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_164 = V_1;
+				NullCheck(L_164);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_165 = L_164->___e;
+				NullCheck(L_165);
+				L_165->___action = 0;
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:219>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_166 = V_1;
+				NullCheck(L_166);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_167 = L_166->___e;
+				NullCheck(L_167);
+				L_167->___timer = (2.20000005f);
+				goto IL_0441_1;
+			}
+
+IL_0380_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:221>
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_168 = __this->___position;
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_169 = V_1;
+				NullCheck(L_169);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_170 = L_169->___e;
+				NullCheck(L_170);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_171 = L_170->___p;
+				float L_172;
+				L_172 = Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_inline(L_168, L_171, NULL);
+				V_5 = L_172;
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:221>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_173 = V_1;
+				NullCheck(L_173);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_174 = L_173->___e;
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_175 = L_174;
+				NullCheck(L_175);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_176 = L_175->___p;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_177 = V_3;
+				float L_178 = V_5;
+				if ((((float)L_178) > ((float)(275.0f))))
+				{
+					G_B36_0 = L_177;
+					G_B36_1 = L_176;
+					G_B36_2 = L_175;
+					goto IL_03bd_1;
+				}
+				G_B33_0 = L_177;
+				G_B33_1 = L_176;
+				G_B33_2 = L_175;
+			}
+			{
+				float L_179 = V_5;
+				if ((((float)L_179) < ((float)(245.0f))))
+				{
+					G_B35_0 = G_B33_0;
+					G_B35_1 = G_B33_1;
+					G_B35_2 = G_B33_2;
+					goto IL_03ba_1;
+				}
+				G_B34_0 = G_B33_0;
+				G_B34_1 = G_B33_1;
+				G_B34_2 = G_B33_2;
+			}
+			{
+				G_B37_0 = 0;
+				G_B37_1 = G_B34_0;
+				G_B37_2 = G_B34_1;
+				G_B37_3 = G_B34_2;
+				goto IL_03be_1;
+			}
+
+IL_03ba_1:
+			{
+				G_B37_0 = (-1);
+				G_B37_1 = G_B35_0;
+				G_B37_2 = G_B35_1;
+				G_B37_3 = G_B35_2;
+				goto IL_03be_1;
+			}
+
+IL_03bd_1:
+			{
+				G_B37_0 = 1;
+				G_B37_1 = G_B36_0;
+				G_B37_2 = G_B36_1;
+				G_B37_3 = G_B36_2;
+			}
+
+IL_03be_1:
+			{
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_180;
+				L_180 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(G_B37_1, ((float)G_B37_0), NULL);
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_181 = V_1;
+				NullCheck(L_181);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_182 = L_181->___e;
+				NullCheck(L_182);
+				float L_183 = L_182->___speed;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_184;
+				L_184 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_180, L_183, NULL);
+				float L_185 = ___0_dt;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_186;
+				L_186 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_184, L_185, NULL);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_187;
+				L_187 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(G_B37_2, L_186, NULL);
+				NullCheck(G_B37_3);
+				G_B37_3->___p = L_187;
+				goto IL_0441_1;
+			}
+
+IL_03e6_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:225>
+				List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* L_188 = __this->___enemies;
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_189 = V_1;
+				Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A* L_190 = (Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A*)il2cpp_codegen_object_new(Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A_il2cpp_TypeInfo_var);
+				Predicate_1__ctor_mDEB896FDC610359DC86FA6332332EBB4D965EBA3(L_190, L_189, (intptr_t)((void*)U3CU3Ec__DisplayClass84_0_U3CMoveEnemiesU3Eb__0_mD1DFC48BC819269B07354B2EED99066E86E2824B_RuntimeMethod_var), NULL);
+				NullCheck(L_188);
+				bool L_191;
+				L_191 = List_1_Exists_mD9022D833B97B9F31A5D988B4F6F697F39921A9C(L_188, L_190, List_1_Exists_mD9022D833B97B9F31A5D988B4F6F697F39921A9C_RuntimeMethod_var);
+				V_6 = L_191;
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:226>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_192 = V_1;
+				NullCheck(L_192);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_193 = L_192->___e;
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_194 = L_193;
+				NullCheck(L_194);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_195 = L_194->___p;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_196 = V_3;
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_197 = V_1;
+				NullCheck(L_197);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_198 = L_197->___e;
+				NullCheck(L_198);
+				float L_199 = L_198->___speed;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_200;
+				L_200 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_196, L_199, NULL);
+				bool L_201 = V_6;
+				if (L_201)
+				{
+					G_B40_0 = L_200;
+					G_B40_1 = L_195;
+					G_B40_2 = L_194;
+					goto IL_0427_1;
+				}
+				G_B39_0 = L_200;
+				G_B39_1 = L_195;
+				G_B39_2 = L_194;
+			}
+			{
+				G_B41_0 = (1.0f);
+				G_B41_1 = G_B39_0;
+				G_B41_2 = G_B39_1;
+				G_B41_3 = G_B39_2;
+				goto IL_042c_1;
+			}
+
+IL_0427_1:
+			{
+				G_B41_0 = (1.14999998f);
+				G_B41_1 = G_B40_0;
+				G_B41_2 = G_B40_1;
+				G_B41_3 = G_B40_2;
+			}
+
+IL_042c_1:
+			{
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_202;
+				L_202 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(G_B41_1, G_B41_0, NULL);
+				float L_203 = ___0_dt;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_204;
+				L_204 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_202, L_203, NULL);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_205;
+				L_205 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(G_B41_2, L_204, NULL);
+				NullCheck(G_B41_3);
+				G_B41_3->___p = L_205;
+			}
+
+IL_0441_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:228>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_206 = V_1;
+				NullCheck(L_206);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_207 = L_206->___e;
+				NullCheck(L_207);
+				float L_208 = L_207->___slow;
+				if ((!(((float)L_208) > ((float)(0.0f)))))
+				{
+					goto IL_0482_1;
+				}
+			}
+			{
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_209 = V_1;
+				NullCheck(L_209);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_210 = L_209->___e;
+				NullCheck(L_210);
+				int32_t L_211 = L_210->___role;
+				if ((((int32_t)L_211) == ((int32_t)8)))
+				{
+					goto IL_0482_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:228>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_212 = V_1;
+				NullCheck(L_212);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_213 = L_212->___e;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_214 = V_2;
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_215 = V_1;
+				NullCheck(L_215);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_216 = L_215->___e;
+				NullCheck(L_216);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_217 = L_216->___p;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_218;
+				L_218 = Vector2_Lerp_m1A36103F7967F653A929556E26E6D052C298C00C_inline(L_214, L_217, (0.800000012f), NULL);
+				NullCheck(L_213);
+				L_213->___p = L_218;
+			}
+
+IL_0482_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:230>
+				Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_219 = __this->___blockers;
+				V_7 = L_219;
+				V_8 = 0;
+				goto IL_0565_1;
+			}
+
+IL_0492_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:230>
+				Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_220 = V_7;
+				int32_t L_221 = V_8;
+				NullCheck(L_220);
+				int32_t L_222 = L_221;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_223 = (L_220)->GetAt(static_cast<il2cpp_array_size_t>(L_222));
+				V_9 = L_223;
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:232>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_224 = V_1;
+				NullCheck(L_224);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_225 = L_224->___e;
+				NullCheck(L_225);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_226 = L_225->___p;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_227 = V_9;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_228;
+				L_228 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_226, L_227, NULL);
+				V_10 = L_228;
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:232>
+				int32_t L_229 = __this->___region;
+				il2cpp_codegen_runtime_class_init_inline(CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+				float L_230;
+				L_230 = CozyRules_BlockerRadius_m43B06E2E3C1FF86EDACB10F90C1D6736D110923C(L_229, NULL);
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_231 = V_1;
+				NullCheck(L_231);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_232 = L_231->___e;
+				NullCheck(L_232);
+				float L_233;
+				L_233 = RunEnemy_get_Radius_mC2651F2F441DBE6EB0E69603BAC0F7DBCA004344(L_232, NULL);
+				V_11 = ((float)il2cpp_codegen_add(L_230, L_233));
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:233>
+				float L_234;
+				L_234 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&V_10), NULL);
+				float L_235 = V_11;
+				float L_236 = V_11;
+				if ((!(((float)L_234) < ((float)((float)il2cpp_codegen_multiply(L_235, L_236))))))
+				{
+					goto IL_055f_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:235>
+				float L_237;
+				L_237 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&V_10), NULL);
+				if ((((float)L_237) < ((float)(0.00100000005f))))
+				{
+					goto IL_04f2_1;
+				}
+			}
+			{
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_238;
+				L_238 = Vector2_get_normalized_mF6722883AEFB5027690A778DF8ACC20F0FA65297_inline((&V_10), NULL);
+				G_B50_0 = L_238;
+				goto IL_04f7_1;
+			}
+
+IL_04f2_1:
+			{
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_239;
+				L_239 = Vector2_get_right_m99043ED6B3D5AEA5033313FE3DA9571F39D1B280_inline(NULL);
+				G_B50_0 = L_239;
+			}
+
+IL_04f7_1:
+			{
+				V_12 = G_B50_0;
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:236>
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_240 = V_12;
+				float L_241 = L_240.___y;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_242 = V_12;
+				float L_243 = L_242.___x;
+				Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&V_13), ((-L_241)), L_243, NULL);
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:237>
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_244 = V_13;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_245 = V_3;
+				float L_246;
+				L_246 = Vector2_Dot_mC1E68FDB4FB462A279A303C043B8FD0AC11C8458_inline(L_244, L_245, NULL);
+				if ((!(((float)L_246) < ((float)(0.0f)))))
+				{
+					goto IL_0527_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:237>
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_247 = V_13;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_248;
+				L_248 = Vector2_op_UnaryNegation_mBA9FC53A2194EE3CC067A12D11879F695B34D6F9_inline(L_247, NULL);
+				V_13 = L_248;
+			}
+
+IL_0527_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:238>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_249 = V_1;
+				NullCheck(L_249);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_250 = L_249->___e;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_251 = V_9;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_252 = V_12;
+				float L_253 = V_11;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_254;
+				L_254 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_252, L_253, NULL);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_255;
+				L_255 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_251, L_254, NULL);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_256 = V_13;
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_257 = V_1;
+				NullCheck(L_257);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_258 = L_257->___e;
+				NullCheck(L_258);
+				float L_259 = L_258->___speed;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_260;
+				L_260 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_256, L_259, NULL);
+				float L_261 = ___0_dt;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_262;
+				L_262 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_260, L_261, NULL);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_263;
+				L_263 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_255, L_262, NULL);
+				NullCheck(L_250);
+				L_250->___p = L_263;
+			}
+
+IL_055f_1:
+			{
+				int32_t L_264 = V_8;
+				V_8 = ((int32_t)il2cpp_codegen_add(L_264, 1));
+			}
+
+IL_0565_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:230>
+				int32_t L_265 = V_8;
+				Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_266 = V_7;
+				NullCheck(L_266);
+				if ((((int32_t)L_265) < ((int32_t)((int32_t)(((RuntimeArray*)L_266)->max_length)))))
+				{
+					goto IL_0492_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:241>
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_267 = V_2;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_268 = __this->___position;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_269;
+				L_269 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_267, L_268, NULL);
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_270 = V_1;
+				NullCheck(L_270);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_271 = L_270->___e;
+				NullCheck(L_271);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_272 = L_271->___p;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_273 = __this->___position;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_274;
+				L_274 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_272, L_273, NULL);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_275;
+				L_275 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
+				il2cpp_codegen_runtime_class_init_inline(CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+				float L_276;
+				L_276 = CozyRules_SegmentDistance_m6254C97D8C8D2A58CEAD24E635C9D8B67D041D03(L_269, L_274, L_275, NULL);
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_277 = V_1;
+				NullCheck(L_277);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_278 = L_277->___e;
+				NullCheck(L_278);
+				float L_279;
+				L_279 = RunEnemy_get_Radius_mC2651F2F441DBE6EB0E69603BAC0F7DBCA004344(L_278, NULL);
+				if ((!(((float)L_276) <= ((float)((float)il2cpp_codegen_add((13.0f), L_279))))))
+				{
+					goto IL_0617_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:243>
+				float L_280 = __this->___invincible;
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:244>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_281 = V_1;
+				NullCheck(L_281);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_282 = L_281->___e;
+				NullCheck(L_282);
+				int32_t* L_283 = (int32_t*)(&L_282->___role);
+				Il2CppFakeBox<int32_t> L_284(EnemyRole_t67636F30712C7B1FA00D44AA8FC2849E8469F703_il2cpp_TypeInfo_var, L_283);
+				String_t* L_285;
+				L_285 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_284), NULL);
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_286 = V_1;
+				NullCheck(L_286);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_287 = L_286->___e;
+				NullCheck(L_287);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_288 = L_287->___p;
+				CozyRun_DamagePlayer_m682B715A7169CBCFA169A2916D2C71372B2B6FAB(__this, L_285, L_288, NULL);
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:245>
+				if (!((((int32_t)((!(((float)L_280) <= ((float)(0.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0))
+				{
+					goto IL_0617_1;
+				}
+			}
+			{
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_289 = V_1;
+				NullCheck(L_289);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_290 = L_289->___e;
+				NullCheck(L_290);
+				int32_t L_291 = L_290->___role;
+				if ((((int32_t)L_291) == ((int32_t)8)))
+				{
+					goto IL_0617_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:245>
+				U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* L_292 = V_1;
+				NullCheck(L_292);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_293 = L_292->___e;
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_294 = L_293;
+				NullCheck(L_294);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_295 = L_294->___p;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_296 = V_3;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_297;
+				L_297 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_296, (40.0f), NULL);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_298;
+				L_298 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_295, L_297, NULL);
+				NullCheck(L_294);
+				L_294->___p = L_298;
+			}
+
+IL_0617_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:247>
+				bool L_299;
+				L_299 = CozyRun_get_Finished_mD3D28BDCB939B30F5436468DCE1E184360860888(__this, NULL);
+				if (!L_299)
+				{
+					goto IL_0621_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:247>
+				goto IL_063d;
+			}
+
+IL_0621_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:193>
+				bool L_300;
+				L_300 = Enumerator_MoveNext_m90509CE97D6039564E21527D786ACD293EDD0CC8((&V_0), Enumerator_MoveNext_m90509CE97D6039564E21527D786ACD293EDD0CC8_RuntimeMethod_var);
+				if (L_300)
+				{
+					goto IL_0011_1;
+				}
+			}
+			{
+				goto IL_063d;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_063d:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:249>
+		return;
+	}
+}
+// Method Definition Index: 65313
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_BossAI_m585D0E9E05D789323E92FFDD5430D905D024BDAC (CozyRun_t664438D37D010E4092B526226781841855621066* __this, RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* ___0_e, float ___1_dt, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m730B8D58DE948D3712F27E22B5F35534AAB55217_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral27F7187DDBDCB1D903C12131AD19C29540EFC26D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7868F985E675B44B2B7D9F20C00EE844214B4F51);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEFAE8EF92F4B8319E09BFF83A2988483AA4FB113);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B12_0 = NULL;
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B11_0 = NULL;
+	float G_B13_0 = 0.0f;
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B13_1 = NULL;
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B22_0 = NULL;
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B19_0 = NULL;
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B21_0 = NULL;
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B20_0 = NULL;
+	float G_B23_0 = 0.0f;
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B23_1 = NULL;
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B34_0 = NULL;
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B33_0 = NULL;
+	float G_B35_0 = 0.0f;
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B35_1 = NULL;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B39_0;
+	memset((&G_B39_0), 0, sizeof(G_B39_0));
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B39_1 = NULL;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B38_0;
+	memset((&G_B38_0), 0, sizeof(G_B38_0));
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B38_1 = NULL;
+	int32_t G_B40_0 = 0;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B40_1;
+	memset((&G_B40_1), 0, sizeof(G_B40_1));
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B40_2 = NULL;
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:252>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_0 = ___0_e;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_1 = L_0;
+		NullCheck(L_1);
+		float L_2 = L_1->___timer;
+		float L_3 = ___1_dt;
+		NullCheck(L_1);
+		L_1->___timer = ((float)il2cpp_codegen_subtract(L_2, L_3));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:253>
+		int32_t L_4 = __this->___region;
+		if (L_4)
+		{
+			goto IL_0183;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:255>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_5 = ___0_e;
+		NullCheck(L_5);
+		int32_t L_6 = L_5->___action;
+		if (L_6)
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_7 = ___0_e;
+		NullCheck(L_7);
+		float L_8 = L_7->___timer;
+		if ((!(((float)L_8) <= ((float)(0.0f)))))
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:255>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_9 = ___0_e;
+		NullCheck(L_9);
+		L_9->___action = 1;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:255>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_10 = ___0_e;
+		NullCheck(L_10);
+		L_10->___actionTime = (1.0f);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:255>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_11 = ___0_e;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_12 = __this->___position;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_13 = ___0_e;
+		NullCheck(L_13);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14 = L_13->___p;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15;
+		L_15 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_12, L_14, NULL);
+		V_0 = L_15;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_16;
+		L_16 = Vector2_get_normalized_mF6722883AEFB5027690A778DF8ACC20F0FA65297_inline((&V_0), NULL);
+		NullCheck(L_11);
+		L_11->___aim = L_16;
+	}
+
+IL_005f:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:256>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_17 = ___0_e;
+		NullCheck(L_17);
+		int32_t L_18 = L_17->___action;
+		if ((!(((uint32_t)L_18) == ((uint32_t)1))))
+		{
+			goto IL_0099;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:256>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_19 = ___0_e;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_20 = L_19;
+		NullCheck(L_20);
+		float L_21 = L_20->___actionTime;
+		float L_22 = ___1_dt;
+		NullCheck(L_20);
+		L_20->___actionTime = ((float)il2cpp_codegen_subtract(L_21, L_22));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:256>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_23 = ___0_e;
+		NullCheck(L_23);
+		float L_24 = L_23->___actionTime;
+		if ((!(((float)L_24) <= ((float)(0.0f)))))
+		{
+			goto IL_03d3;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:256>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_25 = ___0_e;
+		NullCheck(L_25);
+		L_25->___action = 2;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:256>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_26 = ___0_e;
+		NullCheck(L_26);
+		L_26->___actionTime = (0.699999988f);
+		return;
+	}
+
+IL_0099:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:257>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_27 = ___0_e;
+		NullCheck(L_27);
+		int32_t L_28 = L_27->___action;
+		if ((!(((uint32_t)L_28) == ((uint32_t)2))))
+		{
+			goto IL_03d3;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:259>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_29 = ___0_e;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_30 = ___0_e;
+		NullCheck(L_30);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_31 = L_30->___p;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_32 = ___0_e;
+		NullCheck(L_32);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_33 = L_32->___aim;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_34;
+		L_34 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_33, (260.0f), NULL);
+		float L_35 = ___1_dt;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_36;
+		L_36 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_34, L_35, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_37;
+		L_37 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_31, L_36, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_38;
+		L_38 = CozyRules_Clamp_m40ABBE1ADFFBDA3BD866F726F94D377F354EF21F(L_37, NULL);
+		NullCheck(L_29);
+		L_29->___p = L_38;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:259>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_39 = ___0_e;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_40 = L_39;
+		NullCheck(L_40);
+		float L_41 = L_40->___actionTime;
+		float L_42 = ___1_dt;
+		NullCheck(L_40);
+		L_40->___actionTime = ((float)il2cpp_codegen_subtract(L_41, L_42));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:260>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_43 = ___0_e;
+		NullCheck(L_43);
+		float L_44 = L_43->___actionTime;
+		if ((!(((float)L_44) <= ((float)(0.0f)))))
+		{
+			goto IL_03d3;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:262>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_45 = ___0_e;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_46 = L_45;
+		NullCheck(L_46);
+		int32_t L_47 = L_46->___cycle;
+		NullCheck(L_46);
+		L_46->___cycle = ((int32_t)il2cpp_codegen_add(L_47, 1));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:262>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_48 = ___0_e;
+		NullCheck(L_48);
+		L_48->___action = 0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:262>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_49 = ___0_e;
+		NullCheck(L_49);
+		L_49->___timer = (0.200000003f);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:263>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_50 = ___0_e;
+		NullCheck(L_50);
+		int32_t L_51 = L_50->___cycle;
+		if ((((int32_t)L_51) < ((int32_t)3)))
+		{
+			goto IL_03d3;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:263>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_52 = ___0_e;
+		NullCheck(L_52);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_53 = L_52->___p;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_54 = __this->___position;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_55 = ___0_e;
+		NullCheck(L_55);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_56 = L_55->___p;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_57;
+		L_57 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_54, L_56, NULL);
+		V_0 = L_57;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_58;
+		L_58 = Vector2_get_normalized_mF6722883AEFB5027690A778DF8ACC20F0FA65297_inline((&V_0), NULL);
+		CozyRun_Fan_m029287DF38A362DC2D96257174942D16B6E60A11(__this, L_53, L_58, 5, (130.0f), (4.0f), _stringLiteral27F7187DDBDCB1D903C12131AD19C29540EFC26D, (0.0f), NULL);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:263>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_59 = ___0_e;
+		NullCheck(L_59);
+		L_59->___cycle = 0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:263>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_60 = ___0_e;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_61 = ___0_e;
+		NullCheck(L_61);
+		float L_62 = L_61->___hp;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_63 = ___0_e;
+		NullCheck(L_63);
+		float L_64 = L_63->___maxHP;
+		if ((((float)L_62) < ((float)((float)il2cpp_codegen_multiply(L_64, (0.5f))))))
+		{
+			G_B12_0 = L_60;
+			goto IL_0178;
+		}
+		G_B11_0 = L_60;
+	}
+	{
+		G_B13_0 = (2.0f);
+		G_B13_1 = G_B11_0;
+		goto IL_017d;
+	}
+
+IL_0178:
+	{
+		G_B13_0 = (1.60000002f);
+		G_B13_1 = G_B12_0;
+	}
+
+IL_017d:
+	{
+		NullCheck(G_B13_1);
+		G_B13_1->___timer = G_B13_0;
+		return;
+	}
+
+IL_0183:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:267>
+		int32_t L_65 = __this->___region;
+		if ((!(((uint32_t)L_65) == ((uint32_t)1))))
+		{
+			goto IL_0291;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:269>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_66 = ___0_e;
+		NullCheck(L_66);
+		float L_67 = L_66->___timer;
+		if ((!(((float)L_67) <= ((float)(0.0f)))))
+		{
+			goto IL_024d;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:271>
+		int32_t L_68;
+		L_68 = CozyRun_CountAttacks_m9A5C155DC44FC4AF275FFA1BC7F8827EB0B74700(__this, (bool)1, NULL);
+		if ((((int32_t)L_68) >= ((int32_t)((int32_t)48))))
+		{
+			goto IL_01f9;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:272>
+		List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79* L_69 = __this->___attacks;
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_70 = (RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F*)il2cpp_codegen_object_new(RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F_il2cpp_TypeInfo_var);
+		RunAttack__ctor_mD814F9E517F24E2D604108F397FF494396013D30(L_70, NULL);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_71 = L_70;
+		NullCheck(L_71);
+		L_71->___kind = 3;
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_72 = L_71;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_73 = __this->___position;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_74;
+		L_74 = CozyRun_ResolvePosition_m03F6BDDBF7F973D5E96EEB40C148DB6CDF9E25CF(__this, L_73, (13.0f), NULL);
+		NullCheck(L_72);
+		L_72->___p = L_74;
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_75 = L_72;
+		NullCheck(L_75);
+		L_75->___life = (1.60000002f);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_76 = L_75;
+		NullCheck(L_76);
+		L_76->___radius = (60.0f);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_77 = L_76;
+		NullCheck(L_77);
+		L_77->___source = _stringLiteralEFAE8EF92F4B8319E09BFF83A2988483AA4FB113;
+		Il2CppCodeGenWriteBarrier((void**)(&L_77->___source), (void*)_stringLiteralEFAE8EF92F4B8319E09BFF83A2988483AA4FB113);
+		NullCheck(L_69);
+		List_1_Add_m730B8D58DE948D3712F27E22B5F35534AAB55217_inline(L_69, L_77, List_1_Add_m730B8D58DE948D3712F27E22B5F35534AAB55217_RuntimeMethod_var);
+	}
+
+IL_01f9:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:273>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_78 = ___0_e;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_79 = L_78;
+		NullCheck(L_79);
+		int32_t L_80 = L_79->___cycle;
+		NullCheck(L_79);
+		L_79->___cycle = ((int32_t)il2cpp_codegen_add(L_80, 1));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:273>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_81 = ___0_e;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_82 = ___0_e;
+		NullCheck(L_82);
+		int32_t L_83 = L_82->___cycle;
+		if ((((int32_t)L_83) < ((int32_t)3)))
+		{
+			G_B22_0 = L_81;
+			goto IL_0233;
+		}
+		G_B19_0 = L_81;
+	}
+	{
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_84 = ___0_e;
+		NullCheck(L_84);
+		float L_85 = L_84->___hp;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_86 = ___0_e;
+		NullCheck(L_86);
+		float L_87 = L_86->___maxHP;
+		if ((((float)L_85) < ((float)((float)il2cpp_codegen_multiply(L_87, (0.5f))))))
+		{
+			G_B21_0 = G_B19_0;
+			goto IL_022c;
+		}
+		G_B20_0 = G_B19_0;
+	}
+	{
+		G_B23_0 = (2.0f);
+		G_B23_1 = G_B20_0;
+		goto IL_0238;
+	}
+
+IL_022c:
+	{
+		G_B23_0 = (1.60000002f);
+		G_B23_1 = G_B21_0;
+		goto IL_0238;
+	}
+
+IL_0233:
+	{
+		G_B23_0 = (0.800000012f);
+		G_B23_1 = G_B22_0;
+	}
+
+IL_0238:
+	{
+		NullCheck(G_B23_1);
+		G_B23_1->___timer = G_B23_0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:273>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_88 = ___0_e;
+		NullCheck(L_88);
+		int32_t L_89 = L_88->___cycle;
+		if ((((int32_t)L_89) < ((int32_t)3)))
+		{
+			goto IL_024d;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:273>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_90 = ___0_e;
+		NullCheck(L_90);
+		L_90->___cycle = 0;
+	}
+
+IL_024d:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:275>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_91 = ___0_e;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_92 = L_91;
+		NullCheck(L_92);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_93 = L_92->___p;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_94;
+		memset((&L_94), 0, sizeof(L_94));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_94), (0.0f), (140.0f), NULL);
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_95 = ___0_e;
+		NullCheck(L_95);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_96 = L_95->___p;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_97;
+		L_97 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_94, L_96, NULL);
+		V_0 = L_97;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_98;
+		L_98 = Vector2_get_normalized_mF6722883AEFB5027690A778DF8ACC20F0FA65297_inline((&V_0), NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_99;
+		L_99 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_98, (20.0f), NULL);
+		float L_100 = ___1_dt;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_101;
+		L_101 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_99, L_100, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_102;
+		L_102 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_93, L_101, NULL);
+		NullCheck(L_92);
+		L_92->___p = L_102;
+		return;
+	}
+
+IL_0291:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:279>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_103 = ___0_e;
+		NullCheck(L_103);
+		int32_t L_104 = L_103->___action;
+		if (L_104)
+		{
+			goto IL_02df;
+		}
+	}
+	{
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_105 = ___0_e;
+		NullCheck(L_105);
+		float L_106 = L_105->___timer;
+		if ((!(((float)L_106) <= ((float)(0.0f)))))
+		{
+			goto IL_02df;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:279>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_107 = ___0_e;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_108 = __this->___position;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_109 = ___0_e;
+		NullCheck(L_109);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_110 = L_109->___p;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_111;
+		L_111 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_108, L_110, NULL);
+		V_0 = L_111;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_112;
+		L_112 = Vector2_get_normalized_mF6722883AEFB5027690A778DF8ACC20F0FA65297_inline((&V_0), NULL);
+		NullCheck(L_107);
+		L_107->___aim = L_112;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:279>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_113 = ___0_e;
+		NullCheck(L_113);
+		L_113->___action = 1;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:279>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_114 = ___0_e;
+		NullCheck(L_114);
+		L_114->___timer = (1.0f);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:279>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_115 = ___0_e;
+		NullCheck(L_115);
+		L_115->___cycle = 0;
+		return;
+	}
+
+IL_02df:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:280>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_116 = ___0_e;
+		NullCheck(L_116);
+		int32_t L_117 = L_116->___action;
+		if ((!(((uint32_t)L_117) == ((uint32_t)1))))
+		{
+			goto IL_0377;
+		}
+	}
+	{
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_118 = ___0_e;
+		NullCheck(L_118);
+		float L_119 = L_118->___timer;
+		if ((!(((float)L_119) <= ((float)(0.0f)))))
+		{
+			goto IL_0377;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:282>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_120 = ___0_e;
+		NullCheck(L_120);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_121 = L_120->___p;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_122 = ___0_e;
+		NullCheck(L_122);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_123 = L_122->___aim;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_124 = ___0_e;
+		NullCheck(L_124);
+		int32_t L_125 = L_124->___cycle;
+		CozyRun_Fan_m029287DF38A362DC2D96257174942D16B6E60A11(__this, L_121, L_123, 7, (120.0f), (5.0f), _stringLiteral7868F985E675B44B2B7D9F20C00EE844214B4F51, ((float)((int32_t)il2cpp_codegen_multiply(L_125, ((int32_t)30)))), NULL);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:283>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_126 = ___0_e;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_127 = L_126;
+		NullCheck(L_127);
+		int32_t L_128 = L_127->___cycle;
+		NullCheck(L_127);
+		L_127->___cycle = ((int32_t)il2cpp_codegen_add(L_128, 1));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:283>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_129 = ___0_e;
+		NullCheck(L_129);
+		L_129->___timer = (1.0f);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:284>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_130 = ___0_e;
+		NullCheck(L_130);
+		int32_t L_131 = L_130->___cycle;
+		if ((((int32_t)L_131) < ((int32_t)3)))
+		{
+			goto IL_03d3;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:284>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_132 = ___0_e;
+		NullCheck(L_132);
+		L_132->___action = 2;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:284>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_133 = ___0_e;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_134 = ___0_e;
+		NullCheck(L_134);
+		float L_135 = L_134->___hp;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_136 = ___0_e;
+		NullCheck(L_136);
+		float L_137 = L_136->___maxHP;
+		if ((((float)L_135) < ((float)((float)il2cpp_codegen_multiply(L_137, (0.5f))))))
+		{
+			G_B34_0 = L_133;
+			goto IL_036c;
+		}
+		G_B33_0 = L_133;
+	}
+	{
+		G_B35_0 = (2.0f);
+		G_B35_1 = G_B33_0;
+		goto IL_0371;
+	}
+
+IL_036c:
+	{
+		G_B35_0 = (1.60000002f);
+		G_B35_1 = G_B34_0;
+	}
+
+IL_0371:
+	{
+		NullCheck(G_B35_1);
+		G_B35_1->___timer = G_B35_0;
+		return;
+	}
+
+IL_0377:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:286>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_138 = ___0_e;
+		NullCheck(L_138);
+		int32_t L_139 = L_138->___action;
+		if ((!(((uint32_t)L_139) == ((uint32_t)2))))
+		{
+			goto IL_03d3;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:288>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_140 = ___0_e;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_141 = ___0_e;
+		NullCheck(L_141);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_142 = L_141->___p;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_143 = ___0_e;
+		NullCheck(L_143);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_144 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&L_143->___p);
+		float L_145 = L_144->___x;
+		if ((((float)L_145) > ((float)(0.0f))))
+		{
+			G_B39_0 = L_142;
+			G_B39_1 = L_140;
+			goto IL_039d;
+		}
+		G_B38_0 = L_142;
+		G_B38_1 = L_140;
+	}
+	{
+		G_B40_0 = ((int32_t)60);
+		G_B40_1 = G_B38_0;
+		G_B40_2 = G_B38_1;
+		goto IL_039f;
+	}
+
+IL_039d:
+	{
+		G_B40_0 = ((int32_t)-60);
+		G_B40_1 = G_B39_0;
+		G_B40_2 = G_B39_1;
+	}
+
+IL_039f:
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_146;
+		memset((&L_146), 0, sizeof(L_146));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_146), ((float)G_B40_0), (0.0f), NULL);
+		float L_147 = ___1_dt;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_148;
+		L_148 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_146, L_147, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_149;
+		L_149 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(G_B40_1, L_148, NULL);
+		il2cpp_codegen_runtime_class_init_inline(CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_150;
+		L_150 = CozyRules_Clamp_m40ABBE1ADFFBDA3BD866F726F94D377F354EF21F(L_149, NULL);
+		NullCheck(G_B40_2);
+		G_B40_2->___p = L_150;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:289>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_151 = ___0_e;
+		NullCheck(L_151);
+		float L_152 = L_151->___timer;
+		if ((!(((float)L_152) <= ((float)(0.0f)))))
+		{
+			goto IL_03d3;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:289>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_153 = ___0_e;
+		NullCheck(L_153);
+		L_153->___action = 0;
+	}
+
+IL_03d3:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:292>
+		return;
+	}
+}
+// Method Definition Index: 65314
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_Fan_m029287DF38A362DC2D96257174942D16B6E60A11 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_p, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_aim, int32_t ___2_count, float ___3_speed, float ___4_life, String_t* ___5_source, float ___6_rotate, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	int32_t V_1 = 0;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	int32_t G_B4_0 = 0;
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:295>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___1_aim;
+		float L_1 = L_0.___y;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___1_aim;
+		float L_3 = L_2.___x;
+		float L_4;
+		L_4 = atan2f(L_1, L_3);
+		V_0 = L_4;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:296>
+		V_1 = 0;
+		goto IL_005f;
+	}
+
+IL_0016:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:299>
+		int32_t L_5 = V_1;
+		if (!((int32_t)(L_5%2)))
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		G_B4_0 = 1;
+		goto IL_001f;
+	}
+
+IL_001e:
+	{
+		G_B4_0 = (-1);
+	}
+
+IL_001f:
+	{
+		int32_t L_6 = V_1;
+		float L_7 = ___6_rotate;
+		V_2 = ((float)il2cpp_codegen_add(((float)((int32_t)il2cpp_codegen_multiply(G_B4_0, ((int32_t)il2cpp_codegen_add(((int32_t)35), ((int32_t)il2cpp_codegen_multiply(((int32_t)(L_6/2)), ((int32_t)26)))))))), L_7));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:300>
+		float L_8 = V_0;
+		float L_9 = V_2;
+		V_3 = ((float)il2cpp_codegen_add(L_8, ((float)il2cpp_codegen_multiply(L_9, (0.0174532924f)))));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:300>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10 = ___0_p;
+		float L_11 = V_3;
+		float L_12;
+		L_12 = cosf(L_11);
+		float L_13 = V_3;
+		float L_14;
+		L_14 = sinf(L_13);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15;
+		memset((&L_15), 0, sizeof(L_15));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_15), L_12, L_14, NULL);
+		float L_16 = ___3_speed;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_17;
+		L_17 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_15, L_16, NULL);
+		float L_18 = ___4_life;
+		String_t* L_19 = ___5_source;
+		CozyRun_EnemyBullet_m569917278757E11E53B6623898FD02FAC238F60E(__this, L_10, L_17, L_18, L_19, NULL);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:296>
+		int32_t L_20 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_20, 1));
+	}
+
+IL_005f:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:296>
+		int32_t L_21 = V_1;
+		int32_t L_22 = ___2_count;
+		if ((((int32_t)L_21) < ((int32_t)L_22)))
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:302>
+		return;
+	}
+}
+// Method Definition Index: 65315
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CozyRun_CountAttacks_m9A5C155DC44FC4AF275FFA1BC7F8827EB0B74700 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, bool ___0_hostile, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m314583AF4AE8B324C324837742A372315B82CBB0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_mB5403C087B0E1DA2D99CB2E81507E3B41DB4FF98_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_mADA2EBE27214C8BC6C662B18AD1349C662D7330A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_m1970681665298691F4A00951673F858AFC54EDAD_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	Enumerator_tF2C0745E31E31F7223BA52800D550A029C0C0C70 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:303>
+		V_0 = 0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:303>
+		List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79* L_0 = __this->___attacks;
+		NullCheck(L_0);
+		Enumerator_tF2C0745E31E31F7223BA52800D550A029C0C0C70 L_1;
+		L_1 = List_1_GetEnumerator_m1970681665298691F4A00951673F858AFC54EDAD(L_0, List_1_GetEnumerator_m1970681665298691F4A00951673F858AFC54EDAD_RuntimeMethod_var);
+		V_1 = L_1;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0034:
+			{
+				Enumerator_Dispose_m314583AF4AE8B324C324837742A372315B82CBB0((&V_1), Enumerator_Dispose_m314583AF4AE8B324C324837742A372315B82CBB0_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_0029_1;
+			}
+
+IL_0010_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:303>
+				RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_2;
+				L_2 = Enumerator_get_Current_mADA2EBE27214C8BC6C662B18AD1349C662D7330A_inline((&V_1), Enumerator_get_Current_mADA2EBE27214C8BC6C662B18AD1349C662D7330A_RuntimeMethod_var);
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:303>
+				NullCheck(L_2);
+				int32_t L_3 = L_2->___kind;
+				bool L_4 = ___0_hostile;
+				if ((!(((uint32_t)((((int32_t)((((int32_t)L_3) < ((int32_t)2))? 1 : 0)) == ((int32_t)0))? 1 : 0)) == ((uint32_t)L_4))))
+				{
+					goto IL_0029_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:303>
+				int32_t L_5 = V_0;
+				V_0 = ((int32_t)il2cpp_codegen_add(L_5, 1));
+			}
+
+IL_0029_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:303>
+				bool L_6;
+				L_6 = Enumerator_MoveNext_mB5403C087B0E1DA2D99CB2E81507E3B41DB4FF98((&V_1), Enumerator_MoveNext_mB5403C087B0E1DA2D99CB2E81507E3B41DB4FF98_RuntimeMethod_var);
+				if (L_6)
+				{
+					goto IL_0010_1;
+				}
+			}
+			{
+				goto IL_0042;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0042:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:303>
+		int32_t L_7 = V_0;
+		return L_7;
+	}
+}
+// Method Definition Index: 65316
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_EnemyBullet_m569917278757E11E53B6623898FD02FAC238F60E (CozyRun_t664438D37D010E4092B526226781841855621066* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_p, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_v, float ___2_life, String_t* ___3_source, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m730B8D58DE948D3712F27E22B5F35534AAB55217_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:306>
+		int32_t L_0;
+		L_0 = CozyRun_CountAttacks_m9A5C155DC44FC4AF275FFA1BC7F8827EB0B74700(__this, (bool)1, NULL);
+		if ((((int32_t)L_0) >= ((int32_t)((int32_t)48))))
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:306>
+		List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79* L_1 = __this->___attacks;
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_2 = (RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F*)il2cpp_codegen_object_new(RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F_il2cpp_TypeInfo_var);
+		RunAttack__ctor_mD814F9E517F24E2D604108F397FF494396013D30(L_2, NULL);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_3 = L_2;
+		NullCheck(L_3);
+		L_3->___kind = 2;
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_4 = L_3;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5 = ___0_p;
+		NullCheck(L_4);
+		L_4->___p = L_5;
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_6 = L_4;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7 = ___1_v;
+		NullCheck(L_6);
+		L_6->___v = L_7;
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_8 = L_6;
+		float L_9 = ___2_life;
+		NullCheck(L_8);
+		L_8->___life = L_9;
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_10 = L_8;
+		NullCheck(L_10);
+		L_10->___radius = (9.0f);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_11 = L_10;
+		String_t* L_12 = ___3_source;
+		NullCheck(L_11);
+		L_11->___source = L_12;
+		Il2CppCodeGenWriteBarrier((void**)(&L_11->___source), (void*)L_12);
+		NullCheck(L_1);
+		List_1_Add_m730B8D58DE948D3712F27E22B5F35534AAB55217_inline(L_1, L_11, List_1_Add_m730B8D58DE948D3712F27E22B5F35534AAB55217_RuntimeMethod_var);
+	}
+
+IL_004a:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:307>
+		return;
+	}
+}
+// Method Definition Index: 65317
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_PlayerAttack_mEDE64E658A57D05572B72BB7B106BE4889C843A6 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, float ___0_dt, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_oldPosition, float ___2_oldAngle, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Comparison_1_t3E40BFBAAB790D384FB8BF1344105F64A532FD35_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_mB81CF7652B515EB410D99E9EA7BA74A4F8BF13D3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m90509CE97D6039564E21527D786ACD293EDD0CC8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_mCB4C6D54334620706B95E03839D1EE47E45BD3E0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m730B8D58DE948D3712F27E22B5F35534AAB55217_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_FindAll_mAC13138EB3BB3FA2451F2007983874725A60987C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_m364A3AEEAB3BB8DF30D96A441D10C68262E67D43_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Sort_m3502D6AA8CE534169673D40951145B2154ACD6E5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m3552503E26080C4967038EA720B27376E3F8A81F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m821ABB87762B6A0A93E9563731A684E250112F66_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass89_0_U3CPlayerAttackU3Eb__0_m7D5F332A235831389261D383CFD4B49FCC16D0C3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass89_0_U3CPlayerAttackU3Eb__1_mE88C6B55B55A15EC40C4364848D5165E7D29BB58_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass89_0_tA49972326A06567F6670E6D335892A279618B867_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass89_0_tA49972326A06567F6670E6D335892A279618B867* V_0 = NULL;
+	Enumerator_t95CD58E6484B263166F72826D6E7AF91675B49D7 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* V_2 = NULL;
+	int32_t V_3 = 0;
+	float V_4 = 0.0f;
+	List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* V_5 = NULL;
+	int32_t V_6 = 0;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* G_B25_0 = NULL;
+	RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* G_B25_1 = NULL;
+	List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79* G_B25_2 = NULL;
+	RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* G_B24_0 = NULL;
+	RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* G_B24_1 = NULL;
+	List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79* G_B24_2 = NULL;
+	int32_t G_B26_0 = 0;
+	RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* G_B26_1 = NULL;
+	RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* G_B26_2 = NULL;
+	List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79* G_B26_3 = NULL;
+	{
+		U3CU3Ec__DisplayClass89_0_tA49972326A06567F6670E6D335892A279618B867* L_0 = (U3CU3Ec__DisplayClass89_0_tA49972326A06567F6670E6D335892A279618B867*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass89_0_tA49972326A06567F6670E6D335892A279618B867_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass89_0__ctor_mAB37FE63201321C40B70DCB0D6C70988993F4129(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass89_0_tA49972326A06567F6670E6D335892A279618B867* L_1 = V_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:310>
+		U3CU3Ec__DisplayClass89_0_tA49972326A06567F6670E6D335892A279618B867* L_2 = V_0;
+		WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C L_3;
+		L_3 = CozyRun_get_Weapon_m02AE9839EE20002858EF9AF84224A7E7FEC9C3D5(__this, NULL);
+		NullCheck(L_2);
+		L_2->___w = L_3;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:311>
+		int32_t L_4 = __this->___animal;
+		if (L_4)
+		{
+			goto IL_015d;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:314>
+		List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* L_5 = __this->___enemies;
+		NullCheck(L_5);
+		Enumerator_t95CD58E6484B263166F72826D6E7AF91675B49D7 L_6;
+		L_6 = List_1_GetEnumerator_m364A3AEEAB3BB8DF30D96A441D10C68262E67D43(L_5, List_1_GetEnumerator_m364A3AEEAB3BB8DF30D96A441D10C68262E67D43_RuntimeMethod_var);
+		V_1 = L_6;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0148:
+			{
+				Enumerator_Dispose_mB81CF7652B515EB410D99E9EA7BA74A4F8BF13D3((&V_1), Enumerator_Dispose_mB81CF7652B515EB410D99E9EA7BA74A4F8BF13D3_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_013a_1;
+			}
+
+IL_0035_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:314>
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_7;
+				L_7 = Enumerator_get_Current_mCB4C6D54334620706B95E03839D1EE47E45BD3E0_inline((&V_1), Enumerator_get_Current_mCB4C6D54334620706B95E03839D1EE47E45BD3E0_RuntimeMethod_var);
+				V_2 = L_7;
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:316>
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_8 = V_2;
+				NullCheck(L_8);
+				float L_9 = L_8->___hp;
+				if ((((float)L_9) <= ((float)(0.0f))))
+				{
+					goto IL_013a_1;
+				}
+			}
+			{
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_10 = V_2;
+				NullCheck(L_10);
+				float L_11 = L_10->___warmup;
+				if ((((float)L_11) > ((float)(0.0f))))
+				{
+					goto IL_013a_1;
+				}
+			}
+			{
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_12 = V_2;
+				NullCheck(L_12);
+				float L_13 = L_12->___hitCooldown;
+				if ((((float)L_13) > ((float)(0.0f))))
+				{
+					goto IL_013a_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:317>
+				V_3 = 0;
+				goto IL_0129_1;
+			}
+
+IL_0074_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:319>
+				float L_14 = ___2_oldAngle;
+				int32_t L_15 = V_3;
+				U3CU3Ec__DisplayClass89_0_tA49972326A06567F6670E6D335892A279618B867* L_16 = V_0;
+				NullCheck(L_16);
+				WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C* L_17 = (WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C*)(&L_16->___w);
+				int32_t L_18 = L_17->___count;
+				V_4 = ((float)il2cpp_codegen_add(L_14, ((float)(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(((float)L_15), (3.14159274f))), (2.0f)))/((float)L_18)))));
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:320>
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_19 = ___1_oldPosition;
+				float L_20 = V_4;
+				float L_21;
+				L_21 = cosf(L_20);
+				float L_22 = V_4;
+				float L_23;
+				L_23 = sinf(L_22);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_24;
+				memset((&L_24), 0, sizeof(L_24));
+				Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_24), L_21, L_23, NULL);
+				U3CU3Ec__DisplayClass89_0_tA49972326A06567F6670E6D335892A279618B867* L_25 = V_0;
+				NullCheck(L_25);
+				WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C* L_26 = (WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C*)(&L_25->___w);
+				float L_27 = L_26->___range;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_28;
+				L_28 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_24, L_27, NULL);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_29;
+				L_29 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_19, L_28, NULL);
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:321>
+				int32_t L_30 = V_3;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_31;
+				L_31 = CozyRun_FlakePosition_mD33D4BE48264D8069114A48762737C47EF7A6024(__this, L_30, NULL);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_32 = V_2;
+				NullCheck(L_32);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_33 = L_32->___p;
+				il2cpp_codegen_runtime_class_init_inline(CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+				float L_34;
+				L_34 = CozyRules_SegmentDistance_m6254C97D8C8D2A58CEAD24E635C9D8B67D041D03(L_29, L_31, L_33, NULL);
+				float L_35;
+				L_35 = CozyRun_get_RangeScale_m48FD557617562D376DFB30C4D9A26758D36B60B0(__this, NULL);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_36 = V_2;
+				NullCheck(L_36);
+				float L_37;
+				L_37 = RunEnemy_get_Radius_mC2651F2F441DBE6EB0E69603BAC0F7DBCA004344(L_36, NULL);
+				if ((((float)L_34) > ((float)((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply((16.0f), L_35)), L_37)))))
+				{
+					goto IL_0125_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:322>
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_38 = V_2;
+				U3CU3Ec__DisplayClass89_0_tA49972326A06567F6670E6D335892A279618B867* L_39 = V_0;
+				NullCheck(L_39);
+				WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C* L_40 = (WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C*)(&L_39->___w);
+				float L_41 = L_40->___damage;
+				CozyRun_Hit_m30924FB9EFCF69D3782322FBEB147A132EAF6DB8(__this, L_38, L_41, (18.0f), (bool)0, NULL);
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:322>
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_42 = V_2;
+				NullCheck(L_42);
+				L_42->___hitCooldown = (0.400000006f);
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:323>
+				int32_t L_43 = __this->___branch;
+				if ((!(((uint32_t)L_43) == ((uint32_t)2))))
+				{
+					goto IL_013a_1;
+				}
+			}
+			{
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_44 = V_2;
+				NullCheck(L_44);
+				int32_t L_45 = L_44->___role;
+				if ((((int32_t)L_45) == ((int32_t)8)))
+				{
+					goto IL_013a_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:323>
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_46 = V_2;
+				NullCheck(L_46);
+				L_46->___slow = (1.0f);
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:324>
+				goto IL_013a_1;
+			}
+
+IL_0125_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:317>
+				int32_t L_47 = V_3;
+				V_3 = ((int32_t)il2cpp_codegen_add(L_47, 1));
+			}
+
+IL_0129_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:317>
+				int32_t L_48 = V_3;
+				U3CU3Ec__DisplayClass89_0_tA49972326A06567F6670E6D335892A279618B867* L_49 = V_0;
+				NullCheck(L_49);
+				WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C* L_50 = (WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C*)(&L_49->___w);
+				int32_t L_51 = L_50->___count;
+				if ((((int32_t)L_48) < ((int32_t)L_51)))
+				{
+					goto IL_0074_1;
+				}
+			}
+
+IL_013a_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:314>
+				bool L_52;
+				L_52 = Enumerator_MoveNext_m90509CE97D6039564E21527D786ACD293EDD0CC8((&V_1), Enumerator_MoveNext_m90509CE97D6039564E21527D786ACD293EDD0CC8_RuntimeMethod_var);
+				if (L_52)
+				{
+					goto IL_0035_1;
+				}
+			}
+			{
+				goto IL_0156;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0156:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:327>
+		CozyRun_RemoveDead_mCB1AB9943D4264EB51962BFCD79B67EEFF4D50C9(__this, NULL);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:327>
+		return;
+	}
+
+IL_015d:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:329>
+		float L_53 = __this->___attackTimer;
+		float L_54 = ___0_dt;
+		__this->___attackTimer = ((float)il2cpp_codegen_subtract(L_53, L_54));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:330>
+		float L_55 = __this->___attackTimer;
+		if ((!(((float)L_55) > ((float)(0.0f)))))
+		{
+			goto IL_0179;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:330>
+		return;
+	}
+
+IL_0179:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:331>
+		U3CU3Ec__DisplayClass89_0_tA49972326A06567F6670E6D335892A279618B867* L_56 = V_0;
+		NullCheck(L_56);
+		WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C* L_57 = (WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C*)(&L_56->___w);
+		float L_58 = L_57->___interval;
+		float L_59;
+		L_59 = CozyRun_get_AttackSpeed_m476DC3BCDCCDA190566AC9FD0EA56D757664CC91(__this, NULL);
+		__this->___attackTimer = ((float)(L_58/L_59));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:332>
+		int32_t L_60 = __this->___animal;
+		if ((!(((uint32_t)L_60) == ((uint32_t)1))))
+		{
+			goto IL_0200;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:334>
+		int32_t L_61;
+		L_61 = CozyRun_CountAttacks_m9A5C155DC44FC4AF275FFA1BC7F8827EB0B74700(__this, (bool)0, NULL);
+		if ((((int32_t)L_61) >= ((int32_t)((int32_t)64))))
+		{
+			goto IL_02f2;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:334>
+		List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79* L_62 = __this->___attacks;
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_63 = (RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F*)il2cpp_codegen_object_new(RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F_il2cpp_TypeInfo_var);
+		RunAttack__ctor_mD814F9E517F24E2D604108F397FF494396013D30(L_63, NULL);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_64 = L_63;
+		NullCheck(L_64);
+		L_64->___kind = 1;
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_65 = L_64;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_66 = __this->___position;
+		NullCheck(L_65);
+		L_65->___p = L_66;
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_67 = L_65;
+		NullCheck(L_67);
+		L_67->___life = (0.550000012f);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_68 = L_67;
+		U3CU3Ec__DisplayClass89_0_tA49972326A06567F6670E6D335892A279618B867* L_69 = V_0;
+		NullCheck(L_69);
+		WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C* L_70 = (WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C*)(&L_69->___w);
+		float L_71 = L_70->___range;
+		float L_72;
+		L_72 = CozyRun_get_RangeScale_m48FD557617562D376DFB30C4D9A26758D36B60B0(__this, NULL);
+		NullCheck(L_68);
+		L_68->___radius = ((float)il2cpp_codegen_multiply(L_71, L_72));
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_73 = L_68;
+		U3CU3Ec__DisplayClass89_0_tA49972326A06567F6670E6D335892A279618B867* L_74 = V_0;
+		NullCheck(L_74);
+		WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C* L_75 = (WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C*)(&L_74->___w);
+		float L_76 = L_75->___damage;
+		NullCheck(L_73);
+		L_73->___damage = L_76;
+		NullCheck(L_62);
+		List_1_Add_m730B8D58DE948D3712F27E22B5F35534AAB55217_inline(L_62, L_73, List_1_Add_m730B8D58DE948D3712F27E22B5F35534AAB55217_RuntimeMethod_var);
+		return;
+	}
+
+IL_0200:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:338>
+		List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* L_77 = __this->___enemies;
+		U3CU3Ec__DisplayClass89_0_tA49972326A06567F6670E6D335892A279618B867* L_78 = V_0;
+		Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A* L_79 = (Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A*)il2cpp_codegen_object_new(Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A_il2cpp_TypeInfo_var);
+		Predicate_1__ctor_mDEB896FDC610359DC86FA6332332EBB4D965EBA3(L_79, L_78, (intptr_t)((void*)U3CU3Ec__DisplayClass89_0_U3CPlayerAttackU3Eb__0_m7D5F332A235831389261D383CFD4B49FCC16D0C3_RuntimeMethod_var), NULL);
+		NullCheck(L_77);
+		List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* L_80;
+		L_80 = List_1_FindAll_mAC13138EB3BB3FA2451F2007983874725A60987C(L_77, L_79, List_1_FindAll_mAC13138EB3BB3FA2451F2007983874725A60987C_RuntimeMethod_var);
+		V_5 = L_80;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:339>
+		List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* L_81 = V_5;
+		U3CU3Ec__DisplayClass89_0_tA49972326A06567F6670E6D335892A279618B867* L_82 = V_0;
+		Comparison_1_t3E40BFBAAB790D384FB8BF1344105F64A532FD35* L_83 = (Comparison_1_t3E40BFBAAB790D384FB8BF1344105F64A532FD35*)il2cpp_codegen_object_new(Comparison_1_t3E40BFBAAB790D384FB8BF1344105F64A532FD35_il2cpp_TypeInfo_var);
+		Comparison_1__ctor_m99C92D611797C8E18E7FD841D4B3263A1AF4F083(L_83, L_82, (intptr_t)((void*)U3CU3Ec__DisplayClass89_0_U3CPlayerAttackU3Eb__1_mE88C6B55B55A15EC40C4364848D5165E7D29BB58_RuntimeMethod_var), NULL);
+		NullCheck(L_81);
+		List_1_Sort_m3502D6AA8CE534169673D40951145B2154ACD6E5(L_81, L_83, List_1_Sort_m3502D6AA8CE534169673D40951145B2154ACD6E5_RuntimeMethod_var);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:340>
+		V_6 = 0;
+		goto IL_02c9;
+	}
+
+IL_0234:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:341>
+		List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79* L_84 = __this->___attacks;
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_85 = (RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F*)il2cpp_codegen_object_new(RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F_il2cpp_TypeInfo_var);
+		RunAttack__ctor_mD814F9E517F24E2D604108F397FF494396013D30(L_85, NULL);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_86 = L_85;
+		NullCheck(L_86);
+		L_86->___kind = 0;
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_87 = L_86;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_88 = __this->___position;
+		NullCheck(L_87);
+		L_87->___p = L_88;
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_89 = L_87;
+		List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* L_90 = V_5;
+		int32_t L_91 = V_6;
+		NullCheck(L_90);
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_92;
+		L_92 = List_1_get_Item_m821ABB87762B6A0A93E9563731A684E250112F66(L_90, L_91, List_1_get_Item_m821ABB87762B6A0A93E9563731A684E250112F66_RuntimeMethod_var);
+		NullCheck(L_92);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_93 = L_92->___p;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_94 = __this->___position;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_95;
+		L_95 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_93, L_94, NULL);
+		V_7 = L_95;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_96;
+		L_96 = Vector2_get_normalized_mF6722883AEFB5027690A778DF8ACC20F0FA65297_inline((&V_7), NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_97;
+		L_97 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_96, (420.0f), NULL);
+		NullCheck(L_89);
+		L_89->___v = L_97;
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_98 = L_89;
+		NullCheck(L_98);
+		L_98->___life = (1.20000005f);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_99 = L_98;
+		U3CU3Ec__DisplayClass89_0_tA49972326A06567F6670E6D335892A279618B867* L_100 = V_0;
+		NullCheck(L_100);
+		WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C* L_101 = (WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C*)(&L_100->___w);
+		float L_102 = L_101->___damage;
+		NullCheck(L_99);
+		L_99->___damage = L_102;
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_103 = L_99;
+		NullCheck(L_103);
+		L_103->___radius = (8.0f);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_104 = L_103;
+		int32_t L_105 = __this->___branch;
+		if ((((int32_t)L_105) == ((int32_t)1)))
+		{
+			G_B25_0 = L_104;
+			G_B25_1 = L_104;
+			G_B25_2 = L_84;
+			goto IL_02b8;
+		}
+		G_B24_0 = L_104;
+		G_B24_1 = L_104;
+		G_B24_2 = L_84;
+	}
+	{
+		G_B26_0 = 1;
+		G_B26_1 = G_B24_0;
+		G_B26_2 = G_B24_1;
+		G_B26_3 = G_B24_2;
+		goto IL_02b9;
+	}
+
+IL_02b8:
+	{
+		G_B26_0 = 3;
+		G_B26_1 = G_B25_0;
+		G_B26_2 = G_B25_1;
+		G_B26_3 = G_B25_2;
+	}
+
+IL_02b9:
+	{
+		NullCheck(G_B26_1);
+		G_B26_1->___pierce = G_B26_0;
+		NullCheck(G_B26_3);
+		List_1_Add_m730B8D58DE948D3712F27E22B5F35534AAB55217_inline(G_B26_3, G_B26_2, List_1_Add_m730B8D58DE948D3712F27E22B5F35534AAB55217_RuntimeMethod_var);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:340>
+		int32_t L_106 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_106, 1));
+	}
+
+IL_02c9:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:340>
+		int32_t L_107 = V_6;
+		U3CU3Ec__DisplayClass89_0_tA49972326A06567F6670E6D335892A279618B867* L_108 = V_0;
+		NullCheck(L_108);
+		WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C* L_109 = (WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C*)(&L_108->___w);
+		int32_t L_110 = L_109->___count;
+		List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* L_111 = V_5;
+		NullCheck(L_111);
+		int32_t L_112;
+		L_112 = List_1_get_Count_m3552503E26080C4967038EA720B27376E3F8A81F_inline(L_111, List_1_get_Count_m3552503E26080C4967038EA720B27376E3F8A81F_RuntimeMethod_var);
+		int32_t L_113;
+		L_113 = Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline(L_110, L_112, NULL);
+		if ((((int32_t)L_107) >= ((int32_t)L_113)))
+		{
+			goto IL_02f2;
+		}
+	}
+	{
+		int32_t L_114;
+		L_114 = CozyRun_CountAttacks_m9A5C155DC44FC4AF275FFA1BC7F8827EB0B74700(__this, (bool)0, NULL);
+		if ((((int32_t)L_114) < ((int32_t)((int32_t)64))))
+		{
+			goto IL_0234;
+		}
+	}
+
+IL_02f2:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:343>
+		return;
+	}
+}
+// Method Definition Index: 65318
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_UpdateAttacks_m30AF8138D54DF34AAE3DBB8147810C7237958B8E (CozyRun_t664438D37D010E4092B526226781841855621066* __this, float ___0_dt, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Comparison_1_t3E40BFBAAB790D384FB8BF1344105F64A532FD35_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_mB81CF7652B515EB410D99E9EA7BA74A4F8BF13D3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m90509CE97D6039564E21527D786ACD293EDD0CC8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_mCB4C6D54334620706B95E03839D1EE47E45BD3E0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_FindAll_mAC13138EB3BB3FA2451F2007983874725A60987C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_m364A3AEEAB3BB8DF30D96A441D10C68262E67D43_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_RemoveAt_mF22A6FA4B3EDAC94C1BDFF09BD9315C5166C0C26_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Sort_m3502D6AA8CE534169673D40951145B2154ACD6E5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m8741074C01924227C0648E079670E35685B9E6C6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mD3D689030A1F6F485922BE57B00C3EDD099E9689_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass90_0_U3CUpdateAttacksU3Eb__0_m0DE2E8B25E945EF6D3D4A258B6AA6A2872BBF11C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass90_0_U3CUpdateAttacksU3Eb__1_m431966FAE820CACFCA2B1003F47C5EA6A30F6618_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* V_1 = NULL;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* V_3 = NULL;
+	Enumerator_t95CD58E6484B263166F72826D6E7AF91675B49D7 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* V_5 = NULL;
+	int32_t V_6 = 0;
+	int32_t G_B20_0 = 0;
+	float G_B23_0 = 0.0f;
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B23_1 = NULL;
+	CozyRun_t664438D37D010E4092B526226781841855621066* G_B23_2 = NULL;
+	float G_B22_0 = 0.0f;
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B22_1 = NULL;
+	CozyRun_t664438D37D010E4092B526226781841855621066* G_B22_2 = NULL;
+	int32_t G_B24_0 = 0;
+	float G_B24_1 = 0.0f;
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B24_2 = NULL;
+	CozyRun_t664438D37D010E4092B526226781841855621066* G_B24_3 = NULL;
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:346>
+		List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79* L_0 = __this->___attacks;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = List_1_get_Count_m8741074C01924227C0648E079670E35685B9E6C6_inline(L_0, List_1_get_Count_m8741074C01924227C0648E079670E35685B9E6C6_RuntimeMethod_var);
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_1, 1));
+		goto IL_031f;
+	}
+
+IL_0013:
+	{
+		U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_2 = (U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass90_0__ctor_m6BD9189458763FC826CFFF84197A5B3D1B556B81(L_2, NULL);
+		V_1 = L_2;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:348>
+		U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_3 = V_1;
+		List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79* L_4 = __this->___attacks;
+		int32_t L_5 = V_0;
+		NullCheck(L_4);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_6;
+		L_6 = List_1_get_Item_mD3D689030A1F6F485922BE57B00C3EDD099E9689(L_4, L_5, List_1_get_Item_mD3D689030A1F6F485922BE57B00C3EDD099E9689_RuntimeMethod_var);
+		NullCheck(L_3);
+		L_3->___a = L_6;
+		Il2CppCodeGenWriteBarrier((void**)(&L_3->___a), (void*)L_6);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:348>
+		U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_7 = V_1;
+		U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_8 = V_1;
+		NullCheck(L_8);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_9 = L_8->___a;
+		NullCheck(L_9);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10 = L_9->___p;
+		NullCheck(L_7);
+		L_7->___before = L_10;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:348>
+		U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_11 = V_1;
+		NullCheck(L_11);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_12 = L_11->___a;
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_13 = L_12;
+		NullCheck(L_13);
+		float L_14 = L_13->___age;
+		float L_15 = ___0_dt;
+		NullCheck(L_13);
+		L_13->___age = ((float)il2cpp_codegen_add(L_14, L_15));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:348>
+		U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_16 = V_1;
+		NullCheck(L_16);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_17 = L_16->___a;
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_18 = L_17;
+		NullCheck(L_18);
+		float L_19 = L_18->___life;
+		float L_20 = ___0_dt;
+		NullCheck(L_18);
+		L_18->___life = ((float)il2cpp_codegen_subtract(L_19, L_20));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:348>
+		U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_21 = V_1;
+		NullCheck(L_21);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_22 = L_21->___a;
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_23 = L_22;
+		NullCheck(L_23);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_24 = L_23->___p;
+		U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_25 = V_1;
+		NullCheck(L_25);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_26 = L_25->___a;
+		NullCheck(L_26);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_27 = L_26->___v;
+		float L_28 = ___0_dt;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_29;
+		L_29 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_27, L_28, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_30;
+		L_30 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_24, L_29, NULL);
+		NullCheck(L_23);
+		L_23->___p = L_30;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:349>
+		U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_31 = V_1;
+		NullCheck(L_31);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_32 = L_31->___a;
+		NullCheck(L_32);
+		int32_t L_33 = L_32->___kind;
+		if ((!(((uint32_t)L_33) == ((uint32_t)2))))
+		{
+			goto IL_00f2;
+		}
+	}
+	{
+		U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_34 = V_1;
+		NullCheck(L_34);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_35 = L_34->___before;
+		U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_36 = V_1;
+		NullCheck(L_36);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_37 = L_36->___a;
+		NullCheck(L_37);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_38 = L_37->___p;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_39 = __this->___position;
+		il2cpp_codegen_runtime_class_init_inline(CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+		float L_40;
+		L_40 = CozyRules_SegmentDistance_m6254C97D8C8D2A58CEAD24E635C9D8B67D041D03(L_35, L_38, L_39, NULL);
+		U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_41 = V_1;
+		NullCheck(L_41);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_42 = L_41->___a;
+		NullCheck(L_42);
+		float L_43 = L_42->___radius;
+		if ((!(((float)L_40) <= ((float)((float)il2cpp_codegen_add((13.0f), L_43))))))
+		{
+			goto IL_00f2;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:349>
+		U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_44 = V_1;
+		NullCheck(L_44);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_45 = L_44->___a;
+		NullCheck(L_45);
+		String_t* L_46 = L_45->___source;
+		U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_47 = V_1;
+		NullCheck(L_47);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_48 = L_47->___a;
+		NullCheck(L_48);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_49 = L_48->___p;
+		CozyRun_DamagePlayer_m682B715A7169CBCFA169A2916D2C71372B2B6FAB(__this, L_46, L_49, NULL);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:349>
+		U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_50 = V_1;
+		NullCheck(L_50);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_51 = L_50->___a;
+		NullCheck(L_51);
+		L_51->___life = (0.0f);
+	}
+
+IL_00f2:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:350>
+		U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_52 = V_1;
+		NullCheck(L_52);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_53 = L_52->___a;
+		NullCheck(L_53);
+		int32_t L_54 = L_53->___kind;
+		if ((!(((uint32_t)L_54) == ((uint32_t)3))))
+		{
+			goto IL_0153;
+		}
+	}
+	{
+		U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_55 = V_1;
+		NullCheck(L_55);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_56 = L_55->___a;
+		NullCheck(L_56);
+		float L_57 = L_56->___age;
+		if ((!(((float)L_57) >= ((float)(1.0f)))))
+		{
+			goto IL_0153;
+		}
+	}
+	{
+		U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_58 = V_1;
+		NullCheck(L_58);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_59 = L_58->___a;
+		NullCheck(L_59);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_60 = L_59->___p;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_61 = __this->___position;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_62;
+		L_62 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_60, L_61, NULL);
+		V_2 = L_62;
+		float L_63;
+		L_63 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&V_2), NULL);
+		if ((!(((float)L_63) < ((float)(5329.0f)))))
+		{
+			goto IL_0153;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:350>
+		U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_64 = V_1;
+		NullCheck(L_64);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_65 = L_64->___a;
+		NullCheck(L_65);
+		String_t* L_66 = L_65->___source;
+		U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_67 = V_1;
+		NullCheck(L_67);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_68 = L_67->___a;
+		NullCheck(L_68);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_69 = L_68->___p;
+		CozyRun_DamagePlayer_m682B715A7169CBCFA169A2916D2C71372B2B6FAB(__this, L_66, L_69, NULL);
+	}
+
+IL_0153:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:351>
+		bool L_70;
+		L_70 = CozyRun_get_Finished_mD3D28BDCB939B30F5436468DCE1E184360860888(__this, NULL);
+		if (!L_70)
+		{
+			goto IL_015c;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:351>
+		return;
+	}
+
+IL_015c:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:352>
+		U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_71 = V_1;
+		NullCheck(L_71);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_72 = L_71->___a;
+		NullCheck(L_72);
+		int32_t L_73 = L_72->___kind;
+		if ((((int32_t)L_73) >= ((int32_t)2)))
+		{
+			goto IL_02fd;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:355>
+		List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* L_74 = __this->___enemies;
+		U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_75 = V_1;
+		Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A* L_76 = (Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A*)il2cpp_codegen_object_new(Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A_il2cpp_TypeInfo_var);
+		Predicate_1__ctor_mDEB896FDC610359DC86FA6332332EBB4D965EBA3(L_76, L_75, (intptr_t)((void*)U3CU3Ec__DisplayClass90_0_U3CUpdateAttacksU3Eb__0_m0DE2E8B25E945EF6D3D4A258B6AA6A2872BBF11C_RuntimeMethod_var), NULL);
+		NullCheck(L_74);
+		List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* L_77;
+		L_77 = List_1_FindAll_mAC13138EB3BB3FA2451F2007983874725A60987C(L_74, L_76, List_1_FindAll_mAC13138EB3BB3FA2451F2007983874725A60987C_RuntimeMethod_var);
+		V_3 = L_77;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:356>
+		U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_78 = V_1;
+		NullCheck(L_78);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_79 = L_78->___a;
+		NullCheck(L_79);
+		int32_t L_80 = L_79->___kind;
+		if (L_80)
+		{
+			goto IL_01a4;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:356>
+		List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* L_81 = V_3;
+		U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_82 = V_1;
+		Comparison_1_t3E40BFBAAB790D384FB8BF1344105F64A532FD35* L_83 = (Comparison_1_t3E40BFBAAB790D384FB8BF1344105F64A532FD35*)il2cpp_codegen_object_new(Comparison_1_t3E40BFBAAB790D384FB8BF1344105F64A532FD35_il2cpp_TypeInfo_var);
+		Comparison_1__ctor_m99C92D611797C8E18E7FD841D4B3263A1AF4F083(L_83, L_82, (intptr_t)((void*)U3CU3Ec__DisplayClass90_0_U3CUpdateAttacksU3Eb__1_m431966FAE820CACFCA2B1003F47C5EA6A30F6618_RuntimeMethod_var), NULL);
+		NullCheck(L_81);
+		List_1_Sort_m3502D6AA8CE534169673D40951145B2154ACD6E5(L_81, L_83, List_1_Sort_m3502D6AA8CE534169673D40951145B2154ACD6E5_RuntimeMethod_var);
+	}
+
+IL_01a4:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:357>
+		List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* L_84 = V_3;
+		NullCheck(L_84);
+		Enumerator_t95CD58E6484B263166F72826D6E7AF91675B49D7 L_85;
+		L_85 = List_1_GetEnumerator_m364A3AEEAB3BB8DF30D96A441D10C68262E67D43(L_84, List_1_GetEnumerator_m364A3AEEAB3BB8DF30D96A441D10C68262E67D43_RuntimeMethod_var);
+		V_4 = L_85;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_02e9:
+			{
+				Enumerator_Dispose_mB81CF7652B515EB410D99E9EA7BA74A4F8BF13D3((&V_4), Enumerator_Dispose_mB81CF7652B515EB410D99E9EA7BA74A4F8BF13D3_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_02db_1;
+			}
+
+IL_01b1_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:357>
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_86;
+				L_86 = Enumerator_get_Current_mCB4C6D54334620706B95E03839D1EE47E45BD3E0_inline((&V_4), Enumerator_get_Current_mCB4C6D54334620706B95E03839D1EE47E45BD3E0_RuntimeMethod_var);
+				V_5 = L_86;
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:359>
+				U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_87 = V_1;
+				NullCheck(L_87);
+				RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_88 = L_87->___a;
+				NullCheck(L_88);
+				int32_t L_89 = L_88->___kind;
+				if (!L_89)
+				{
+					goto IL_022a_1;
+				}
+			}
+			{
+				U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_90 = V_1;
+				NullCheck(L_90);
+				RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_91 = L_90->___a;
+				NullCheck(L_91);
+				float L_92 = L_91->___age;
+				if ((!(((float)L_92) >= ((float)(0.200000003f)))))
+				{
+					goto IL_0227_1;
+				}
+			}
+			{
+				U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_93 = V_1;
+				NullCheck(L_93);
+				RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_94 = L_93->___a;
+				NullCheck(L_94);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_95 = L_94->___p;
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_96 = V_5;
+				NullCheck(L_96);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_97 = L_96->___p;
+				float L_98;
+				L_98 = Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_inline(L_95, L_97, NULL);
+				U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_99 = V_1;
+				NullCheck(L_99);
+				RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_100 = L_99->___a;
+				NullCheck(L_100);
+				float L_101 = L_100->___radius;
+				U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_102 = V_1;
+				NullCheck(L_102);
+				RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_103 = L_102->___a;
+				NullCheck(L_103);
+				float L_104 = L_103->___age;
+				float L_105;
+				L_105 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)(((float)il2cpp_codegen_subtract(L_104, (0.200000003f)))/(0.349999994f))), NULL);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_106 = V_5;
+				NullCheck(L_106);
+				float L_107;
+				L_107 = RunEnemy_get_Radius_mC2651F2F441DBE6EB0E69603BAC0F7DBCA004344(L_106, NULL);
+				G_B20_0 = ((((int32_t)((!(((float)L_98) <= ((float)((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_101, L_105)), L_107)))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+				goto IL_025f_1;
+			}
+
+IL_0227_1:
+			{
+				G_B20_0 = 0;
+				goto IL_025f_1;
+			}
+
+IL_022a_1:
+			{
+				U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_108 = V_1;
+				NullCheck(L_108);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_109 = L_108->___before;
+				U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_110 = V_1;
+				NullCheck(L_110);
+				RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_111 = L_110->___a;
+				NullCheck(L_111);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_112 = L_111->___p;
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_113 = V_5;
+				NullCheck(L_113);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_114 = L_113->___p;
+				il2cpp_codegen_runtime_class_init_inline(CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+				float L_115;
+				L_115 = CozyRules_SegmentDistance_m6254C97D8C8D2A58CEAD24E635C9D8B67D041D03(L_109, L_112, L_114, NULL);
+				U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_116 = V_1;
+				NullCheck(L_116);
+				RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_117 = L_116->___a;
+				NullCheck(L_117);
+				float L_118 = L_117->___radius;
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_119 = V_5;
+				NullCheck(L_119);
+				float L_120;
+				L_120 = RunEnemy_get_Radius_mC2651F2F441DBE6EB0E69603BAC0F7DBCA004344(L_119, NULL);
+				G_B20_0 = ((((int32_t)((!(((float)L_115) <= ((float)((float)il2cpp_codegen_add(L_118, L_120)))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+			}
+
+IL_025f_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:360>
+				if (!G_B20_0)
+				{
+					goto IL_02db_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:361>
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_121 = V_5;
+				U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_122 = V_1;
+				NullCheck(L_122);
+				RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_123 = L_122->___a;
+				NullCheck(L_123);
+				float L_124 = L_123->___damage;
+				U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_125 = V_1;
+				NullCheck(L_125);
+				RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_126 = L_125->___a;
+				NullCheck(L_126);
+				int32_t L_127 = L_126->___kind;
+				if ((((int32_t)L_127) == ((int32_t)1)))
+				{
+					G_B23_0 = L_124;
+					G_B23_1 = L_121;
+					G_B23_2 = __this;
+					goto IL_0280_1;
+				}
+				G_B22_0 = L_124;
+				G_B22_1 = L_121;
+				G_B22_2 = __this;
+			}
+			{
+				G_B24_0 = 0;
+				G_B24_1 = G_B22_0;
+				G_B24_2 = G_B22_1;
+				G_B24_3 = G_B22_2;
+				goto IL_0282_1;
+			}
+
+IL_0280_1:
+			{
+				G_B24_0 = ((int32_t)32);
+				G_B24_1 = G_B23_0;
+				G_B24_2 = G_B23_1;
+				G_B24_3 = G_B23_2;
+			}
+
+IL_0282_1:
+			{
+				NullCheck(G_B24_3);
+				CozyRun_Hit_m30924FB9EFCF69D3782322FBEB147A132EAF6DB8(G_B24_3, G_B24_2, G_B24_1, ((float)G_B24_0), (bool)0, NULL);
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:361>
+				U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_128 = V_1;
+				NullCheck(L_128);
+				RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_129 = L_128->___a;
+				NullCheck(L_129);
+				List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_130 = L_129->___hit;
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_131 = V_5;
+				NullCheck(L_131);
+				int32_t L_132 = L_131->___id;
+				NullCheck(L_130);
+				List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_130, L_132, List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:362>
+				U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_133 = V_1;
+				NullCheck(L_133);
+				RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_134 = L_133->___a;
+				NullCheck(L_134);
+				int32_t L_135 = L_134->___kind;
+				if (L_135)
+				{
+					goto IL_02db_1;
+				}
+			}
+			{
+				U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_136 = V_1;
+				NullCheck(L_136);
+				RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_137 = L_136->___a;
+				RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_138 = L_137;
+				NullCheck(L_138);
+				int32_t L_139 = L_138->___pierce;
+				V_6 = ((int32_t)il2cpp_codegen_subtract(L_139, 1));
+				int32_t L_140 = V_6;
+				NullCheck(L_138);
+				L_138->___pierce = L_140;
+				int32_t L_141 = V_6;
+				if ((((int32_t)L_141) > ((int32_t)0)))
+				{
+					goto IL_02db_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:362>
+				U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_142 = V_1;
+				NullCheck(L_142);
+				RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_143 = L_142->___a;
+				NullCheck(L_143);
+				L_143->___life = (0.0f);
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:362>
+				goto IL_02f7;
+			}
+
+IL_02db_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:357>
+				bool L_144;
+				L_144 = Enumerator_MoveNext_m90509CE97D6039564E21527D786ACD293EDD0CC8((&V_4), Enumerator_MoveNext_m90509CE97D6039564E21527D786ACD293EDD0CC8_RuntimeMethod_var);
+				if (L_144)
+				{
+					goto IL_01b1_1;
+				}
+			}
+			{
+				goto IL_02f7;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_02f7:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:364>
+		CozyRun_RemoveDead_mCB1AB9943D4264EB51962BFCD79B67EEFF4D50C9(__this, NULL);
+	}
+
+IL_02fd:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:366>
+		U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* L_145 = V_1;
+		NullCheck(L_145);
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_146 = L_145->___a;
+		NullCheck(L_146);
+		float L_147 = L_146->___life;
+		if ((!(((float)L_147) <= ((float)(0.0f)))))
+		{
+			goto IL_031b;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:366>
+		List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79* L_148 = __this->___attacks;
+		int32_t L_149 = V_0;
+		NullCheck(L_148);
+		List_1_RemoveAt_mF22A6FA4B3EDAC94C1BDFF09BD9315C5166C0C26(L_148, L_149, List_1_RemoveAt_mF22A6FA4B3EDAC94C1BDFF09BD9315C5166C0C26_RuntimeMethod_var);
+	}
+
+IL_031b:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:346>
+		int32_t L_150 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_150, 1));
+	}
+
+IL_031f:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:346>
+		int32_t L_151 = V_0;
+		if ((((int32_t)L_151) >= ((int32_t)0)))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:368>
+		return;
+	}
+}
+// Method Definition Index: 65319
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyRun_InObjectiveZone_m86ABBF4BCC1800668BE44CB4BDC813BB6A538B8E (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) 
+{
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* V_0 = NULL;
+	int32_t V_1 = 0;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:371>
+		float L_0 = __this->___objectiveRemaining;
+		if ((!(((float)L_0) <= ((float)(0.0f)))))
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:371>
+		return (bool)0;
+	}
+
+IL_000f:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:372>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_1 = __this->___objectivePoints;
+		V_0 = L_1;
+		V_1 = 0;
+		goto IL_003b;
+	}
+
+IL_001a:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:372>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_2 = V_0;
+		int32_t L_3 = V_1;
+		NullCheck(L_2);
+		int32_t L_4 = L_3;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		V_2 = L_5;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:372>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = __this->___position;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7 = V_2;
+		float L_8;
+		L_8 = Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_inline(L_6, L_7, NULL);
+		if ((!(((float)L_8) <= ((float)(90.0f)))))
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:372>
+		return (bool)1;
+	}
+
+IL_0037:
+	{
+		int32_t L_9 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_9, 1));
+	}
+
+IL_003b:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:372>
+		int32_t L_10 = V_1;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_11 = V_0;
+		NullCheck(L_11);
+		if ((((int32_t)L_10) < ((int32_t)((int32_t)(((RuntimeArray*)L_11)->max_length)))))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:373>
+		int32_t L_12 = __this->___region;
+		if ((!(((uint32_t)L_12) == ((uint32_t)2))))
+		{
+			goto IL_0060;
+		}
+	}
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_13 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___position);
+		float L_14;
+		L_14 = Vector2_get_magnitude_m5C59B4056420AEFDB291AD0914A3F675330A75CE_inline(L_13, NULL);
+		return (bool)((((int32_t)((!(((float)L_14) <= ((float)(90.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+
+IL_0060:
+	{
+		return (bool)0;
+	}
+}
+// Method Definition Index: 65320
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_Hit_m30924FB9EFCF69D3782322FBEB147A132EAF6DB8 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* ___0_e, float ___1_baseDamage, float ___2_knockback, bool ___3_fromWind, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_mB81CF7652B515EB410D99E9EA7BA74A4F8BF13D3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m90509CE97D6039564E21527D786ACD293EDD0CC8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_mCB4C6D54334620706B95E03839D1EE47E45BD3E0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_m364A3AEEAB3BB8DF30D96A441D10C68262E67D43_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral836E1BF3FCEE83FCCE50B1BE1D0795D7AE1DA758);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	int32_t V_1 = 0;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	int32_t V_3 = 0;
+	Enumerator_t95CD58E6484B263166F72826D6E7AF91675B49D7 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* V_5 = NULL;
+	float G_B5_0 = 0.0f;
+	float G_B4_0 = 0.0f;
+	float G_B6_0 = 0.0f;
+	float G_B6_1 = 0.0f;
+	float G_B9_0 = 0.0f;
+	float G_B9_1 = 0.0f;
+	float G_B8_0 = 0.0f;
+	float G_B8_1 = 0.0f;
+	float G_B10_0 = 0.0f;
+	float G_B10_1 = 0.0f;
+	float G_B10_2 = 0.0f;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B14_0;
+	memset((&G_B14_0), 0, sizeof(G_B14_0));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B14_1;
+	memset((&G_B14_1), 0, sizeof(G_B14_1));
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B14_2 = NULL;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B13_0;
+	memset((&G_B13_0), 0, sizeof(G_B13_0));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B13_1;
+	memset((&G_B13_1), 0, sizeof(G_B13_1));
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B13_2 = NULL;
+	float G_B15_0 = 0.0f;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B15_1;
+	memset((&G_B15_1), 0, sizeof(G_B15_1));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 G_B15_2;
+	memset((&G_B15_2), 0, sizeof(G_B15_2));
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* G_B15_3 = NULL;
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:377>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_0 = ___0_e;
+		NullCheck(L_0);
+		float L_1 = L_0->___hp;
+		if ((((float)L_1) <= ((float)(0.0f))))
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		bool L_2;
+		L_2 = CozyRun_get_Finished_mD3D28BDCB939B30F5436468DCE1E184360860888(__this, NULL);
+		if (!L_2)
+		{
+			goto IL_0016;
+		}
+	}
+
+IL_0015:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:377>
+		return;
+	}
+
+IL_0016:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:378>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = __this->___passives;
+		NullCheck(L_3);
+		int32_t L_4 = 0;
+		int32_t L_5 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		bool L_6;
+		L_6 = CozyRun_InObjectiveZone_m86ABBF4BCC1800668BE44CB4BDC813BB6A538B8E(__this, NULL);
+		if (L_6)
+		{
+			G_B5_0 = ((float)il2cpp_codegen_add((1.0f), ((float)il2cpp_codegen_multiply((0.100000001f), ((float)L_5)))));
+			goto IL_003a;
+		}
+		G_B4_0 = ((float)il2cpp_codegen_add((1.0f), ((float)il2cpp_codegen_multiply((0.100000001f), ((float)L_5)))));
+	}
+	{
+		G_B6_0 = (0.0f);
+		G_B6_1 = G_B4_0;
+		goto IL_004a;
+	}
+
+IL_003a:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_7 = __this->___passives;
+		NullCheck(L_7);
+		int32_t L_8 = ((int32_t)11);
+		int32_t L_9 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		G_B6_0 = ((float)il2cpp_codegen_multiply((0.119999997f), ((float)L_9)));
+		G_B6_1 = G_B5_0;
+	}
+
+IL_004a:
+	{
+		V_0 = ((float)il2cpp_codegen_add(G_B6_1, G_B6_0));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:379>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_10 = ___0_e;
+		NullCheck(L_10);
+		int32_t L_11 = L_10->___role;
+		if ((((int32_t)L_11) < ((int32_t)7)))
+		{
+			goto IL_007f;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:379>
+		float L_12 = V_0;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_13 = __this->___passives;
+		NullCheck(L_13);
+		int32_t L_14 = ((int32_t)10);
+		int32_t L_15 = (L_13)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_16 = __this->___relics;
+		NullCheck(L_16);
+		int32_t L_17 = 2;
+		uint8_t L_18 = (uint8_t)(L_16)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
+		if (L_18)
+		{
+			G_B9_0 = ((float)il2cpp_codegen_multiply((0.100000001f), ((float)L_15)));
+			G_B9_1 = L_12;
+			goto IL_0077;
+		}
+		G_B8_0 = ((float)il2cpp_codegen_multiply((0.100000001f), ((float)L_15)));
+		G_B8_1 = L_12;
+	}
+	{
+		G_B10_0 = (0.0f);
+		G_B10_1 = G_B8_0;
+		G_B10_2 = G_B8_1;
+		goto IL_007c;
+	}
+
+IL_0077:
+	{
+		G_B10_0 = (0.200000003f);
+		G_B10_1 = G_B9_0;
+		G_B10_2 = G_B9_1;
+	}
+
+IL_007c:
+	{
+		V_0 = ((float)il2cpp_codegen_add(G_B10_2, ((float)il2cpp_codegen_add(G_B10_1, G_B10_0))));
+	}
+
+IL_007f:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:380>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_19 = ___0_e;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_20 = L_19;
+		NullCheck(L_20);
+		float L_21 = L_20->___hp;
+		float L_22 = ___1_baseDamage;
+		float L_23 = V_0;
+		NullCheck(L_20);
+		L_20->___hp = ((float)il2cpp_codegen_subtract(L_21, ((float)il2cpp_codegen_multiply(L_22, L_23))));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:381>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_24 = ___0_e;
+		NullCheck(L_24);
+		int32_t L_25 = L_24->___role;
+		if ((((int32_t)L_25) == ((int32_t)8)))
+		{
+			goto IL_00fc;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:381>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_26 = ___0_e;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_27 = L_26;
+		NullCheck(L_27);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_28 = L_27->___p;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_29 = ___0_e;
+		NullCheck(L_29);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_30 = L_29->___p;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_31 = __this->___position;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_32;
+		L_32 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_30, L_31, NULL);
+		V_2 = L_32;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_33;
+		L_33 = Vector2_get_normalized_mF6722883AEFB5027690A778DF8ACC20F0FA65297_inline((&V_2), NULL);
+		float L_34 = ___2_knockback;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_35;
+		L_35 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_33, L_34, NULL);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_36 = __this->___passives;
+		NullCheck(L_36);
+		int32_t L_37 = 5;
+		int32_t L_38 = (L_36)->GetAt(static_cast<il2cpp_array_size_t>(L_37));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_39;
+		L_39 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_35, ((float)il2cpp_codegen_add((1.0f), ((float)il2cpp_codegen_multiply((0.150000006f), ((float)L_38))))), NULL);
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_40 = ___0_e;
+		NullCheck(L_40);
+		int32_t L_41 = L_40->___role;
+		if ((((int32_t)L_41) == ((int32_t)7)))
+		{
+			G_B14_0 = L_39;
+			G_B14_1 = L_28;
+			G_B14_2 = L_27;
+			goto IL_00e8;
+		}
+		G_B13_0 = L_39;
+		G_B13_1 = L_28;
+		G_B13_2 = L_27;
+	}
+	{
+		G_B15_0 = (1.0f);
+		G_B15_1 = G_B13_0;
+		G_B15_2 = G_B13_1;
+		G_B15_3 = G_B13_2;
+		goto IL_00ed;
+	}
+
+IL_00e8:
+	{
+		G_B15_0 = (0.5f);
+		G_B15_1 = G_B14_0;
+		G_B15_2 = G_B14_1;
+		G_B15_3 = G_B14_2;
+	}
+
+IL_00ed:
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_42;
+		L_42 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(G_B15_1, G_B15_0, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_43;
+		L_43 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(G_B15_2, L_42, NULL);
+		NullCheck(G_B15_3);
+		G_B15_3->___p = L_43;
+	}
+
+IL_00fc:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:382>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_44 = ___0_e;
+		NullCheck(L_44);
+		float L_45 = L_44->___hp;
+		if ((!(((float)L_45) > ((float)(0.0f)))))
+		{
+			goto IL_010a;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:382>
+		return;
+	}
+
+IL_010a:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:383>
+		int32_t L_46 = __this->___score;
+		il2cpp_codegen_runtime_class_init_inline(CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_47 = ((CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_StaticFields*)il2cpp_codegen_static_fields_for(CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var))->___EnemyScore;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_48 = ___0_e;
+		NullCheck(L_48);
+		int32_t L_49 = L_48->___role;
+		NullCheck(L_47);
+		int32_t L_50 = L_49;
+		int32_t L_51 = (L_47)->GetAt(static_cast<il2cpp_array_size_t>(L_50));
+		__this->___score = ((int32_t)il2cpp_codegen_add(L_46, L_51));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:383>
+		int32_t L_52 = __this->___kills;
+		__this->___kills = ((int32_t)il2cpp_codegen_add(L_52, 1));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:384>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_53 = ((CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_StaticFields*)il2cpp_codegen_static_fields_for(CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var))->___EnemyXP;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_54 = ___0_e;
+		NullCheck(L_54);
+		int32_t L_55 = L_54->___role;
+		NullCheck(L_53);
+		int32_t L_56 = L_55;
+		int32_t L_57 = (L_53)->GetAt(static_cast<il2cpp_array_size_t>(L_56));
+		V_1 = L_57;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:385>
+		int32_t L_58 = V_1;
+		if ((((int32_t)L_58) <= ((int32_t)0)))
+		{
+			goto IL_0150;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:385>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_59 = ___0_e;
+		NullCheck(L_59);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_60 = L_59->___p;
+		int32_t L_61 = V_1;
+		CozyRun_DropXP_m8984B99394BD69ADE0782C2BEB5727A3908A351A(__this, L_60, ((float)L_61), NULL);
+	}
+
+IL_0150:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:386>
+		bool L_62 = ___3_fromWind;
+		if (L_62)
+		{
+			goto IL_01eb;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_63 = __this->___relics;
+		NullCheck(L_63);
+		int32_t L_64 = 3;
+		uint8_t L_65 = (uint8_t)(L_63)->GetAt(static_cast<il2cpp_array_size_t>(L_64));
+		if (!L_65)
+		{
+			goto IL_01eb;
+		}
+	}
+	{
+		int32_t L_66 = __this->___windKills;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_66, 1));
+		int32_t L_67 = V_3;
+		__this->___windKills = L_67;
+		int32_t L_68 = V_3;
+		if ((((int32_t)L_68) < ((int32_t)((int32_t)30))))
+		{
+			goto IL_01eb;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:388>
+		__this->___windKills = 0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:389>
+		List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* L_69 = __this->___enemies;
+		NullCheck(L_69);
+		Enumerator_t95CD58E6484B263166F72826D6E7AF91675B49D7 L_70;
+		L_70 = List_1_GetEnumerator_m364A3AEEAB3BB8DF30D96A441D10C68262E67D43(L_69, List_1_GetEnumerator_m364A3AEEAB3BB8DF30D96A441D10C68262E67D43_RuntimeMethod_var);
+		V_4 = L_70;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_01dd:
+			{
+				Enumerator_Dispose_mB81CF7652B515EB410D99E9EA7BA74A4F8BF13D3((&V_4), Enumerator_Dispose_mB81CF7652B515EB410D99E9EA7BA74A4F8BF13D3_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_01d2_1;
+			}
+
+IL_018f_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:389>
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_71;
+				L_71 = Enumerator_get_Current_mCB4C6D54334620706B95E03839D1EE47E45BD3E0_inline((&V_4), Enumerator_get_Current_mCB4C6D54334620706B95E03839D1EE47E45BD3E0_RuntimeMethod_var);
+				V_5 = L_71;
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:389>
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_72 = V_5;
+				NullCheck(L_72);
+				float L_73 = L_72->___hp;
+				if ((!(((float)L_73) > ((float)(0.0f)))))
+				{
+					goto IL_01d2_1;
+				}
+			}
+			{
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_74 = V_5;
+				NullCheck(L_74);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_75 = L_74->___p;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_76 = __this->___position;
+				float L_77;
+				L_77 = Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_inline(L_75, L_76, NULL);
+				if ((!(((float)L_77) < ((float)(140.0f)))))
+				{
+					goto IL_01d2_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:389>
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_78 = V_5;
+				CozyRun_Hit_m30924FB9EFCF69D3782322FBEB147A132EAF6DB8(__this, L_78, (10.0f), (0.0f), (bool)1, NULL);
+			}
+
+IL_01d2_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:389>
+				bool L_79;
+				L_79 = Enumerator_MoveNext_m90509CE97D6039564E21527D786ACD293EDD0CC8((&V_4), Enumerator_MoveNext_m90509CE97D6039564E21527D786ACD293EDD0CC8_RuntimeMethod_var);
+				if (L_79)
+				{
+					goto IL_018f_1;
+				}
+			}
+			{
+				goto IL_01eb;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_01eb:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:391>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_80 = ___0_e;
+		NullCheck(L_80);
+		int32_t L_81 = L_80->___role;
+		if ((!(((uint32_t)L_81) == ((uint32_t)8))))
+		{
+			goto IL_022d;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:391>
+		__this->___phase = 4;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:391>
+		__this->___resultReason = _stringLiteral836E1BF3FCEE83FCCE50B1BE1D0795D7AE1DA758;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___resultReason), (void*)_stringLiteral836E1BF3FCEE83FCCE50B1BE1D0795D7AE1DA758);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:391>
+		int32_t L_82 = __this->___score;
+		int32_t L_83 = __this->___hp;
+		__this->___score = ((int32_t)il2cpp_codegen_add(L_82, ((int32_t)il2cpp_codegen_add(((int32_t)500), ((int32_t)il2cpp_codegen_multiply(L_83, ((int32_t)50)))))));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:391>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_84;
+		L_84 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
+		__this->___velocity = L_84;
+	}
+
+IL_022d:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:392>
+		return;
+	}
+}
+// Method Definition Index: 65321
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_RemoveDead_mCB1AB9943D4264EB51962BFCD79B67EEFF4D50C9 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_mB81CF7652B515EB410D99E9EA7BA74A4F8BF13D3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_mCD48FDD0F418E976C266AF07E14C127B6E896A8C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m5DDD3E697A492E99DDE91E6AB7B2390C491F89AA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m90509CE97D6039564E21527D786ACD293EDD0CC8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m03DDB9D6C95434581544F1F2FF0D1A36EEAB09AF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_mCB4C6D54334620706B95E03839D1EE47E45BD3E0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mB5FDF069171C4CB1778BFAC3B9015A22EA7DFBCD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_m364A3AEEAB3BB8DF30D96A441D10C68262E67D43_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_m3FE49C02F31954ACBAF7DF56A1CFED61E50524BA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_RemoveAll_m6515A2A4EE90A240D3EF48A2E1FBAA1095A9E2ED_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m88C4BD8AC607DB3585552068F4DC437406358D5F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1__ctor_m5B4AD6C29FA5950EF6C215B9A459707DCC95EF73_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CRemoveDeadU3Eb__93_0_m1D65A5C7D49B73EABD9768B2D7F7F29CFE15F167_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* V_0 = NULL;
+	Enumerator_t95CD58E6484B263166F72826D6E7AF91675B49D7 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* V_2 = NULL;
+	Enumerator_t24E4C96B84374CD9F71B748A47AB020F220D9931 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A* G_B10_0 = NULL;
+	List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* G_B10_1 = NULL;
+	Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A* G_B9_0 = NULL;
+	List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* G_B9_1 = NULL;
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:395>
+		List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* L_0 = (List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B*)il2cpp_codegen_object_new(List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B_il2cpp_TypeInfo_var);
+		List_1__ctor_m88C4BD8AC607DB3585552068F4DC437406358D5F(L_0, List_1__ctor_m88C4BD8AC607DB3585552068F4DC437406358D5F_RuntimeMethod_var);
+		V_0 = L_0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:396>
+		List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* L_1 = __this->___enemies;
+		NullCheck(L_1);
+		Enumerator_t95CD58E6484B263166F72826D6E7AF91675B49D7 L_2;
+		L_2 = List_1_GetEnumerator_m364A3AEEAB3BB8DF30D96A441D10C68262E67D43(L_1, List_1_GetEnumerator_m364A3AEEAB3BB8DF30D96A441D10C68262E67D43_RuntimeMethod_var);
+		V_1 = L_2;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_007d:
+			{
+				Enumerator_Dispose_mB81CF7652B515EB410D99E9EA7BA74A4F8BF13D3((&V_1), Enumerator_Dispose_mB81CF7652B515EB410D99E9EA7BA74A4F8BF13D3_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_0072_1;
+			}
+
+IL_0014_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:396>
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_3;
+				L_3 = Enumerator_get_Current_mCB4C6D54334620706B95E03839D1EE47E45BD3E0_inline((&V_1), Enumerator_get_Current_mCB4C6D54334620706B95E03839D1EE47E45BD3E0_RuntimeMethod_var);
+				V_2 = L_3;
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:396>
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_4 = V_2;
+				NullCheck(L_4);
+				float L_5 = L_4->___hp;
+				if ((!(((float)L_5) <= ((float)(0.0f)))))
+				{
+					goto IL_0072_1;
+				}
+			}
+			{
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_6 = V_2;
+				NullCheck(L_6);
+				int32_t L_7 = L_6->___role;
+				if ((!(((uint32_t)L_7) == ((uint32_t)4))))
+				{
+					goto IL_0072_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:396>
+				List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* L_8 = V_0;
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_9 = V_2;
+				NullCheck(L_9);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10 = L_9->___p;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11;
+				L_11 = Vector2_get_left_m851D1A435131CE336F60115E19FC8C21480284BC_inline(NULL);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_12;
+				L_12 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_11, (16.0f), NULL);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13;
+				L_13 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_10, L_12, NULL);
+				NullCheck(L_8);
+				List_1_Add_mB5FDF069171C4CB1778BFAC3B9015A22EA7DFBCD_inline(L_8, L_13, List_1_Add_mB5FDF069171C4CB1778BFAC3B9015A22EA7DFBCD_RuntimeMethod_var);
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:396>
+				List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* L_14 = V_0;
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_15 = V_2;
+				NullCheck(L_15);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_16 = L_15->___p;
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_17;
+				L_17 = Vector2_get_right_m99043ED6B3D5AEA5033313FE3DA9571F39D1B280_inline(NULL);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18;
+				L_18 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_17, (16.0f), NULL);
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_19;
+				L_19 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_16, L_18, NULL);
+				NullCheck(L_14);
+				List_1_Add_mB5FDF069171C4CB1778BFAC3B9015A22EA7DFBCD_inline(L_14, L_19, List_1_Add_mB5FDF069171C4CB1778BFAC3B9015A22EA7DFBCD_RuntimeMethod_var);
+			}
+
+IL_0072_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:396>
+				bool L_20;
+				L_20 = Enumerator_MoveNext_m90509CE97D6039564E21527D786ACD293EDD0CC8((&V_1), Enumerator_MoveNext_m90509CE97D6039564E21527D786ACD293EDD0CC8_RuntimeMethod_var);
+				if (L_20)
+				{
+					goto IL_0014_1;
+				}
+			}
+			{
+				goto IL_008b;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_008b:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:397>
+		List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* L_21 = __this->___enemies;
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var);
+		Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A* L_22 = ((U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var))->___U3CU3E9__93_0;
+		Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A* L_23 = L_22;
+		if (L_23)
+		{
+			G_B10_0 = L_23;
+			G_B10_1 = L_21;
+			goto IL_00b0;
+		}
+		G_B9_0 = L_23;
+		G_B9_1 = L_21;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var);
+		U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61* L_24 = ((U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var))->___U3CU3E9;
+		Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A* L_25 = (Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A*)il2cpp_codegen_object_new(Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A_il2cpp_TypeInfo_var);
+		Predicate_1__ctor_mDEB896FDC610359DC86FA6332332EBB4D965EBA3(L_25, L_24, (intptr_t)((void*)U3CU3Ec_U3CRemoveDeadU3Eb__93_0_m1D65A5C7D49B73EABD9768B2D7F7F29CFE15F167_RuntimeMethod_var), NULL);
+		Predicate_1_t1F607F6C0B4B49702375E5486FC4DBE8BC85E59A* L_26 = L_25;
+		((U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var))->___U3CU3E9__93_0 = L_26;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var))->___U3CU3E9__93_0), (void*)L_26);
+		G_B10_0 = L_26;
+		G_B10_1 = G_B9_1;
+	}
+
+IL_00b0:
+	{
+		NullCheck(G_B10_1);
+		int32_t L_27;
+		L_27 = List_1_RemoveAll_m6515A2A4EE90A240D3EF48A2E1FBAA1095A9E2ED(G_B10_1, G_B10_0, List_1_RemoveAll_m6515A2A4EE90A240D3EF48A2E1FBAA1095A9E2ED_RuntimeMethod_var);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:398>
+		bool L_28;
+		L_28 = CozyRun_get_Finished_mD3D28BDCB939B30F5436468DCE1E184360860888(__this, NULL);
+		if (L_28)
+		{
+			goto IL_00f8;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:398>
+		List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* L_29 = V_0;
+		NullCheck(L_29);
+		Enumerator_t24E4C96B84374CD9F71B748A47AB020F220D9931 L_30;
+		L_30 = List_1_GetEnumerator_m3FE49C02F31954ACBAF7DF56A1CFED61E50524BA(L_29, List_1_GetEnumerator_m3FE49C02F31954ACBAF7DF56A1CFED61E50524BA_RuntimeMethod_var);
+		V_3 = L_30;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_00ea:
+			{
+				Enumerator_Dispose_mCD48FDD0F418E976C266AF07E14C127B6E896A8C((&V_3), Enumerator_Dispose_mCD48FDD0F418E976C266AF07E14C127B6E896A8C_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_00df_1;
+			}
+
+IL_00c7_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:398>
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_31;
+				L_31 = Enumerator_get_Current_m03DDB9D6C95434581544F1F2FF0D1A36EEAB09AF_inline((&V_3), Enumerator_get_Current_m03DDB9D6C95434581544F1F2FF0D1A36EEAB09AF_RuntimeMethod_var);
+				V_4 = L_31;
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:398>
+				Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_32 = V_4;
+				Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD L_33;
+				memset((&L_33), 0, sizeof(L_33));
+				Nullable_1__ctor_m5B4AD6C29FA5950EF6C215B9A459707DCC95EF73((&L_33), L_32, Nullable_1__ctor_m5B4AD6C29FA5950EF6C215B9A459707DCC95EF73_RuntimeMethod_var);
+				RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_34;
+				L_34 = CozyRun_Spawn_mB7E0FE04A82EEB26BE7BC19D9D102ED84FD07A91(__this, 6, L_33, NULL);
+			}
+
+IL_00df_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:398>
+				bool L_35;
+				L_35 = Enumerator_MoveNext_m5DDD3E697A492E99DDE91E6AB7B2390C491F89AA((&V_3), Enumerator_MoveNext_m5DDD3E697A492E99DDE91E6AB7B2390C491F89AA_RuntimeMethod_var);
+				if (L_35)
+				{
+					goto IL_00c7_1;
+				}
+			}
+			{
+				goto IL_00f8;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_00f8:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:399>
+		return;
+	}
+}
+// Method Definition Index: 65322
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_DamagePlayer_m682B715A7169CBCFA169A2916D2C71372B2B6FAB (CozyRun_t664438D37D010E4092B526226781841855621066* __this, String_t* ___0_source, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_attacker, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	int32_t G_B7_0 = 0;
+	int32_t G_B7_1 = 0;
+	CozyRun_t664438D37D010E4092B526226781841855621066* G_B7_2 = NULL;
+	int32_t G_B6_0 = 0;
+	int32_t G_B6_1 = 0;
+	CozyRun_t664438D37D010E4092B526226781841855621066* G_B6_2 = NULL;
+	int32_t G_B8_0 = 0;
+	int32_t G_B8_1 = 0;
+	int32_t G_B8_2 = 0;
+	CozyRun_t664438D37D010E4092B526226781841855621066* G_B8_3 = NULL;
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:402>
+		float L_0 = __this->___invincible;
+		if ((((float)L_0) > ((float)(0.0f))))
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		bool L_1;
+		L_1 = CozyRun_get_Finished_mD3D28BDCB939B30F5436468DCE1E184360860888(__this, NULL);
+		if (!L_1)
+		{
+			goto IL_0016;
+		}
+	}
+
+IL_0015:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:402>
+		return;
+	}
+
+IL_0016:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:403>
+		bool L_2 = __this->___shield;
+		if (!L_2)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:403>
+		__this->___shield = (bool)0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:403>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = __this->___passives;
+		NullCheck(L_3);
+		int32_t L_4 = ((int32_t)9);
+		int32_t L_5 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		__this->___invincible = ((float)il2cpp_codegen_add((1.0f), ((float)il2cpp_codegen_multiply((0.100000001f), ((float)L_5)))));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:403>
+		return;
+	}
+
+IL_0042:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:404>
+		int32_t L_6 = __this->___hp;
+		int32_t L_7 = __this->___difficulty;
+		if (!L_7)
+		{
+			G_B7_0 = L_6;
+			G_B7_1 = 0;
+			G_B7_2 = __this;
+			goto IL_0055;
+		}
+		G_B6_0 = L_6;
+		G_B6_1 = 0;
+		G_B6_2 = __this;
+	}
+	{
+		G_B8_0 = 2;
+		G_B8_1 = G_B6_0;
+		G_B8_2 = G_B6_1;
+		G_B8_3 = G_B6_2;
+		goto IL_0056;
+	}
+
+IL_0055:
+	{
+		G_B8_0 = 1;
+		G_B8_1 = G_B7_0;
+		G_B8_2 = G_B7_1;
+		G_B8_3 = G_B7_2;
+	}
+
+IL_0056:
+	{
+		int32_t L_8;
+		L_8 = Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline(G_B8_2, ((int32_t)il2cpp_codegen_subtract(G_B8_1, G_B8_0)), NULL);
+		NullCheck(G_B8_3);
+		G_B8_3->___hp = L_8;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:405>
+		String_t* L_9 = ___0_source;
+		__this->___lastDamage = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___lastDamage), (void*)L_9);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:405>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_10 = __this->___passives;
+		NullCheck(L_10);
+		int32_t L_11 = ((int32_t)9);
+		int32_t L_12 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_11));
+		__this->___invincible = ((float)il2cpp_codegen_add((1.0f), ((float)il2cpp_codegen_multiply((0.100000001f), ((float)L_12)))));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:406>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13 = __this->___position;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14 = ___1_attacker;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_15;
+		L_15 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_13, L_14, NULL);
+		V_1 = L_15;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_16;
+		L_16 = Vector2_get_normalized_mF6722883AEFB5027690A778DF8ACC20F0FA65297_inline((&V_1), NULL);
+		V_0 = L_16;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:407>
+		float L_17;
+		L_17 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&V_0), NULL);
+		if ((!(((float)L_17) < ((float)(0.00100000005f)))))
+		{
+			goto IL_00ad;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:407>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18;
+		L_18 = Vector2_get_down_m7672D87B9C778FB2AEF7BB79758142D01166B493_inline(NULL);
+		V_0 = L_18;
+	}
+
+IL_00ad:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:408>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_19 = __this->___position;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_20 = V_0;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_21;
+		L_21 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_20, (18.0f), NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_22;
+		L_22 = Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline(L_19, L_21, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_23;
+		L_23 = CozyRun_ResolvePosition_m03F6BDDBF7F973D5E96EEB40C148DB6CDF9E25CF(__this, L_22, (13.0f), NULL);
+		__this->___position = L_23;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:409>
+		int32_t L_24 = __this->___hp;
+		if ((((int32_t)L_24) > ((int32_t)0)))
+		{
+			goto IL_0101;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:409>
+		__this->___phase = 5;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:409>
+		String_t* L_25 = ___0_source;
+		__this->___resultReason = L_25;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___resultReason), (void*)L_25);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:409>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_26;
+		L_26 = Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline(NULL);
+		__this->___velocity = L_26;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:409>
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_27 = __this->___choices;
+		NullCheck(L_27);
+		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_27, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
+	}
+
+IL_0101:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:410>
+		return;
+	}
+}
+// Method Definition Index: 65323
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_DropXP_m8984B99394BD69ADE0782C2BEB5727A3908A351A (CozyRun_t664438D37D010E4092B526226781841855621066* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_p, float ___1_amount, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mCC62C2303011895A1568EC3C1F63BF804DAE9959_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Find_m2A360402F775AEA01490093221EC2A69061C00BC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m5DC6DFF17E95330D019CA465D891602BC21908FB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CDropXPU3Eb__95_1_m5C0342801081FA1534B8EC037EE90871C7A6C893_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass95_0_U3CDropXPU3Eb__0_m473DE503CE8B1681C7E80E95F1C53874645F4FAF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass95_0_t096646496251236E96DB200120C51ED84B3395D8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass95_0_t096646496251236E96DB200120C51ED84B3395D8* V_0 = NULL;
+	RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* V_1 = NULL;
+	Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489* G_B4_0 = NULL;
+	List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA* G_B4_1 = NULL;
+	Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489* G_B3_0 = NULL;
+	List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA* G_B3_1 = NULL;
+	{
+		U3CU3Ec__DisplayClass95_0_t096646496251236E96DB200120C51ED84B3395D8* L_0 = (U3CU3Ec__DisplayClass95_0_t096646496251236E96DB200120C51ED84B3395D8*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass95_0_t096646496251236E96DB200120C51ED84B3395D8_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass95_0__ctor_m4946E528E3559478AAA0A2147A346BBFFE499525(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass95_0_t096646496251236E96DB200120C51ED84B3395D8* L_1 = V_0;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___0_p;
+		NullCheck(L_1);
+		L_1->___p = L_2;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:414>
+		List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA* L_3 = __this->___pickups;
+		U3CU3Ec__DisplayClass95_0_t096646496251236E96DB200120C51ED84B3395D8* L_4 = V_0;
+		Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489* L_5 = (Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489*)il2cpp_codegen_object_new(Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489_il2cpp_TypeInfo_var);
+		Predicate_1__ctor_mE3C39AC82ABCC317564200BDC23326111F54F0C3(L_5, L_4, (intptr_t)((void*)U3CU3Ec__DisplayClass95_0_U3CDropXPU3Eb__0_m473DE503CE8B1681C7E80E95F1C53874645F4FAF_RuntimeMethod_var), NULL);
+		NullCheck(L_3);
+		RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_6;
+		L_6 = List_1_Find_m2A360402F775AEA01490093221EC2A69061C00BC(L_3, L_5, List_1_Find_m2A360402F775AEA01490093221EC2A69061C00BC_RuntimeMethod_var);
+		V_1 = L_6;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:415>
+		RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_7 = V_1;
+		if (L_7)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA* L_8 = __this->___pickups;
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = List_1_get_Count_m5DC6DFF17E95330D019CA465D891602BC21908FB_inline(L_8, List_1_get_Count_m5DC6DFF17E95330D019CA465D891602BC21908FB_RuntimeMethod_var);
+		if ((((int32_t)L_9) < ((int32_t)((int32_t)256))))
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:415>
+		List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA* L_10 = __this->___pickups;
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var);
+		Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489* L_11 = ((U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var))->___U3CU3E9__95_1;
+		Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489* L_12 = L_11;
+		if (L_12)
+		{
+			G_B4_0 = L_12;
+			G_B4_1 = L_10;
+			goto IL_005f;
+		}
+		G_B3_0 = L_12;
+		G_B3_1 = L_10;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var);
+		U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61* L_13 = ((U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var))->___U3CU3E9;
+		Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489* L_14 = (Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489*)il2cpp_codegen_object_new(Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489_il2cpp_TypeInfo_var);
+		Predicate_1__ctor_mE3C39AC82ABCC317564200BDC23326111F54F0C3(L_14, L_13, (intptr_t)((void*)U3CU3Ec_U3CDropXPU3Eb__95_1_m5C0342801081FA1534B8EC037EE90871C7A6C893_RuntimeMethod_var), NULL);
+		Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489* L_15 = L_14;
+		((U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var))->___U3CU3E9__95_1 = L_15;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var))->___U3CU3E9__95_1), (void*)L_15);
+		G_B4_0 = L_15;
+		G_B4_1 = G_B3_1;
+	}
+
+IL_005f:
+	{
+		NullCheck(G_B4_1);
+		RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_16;
+		L_16 = List_1_Find_m2A360402F775AEA01490093221EC2A69061C00BC(G_B4_1, G_B4_0, List_1_Find_m2A360402F775AEA01490093221EC2A69061C00BC_RuntimeMethod_var);
+		V_1 = L_16;
+	}
+
+IL_0065:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:416>
+		RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_17 = V_1;
+		if (!L_17)
+		{
+			goto IL_0077;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:416>
+		RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_18 = V_1;
+		RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_19 = L_18;
+		NullCheck(L_19);
+		float L_20 = L_19->___value;
+		float L_21 = ___1_amount;
+		NullCheck(L_19);
+		L_19->___value = ((float)il2cpp_codegen_add(L_20, L_21));
+		return;
+	}
+
+IL_0077:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:417>
+		List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA* L_22 = __this->___pickups;
+		RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_23 = (RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625*)il2cpp_codegen_object_new(RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625_il2cpp_TypeInfo_var);
+		RunPickup__ctor_m36A52F4351CC854201809D6A7DDE6EE54E8D883F(L_23, NULL);
+		RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_24 = L_23;
+		U3CU3Ec__DisplayClass95_0_t096646496251236E96DB200120C51ED84B3395D8* L_25 = V_0;
+		NullCheck(L_25);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_26 = L_25->___p;
+		NullCheck(L_24);
+		L_24->___p = L_26;
+		RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_27 = L_24;
+		float L_28 = ___1_amount;
+		NullCheck(L_27);
+		L_27->___value = L_28;
+		NullCheck(L_22);
+		List_1_Add_mCC62C2303011895A1568EC3C1F63BF804DAE9959_inline(L_22, L_27, List_1_Add_mCC62C2303011895A1568EC3C1F63BF804DAE9959_RuntimeMethod_var);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:418>
+		return;
+	}
+}
+// Method Definition Index: 65324
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_AddXP_m251486862A032EFD4B4FC599B0D351FBF6E81331 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, float ___0_amount, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:421>
+		float L_0 = __this->___xp;
+		float L_1 = ___0_amount;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_2 = __this->___passives;
+		NullCheck(L_2);
+		int32_t L_3 = 7;
+		int32_t L_4 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		__this->___xp = ((float)il2cpp_codegen_add(L_0, ((float)il2cpp_codegen_multiply(L_1, ((float)il2cpp_codegen_add((1.0f), ((float)il2cpp_codegen_multiply((0.0799999982f), ((float)L_4)))))))));
+		goto IL_005b;
+	}
+
+IL_0026:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:422>
+		float L_5 = __this->___xp;
+		int32_t L_6 = __this->___level;
+		il2cpp_codegen_runtime_class_init_inline(CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+		int32_t L_7;
+		L_7 = CozyRules_XPRequired_mFD06706C12B7EDCD9000EB9F85F033EEDCE6F0AC(L_6, NULL);
+		__this->___xp = ((float)il2cpp_codegen_subtract(L_5, ((float)L_7)));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:422>
+		int32_t L_8 = __this->___level;
+		__this->___level = ((int32_t)il2cpp_codegen_add(L_8, 1));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:422>
+		int32_t L_9 = __this->___pendingLevels;
+		__this->___pendingLevels = ((int32_t)il2cpp_codegen_add(L_9, 1));
+	}
+
+IL_005b:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:422>
+		int32_t L_10 = __this->___level;
+		if ((((int32_t)L_10) >= ((int32_t)((int32_t)15))))
+		{
+			goto IL_0079;
+		}
+	}
+	{
+		float L_11 = __this->___xp;
+		int32_t L_12 = __this->___level;
+		il2cpp_codegen_runtime_class_init_inline(CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+		int32_t L_13;
+		L_13 = CozyRules_XPRequired_mFD06706C12B7EDCD9000EB9F85F033EEDCE6F0AC(L_12, NULL);
+		if ((((float)L_11) >= ((float)((float)L_13))))
+		{
+			goto IL_0026;
+		}
+	}
+
+IL_0079:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:423>
+		int32_t L_14 = __this->___level;
+		if ((!(((uint32_t)L_14) == ((uint32_t)((int32_t)15)))))
+		{
+			goto IL_00b5;
+		}
+	}
+	{
+		float L_15 = __this->___xp;
+		if ((!(((float)L_15) >= ((float)(1.0f)))))
+		{
+			goto IL_00b5;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:423>
+		float L_16 = __this->___xp;
+		V_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_16);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:423>
+		int32_t L_17 = __this->___score;
+		int32_t L_18 = V_0;
+		__this->___score = ((int32_t)il2cpp_codegen_add(L_17, L_18));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:423>
+		float L_19 = __this->___xp;
+		int32_t L_20 = V_0;
+		__this->___xp = ((float)il2cpp_codegen_subtract(L_19, ((float)L_20)));
+	}
+
+IL_00b5:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:424>
+		return;
+	}
+}
+// Method Definition Index: 65325
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_Heal_m4F582133AE57922D40C3F16FDC477DA39925C0F9 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, int32_t ___0_amount, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:425>
+		int32_t L_0;
+		L_0 = CozyRun_get_MaxHP_m498A7D819E9CC585DE4A1343105255CCE7009566(__this, NULL);
+		int32_t L_1 = __this->___hp;
+		int32_t L_2 = ___0_amount;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = __this->___passives;
+		NullCheck(L_3);
+		int32_t L_4 = 8;
+		int32_t L_5 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		int32_t L_6;
+		L_6 = Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline(L_0, ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(L_1, L_2)), L_5)), NULL);
+		__this->___hp = L_6;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:425>
+		return;
+	}
+}
+// Method Definition Index: 65326
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_CollectPickups_mA181C8F33D566B561D1597241A0F686477A9F046 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, float ___0_dt, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_RemoveAt_mA68E50F0CD9A33C519086FDDA3AEB775C79B5C7F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m5DC6DFF17E95330D019CA465D891602BC21908FB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m2299FEC727450CC0D4078EBBE4CD8A7C4FAD008E_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* V_1 = NULL;
+	float V_2 = 0.0f;
+	float G_B4_0 = 0.0f;
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:428>
+		List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA* L_0 = __this->___pickups;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = List_1_get_Count_m5DC6DFF17E95330D019CA465D891602BC21908FB_inline(L_0, List_1_get_Count_m5DC6DFF17E95330D019CA465D891602BC21908FB_RuntimeMethod_var);
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_1, 1));
+		goto IL_00a6;
+	}
+
+IL_0013:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:430>
+		List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA* L_2 = __this->___pickups;
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_4;
+		L_4 = List_1_get_Item_m2299FEC727450CC0D4078EBBE4CD8A7C4FAD008E(L_2, L_3, List_1_get_Item_m2299FEC727450CC0D4078EBBE4CD8A7C4FAD008E_RuntimeMethod_var);
+		V_1 = L_4;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:430>
+		RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_5 = V_1;
+		RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_6 = L_5;
+		NullCheck(L_6);
+		float L_7 = L_6->___life;
+		float L_8 = ___0_dt;
+		NullCheck(L_6);
+		L_6->___life = ((float)il2cpp_codegen_subtract(L_7, L_8));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:431>
+		RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_9 = V_1;
+		NullCheck(L_9);
+		int32_t L_10 = L_9->___kind;
+		if (!L_10)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		G_B4_0 = (28.0f);
+		goto IL_0043;
+	}
+
+IL_003d:
+	{
+		float L_11;
+		L_11 = CozyRun_get_AbsorbRadius_m7E8F3146B8EC578DE05BC214DA19B77974CCD615(__this, NULL);
+		G_B4_0 = L_11;
+	}
+
+IL_0043:
+	{
+		V_2 = G_B4_0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:432>
+		RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_12 = V_1;
+		NullCheck(L_12);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13 = L_12->___p;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14 = __this->___position;
+		float L_15;
+		L_15 = Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_inline(L_13, L_14, NULL);
+		float L_16 = V_2;
+		if ((!(((float)L_15) <= ((float)L_16))))
+		{
+			goto IL_0089;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:433>
+		RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_17 = V_1;
+		NullCheck(L_17);
+		int32_t L_18 = L_17->___kind;
+		if (L_18)
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:433>
+		RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_19 = V_1;
+		NullCheck(L_19);
+		float L_20 = L_19->___value;
+		CozyRun_AddXP_m251486862A032EFD4B4FC599B0D351FBF6E81331(__this, L_20, NULL);
+		goto IL_007b;
+	}
+
+IL_006e:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:433>
+		RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_21 = V_1;
+		NullCheck(L_21);
+		float L_22 = L_21->___value;
+		CozyRun_Heal_m4F582133AE57922D40C3F16FDC477DA39925C0F9(__this, il2cpp_codegen_cast_double_to_int<int32_t>(L_22), NULL);
+	}
+
+IL_007b:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:433>
+		List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA* L_23 = __this->___pickups;
+		int32_t L_24 = V_0;
+		NullCheck(L_23);
+		List_1_RemoveAt_mA68E50F0CD9A33C519086FDDA3AEB775C79B5C7F(L_23, L_24, List_1_RemoveAt_mA68E50F0CD9A33C519086FDDA3AEB775C79B5C7F_RuntimeMethod_var);
+		goto IL_00a2;
+	}
+
+IL_0089:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:434>
+		RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_25 = V_1;
+		NullCheck(L_25);
+		float L_26 = L_25->___life;
+		if ((!(((float)L_26) <= ((float)(0.0f)))))
+		{
+			goto IL_00a2;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:434>
+		List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA* L_27 = __this->___pickups;
+		int32_t L_28 = V_0;
+		NullCheck(L_27);
+		List_1_RemoveAt_mA68E50F0CD9A33C519086FDDA3AEB775C79B5C7F(L_27, L_28, List_1_RemoveAt_mA68E50F0CD9A33C519086FDDA3AEB775C79B5C7F_RuntimeMethod_var);
+	}
+
+IL_00a2:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:428>
+		int32_t L_29 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_subtract(L_29, 1));
+	}
+
+IL_00a6:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:428>
+		int32_t L_30 = V_0;
+		if ((((int32_t)L_30) >= ((int32_t)0)))
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:436>
+		return;
+	}
+}
+// Method Definition Index: 65327
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_StartObjective_mCC28D3B8522D11C8589AD13B4258F7FC0911F642 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	CozyRun_t664438D37D010E4092B526226781841855621066* G_B2_0 = NULL;
+	CozyRun_t664438D37D010E4092B526226781841855621066* G_B1_0 = NULL;
+	int32_t G_B3_0 = 0;
+	CozyRun_t664438D37D010E4092B526226781841855621066* G_B3_1 = NULL;
+	CozyRun_t664438D37D010E4092B526226781841855621066* G_B5_0 = NULL;
+	CozyRun_t664438D37D010E4092B526226781841855621066* G_B4_0 = NULL;
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* G_B6_0 = NULL;
+	CozyRun_t664438D37D010E4092B526226781841855621066* G_B6_1 = NULL;
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:439>
+		int32_t L_0 = __this->___nextObjective;
+		V_1 = L_0;
+		int32_t L_1 = V_1;
+		__this->___nextObjective = ((int32_t)il2cpp_codegen_add(L_1, 1));
+		int32_t L_2 = V_1;
+		__this->___objectiveIndex = L_2;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:439>
+		int32_t L_3 = __this->___region;
+		if ((((int32_t)L_3) == ((int32_t)2)))
+		{
+			G_B2_0 = __this;
+			goto IL_0025;
+		}
+		G_B1_0 = __this;
+	}
+	{
+		G_B3_0 = ((int32_t)45);
+		G_B3_1 = G_B1_0;
+		goto IL_0027;
+	}
+
+IL_0025:
+	{
+		G_B3_0 = ((int32_t)60);
+		G_B3_1 = G_B2_0;
+	}
+
+IL_0027:
+	{
+		NullCheck(G_B3_1);
+		G_B3_1->___objectiveRemaining = ((float)G_B3_0);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:440>
+		__this->___objectiveHeld = (0.0f);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:440>
+		__this->___objectiveCollected = 0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:440>
+		__this->___carrying = (bool)0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:440>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_4 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)5);
+		__this->___collected = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___collected), (void*)L_4);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:441>
+		int32_t L_5 = __this->___region;
+		il2cpp_codegen_runtime_class_init_inline(CozyRules_t2A1B4952A8F379E0E580950EF32EE6E226A4A409_il2cpp_TypeInfo_var);
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_6;
+		L_6 = CozyRules_ObjectivePoints_mECC28FEFB43C52EC506C95227F38BC6B4C5ABF90(L_5, NULL);
+		V_0 = L_6;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:442>
+		int32_t L_7 = __this->___region;
+		if ((((int32_t)L_7) == ((int32_t)1)))
+		{
+			G_B5_0 = __this;
+			goto IL_006b;
+		}
+		G_B4_0 = __this;
+	}
+	{
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_8 = V_0;
+		G_B6_0 = L_8;
+		G_B6_1 = G_B4_0;
+		goto IL_0086;
+	}
+
+IL_006b:
+	{
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_9 = (Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)SZArrayNew(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var, (uint32_t)1);
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_10 = L_9;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_11 = V_0;
+		int32_t L_12 = __this->___objectiveIndex;
+		NullCheck(L_11);
+		int32_t L_13 = ((int32_t)(L_12%3));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_14 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+		NullCheck(L_10);
+		(L_10)->SetAt(static_cast<il2cpp_array_size_t>(0), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_14);
+		G_B6_0 = L_10;
+		G_B6_1 = G_B5_0;
+	}
+
+IL_0086:
+	{
+		NullCheck(G_B6_1);
+		G_B6_1->___objectivePoints = G_B6_0;
+		Il2CppCodeGenWriteBarrier((void**)(&G_B6_1->___objectivePoints), (void*)G_B6_0);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:443>
+		V_2 = 0;
+		goto IL_00d9;
+	}
+
+IL_008f:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:445>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_15 = __this->___objectivePoints;
+		int32_t L_16 = V_2;
+		NullCheck(L_15);
+		int32_t L_17 = L_16;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_19 = __this->___position;
+		float L_20;
+		L_20 = Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_inline(L_18, L_19, NULL);
+		if ((((float)L_20) >= ((float)(180.0f))))
+		{
+			goto IL_00d5;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:446>
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_21 = __this->___objectivePoints;
+		int32_t L_22 = V_2;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_23 = __this->___objectivePoints;
+		int32_t L_24 = V_2;
+		NullCheck(L_23);
+		int32_t L_25 = L_24;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_26 = (L_23)->GetAt(static_cast<il2cpp_array_size_t>(L_25));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_27;
+		L_27 = Vector2_op_UnaryNegation_mBA9FC53A2194EE3CC067A12D11879F695B34D6F9_inline(L_26, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_28;
+		L_28 = CozyRun_ResolvePosition_m03F6BDDBF7F973D5E96EEB40C148DB6CDF9E25CF(__this, L_27, (13.0f), NULL);
+		NullCheck(L_21);
+		(L_21)->SetAt(static_cast<il2cpp_array_size_t>(L_22), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_28);
+	}
+
+IL_00d5:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:443>
+		int32_t L_29 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_29, 1));
+	}
+
+IL_00d9:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:443>
+		int32_t L_30 = V_2;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_31 = __this->___objectivePoints;
+		NullCheck(L_31);
+		if ((((int32_t)L_30) >= ((int32_t)((int32_t)(((RuntimeArray*)L_31)->max_length)))))
+		{
+			goto IL_00ec;
+		}
+	}
+	{
+		int32_t L_32 = __this->___region;
+		if (!L_32)
+		{
+			goto IL_008f;
+		}
+	}
+
+IL_00ec:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:448>
+		return;
+	}
+}
+// Method Definition Index: 65328
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_UpdateObjective_mAADCCE9E639D7488376CF26FC5BA86191DBA9340 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, float ___0_dt, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t G_B25_0 = 0;
+	int32_t G_B24_0 = 0;
+	int32_t G_B26_0 = 0;
+	int32_t G_B26_1 = 0;
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:451>
+		float L_0 = __this->___objectiveRemaining;
+		if ((!(((float)L_0) <= ((float)(0.0f)))))
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:451>
+		return;
+	}
+
+IL_000e:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:452>
+		float L_1 = __this->___objectiveRemaining;
+		float L_2 = ___0_dt;
+		float L_3;
+		L_3 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline((0.0f), ((float)il2cpp_codegen_subtract(L_1, L_2)), NULL);
+		__this->___objectiveRemaining = L_3;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:453>
+		float L_4 = __this->___objectiveRemaining;
+		if ((!(((float)L_4) <= ((float)(0.0f)))))
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:453>
+		__this->___carrying = (bool)0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:453>
+		return;
+	}
+
+IL_003b:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:454>
+		int32_t L_5 = __this->___region;
+		if ((!(((uint32_t)L_5) == ((uint32_t)1))))
+		{
+			goto IL_0084;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:455>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = __this->___position;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_7 = __this->___objectivePoints;
+		NullCheck(L_7);
+		int32_t L_8 = 0;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_8));
+		float L_10;
+		L_10 = Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_inline(L_6, L_9, NULL);
+		if ((!(((float)L_10) <= ((float)(90.0f)))))
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:455>
+		float L_11 = __this->___objectiveHeld;
+		float L_12 = ___0_dt;
+		__this->___objectiveHeld = ((float)il2cpp_codegen_add(L_11, L_12));
+	}
+
+IL_0070:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:455>
+		float L_13 = __this->___objectiveHeld;
+		if ((!(((float)L_13) >= ((float)(10.0f)))))
+		{
+			goto IL_0083;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:455>
+		CozyRun_CompleteObjective_m2FBE7F45DD0BC62E32FEA25968328675E747859B(__this, NULL);
+	}
+
+IL_0083:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:455>
+		return;
+	}
+
+IL_0084:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:456>
+		V_0 = 0;
+		goto IL_00e5;
+	}
+
+IL_0088:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:458>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_14 = __this->___collected;
+		int32_t L_15 = V_0;
+		NullCheck(L_14);
+		int32_t L_16 = L_15;
+		uint8_t L_17 = (uint8_t)(L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_16));
+		if (L_17)
+		{
+			goto IL_00e1;
+		}
+	}
+	{
+		bool L_18 = __this->___carrying;
+		if (L_18)
+		{
+			goto IL_00e1;
+		}
+	}
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_19 = __this->___position;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_20 = __this->___objectivePoints;
+		int32_t L_21 = V_0;
+		NullCheck(L_20);
+		int32_t L_22 = L_21;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
+		float L_24;
+		L_24 = Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_inline(L_19, L_23, NULL);
+		if ((((float)L_24) > ((float)(28.0f))))
+		{
+			goto IL_00e1;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:459>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_25 = __this->___collected;
+		int32_t L_26 = V_0;
+		NullCheck(L_25);
+		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(L_26), (bool)1);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:460>
+		int32_t L_27 = __this->___region;
+		if ((!(((uint32_t)L_27) == ((uint32_t)2))))
+		{
+			goto IL_00d3;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:460>
+		__this->___carrying = (bool)1;
+		goto IL_00e1;
+	}
+
+IL_00d3:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:460>
+		int32_t L_28 = __this->___objectiveCollected;
+		__this->___objectiveCollected = ((int32_t)il2cpp_codegen_add(L_28, 1));
+	}
+
+IL_00e1:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:456>
+		int32_t L_29 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_29, 1));
+	}
+
+IL_00e5:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:456>
+		int32_t L_30 = V_0;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_31 = __this->___objectivePoints;
+		NullCheck(L_31);
+		if ((((int32_t)L_30) < ((int32_t)((int32_t)(((RuntimeArray*)L_31)->max_length)))))
+		{
+			goto IL_0088;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:462>
+		int32_t L_32 = __this->___region;
+		if ((!(((uint32_t)L_32) == ((uint32_t)2))))
+		{
+			goto IL_0128;
+		}
+	}
+	{
+		bool L_33 = __this->___carrying;
+		if (!L_33)
+		{
+			goto IL_0128;
+		}
+	}
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_34 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___position);
+		float L_35;
+		L_35 = Vector2_get_magnitude_m5C59B4056420AEFDB291AD0914A3F675330A75CE_inline(L_34, NULL);
+		if ((!(((float)L_35) < ((float)(44.0f)))))
+		{
+			goto IL_0128;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:462>
+		__this->___carrying = (bool)0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:462>
+		int32_t L_36 = __this->___objectiveCollected;
+		__this->___objectiveCollected = ((int32_t)il2cpp_codegen_add(L_36, 1));
+	}
+
+IL_0128:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:463>
+		int32_t L_37 = __this->___objectiveCollected;
+		int32_t L_38 = __this->___region;
+		if (!L_38)
+		{
+			G_B25_0 = L_37;
+			goto IL_0139;
+		}
+		G_B24_0 = L_37;
+	}
+	{
+		G_B26_0 = 3;
+		G_B26_1 = G_B24_0;
+		goto IL_013a;
+	}
+
+IL_0139:
+	{
+		G_B26_0 = 5;
+		G_B26_1 = G_B25_0;
+	}
+
+IL_013a:
+	{
+		if ((((int32_t)G_B26_1) < ((int32_t)G_B26_0)))
+		{
+			goto IL_0142;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:463>
+		CozyRun_CompleteObjective_m2FBE7F45DD0BC62E32FEA25968328675E747859B(__this, NULL);
+	}
+
+IL_0142:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:464>
+		return;
+	}
+}
+// Method Definition Index: 65329
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_CompleteObjective_m2FBE7F45DD0BC62E32FEA25968328675E747859B (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:467>
+		float L_0 = __this->___objectiveRemaining;
+		if ((!(((float)L_0) <= ((float)(0.0f)))))
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:467>
+		return;
+	}
+
+IL_000e:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:468>
+		__this->___objectiveRemaining = (0.0f);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:468>
+		int32_t L_1 = __this->___objectives;
+		__this->___objectives = ((int32_t)il2cpp_codegen_add(L_1, 1));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:468>
+		int32_t L_2 = __this->___score;
+		__this->___score = ((int32_t)il2cpp_codegen_add(L_2, ((int32_t)300)));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:468>
+		__this->___relicPending = (bool)1;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:470>
+		return;
+	}
+}
+// Method Definition Index: 65330
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_ObjectiveRewardEffects_mED48046550A853330AB9F62439D173135ED92A27 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_mE1483223C0C26DE4B8CA758AED9843C35D077BFE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m00E5E6E6760FB7077A289C583A7C00017AC7A2F1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m29415D9BDBCD2EFBDE9B663F84ABB5E6840E9DF1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_GetEnumerator_m56D5B37CBC67F5D6C255CB01AB4594F3620C62EB_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_RemoveAll_m588FE5A5C149EDDBAE5A0B7945BF807BC43B6649_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CObjectiveRewardEffectsU3Eb__102_0_mE743DC39088461A221FC4E458582A7D458F874A0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Enumerator_t4329742FEFDBB6BEB3BFCF6FA377D093A39F5ABF V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* V_1 = NULL;
+	Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489* G_B12_0 = NULL;
+	List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA* G_B12_1 = NULL;
+	Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489* G_B11_0 = NULL;
+	List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA* G_B11_1 = NULL;
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:473>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_0 = __this->___relics;
+		NullCheck(L_0);
+		int32_t L_1 = 1;
+		uint8_t L_2 = (uint8_t)(L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_1));
+		if (!L_2)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:473>
+		CozyRun_Heal_m4F582133AE57922D40C3F16FDC477DA39925C0F9(__this, 2, NULL);
+	}
+
+IL_0011:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:474>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_3 = __this->___relics;
+		NullCheck(L_3);
+		int32_t L_4 = 4;
+		uint8_t L_5 = (uint8_t)(L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		if (!L_5)
+		{
+			goto IL_0089;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:474>
+		List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA* L_6 = __this->___pickups;
+		NullCheck(L_6);
+		Enumerator_t4329742FEFDBB6BEB3BFCF6FA377D093A39F5ABF L_7;
+		L_7 = List_1_GetEnumerator_m56D5B37CBC67F5D6C255CB01AB4594F3620C62EB(L_6, List_1_GetEnumerator_m56D5B37CBC67F5D6C255CB01AB4594F3620C62EB_RuntimeMethod_var);
+		V_0 = L_7;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0050:
+			{
+				Enumerator_Dispose_mE1483223C0C26DE4B8CA758AED9843C35D077BFE((&V_0), Enumerator_Dispose_mE1483223C0C26DE4B8CA758AED9843C35D077BFE_RuntimeMethod_var);
+				return;
+			}
+		});
+		try
+		{
+			{
+				goto IL_0045_1;
+			}
+
+IL_0029_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:474>
+				RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_8;
+				L_8 = Enumerator_get_Current_m29415D9BDBCD2EFBDE9B663F84ABB5E6840E9DF1_inline((&V_0), Enumerator_get_Current_m29415D9BDBCD2EFBDE9B663F84ABB5E6840E9DF1_RuntimeMethod_var);
+				V_1 = L_8;
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:474>
+				RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_9 = V_1;
+				NullCheck(L_9);
+				int32_t L_10 = L_9->___kind;
+				if (L_10)
+				{
+					goto IL_0045_1;
+				}
+			}
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:474>
+				RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_11 = V_1;
+				NullCheck(L_11);
+				float L_12 = L_11->___value;
+				CozyRun_AddXP_m251486862A032EFD4B4FC599B0D351FBF6E81331(__this, L_12, NULL);
+			}
+
+IL_0045_1:
+			{
+				//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:474>
+				bool L_13;
+				L_13 = Enumerator_MoveNext_m00E5E6E6760FB7077A289C583A7C00017AC7A2F1((&V_0), Enumerator_MoveNext_m00E5E6E6760FB7077A289C583A7C00017AC7A2F1_RuntimeMethod_var);
+				if (L_13)
+				{
+					goto IL_0029_1;
+				}
+			}
+			{
+				goto IL_005e;
+			}
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_005e:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:474>
+		List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA* L_14 = __this->___pickups;
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var);
+		Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489* L_15 = ((U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var))->___U3CU3E9__102_0;
+		Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489* L_16 = L_15;
+		if (L_16)
+		{
+			G_B12_0 = L_16;
+			G_B12_1 = L_14;
+			goto IL_0083;
+		}
+		G_B11_0 = L_16;
+		G_B11_1 = L_14;
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var);
+		U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61* L_17 = ((U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var))->___U3CU3E9;
+		Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489* L_18 = (Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489*)il2cpp_codegen_object_new(Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489_il2cpp_TypeInfo_var);
+		Predicate_1__ctor_mE3C39AC82ABCC317564200BDC23326111F54F0C3(L_18, L_17, (intptr_t)((void*)U3CU3Ec_U3CObjectiveRewardEffectsU3Eb__102_0_mE743DC39088461A221FC4E458582A7D458F874A0_RuntimeMethod_var), NULL);
+		Predicate_1_t4230A44D96664F76EF2554E16B30D72B5998D489* L_19 = L_18;
+		((U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var))->___U3CU3E9__102_0 = L_19;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var))->___U3CU3E9__102_0), (void*)L_19);
+		G_B12_0 = L_19;
+		G_B12_1 = G_B11_1;
+	}
+
+IL_0083:
+	{
+		NullCheck(G_B12_1);
+		int32_t L_20;
+		L_20 = List_1_RemoveAll_m588FE5A5C149EDDBAE5A0B7945BF807BC43B6649(G_B12_1, G_B12_0, List_1_RemoveAll_m588FE5A5C149EDDBAE5A0B7945BF807BC43B6649_RuntimeMethod_var);
+	}
+
+IL_0089:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:475>
+		return;
+	}
+}
+// Method Definition Index: 65331
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_ResolveChoices_mDAFEE6246C410432B7A4969D0C897CB6181EB2A8 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:478>
+		bool L_0;
+		L_0 = CozyRun_get_Finished_mD3D28BDCB939B30F5436468DCE1E184360860888(__this, NULL);
+		if (L_0)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		int32_t L_1 = __this->___phase;
+		if ((((int32_t)L_1) == ((int32_t)3)))
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		int32_t L_2 = __this->___phase;
+		if ((((int32_t)L_2) == ((int32_t)1)))
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		int32_t L_3 = __this->___phase;
+		if ((!(((uint32_t)L_3) == ((uint32_t)2))))
+		{
+			goto IL_0024;
+		}
+	}
+
+IL_0023:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:478>
+		return;
+	}
+
+IL_0024:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:479>
+		int32_t L_4 = __this->___pendingLevels;
+		if ((((int32_t)L_4) <= ((int32_t)0)))
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:479>
+		__this->___phase = 1;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:479>
+		CozyRun_RollChoices_mE49093AE85E354A2B3DA6A9E7263EBCA029FDE77(__this, NULL);
+		return;
+	}
+
+IL_003b:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:480>
+		bool L_5 = __this->___relicPending;
+		if (!L_5)
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:480>
+		__this->___phase = 2;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:480>
+		CozyRun_RollChoices_mE49093AE85E354A2B3DA6A9E7263EBCA029FDE77(__this, NULL);
+	}
+
+IL_0050:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:481>
+		return;
+	}
+}
+// Method Definition Index: 65332
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun_RollChoices_mE49093AE85E354A2B3DA6A9E7263EBCA029FDE77 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_RemoveAt_m76C4CDACF47BA529BAFADFC8D5E13DB9587F4004_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Remove_m2B41E5B9E061DD4D5F58B693018024AADF2AD7F5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	int32_t V_4 = 0;
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_5 = NULL;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:484>
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_0 = __this->___choices;
+		NullCheck(L_0);
+		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_0, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:484>
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_1 = (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*)il2cpp_codegen_object_new(List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
+		List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8(L_1, List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var);
+		V_0 = L_1;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:485>
+		int32_t L_2 = __this->___phase;
+		if ((!(((uint32_t)L_2) == ((uint32_t)2))))
+		{
+			goto IL_0081;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:487>
+		V_3 = 0;
+		goto IL_0033;
+	}
+
+IL_001e:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:487>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_3 = __this->___relics;
+		int32_t L_4 = V_3;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		uint8_t L_6 = (uint8_t)(L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		if (L_6)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:487>
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_7 = V_0;
+		int32_t L_8 = V_3;
+		NullCheck(L_7);
+		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_7, L_8, List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
+	}
+
+IL_002f:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:487>
+		int32_t L_9 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_9, 1));
+	}
+
+IL_0033:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:487>
+		int32_t L_10 = V_3;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_11 = __this->___relics;
+		NullCheck(L_11);
+		if ((((int32_t)L_10) < ((int32_t)((int32_t)(((RuntimeArray*)L_11)->max_length)))))
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		goto IL_0069;
+	}
+
+IL_0040:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:488>
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_12 = V_0;
+		NullCheck(L_12);
+		int32_t L_13;
+		L_13 = List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_inline(L_12, List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_RuntimeMethod_var);
+		int32_t L_14;
+		L_14 = CozyRun_RandomInt_m599F43D0DF64581BC618A38B30BF2A18F2B49768(__this, L_13, NULL);
+		V_4 = L_14;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:488>
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_15 = __this->___choices;
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_16 = V_0;
+		int32_t L_17 = V_4;
+		NullCheck(L_16);
+		int32_t L_18;
+		L_18 = List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D(L_16, L_17, List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_RuntimeMethod_var);
+		NullCheck(L_15);
+		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_15, L_18, List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:488>
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_19 = V_0;
+		int32_t L_20 = V_4;
+		NullCheck(L_19);
+		List_1_RemoveAt_m76C4CDACF47BA529BAFADFC8D5E13DB9587F4004(L_19, L_20, List_1_RemoveAt_m76C4CDACF47BA529BAFADFC8D5E13DB9587F4004_RuntimeMethod_var);
+	}
+
+IL_0069:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:488>
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_21 = __this->___choices;
+		NullCheck(L_21);
+		int32_t L_22;
+		L_22 = List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_inline(L_21, List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_RuntimeMethod_var);
+		if ((((int32_t)L_22) >= ((int32_t)2)))
+		{
+			goto IL_0080;
+		}
+	}
+	{
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_23 = V_0;
+		NullCheck(L_23);
+		int32_t L_24;
+		L_24 = List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_inline(L_23, List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_RuntimeMethod_var);
+		if ((((int32_t)L_24) > ((int32_t)0)))
+		{
+			goto IL_0040;
+		}
+	}
+
+IL_0080:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:489>
+		return;
+	}
+
+IL_0081:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:491>
+		int32_t L_25 = __this->___weaponLevel;
+		if ((((int32_t)L_25) >= ((int32_t)5)))
+		{
+			goto IL_0091;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:491>
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_26 = V_0;
+		NullCheck(L_26);
+		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_26, (-1), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
+	}
+
+IL_0091:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:492>
+		V_1 = 0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:492>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_27 = __this->___passives;
+		V_5 = L_27;
+		V_6 = 0;
+		goto IL_00b2;
+	}
+
+IL_00a0:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:492>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_28 = V_5;
+		int32_t L_29 = V_6;
+		NullCheck(L_28);
+		int32_t L_30 = L_29;
+		int32_t L_31 = (L_28)->GetAt(static_cast<il2cpp_array_size_t>(L_30));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:492>
+		if ((((int32_t)L_31) <= ((int32_t)0)))
+		{
+			goto IL_00ac;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:492>
+		int32_t L_32 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_32, 1));
+	}
+
+IL_00ac:
+	{
+		int32_t L_33 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_33, 1));
+	}
+
+IL_00b2:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:492>
+		int32_t L_34 = V_6;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_35 = V_5;
+		NullCheck(L_35);
+		if ((((int32_t)L_34) < ((int32_t)((int32_t)(((RuntimeArray*)L_35)->max_length)))))
+		{
+			goto IL_00a0;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:493>
+		V_7 = 0;
+		goto IL_00e9;
+	}
+
+IL_00bf:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:493>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_36 = __this->___passives;
+		int32_t L_37 = V_7;
+		NullCheck(L_36);
+		int32_t L_38 = L_37;
+		int32_t L_39 = (L_36)->GetAt(static_cast<il2cpp_array_size_t>(L_38));
+		if ((((int32_t)L_39) >= ((int32_t)3)))
+		{
+			goto IL_00e3;
+		}
+	}
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_40 = __this->___passives;
+		int32_t L_41 = V_7;
+		NullCheck(L_40);
+		int32_t L_42 = L_41;
+		int32_t L_43 = (L_40)->GetAt(static_cast<il2cpp_array_size_t>(L_42));
+		if ((((int32_t)L_43) > ((int32_t)0)))
+		{
+			goto IL_00db;
+		}
+	}
+	{
+		int32_t L_44 = V_1;
+		if ((((int32_t)L_44) >= ((int32_t)4)))
+		{
+			goto IL_00e3;
+		}
+	}
+
+IL_00db:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:493>
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_45 = V_0;
+		int32_t L_46 = V_7;
+		NullCheck(L_45);
+		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_45, L_46, List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
+	}
+
+IL_00e3:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:493>
+		int32_t L_47 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_47, 1));
+	}
+
+IL_00e9:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:493>
+		int32_t L_48 = V_7;
+		if ((((int32_t)L_48) < ((int32_t)((int32_t)12))))
+		{
+			goto IL_00bf;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:494>
+		int32_t L_49 = __this->___level;
+		int32_t L_50 = __this->___pendingLevels;
+		V_2 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_subtract(L_49, L_50)), 1));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:495>
+		int32_t L_51 = V_2;
+		if ((((int32_t)L_51) > ((int32_t)8)))
+		{
+			goto IL_0150;
+		}
+	}
+	{
+		int32_t L_52 = V_2;
+		if (((int32_t)(L_52%2)))
+		{
+			goto IL_0150;
+		}
+	}
+	{
+		int32_t L_53 = __this->___weaponLevel;
+		if ((((int32_t)L_53) >= ((int32_t)5)))
+		{
+			goto IL_0150;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:495>
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_54 = __this->___choices;
+		NullCheck(L_54);
+		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_54, (-1), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:495>
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_55 = V_0;
+		NullCheck(L_55);
+		bool L_56;
+		L_56 = List_1_Remove_m2B41E5B9E061DD4D5F58B693018024AADF2AD7F5(L_55, (-1), List_1_Remove_m2B41E5B9E061DD4D5F58B693018024AADF2AD7F5_RuntimeMethod_var);
+		goto IL_0150;
+	}
+
+IL_0127:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:496>
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_57 = V_0;
+		NullCheck(L_57);
+		int32_t L_58;
+		L_58 = List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_inline(L_57, List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_RuntimeMethod_var);
+		int32_t L_59;
+		L_59 = CozyRun_RandomInt_m599F43D0DF64581BC618A38B30BF2A18F2B49768(__this, L_58, NULL);
+		V_8 = L_59;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:496>
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_60 = __this->___choices;
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_61 = V_0;
+		int32_t L_62 = V_8;
+		NullCheck(L_61);
+		int32_t L_63;
+		L_63 = List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D(L_61, L_62, List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_RuntimeMethod_var);
+		NullCheck(L_60);
+		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_60, L_63, List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:496>
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_64 = V_0;
+		int32_t L_65 = V_8;
+		NullCheck(L_64);
+		List_1_RemoveAt_m76C4CDACF47BA529BAFADFC8D5E13DB9587F4004(L_64, L_65, List_1_RemoveAt_m76C4CDACF47BA529BAFADFC8D5E13DB9587F4004_RuntimeMethod_var);
+	}
+
+IL_0150:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:496>
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_66 = __this->___choices;
+		NullCheck(L_66);
+		int32_t L_67;
+		L_67 = List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_inline(L_66, List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_RuntimeMethod_var);
+		if ((((int32_t)L_67) >= ((int32_t)3)))
+		{
+			goto IL_0167;
+		}
+	}
+	{
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_68 = V_0;
+		NullCheck(L_68);
+		int32_t L_69;
+		L_69 = List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_inline(L_68, List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_RuntimeMethod_var);
+		if ((((int32_t)L_69) > ((int32_t)0)))
+		{
+			goto IL_0127;
+		}
+	}
+
+IL_0167:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:497>
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_70 = __this->___choices;
+		NullCheck(L_70);
+		int32_t L_71;
+		L_71 = List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_inline(L_70, List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_RuntimeMethod_var);
+		if ((((int32_t)L_71) >= ((int32_t)3)))
+		{
+			goto IL_0182;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:497>
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_72 = __this->___choices;
+		NullCheck(L_72);
+		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_72, ((int32_t)-2), List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
+	}
+
+IL_0182:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:498>
+		return;
+	}
+}
+// Method Definition Index: 65333
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyRun_Reroll_mE544B095821372BD810EB22D130899C089D5F8EB (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:501>
+		int32_t L_0 = __this->___phase;
+		if ((!(((uint32_t)L_0) == ((uint32_t)1))))
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		bool L_1 = __this->___choosingBranch;
+		if (L_1)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		int32_t L_2 = __this->___rerolls;
+		if ((((int32_t)L_2) > ((int32_t)0)))
+		{
+			goto IL_001c;
+		}
+	}
+
+IL_001a:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:501>
+		return (bool)0;
+	}
+
+IL_001c:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:502>
+		int32_t L_3 = __this->___rerolls;
+		__this->___rerolls = ((int32_t)il2cpp_codegen_subtract(L_3, 1));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:502>
+		CozyRun_RollChoices_mE49093AE85E354A2B3DA6A9E7263EBCA029FDE77(__this, NULL);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:502>
+		return (bool)1;
+	}
+}
+// Method Definition Index: 65334
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyRun_Choose_m7B7FDC8ACEAA4803E106D997D35819527704CA24 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, int32_t ___0_choice, int32_t ___1_selectedBranch, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Contains_m4FD96E89F15844C90032C7386BAB528817F1FF5B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:506>
+		int32_t L_0 = __this->___phase;
+		if ((((int32_t)L_0) == ((int32_t)1)))
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		int32_t L_1 = __this->___phase;
+		if ((!(((uint32_t)L_1) == ((uint32_t)2))))
+		{
+			goto IL_0020;
+		}
+	}
+
+IL_0012:
+	{
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_2 = __this->___choices;
+		int32_t L_3 = ___0_choice;
+		NullCheck(L_2);
+		bool L_4;
+		L_4 = List_1_Contains_m4FD96E89F15844C90032C7386BAB528817F1FF5B(L_2, L_3, List_1_Contains_m4FD96E89F15844C90032C7386BAB528817F1FF5B_RuntimeMethod_var);
+		if (L_4)
+		{
+			goto IL_0022;
+		}
+	}
+
+IL_0020:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:506>
+		return (bool)0;
+	}
+
+IL_0022:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:507>
+		int32_t L_5 = __this->___phase;
+		if ((!(((uint32_t)L_5) == ((uint32_t)2))))
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:509>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_6 = __this->___relics;
+		int32_t L_7 = ___0_choice;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (bool)1);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:509>
+		int32_t L_8 = ___0_choice;
+		if (L_8)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:509>
+		__this->___shield = (bool)1;
+	}
+
+IL_003e:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:509>
+		int32_t L_9 = ___0_choice;
+		if ((!(((uint32_t)L_9) == ((uint32_t)5))))
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:509>
+		int32_t L_10;
+		L_10 = CozyRun_get_MaxHP_m498A7D819E9CC585DE4A1343105255CCE7009566(__this, NULL);
+		int32_t L_11 = __this->___hp;
+		int32_t L_12;
+		L_12 = Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline(L_10, ((int32_t)il2cpp_codegen_add(L_11, 2)), NULL);
+		__this->___hp = L_12;
+	}
+
+IL_005b:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:510>
+		__this->___relicPending = (bool)0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:510>
+		CozyRun_ObjectiveRewardEffects_mED48046550A853330AB9F62439D173135ED92A27(__this, NULL);
+		goto IL_00f5;
+	}
+
+IL_006d:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:514>
+		int32_t L_13 = ___0_choice;
+		if ((!(((uint32_t)L_13) == ((uint32_t)(-1)))))
+		{
+			goto IL_00ab;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:516>
+		int32_t L_14 = __this->___weaponLevel;
+		if ((!(((uint32_t)L_14) == ((uint32_t)4))))
+		{
+			goto IL_008b;
+		}
+	}
+	{
+		int32_t L_15 = ___1_selectedBranch;
+		if ((((int32_t)L_15) == ((int32_t)1)))
+		{
+			goto IL_008b;
+		}
+	}
+	{
+		int32_t L_16 = ___1_selectedBranch;
+		if ((((int32_t)L_16) == ((int32_t)2)))
+		{
+			goto IL_008b;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:516>
+		__this->___choosingBranch = (bool)1;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:516>
+		return (bool)0;
+	}
+
+IL_008b:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:517>
+		int32_t L_17 = __this->___weaponLevel;
+		__this->___weaponLevel = ((int32_t)il2cpp_codegen_add(L_17, 1));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:517>
+		int32_t L_18 = __this->___weaponLevel;
+		if ((!(((uint32_t)L_18) == ((uint32_t)5))))
+		{
+			goto IL_00e7;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:517>
+		int32_t L_19 = ___1_selectedBranch;
+		__this->___branch = L_19;
+		goto IL_00e7;
+	}
+
+IL_00ab:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:519>
+		int32_t L_20 = ___0_choice;
+		if ((!(((uint32_t)L_20) == ((uint32_t)((int32_t)-2)))))
+		{
+			goto IL_00b9;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:519>
+		CozyRun_Heal_m4F582133AE57922D40C3F16FDC477DA39925C0F9(__this, 2, NULL);
+		goto IL_00e7;
+	}
+
+IL_00b9:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:520>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_21 = __this->___passives;
+		int32_t L_22 = ___0_choice;
+		NullCheck(L_21);
+		int32_t* L_23 = ((L_21)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_22)));
+		int32_t L_24 = *((int32_t*)L_23);
+		*((int32_t*)L_23) = (int32_t)((int32_t)il2cpp_codegen_add(L_24, 1));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:520>
+		int32_t L_25 = ___0_choice;
+		if ((!(((uint32_t)L_25) == ((uint32_t)4))))
+		{
+			goto IL_00e7;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:520>
+		int32_t L_26;
+		L_26 = CozyRun_get_MaxHP_m498A7D819E9CC585DE4A1343105255CCE7009566(__this, NULL);
+		int32_t L_27 = __this->___hp;
+		int32_t L_28;
+		L_28 = Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline(L_26, ((int32_t)il2cpp_codegen_add(L_27, 2)), NULL);
+		__this->___hp = L_28;
+	}
+
+IL_00e7:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:521>
+		int32_t L_29 = __this->___pendingLevels;
+		__this->___pendingLevels = ((int32_t)il2cpp_codegen_subtract(L_29, 1));
+	}
+
+IL_00f5:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:523>
+		__this->___choosingBranch = (bool)0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:523>
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_30 = __this->___choices;
+		NullCheck(L_30);
+		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_30, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:523>
+		__this->___phase = 0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:523>
+		CozyRun_ResolveChoices_mDAFEE6246C410432B7A4969D0C897CB6181EB2A8(__this, NULL);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:523>
+		return (bool)1;
+	}
+}
+// Method Definition Index: 65335
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CozyRun_CalculateStars_m331F5A0F2B211A1C31012726128950190BBDCFB7 (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) 
+{
+	int32_t G_B2_0 = 0;
+	int32_t G_B1_0 = 0;
+	int32_t G_B3_0 = 0;
+	int32_t G_B3_1 = 0;
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:525>
+		float L_0 = __this->___elapsed;
+		float L_1;
+		L_1 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(((float)il2cpp_codegen_add(L_0, (0.00100000005f))), (720.0f), NULL);
+		int32_t L_2;
+		L_2 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(((float)(L_1/(60.0f))), NULL);
+		int32_t L_3 = __this->___objectives;
+		int32_t L_4 = __this->___phase;
+		if ((((int32_t)L_4) == ((int32_t)4)))
+		{
+			G_B2_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(5, L_2)), ((int32_t)il2cpp_codegen_multiply(((int32_t)15), L_3))));
+			goto IL_0039;
+		}
+		G_B1_0 = ((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_multiply(5, L_2)), ((int32_t)il2cpp_codegen_multiply(((int32_t)15), L_3))));
+	}
+	{
+		G_B3_0 = 0;
+		G_B3_1 = G_B1_0;
+		goto IL_003b;
+	}
+
+IL_0039:
+	{
+		G_B3_0 = ((int32_t)40);
+		G_B3_1 = G_B2_0;
+	}
+
+IL_003b:
+	{
+		return ((int32_t)il2cpp_codegen_add(G_B3_1, G_B3_0));
+	}
+}
+// Method Definition Index: 65336
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CozyRun_get_RecordKey_m899AC5343E7B76B88C611F1C1491DF4EB3D9A3BA (CozyRun_t664438D37D010E4092B526226781841855621066* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Animal_t81F9C91803B62D788C9E2C043CFF5DAAF4BE6D6A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Difficulty_t6F49E0019DDC17D3B6F8C2AB5B511CD41BA48266_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Region_tDA6CA4B2041350E05694103664D0031C18A68170_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral077D0AB4023FE0C8C7EAD05529867803240F6F0D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0BD5CB4D7CD0B29A5EBB1C2E01C49A483CBB309C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t G_B2_0 = 0;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B2_1 = NULL;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B2_2 = NULL;
+	int32_t G_B1_0 = 0;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B1_1 = NULL;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B1_2 = NULL;
+	String_t* G_B3_0 = NULL;
+	int32_t G_B3_1 = 0;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B3_2 = NULL;
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* G_B3_3 = NULL;
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:526>
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)((int32_t)9));
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = L_0;
+		String_t* L_2 = __this->___rulesVersion;
+		NullCheck(L_1);
+		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)L_2);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_3 = L_1;
+		NullCheck(L_3);
+		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = L_3;
+		int32_t* L_5 = (int32_t*)(&__this->___region);
+		Il2CppFakeBox<int32_t> L_6(Region_tDA6CA4B2041350E05694103664D0031C18A68170_il2cpp_TypeInfo_var, L_5);
+		String_t* L_7;
+		L_7 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_6), NULL);
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)L_7);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_8 = L_4;
+		NullCheck(L_8);
+		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_9 = L_8;
+		int32_t* L_10 = (int32_t*)(&__this->___animal);
+		Il2CppFakeBox<int32_t> L_11(Animal_t81F9C91803B62D788C9E2C043CFF5DAAF4BE6D6A_il2cpp_TypeInfo_var, L_10);
+		String_t* L_12;
+		L_12 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_11), NULL);
+		NullCheck(L_9);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)L_12);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_13 = L_9;
+		NullCheck(L_13);
+		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(5), (String_t*)_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_14 = L_13;
+		int32_t* L_15 = (int32_t*)(&__this->___difficulty);
+		Il2CppFakeBox<int32_t> L_16(Difficulty_t6F49E0019DDC17D3B6F8C2AB5B511CD41BA48266_il2cpp_TypeInfo_var, L_15);
+		String_t* L_17;
+		L_17 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_16), NULL);
+		NullCheck(L_14);
+		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(6), (String_t*)L_17);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_18 = L_14;
+		NullCheck(L_18);
+		(L_18)->SetAt(static_cast<il2cpp_array_size_t>(7), (String_t*)_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_19 = L_18;
+		bool L_20 = __this->___endless;
+		if (L_20)
+		{
+			G_B2_0 = 8;
+			G_B2_1 = L_19;
+			G_B2_2 = L_19;
+			goto IL_007d;
+		}
+		G_B1_0 = 8;
+		G_B1_1 = L_19;
+		G_B1_2 = L_19;
+	}
+	{
+		G_B3_0 = _stringLiteral0BD5CB4D7CD0B29A5EBB1C2E01C49A483CBB309C;
+		G_B3_1 = G_B1_0;
+		G_B3_2 = G_B1_1;
+		G_B3_3 = G_B1_2;
+		goto IL_0082;
+	}
+
+IL_007d:
+	{
+		G_B3_0 = _stringLiteral077D0AB4023FE0C8C7EAD05529867803240F6F0D;
+		G_B3_1 = G_B2_0;
+		G_B3_2 = G_B2_1;
+		G_B3_3 = G_B2_2;
+	}
+
+IL_0082:
+	{
+		NullCheck(G_B3_2);
+		(G_B3_2)->SetAt(static_cast<il2cpp_array_size_t>(G_B3_1), (String_t*)G_B3_0);
+		String_t* L_21;
+		L_21 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(G_B3_3, NULL);
+		return L_21;
+	}
+}
+// Method Definition Index: 65337
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRun__cctor_m2BBB26E616F964C60339FE009178C5A7828889AD (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CozyRun_t664438D37D010E4092B526226781841855621066_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____3138ACB76E34991B4550467779E3B895418E22E332EEB37372E06F36E416DD9E_FieldInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____D4BF2DE4934B00534A45106A7271306A161FC689068E95AF4CBB680BE2F8CDFF_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:62>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_0 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)3);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1 = L_0;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_2 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____3138ACB76E34991B4550467779E3B895418E22E332EEB37372E06F36E416DD9E_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_1, L_2, NULL);
+		((CozyRun_t664438D37D010E4092B526226781841855621066_StaticFields*)il2cpp_codegen_static_fields_for(CozyRun_t664438D37D010E4092B526226781841855621066_il2cpp_TypeInfo_var))->___NormalHealTimes = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&((CozyRun_t664438D37D010E4092B526226781841855621066_StaticFields*)il2cpp_codegen_static_fields_for(CozyRun_t664438D37D010E4092B526226781841855621066_il2cpp_TypeInfo_var))->___NormalHealTimes), (void*)L_1);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:63>
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_3 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)4);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4 = L_3;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_5 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____D4BF2DE4934B00534A45106A7271306A161FC689068E95AF4CBB680BE2F8CDFF_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_4, L_5, NULL);
+		((CozyRun_t664438D37D010E4092B526226781841855621066_StaticFields*)il2cpp_codegen_static_fields_for(CozyRun_t664438D37D010E4092B526226781841855621066_il2cpp_TypeInfo_var))->___CozyHealTimes = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((CozyRun_t664438D37D010E4092B526226781841855621066_StaticFields*)il2cpp_codegen_static_fields_for(CozyRun_t664438D37D010E4092B526226781841855621066_il2cpp_TypeInfo_var))->___CozyHealTimes), (void*)L_4);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 65338
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m5BF059A014DB9161DC0E1831A8D23A872238D25A (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61* L_0 = (U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61*)il2cpp_codegen_object_new(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var);
+		U3CU3Ec__ctor_m697E646FF9D12E43B23493212E25A4DC4B50CBB6(L_0, NULL);
+		((U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var))->___U3CU3E9 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61_il2cpp_TypeInfo_var))->___U3CU3E9), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 65339
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m697E646FF9D12E43B23493212E25A4DC4B50CBB6 (U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 65340
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CDirectorU3Eb__82_0_m1892FCE5DC55E40D23458F20EB63E27C1B194312 (U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61* __this, RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* ___0_a, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:123>
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_0 = ___0_a;
+		NullCheck(L_0);
+		int32_t L_1 = L_0->___kind;
+		return (bool)((((int32_t)((((int32_t)L_1) < ((int32_t)2))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+}
+// Method Definition Index: 65341
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CDirectorU3Eb__82_1_m7B07AEEF0D6CB2214194B8CACF4DEEE908024C58 (U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61* __this, RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* ___0_e, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:142>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_0 = ___0_e;
+		NullCheck(L_0);
+		int32_t L_1 = L_0->___role;
+		return (bool)((((int32_t)L_1) == ((int32_t)7))? 1 : 0);
+	}
+}
+// Method Definition Index: 65342
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CRemoveDeadU3Eb__93_0_m1D65A5C7D49B73EABD9768B2D7F7F29CFE15F167 (U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61* __this, RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* ___0_e, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:397>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_0 = ___0_e;
+		NullCheck(L_0);
+		float L_1 = L_0->___hp;
+		return (bool)((((int32_t)((!(((float)L_1) <= ((float)(0.0f))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+}
+// Method Definition Index: 65343
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CDropXPU3Eb__95_1_m5C0342801081FA1534B8EC037EE90871C7A6C893 (U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61* __this, RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* ___0_x, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:415>
+		RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_0 = ___0_x;
+		NullCheck(L_0);
+		int32_t L_1 = L_0->___kind;
+		return (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
+	}
+}
+// Method Definition Index: 65344
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec_U3CObjectiveRewardEffectsU3Eb__102_0_mE743DC39088461A221FC4E458582A7D458F874A0 (U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61* __this, RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* ___0_p, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:474>
+		RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_0 = ___0_p;
+		NullCheck(L_0);
+		int32_t L_1 = L_0->___kind;
+		return (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 65345
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass83_0__ctor_m3F8515C3AC5E1BC88BCC828868A663346AC020A0 (U3CU3Ec__DisplayClass83_0_tFF30C2917164E7EDAFF1506FD4F6623D33FEE32A* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 65346
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass83_0_U3CSpawnU3Eb__0_mD151A76B00274644431AEB24B2B27239AB4E01FB (U3CU3Ec__DisplayClass83_0_tFF30C2917164E7EDAFF1506FD4F6623D33FEE32A* __this, RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* ___0_e, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:169>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_0 = ___0_e;
+		NullCheck(L_0);
+		int32_t L_1 = L_0->___role;
+		int32_t L_2 = __this->___role;
+		if ((!(((uint32_t)L_1) == ((uint32_t)L_2))))
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_3 = ___0_e;
+		NullCheck(L_3);
+		float L_4 = L_3->___hp;
+		return (bool)((((float)L_4) > ((float)(0.0f)))? 1 : 0);
+	}
+
+IL_001c:
+	{
+		return (bool)0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 65347
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass84_0__ctor_mD00E46CE0FA2F5258020B2764BC8DDDCAF95383A (U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 65348
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass84_0_U3CMoveEnemiesU3Eb__0_mD1DFC48BC819269B07354B2EED99066E86E2824B (U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1* __this, RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* ___0_other, const RuntimeMethod* method) 
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:225>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_0 = ___0_other;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_1 = __this->___e;
+		if ((((RuntimeObject*)(RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F*)L_0) == ((RuntimeObject*)(RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F*)L_1)))
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_2 = ___0_other;
+		NullCheck(L_2);
+		float L_3 = L_2->___hp;
+		if ((!(((float)L_3) > ((float)(0.0f)))))
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_4 = ___0_other;
+		NullCheck(L_4);
+		float L_5 = L_4->___warmup;
+		if ((!(((float)L_5) <= ((float)(0.0f)))))
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_6 = ___0_other;
+		NullCheck(L_6);
+		int32_t L_7 = L_6->___role;
+		if ((!(((uint32_t)L_7) == ((uint32_t)5))))
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_8 = ___0_other;
+		NullCheck(L_8);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9 = L_8->___p;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_10 = __this->___e;
+		NullCheck(L_10);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11 = L_10->___p;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_12;
+		L_12 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_9, L_11, NULL);
+		V_0 = L_12;
+		float L_13;
+		L_13 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&V_0), NULL);
+		return (bool)((((float)L_13) < ((float)(25600.0f)))? 1 : 0);
+	}
+
+IL_0052:
+	{
+		return (bool)0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 65349
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass89_0__ctor_mAB37FE63201321C40B70DCB0D6C70988993F4129 (U3CU3Ec__DisplayClass89_0_tA49972326A06567F6670E6D335892A279618B867* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 65350
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass89_0_U3CPlayerAttackU3Eb__0_m7D5F332A235831389261D383CFD4B49FCC16D0C3 (U3CU3Ec__DisplayClass89_0_tA49972326A06567F6670E6D335892A279618B867* __this, RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* ___0_e, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:338>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_0 = ___0_e;
+		NullCheck(L_0);
+		float L_1 = L_0->___hp;
+		if ((!(((float)L_1) > ((float)(0.0f)))))
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_2 = ___0_e;
+		NullCheck(L_2);
+		float L_3 = L_2->___warmup;
+		if ((!(((float)L_3) <= ((float)(0.0f)))))
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_4 = ___0_e;
+		NullCheck(L_4);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_5 = L_4->___p;
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_6 = __this->___U3CU3E4__this;
+		NullCheck(L_6);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7 = L_6->___position;
+		float L_8;
+		L_8 = Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_inline(L_5, L_7, NULL);
+		WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C* L_9 = (WeaponStats_t2D064F01669372A904588D16780A11A3A35C1A7C*)(&__this->___w);
+		float L_10 = L_9->___range;
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_11 = __this->___U3CU3E4__this;
+		NullCheck(L_11);
+		float L_12;
+		L_12 = CozyRun_get_RangeScale_m48FD557617562D376DFB30C4D9A26758D36B60B0(L_11, NULL);
+		return (bool)((((int32_t)((!(((float)L_8) <= ((float)((float)il2cpp_codegen_multiply(L_10, L_12)))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+
+IL_004d:
+	{
+		return (bool)0;
+	}
+}
+// Method Definition Index: 65351
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec__DisplayClass89_0_U3CPlayerAttackU3Eb__1_mE88C6B55B55A15EC40C4364848D5165E7D29BB58 (U3CU3Ec__DisplayClass89_0_tA49972326A06567F6670E6D335892A279618B867* __this, RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* ___0_a, RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* ___1_b, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	float V_2 = 0.0f;
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:339>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_0 = ___0_a;
+		NullCheck(L_0);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = L_0->___p;
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_2 = __this->___U3CU3E4__this;
+		NullCheck(L_2);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = L_2->___position;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4;
+		L_4 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_1, L_3, NULL);
+		V_1 = L_4;
+		float L_5;
+		L_5 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&V_1), NULL);
+		V_2 = L_5;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_6 = ___1_b;
+		NullCheck(L_6);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7 = L_6->___p;
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_8 = __this->___U3CU3E4__this;
+		NullCheck(L_8);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9 = L_8->___position;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10;
+		L_10 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_7, L_9, NULL);
+		V_1 = L_10;
+		float L_11;
+		L_11 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&V_1), NULL);
+		int32_t L_12;
+		L_12 = Single_CompareTo_m06F7868162EB392D3E99103D1A0BD27463C9E66F((&V_2), L_11, NULL);
+		V_0 = L_12;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:339>
+		int32_t L_13 = V_0;
+		if (!L_13)
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		int32_t L_14 = V_0;
+		return L_14;
+	}
+
+IL_004a:
+	{
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_15 = ___0_a;
+		NullCheck(L_15);
+		int32_t* L_16 = (int32_t*)(&L_15->___id);
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_17 = ___1_b;
+		NullCheck(L_17);
+		int32_t L_18 = L_17->___id;
+		int32_t L_19;
+		L_19 = Int32_CompareTo_mFA011811D4447442ED442B4A507BD4267621C586(L_16, L_18, NULL);
+		return L_19;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 65352
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass90_0__ctor_m6BD9189458763FC826CFFF84197A5B3D1B556B81 (U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 65353
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass90_0_U3CUpdateAttacksU3Eb__0_m0DE2E8B25E945EF6D3D4A258B6AA6A2872BBF11C (U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* __this, RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* ___0_e, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Contains_m4FD96E89F15844C90032C7386BAB528817F1FF5B_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:355>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_0 = ___0_e;
+		NullCheck(L_0);
+		float L_1 = L_0->___hp;
+		if ((!(((float)L_1) > ((float)(0.0f)))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_2 = ___0_e;
+		NullCheck(L_2);
+		float L_3 = L_2->___warmup;
+		if ((!(((float)L_3) <= ((float)(0.0f)))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		RunAttack_tD2A721E02652FB3BEA623BD801504EA4D5BF9E1F* L_4 = __this->___a;
+		NullCheck(L_4);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_5 = L_4->___hit;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_6 = ___0_e;
+		NullCheck(L_6);
+		int32_t L_7 = L_6->___id;
+		NullCheck(L_5);
+		bool L_8;
+		L_8 = List_1_Contains_m4FD96E89F15844C90032C7386BAB528817F1FF5B(L_5, L_7, List_1_Contains_m4FD96E89F15844C90032C7386BAB528817F1FF5B_RuntimeMethod_var);
+		return (bool)((((int32_t)L_8) == ((int32_t)0))? 1 : 0);
+	}
+
+IL_0034:
+	{
+		return (bool)0;
+	}
+}
+// Method Definition Index: 65354
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t U3CU3Ec__DisplayClass90_0_U3CUpdateAttacksU3Eb__1_m431966FAE820CACFCA2B1003F47C5EA6A30F6618 (U3CU3Ec__DisplayClass90_0_tD4DDFD37F8A1310A86DC7E55F640C63DC9BC0461* __this, RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* ___0_x, RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* ___1_y, const RuntimeMethod* method) 
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	float V_1 = 0.0f;
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:356>
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_0 = ___0_x;
+		NullCheck(L_0);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1 = L_0->___p;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = __this->___before;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
+		L_3 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_1, L_2, NULL);
+		V_0 = L_3;
+		float L_4;
+		L_4 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&V_0), NULL);
+		V_1 = L_4;
+		RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F* L_5 = ___1_y;
+		NullCheck(L_5);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = L_5->___p;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7 = __this->___before;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8;
+		L_8 = Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline(L_6, L_7, NULL);
+		V_0 = L_8;
+		float L_9;
+		L_9 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&V_0), NULL);
+		int32_t L_10;
+		L_10 = Single_CompareTo_m06F7868162EB392D3E99103D1A0BD27463C9E66F((&V_1), L_9, NULL);
+		return L_10;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 65355
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass95_0__ctor_m4946E528E3559478AAA0A2147A346BBFFE499525 (U3CU3Ec__DisplayClass95_0_t096646496251236E96DB200120C51ED84B3395D8* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 65356
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass95_0_U3CDropXPU3Eb__0_m473DE503CE8B1681C7E80E95F1C53874645F4FAF (U3CU3Ec__DisplayClass95_0_t096646496251236E96DB200120C51ED84B3395D8* __this, RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* ___0_x, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyRun.cs:414>
+		RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_0 = ___0_x;
+		NullCheck(L_0);
+		int32_t L_1 = L_0->___kind;
+		if (L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625* L_2 = ___0_x;
+		NullCheck(L_2);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = L_2->___p;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = __this->___p;
+		float L_5;
+		L_5 = Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_inline(L_3, L_4, NULL);
+		return (bool)((((float)L_5) < ((float)(20.0f)))? 1 : 0);
+	}
+
+IL_0021:
+	{
+		return (bool)0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 65357
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozySettings__ctor_m3E6E6E71AD2510DCBE6AC505E0D41FEF500E2EEA (CozySettings_t00CF42F3FBEF7AD3710791EF2BF184080AA0DB47* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0A04B971B03DA607CE6C455184037B660CA89F78);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA02431CF7C501A5B368C91E41283419D8FA9FB03);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA9FEAF5F50923952C1AC3A473DE3C7E17D23B907);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDAF2BD03270A51BF9C135F3694DCAD2D3E66F465);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:15>
+		__this->___music = (0.699999988f);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:15>
+		__this->___effects = (0.699999988f);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:16>
+		__this->___up = _stringLiteralA9FEAF5F50923952C1AC3A473DE3C7E17D23B907;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___up), (void*)_stringLiteralA9FEAF5F50923952C1AC3A473DE3C7E17D23B907);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:16>
+		__this->___down = _stringLiteralDAF2BD03270A51BF9C135F3694DCAD2D3E66F465;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___down), (void*)_stringLiteralDAF2BD03270A51BF9C135F3694DCAD2D3E66F465);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:16>
+		__this->___left = _stringLiteral0A04B971B03DA607CE6C455184037B660CA89F78;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___left), (void*)_stringLiteral0A04B971B03DA607CE6C455184037B660CA89F78);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:16>
+		__this->___right = _stringLiteralA02431CF7C501A5B368C91E41283419D8FA9FB03;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___right), (void*)_stringLiteralA02431CF7C501A5B368C91E41283419D8FA9FB03);
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 65358
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRecord__ctor_m00002DB5AE4467D4A747EFCCD21610645E3CEBCB (CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 65359
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyProfile_get_TestUnlocksEnabled_m07000EB665A8B2793112A28B70FC1ECF975AA390 (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:36>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 65360
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyProfile_InitializeTestUnlocks_mDA1F7EFB438C6D2545D31280DCA0FF1962392E68 (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:49>
+		return (bool)0;
+	}
+}
+// Method Definition Index: 65361
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyProfile_RegionUnlocked_m2BC6C9E7C5E778EA623B2E9177B85B9BBD19033F (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* __this, int32_t ___0_region, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:51>
+		int32_t L_0 = ___0_region;
+		if ((((int32_t)L_0) < ((int32_t)0)))
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		int32_t L_1 = ___0_region;
+		if ((((int32_t)L_1) >= ((int32_t)3)))
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		bool L_2;
+		L_2 = CozyProfile_get_TestUnlocksEnabled_m07000EB665A8B2793112A28B70FC1ECF975AA390(__this, NULL);
+		if (L_2)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		int32_t L_3 = ___0_region;
+		if (!L_3)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_4 = __this->___cleared;
+		int32_t L_5 = ___0_region;
+		NullCheck(L_4);
+		int32_t L_6 = ((int32_t)il2cpp_codegen_subtract(L_5, 1));
+		uint8_t L_7 = (uint8_t)(L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		return (bool)L_7;
+	}
+
+IL_001e:
+	{
+		return (bool)1;
+	}
+
+IL_0020:
+	{
+		return (bool)0;
+	}
+}
+// Method Definition Index: 65362
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyProfile_AnimalUnlocked_mF53DE65D1D80680D979C63204C2E19CBAFA8E1F9 (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* __this, int32_t ___0_animal, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:52>
+		int32_t L_0 = ___0_animal;
+		if ((((int32_t)L_0) < ((int32_t)0)))
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		int32_t L_1 = ___0_animal;
+		if ((((int32_t)L_1) >= ((int32_t)3)))
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		bool L_2;
+		L_2 = CozyProfile_get_TestUnlocksEnabled_m07000EB665A8B2793112A28B70FC1ECF975AA390(__this, NULL);
+		if (L_2)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		int32_t L_3 = ___0_animal;
+		if ((((int32_t)L_3) < ((int32_t)2)))
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_4 = __this->___cleared;
+		NullCheck(L_4);
+		int32_t L_5 = 0;
+		uint8_t L_6 = (uint8_t)(L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		return (bool)L_6;
+	}
+
+IL_001d:
+	{
+		return (bool)1;
+	}
+
+IL_001f:
+	{
+		return (bool)0;
+	}
+}
+// Method Definition Index: 65363
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyProfile_EndlessUnlocked_m2584075999E46B38B2E79BC3A0CAD71B966F0EA6 (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* __this, int32_t ___0_region, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:53>
+		int32_t L_0 = ___0_region;
+		if ((((int32_t)L_0) < ((int32_t)0)))
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		int32_t L_1 = ___0_region;
+		if ((((int32_t)L_1) >= ((int32_t)3)))
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		bool L_2;
+		L_2 = CozyProfile_get_TestUnlocksEnabled_m07000EB665A8B2793112A28B70FC1ECF975AA390(__this, NULL);
+		if (L_2)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_3 = __this->___cleared;
+		int32_t L_4 = ___0_region;
+		NullCheck(L_3);
+		int32_t L_5 = L_4;
+		uint8_t L_6 = (uint8_t)(L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		return (bool)L_6;
+	}
+
+IL_0019:
+	{
+		return (bool)1;
+	}
+
+IL_001b:
+	{
+		return (bool)0;
+	}
+}
+// Method Definition Index: 65364
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyProfile_LettersUnlocked_m2A5415F160D5B94CED41A4905856CEBFCAA6953D (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* __this, int32_t ___0_region, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:54>
+		int32_t L_0 = ___0_region;
+		bool L_1;
+		L_1 = CozyProfile_EndlessUnlocked_m2584075999E46B38B2E79BC3A0CAD71B966F0EA6(__this, L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 65365
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyProfile_DecorationAvailable_m965EF4D4D2732F201CBC38D52A0392AC06FF1F37 (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* __this, int32_t ___0_id, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:55>
+		int32_t L_0 = ___0_id;
+		if ((((int32_t)L_0) < ((int32_t)0)))
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		int32_t L_1 = ___0_id;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_2 = __this->___cosmetics;
+		NullCheck(L_2);
+		if ((((int32_t)L_1) >= ((int32_t)((int32_t)(((RuntimeArray*)L_2)->max_length)))))
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		bool L_3;
+		L_3 = CozyProfile_get_TestUnlocksEnabled_m07000EB665A8B2793112A28B70FC1ECF975AA390(__this, NULL);
+		if (L_3)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_4 = __this->___cosmetics;
+		int32_t L_5 = ___0_id;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		uint8_t L_7 = (uint8_t)(L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		return (bool)L_7;
+	}
+
+IL_0020:
+	{
+		return (bool)1;
+	}
+
+IL_0022:
+	{
+		return (bool)0;
+	}
+}
+// Method Definition Index: 65366
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyProfile_BuyDecoration_m051C239C71F36C4F31ABF1B662757F39309668F3 (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* __this, int32_t ___0_id, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t V_1 = 0;
+	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* V_2 = NULL;
+	int32_t V_3 = 0;
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:58>
+		int32_t L_0 = ___0_id;
+		if ((((int32_t)L_0) < ((int32_t)0)))
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		int32_t L_1 = ___0_id;
+		if ((((int32_t)L_1) >= ((int32_t)((int32_t)12))))
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		int32_t L_2 = ___0_id;
+		bool L_3;
+		L_3 = CozyProfile_DecorationAvailable_m965EF4D4D2732F201CBC38D52A0392AC06FF1F37(__this, L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_0014;
+		}
+	}
+
+IL_0012:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:58>
+		return (bool)0;
+	}
+
+IL_0014:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:59>
+		int32_t L_4 = ___0_id;
+		V_0 = ((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_add(((int32_t)(L_4/3)), 1)), ((int32_t)100)));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:59>
+		int32_t L_5 = __this->___stars;
+		int32_t L_6 = V_0;
+		if ((((int32_t)L_5) >= ((int32_t)L_6)))
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:59>
+		return (bool)0;
+	}
+
+IL_0028:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:60>
+		int32_t L_7 = __this->___stars;
+		int32_t L_8 = V_0;
+		__this->___stars = ((int32_t)il2cpp_codegen_subtract(L_7, L_8));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:60>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_9 = __this->___cosmetics;
+		int32_t L_10 = ___0_id;
+		NullCheck(L_9);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(L_10), (bool)1);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:61>
+		V_1 = 0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:61>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_11 = __this->___cosmetics;
+		V_2 = L_11;
+		V_3 = 0;
+		goto IL_0059;
+	}
+
+IL_004c:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:61>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_12 = V_2;
+		int32_t L_13 = V_3;
+		NullCheck(L_12);
+		int32_t L_14 = L_13;
+		uint8_t L_15 = (uint8_t)(L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:61>
+		if (!L_15)
+		{
+			goto IL_0055;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:61>
+		int32_t L_16 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_16, 1));
+	}
+
+IL_0055:
+	{
+		int32_t L_17 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_17, 1));
+	}
+
+IL_0059:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:61>
+		int32_t L_18 = V_3;
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_19 = V_2;
+		NullCheck(L_19);
+		if ((((int32_t)L_18) < ((int32_t)((int32_t)(((RuntimeArray*)L_19)->max_length)))))
+		{
+			goto IL_004c;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:62>
+		int32_t L_20 = V_1;
+		if ((((int32_t)L_20) < ((int32_t)1)))
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:62>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_21 = __this->___achievements;
+		NullCheck(L_21);
+		(L_21)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)15)), (bool)1);
+	}
+
+IL_006d:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:62>
+		int32_t L_22 = V_1;
+		if ((((int32_t)L_22) < ((int32_t)6)))
+		{
+			goto IL_007b;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:62>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_23 = __this->___achievements;
+		NullCheck(L_23);
+		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)16)), (bool)1);
+	}
+
+IL_007b:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:62>
+		int32_t L_24 = V_1;
+		if ((((int32_t)L_24) < ((int32_t)((int32_t)12))))
+		{
+			goto IL_008a;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:62>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_25 = __this->___achievements;
+		NullCheck(L_25);
+		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)17)), (bool)1);
+	}
+
+IL_008a:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:63>
+		return (bool)1;
+	}
+}
+// Method Definition Index: 65367
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CozyProfile_Settle_m41EBA498A15054185617ACE96D1E3403C799C50E (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* __this, CozyRun_t664438D37D010E4092B526226781841855621066* ___0_run, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m7E4E38CB2AAE4DDD3A6466EF36C8442FF571B318_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Contains_m359254483BE42CAD4DCA8FBAFB87473FB4CF00E1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Find_mD457FA9D5FADE5659E518809320E67375E70BC4B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Predicate_1_t39E6A45E264C9EA977BDCF92A7EE05CEB60F43F3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass21_0_U3CSettleU3Eb__0_mBD527A7D2EA394D20AFA669D69F46327C50C4A3D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* V_0 = NULL;
+	int32_t V_1 = 0;
+	CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* V_2 = NULL;
+	float G_B18_0 = 0.0f;
+	CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* G_B18_1 = NULL;
+	float G_B17_0 = 0.0f;
+	CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* G_B17_1 = NULL;
+	float G_B19_0 = 0.0f;
+	float G_B19_1 = 0.0f;
+	CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* G_B19_2 = NULL;
+	{
+		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_0 = (U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass21_0__ctor_mE03613CC0386E8E7762360E1157ADCC9AEFC0940(L_0, NULL);
+		V_0 = L_0;
+		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_1 = V_0;
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_2 = ___0_run;
+		NullCheck(L_1);
+		L_1->___run = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___run), (void*)L_2);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:67>
+		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_3 = V_0;
+		NullCheck(L_3);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_4 = L_3->___run;
+		NullCheck(L_4);
+		bool L_5;
+		L_5 = CozyRun_get_Finished_mD3D28BDCB939B30F5436468DCE1E184360860888(L_4, NULL);
+		if (!L_5)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_6 = V_0;
+		NullCheck(L_6);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_7 = L_6->___run;
+		NullCheck(L_7);
+		bool L_8 = L_7->___rewardClaimed;
+		if (L_8)
+		{
+			goto IL_003f;
+		}
+	}
+	{
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_9 = __this->___settledRuns;
+		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_10 = V_0;
+		NullCheck(L_10);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_11 = L_10->___run;
+		NullCheck(L_11);
+		String_t* L_12 = L_11->___runId;
+		NullCheck(L_9);
+		bool L_13;
+		L_13 = List_1_Contains_m359254483BE42CAD4DCA8FBAFB87473FB4CF00E1(L_9, L_12, List_1_Contains_m359254483BE42CAD4DCA8FBAFB87473FB4CF00E1_RuntimeMethod_var);
+		if (!L_13)
+		{
+			goto IL_0041;
+		}
+	}
+
+IL_003f:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:67>
+		return 0;
+	}
+
+IL_0041:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:68>
+		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_14 = V_0;
+		NullCheck(L_14);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_15 = L_14->___run;
+		NullCheck(L_15);
+		int32_t L_16;
+		L_16 = CozyRun_CalculateStars_m331F5A0F2B211A1C31012726128950190BBDCFB7(L_15, NULL);
+		V_1 = L_16;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:69>
+		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_17 = V_0;
+		NullCheck(L_17);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_18 = L_17->___run;
+		NullCheck(L_18);
+		int32_t L_19 = L_18->___phase;
+		if ((!(((uint32_t)L_19) == ((uint32_t)4))))
+		{
+			goto IL_00b8;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:71>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_20 = __this->___cleared;
+		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_21 = V_0;
+		NullCheck(L_21);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_22 = L_21->___run;
+		NullCheck(L_22);
+		int32_t L_23 = L_22->___region;
+		NullCheck(L_20);
+		int32_t L_24 = L_23;
+		uint8_t L_25 = (uint8_t)(L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_24));
+		if (L_25)
+		{
+			goto IL_0074;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:71>
+		int32_t L_26 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_26, ((int32_t)50)));
+	}
+
+IL_0074:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:72>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_27 = __this->___cleared;
+		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_28 = V_0;
+		NullCheck(L_28);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_29 = L_28->___run;
+		NullCheck(L_29);
+		int32_t L_30 = L_29->___region;
+		NullCheck(L_27);
+		(L_27)->SetAt(static_cast<il2cpp_array_size_t>(L_30), (bool)1);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:72>
+		__this->___failures = 0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:73>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_31 = __this->___achievements;
+		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_32 = V_0;
+		NullCheck(L_32);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_33 = L_32->___run;
+		NullCheck(L_33);
+		int32_t L_34 = L_33->___region;
+		NullCheck(L_31);
+		(L_31)->SetAt(static_cast<il2cpp_array_size_t>(L_34), (bool)1);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:73>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_35 = __this->___achievements;
+		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_36 = V_0;
+		NullCheck(L_36);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_37 = L_36->___run;
+		NullCheck(L_37);
+		int32_t L_38 = L_37->___animal;
+		NullCheck(L_35);
+		(L_35)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(3, (int32_t)L_38))), (bool)1);
+		goto IL_00d4;
+	}
+
+IL_00b8:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:75>
+		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_39 = V_0;
+		NullCheck(L_39);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_40 = L_39->___run;
+		NullCheck(L_40);
+		int32_t L_41 = L_40->___phase;
+		if ((!(((uint32_t)L_41) == ((uint32_t)5))))
+		{
+			goto IL_00d4;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:75>
+		int32_t L_42 = __this->___failures;
+		__this->___failures = ((int32_t)il2cpp_codegen_add(L_42, 1));
+	}
+
+IL_00d4:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:76>
+		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_43 = V_0;
+		NullCheck(L_43);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_44 = L_43->___run;
+		NullCheck(L_44);
+		int32_t L_45 = L_44->___objectives;
+		if ((((int32_t)L_45) <= ((int32_t)0)))
+		{
+			goto IL_00f7;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:76>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_46 = __this->___achievements;
+		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_47 = V_0;
+		NullCheck(L_47);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_48 = L_47->___run;
+		NullCheck(L_48);
+		int32_t L_49 = L_48->___region;
+		NullCheck(L_46);
+		(L_46)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(6, (int32_t)L_49))), (bool)1);
+	}
+
+IL_00f7:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:77>
+		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_50 = V_0;
+		NullCheck(L_50);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_51 = L_50->___run;
+		NullCheck(L_51);
+		int32_t L_52 = L_51->___branch;
+		if ((((int32_t)L_52) <= ((int32_t)0)))
+		{
+			goto IL_012b;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:77>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_53 = __this->___achievements;
+		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_54 = V_0;
+		NullCheck(L_54);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_55 = L_54->___run;
+		NullCheck(L_55);
+		int32_t L_56 = L_55->___animal;
+		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_57 = V_0;
+		NullCheck(L_57);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_58 = L_57->___run;
+		NullCheck(L_58);
+		int32_t L_59 = L_58->___branch;
+		NullCheck(L_53);
+		(L_53)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(((int32_t)il2cpp_codegen_add(((int32_t)9), ((int32_t)il2cpp_codegen_multiply((int32_t)L_56, 2)))), L_59)), 1))), (bool)1);
+	}
+
+IL_012b:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:78>
+		List_1_t7177B811EF7E8A8A9633AEC3E32FCCCB94C9BFC6* L_60 = __this->___records;
+		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_61 = V_0;
+		Predicate_1_t39E6A45E264C9EA977BDCF92A7EE05CEB60F43F3* L_62 = (Predicate_1_t39E6A45E264C9EA977BDCF92A7EE05CEB60F43F3*)il2cpp_codegen_object_new(Predicate_1_t39E6A45E264C9EA977BDCF92A7EE05CEB60F43F3_il2cpp_TypeInfo_var);
+		Predicate_1__ctor_mF085A3C599CF5CFE76AA6C5FBA9D4837EC39FB68(L_62, L_61, (intptr_t)((void*)U3CU3Ec__DisplayClass21_0_U3CSettleU3Eb__0_mBD527A7D2EA394D20AFA669D69F46327C50C4A3D_RuntimeMethod_var), NULL);
+		NullCheck(L_60);
+		CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* L_63;
+		L_63 = List_1_Find_mD457FA9D5FADE5659E518809320E67375E70BC4B(L_60, L_62, List_1_Find_mD457FA9D5FADE5659E518809320E67375E70BC4B_RuntimeMethod_var);
+		V_2 = L_63;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:79>
+		CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* L_64 = V_2;
+		if (L_64)
+		{
+			goto IL_0169;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:79>
+		CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* L_65 = (CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932*)il2cpp_codegen_object_new(CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932_il2cpp_TypeInfo_var);
+		CozyRecord__ctor_m00002DB5AE4467D4A747EFCCD21610645E3CEBCB(L_65, NULL);
+		CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* L_66 = L_65;
+		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_67 = V_0;
+		NullCheck(L_67);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_68 = L_67->___run;
+		NullCheck(L_68);
+		String_t* L_69;
+		L_69 = CozyRun_get_RecordKey_m899AC5343E7B76B88C611F1C1491DF4EB3D9A3BA(L_68, NULL);
+		NullCheck(L_66);
+		L_66->___key = L_69;
+		Il2CppCodeGenWriteBarrier((void**)(&L_66->___key), (void*)L_69);
+		V_2 = L_66;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:79>
+		List_1_t7177B811EF7E8A8A9633AEC3E32FCCCB94C9BFC6* L_70 = __this->___records;
+		CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* L_71 = V_2;
+		NullCheck(L_70);
+		List_1_Add_m7E4E38CB2AAE4DDD3A6466EF36C8442FF571B318_inline(L_70, L_71, List_1_Add_m7E4E38CB2AAE4DDD3A6466EF36C8442FF571B318_RuntimeMethod_var);
+	}
+
+IL_0169:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:80>
+		CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* L_72 = V_2;
+		CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* L_73 = V_2;
+		NullCheck(L_73);
+		int32_t L_74 = L_73->___score;
+		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_75 = V_0;
+		NullCheck(L_75);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_76 = L_75->___run;
+		NullCheck(L_76);
+		int32_t L_77 = L_76->___score;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		int32_t L_78;
+		L_78 = Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF(L_74, L_77, NULL);
+		NullCheck(L_72);
+		L_72->___score = L_78;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:80>
+		CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* L_79 = V_2;
+		CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* L_80 = V_2;
+		NullCheck(L_80);
+		float L_81 = L_80->___survival;
+		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_82 = V_0;
+		NullCheck(L_82);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_83 = L_82->___run;
+		NullCheck(L_83);
+		float L_84 = L_83->___elapsed;
+		float L_85;
+		L_85 = Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline(L_84, (720.0f), NULL);
+		float L_86;
+		L_86 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_81, L_85, NULL);
+		NullCheck(L_79);
+		L_79->___survival = L_86;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:81>
+		CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* L_87 = V_2;
+		CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* L_88 = V_2;
+		NullCheck(L_88);
+		float L_89 = L_88->___bossTime;
+		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_90 = V_0;
+		NullCheck(L_90);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_91 = L_90->___run;
+		NullCheck(L_91);
+		float L_92 = L_91->___bossStarted;
+		if ((((float)L_92) < ((float)(0.0f))))
+		{
+			G_B18_0 = L_89;
+			G_B18_1 = L_87;
+			goto IL_01dd;
+		}
+		G_B17_0 = L_89;
+		G_B17_1 = L_87;
+	}
+	{
+		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_93 = V_0;
+		NullCheck(L_93);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_94 = L_93->___run;
+		NullCheck(L_94);
+		float L_95 = L_94->___elapsed;
+		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_96 = V_0;
+		NullCheck(L_96);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_97 = L_96->___run;
+		NullCheck(L_97);
+		float L_98 = L_97->___bossStarted;
+		G_B19_0 = ((float)il2cpp_codegen_subtract(L_95, L_98));
+		G_B19_1 = G_B17_0;
+		G_B19_2 = G_B17_1;
+		goto IL_01e2;
+	}
+
+IL_01dd:
+	{
+		G_B19_0 = (0.0f);
+		G_B19_1 = G_B18_0;
+		G_B19_2 = G_B18_1;
+	}
+
+IL_01e2:
+	{
+		float L_99;
+		L_99 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(G_B19_1, G_B19_0, NULL);
+		NullCheck(G_B19_2);
+		G_B19_2->___bossTime = L_99;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:82>
+		int32_t L_100 = __this->___stars;
+		int32_t L_101 = V_1;
+		__this->___stars = ((int32_t)il2cpp_codegen_add(L_100, L_101));
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:82>
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_102 = __this->___settledRuns;
+		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_103 = V_0;
+		NullCheck(L_103);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_104 = L_103->___run;
+		NullCheck(L_104);
+		String_t* L_105 = L_104->___runId;
+		NullCheck(L_102);
+		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_102, L_105, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:82>
+		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_106 = V_0;
+		NullCheck(L_106);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_107 = L_106->___run;
+		NullCheck(L_107);
+		L_107->___rewardClaimed = (bool)1;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:82>
+		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_108 = V_0;
+		NullCheck(L_108);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_109 = L_108->___run;
+		int32_t L_110 = V_1;
+		NullCheck(L_109);
+		L_109->___villageReward = L_110;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:83>
+		__this->___activeRun = (CozyRun_t664438D37D010E4092B526226781841855621066*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___activeRun), (void*)(CozyRun_t664438D37D010E4092B526226781841855621066*)NULL);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:83>
+		int32_t L_111 = V_1;
+		return L_111;
+	}
+}
+// Method Definition Index: 65368
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyProfile__ctor_m1B8C957BDF7C9DD9B69CE4A5C05FA3A249001D0D (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CozySettings_t00CF42F3FBEF7AD3710791EF2BF184080AA0DB47_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mACCD403943C43689954D7FB8BC64A121D55D54B6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t7177B811EF7E8A8A9633AEC3E32FCCCB94C9BFC6_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:23>
+		__this->___profileVersion = 1;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:24>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_0 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)3);
+		__this->___cleared = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___cleared), (void*)L_0);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:24>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_1 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)((int32_t)12));
+		__this->___cosmetics = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___cosmetics), (void*)L_1);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:24>
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_2 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)((int32_t)18));
+		__this->___achievements = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___achievements), (void*)L_2);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:25>
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_3 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
+		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_3, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
+		__this->___settledRuns = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___settledRuns), (void*)L_3);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:26>
+		List_1_t7177B811EF7E8A8A9633AEC3E32FCCCB94C9BFC6* L_4 = (List_1_t7177B811EF7E8A8A9633AEC3E32FCCCB94C9BFC6*)il2cpp_codegen_object_new(List_1_t7177B811EF7E8A8A9633AEC3E32FCCCB94C9BFC6_il2cpp_TypeInfo_var);
+		List_1__ctor_mACCD403943C43689954D7FB8BC64A121D55D54B6(L_4, List_1__ctor_mACCD403943C43689954D7FB8BC64A121D55D54B6_RuntimeMethod_var);
+		__this->___records = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___records), (void*)L_4);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:27>
+		CozySettings_t00CF42F3FBEF7AD3710791EF2BF184080AA0DB47* L_5 = (CozySettings_t00CF42F3FBEF7AD3710791EF2BF184080AA0DB47*)il2cpp_codegen_object_new(CozySettings_t00CF42F3FBEF7AD3710791EF2BF184080AA0DB47_il2cpp_TypeInfo_var);
+		CozySettings__ctor_m3E6E6E71AD2510DCBE6AC505E0D41FEF500E2EEA(L_5, NULL);
+		__this->___settings = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___settings), (void*)L_5);
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 65369
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass21_0__ctor_mE03613CC0386E8E7762360E1157ADCC9AEFC0940 (U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 65370
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass21_0_U3CSettleU3Eb__0_mBD527A7D2EA394D20AFA669D69F46327C50C4A3D (U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* __this, CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* ___0_x, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:78>
+		CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* L_0 = ___0_x;
+		NullCheck(L_0);
+		String_t* L_1 = L_0->___key;
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_2 = __this->___run;
+		NullCheck(L_2);
+		String_t* L_3;
+		L_3 = CozyRun_get_RecordKey_m899AC5343E7B76B88C611F1C1491DF4EB3D9A3BA(L_2, NULL);
+		bool L_4;
+		L_4 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_1, L_3, NULL);
+		return L_4;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 65371
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozySaveEnvelope__ctor_mA850EB8783A3FE90ADEEBDDDF698E0AD5178C0B7 (CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 65372
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CozySave_get_Notice_m2FE22EF927F14E85DB958FF18A5A2EDE19336B32 (CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:91>
+		String_t* L_0 = __this->___U3CNoticeU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 65373
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozySave_set_Notice_m72C28B92F668CE984077DCAD59802BBE0C3FE93A (CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:91>
+		String_t* L_0 = ___0_value;
+		__this->___U3CNoticeU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CNoticeU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 65374
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozySave_get_ReadOnly_m523A3BFEE6FAA79B44629ECEC795F8033EC2A800 (CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:92>
+		bool L_0 = __this->___U3CReadOnlyU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 65375
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozySave_set_ReadOnly_m00E0409EAF25726F6439A6C9AA6E9437C9288EF0 (CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:92>
+		bool L_0 = ___0_value;
+		__this->___U3CReadOnlyU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 65376
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozySave__ctor_m8B91E3EC4C7212AEE6802D35C15868E7E08B92DD (CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83* __this, String_t* ___0_path, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:93>
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:93>
+		String_t* L_0 = ___0_path;
+		__this->___Path = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___Path), (void*)L_0);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:93>
+		return;
+	}
+}
+// Method Definition Index: 65377
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CozySave_Digest_m4639E7B0045A7354F6D028E5141E156B76B8EC9D (String_t* ___0_data, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	SHA256_t6FEDD761EE6301127DAAF13320E8FD63296837F9* V_0 = NULL;
+	String_t* V_1 = NULL;
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:96>
+		SHA256_t6FEDD761EE6301127DAAF13320E8FD63296837F9* L_0;
+		L_0 = SHA256_Create_m41FBBA07C26677E1028E44E3530AC1BA17D26BBC(NULL);
+		V_0 = L_0;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_001f:
+			{
+				{
+					SHA256_t6FEDD761EE6301127DAAF13320E8FD63296837F9* L_1 = V_0;
+					if (!L_1)
+					{
+						goto IL_0028;
+					}
+				}
+				{
+					SHA256_t6FEDD761EE6301127DAAF13320E8FD63296837F9* L_2 = V_0;
+					NullCheck(L_2);
+					InterfaceActionInvoker0::Invoke(0, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_2);
+				}
+
+IL_0028:
+				{
+					return;
+				}
+			}
+		});
+		try
+		{
+			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:97>
+			SHA256_t6FEDD761EE6301127DAAF13320E8FD63296837F9* L_3 = V_0;
+			Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_4;
+			L_4 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
+			String_t* L_5 = ___0_data;
+			NullCheck(L_4);
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_6;
+			L_6 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(16, L_4, L_5);
+			NullCheck(L_3);
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_7;
+			L_7 = HashAlgorithm_ComputeHash_mC9CD24714D75A8D61F12509BF952A26347FF22FB(L_3, L_6, NULL);
+			il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
+			String_t* L_8;
+			L_8 = Convert_ToBase64String_mD0680EF77270244071965AFA1207921C73EEA323(L_7, NULL);
+			V_1 = L_8;
+			goto IL_0029;
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0029:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:98>
+		String_t* L_9 = V_1;
+		return L_9;
+	}
+}
+// Method Definition Index: 65378
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozySave_Validate_m29FFB6618B8967A147F7C46F370D3D8770A79F89 (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* ___0_p, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Animal_t81F9C91803B62D788C9E2C043CFF5DAAF4BE6D6A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Animal_t81F9C91803B62D788C9E2C043CFF5DAAF4BE6D6A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Difficulty_t6F49E0019DDC17D3B6F8C2AB5B511CD41BA48266_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Difficulty_t6F49E0019DDC17D3B6F8C2AB5B511CD41BA48266_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Region_tDA6CA4B2041350E05694103664D0031C18A68170_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Region_tDA6CA4B2041350E05694103664D0031C18A68170_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RunPhase_tAE933FC45AF5DA79FA1EF0AFA317D3AFBE13F3B1_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RunPhase_tAE933FC45AF5DA79FA1EF0AFA317D3AFBE13F3B1_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBA8530B7221B48C2C179C2A0618B26B4CBCEF04E);
+		s_Il2CppMethodInitialized = true;
+	}
+	CozyRun_t664438D37D010E4092B526226781841855621066* V_0 = NULL;
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:101>
+		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_0 = ___0_p;
+		if (!L_0)
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_1 = ___0_p;
+		NullCheck(L_1);
+		int32_t L_2 = L_1->___profileVersion;
+		if ((!(((uint32_t)L_2) == ((uint32_t)1))))
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_3 = ___0_p;
+		NullCheck(L_3);
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_4 = L_3->___cleared;
+		if (!L_4)
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_5 = ___0_p;
+		NullCheck(L_5);
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_6 = L_5->___cleared;
+		NullCheck(L_6);
+		if ((!(((uint32_t)((int32_t)(((RuntimeArray*)L_6)->max_length))) == ((uint32_t)3))))
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_7 = ___0_p;
+		NullCheck(L_7);
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_8 = L_7->___cosmetics;
+		if (!L_8)
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_9 = ___0_p;
+		NullCheck(L_9);
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_10 = L_9->___cosmetics;
+		NullCheck(L_10);
+		if ((!(((uint32_t)((int32_t)(((RuntimeArray*)L_10)->max_length))) == ((uint32_t)((int32_t)12)))))
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_11 = ___0_p;
+		NullCheck(L_11);
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_12 = L_11->___achievements;
+		if (!L_12)
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_13 = ___0_p;
+		NullCheck(L_13);
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_14 = L_13->___achievements;
+		NullCheck(L_14);
+		if ((!(((uint32_t)((int32_t)(((RuntimeArray*)L_14)->max_length))) == ((uint32_t)((int32_t)18)))))
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_15 = ___0_p;
+		NullCheck(L_15);
+		CozySettings_t00CF42F3FBEF7AD3710791EF2BF184080AA0DB47* L_16 = L_15->___settings;
+		if (!L_16)
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_17 = ___0_p;
+		NullCheck(L_17);
+		List_1_t7177B811EF7E8A8A9633AEC3E32FCCCB94C9BFC6* L_18 = L_17->___records;
+		if (!L_18)
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_19 = ___0_p;
+		NullCheck(L_19);
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_20 = L_19->___settledRuns;
+		if (!L_20)
+		{
+			goto IL_0068;
+		}
+	}
+	{
+		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_21 = ___0_p;
+		NullCheck(L_21);
+		int32_t L_22 = L_21->___stars;
+		if ((((int32_t)L_22) >= ((int32_t)0)))
+		{
+			goto IL_0073;
+		}
+	}
+
+IL_0068:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:102>
+		InvalidDataException_t9D62CAAA10DD31CCD9C0F92AA5729A05282F18A1* L_23 = (InvalidDataException_t9D62CAAA10DD31CCD9C0F92AA5729A05282F18A1*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidDataException_t9D62CAAA10DD31CCD9C0F92AA5729A05282F18A1_il2cpp_TypeInfo_var)));
+		InvalidDataException__ctor_m514879053D89E3C8229A01AA8970237FA5409532(L_23, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral309158D5045C01408A3469928795FFA8F434FB7B)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_23, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CozySave_Validate_m29FFB6618B8967A147F7C46F370D3D8770A79F89_RuntimeMethod_var)));
+	}
+
+IL_0073:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:103>
+		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_24 = ___0_p;
+		NullCheck(L_24);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_25 = L_24->___activeRun;
+		V_0 = L_25;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:104>
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_26 = V_0;
+		if (L_26)
+		{
+			goto IL_007e;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:104>
+		return;
+	}
+
+IL_007e:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:105>
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_27 = V_0;
+		NullCheck(L_27);
+		String_t* L_28 = L_27->___rulesVersion;
+		bool L_29;
+		L_29 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_28, _stringLiteralBA8530B7221B48C2C179C2A0618B26B4CBCEF04E, NULL);
+		if (!L_29)
+		{
+			goto IL_009b;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:105>
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_30 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_mE174750CF0247BBB47544FFD71D66BB89630945B(L_30, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral24E67EB8B9B345363DDF8E18EABA8A5D2142547D)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_30, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CozySave_Validate_m29FFB6618B8967A147F7C46F370D3D8770A79F89_RuntimeMethod_var)));
+	}
+
+IL_009b:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:106>
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_31 = V_0;
+		NullCheck(L_31);
+		String_t* L_32 = L_31->___runId;
+		bool L_33;
+		L_33 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_32, NULL);
+		if (L_33)
+		{
+			goto IL_020a;
+		}
+	}
+	{
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_34 = V_0;
+		NullCheck(L_34);
+		uint32_t L_35 = L_34->___rng;
+		if (!L_35)
+		{
+			goto IL_020a;
+		}
+	}
+	{
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_36 = V_0;
+		NullCheck(L_36);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_37 = L_36->___passives;
+		if (!L_37)
+		{
+			goto IL_020a;
+		}
+	}
+	{
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_38 = V_0;
+		NullCheck(L_38);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_39 = L_38->___passives;
+		NullCheck(L_39);
+		if ((!(((uint32_t)((int32_t)(((RuntimeArray*)L_39)->max_length))) == ((uint32_t)((int32_t)12)))))
+		{
+			goto IL_020a;
+		}
+	}
+	{
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_40 = V_0;
+		NullCheck(L_40);
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_41 = L_40->___relics;
+		if (!L_41)
+		{
+			goto IL_020a;
+		}
+	}
+	{
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_42 = V_0;
+		NullCheck(L_42);
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_43 = L_42->___relics;
+		NullCheck(L_43);
+		if ((!(((uint32_t)((int32_t)(((RuntimeArray*)L_43)->max_length))) == ((uint32_t)6))))
+		{
+			goto IL_020a;
+		}
+	}
+	{
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_44 = V_0;
+		NullCheck(L_44);
+		List_1_t33A855AAE219576151FBE89EA0572124E2BB3E34* L_45 = L_44->___enemies;
+		if (!L_45)
+		{
+			goto IL_020a;
+		}
+	}
+	{
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_46 = V_0;
+		NullCheck(L_46);
+		List_1_t5A6DF9125096DEF7CA4B3237303300195C8DBE79* L_47 = L_46->___attacks;
+		if (!L_47)
+		{
+			goto IL_020a;
+		}
+	}
+	{
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_48 = V_0;
+		NullCheck(L_48);
+		List_1_t2366887E9696956A2E902005D8D5B30FE962E2FA* L_49 = L_48->___pickups;
+		if (!L_49)
+		{
+			goto IL_020a;
+		}
+	}
+	{
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_50 = V_0;
+		NullCheck(L_50);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_51 = L_50->___choices;
+		if (!L_51)
+		{
+			goto IL_020a;
+		}
+	}
+	{
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_52 = V_0;
+		NullCheck(L_52);
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_53 = L_52->___blockers;
+		if (!L_53)
+		{
+			goto IL_020a;
+		}
+	}
+	{
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_54 = V_0;
+		NullCheck(L_54);
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_55 = L_54->___blockers;
+		NullCheck(L_55);
+		if ((!(((uint32_t)((int32_t)(((RuntimeArray*)L_55)->max_length))) == ((uint32_t)2))))
+		{
+			goto IL_020a;
+		}
+	}
+	{
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_56 = V_0;
+		NullCheck(L_56);
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_57 = L_56->___objectivePoints;
+		if (!L_57)
+		{
+			goto IL_020a;
+		}
+	}
+	{
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_58 = V_0;
+		NullCheck(L_58);
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_59 = L_58->___collected;
+		if (!L_59)
+		{
+			goto IL_020a;
+		}
+	}
+	{
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_60 = V_0;
+		NullCheck(L_60);
+		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_61 = L_60->___collected;
+		NullCheck(L_61);
+		if ((!(((uint32_t)((int32_t)(((RuntimeArray*)L_61)->max_length))) == ((uint32_t)5))))
+		{
+			goto IL_020a;
+		}
+	}
+	{
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_62 = V_0;
+		NullCheck(L_62);
+		int32_t L_63 = L_62->___level;
+		if ((((int32_t)L_63) < ((int32_t)1)))
+		{
+			goto IL_020a;
+		}
+	}
+	{
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_64 = V_0;
+		NullCheck(L_64);
+		int32_t L_65 = L_64->___level;
+		if ((((int32_t)L_65) > ((int32_t)((int32_t)15))))
+		{
+			goto IL_020a;
+		}
+	}
+	{
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_66 = V_0;
+		NullCheck(L_66);
+		int32_t L_67 = L_66->___hp;
+		if ((((int32_t)L_67) < ((int32_t)0)))
+		{
+			goto IL_020a;
+		}
+	}
+	{
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_68 = V_0;
+		NullCheck(L_68);
+		int32_t L_69 = L_68->___hp;
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_70 = V_0;
+		NullCheck(L_70);
+		int32_t L_71;
+		L_71 = CozyRun_get_MaxHP_m498A7D819E9CC585DE4A1343105255CCE7009566(L_70, NULL);
+		if ((((int32_t)L_69) > ((int32_t)L_71)))
+		{
+			goto IL_020a;
+		}
+	}
+	{
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_72 = V_0;
+		NullCheck(L_72);
+		int32_t L_73 = L_72->___weaponLevel;
+		if ((((int32_t)L_73) < ((int32_t)1)))
+		{
+			goto IL_020a;
+		}
+	}
+	{
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_74 = V_0;
+		NullCheck(L_74);
+		int32_t L_75 = L_74->___weaponLevel;
+		if ((((int32_t)L_75) > ((int32_t)5)))
+		{
+			goto IL_020a;
+		}
+	}
+	{
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_76 = { reinterpret_cast<intptr_t> (Animal_t81F9C91803B62D788C9E2C043CFF5DAAF4BE6D6A_0_0_0_var) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_77;
+		L_77 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_76, NULL);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_78 = V_0;
+		NullCheck(L_78);
+		int32_t L_79 = L_78->___animal;
+		int32_t L_80 = L_79;
+		RuntimeObject* L_81 = Box(Animal_t81F9C91803B62D788C9E2C043CFF5DAAF4BE6D6A_il2cpp_TypeInfo_var, &L_80);
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.enum_class);
+		bool L_82;
+		L_82 = Enum_IsDefined_m1C9A0C4F54B0538351585FF563A01091A6FE2F28(L_77, L_81, NULL);
+		if (!L_82)
+		{
+			goto IL_020a;
+		}
+	}
+	{
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_83 = { reinterpret_cast<intptr_t> (Region_tDA6CA4B2041350E05694103664D0031C18A68170_0_0_0_var) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_84;
+		L_84 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_83, NULL);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_85 = V_0;
+		NullCheck(L_85);
+		int32_t L_86 = L_85->___region;
+		int32_t L_87 = L_86;
+		RuntimeObject* L_88 = Box(Region_tDA6CA4B2041350E05694103664D0031C18A68170_il2cpp_TypeInfo_var, &L_87);
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.enum_class);
+		bool L_89;
+		L_89 = Enum_IsDefined_m1C9A0C4F54B0538351585FF563A01091A6FE2F28(L_84, L_88, NULL);
+		if (!L_89)
+		{
+			goto IL_020a;
+		}
+	}
+	{
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_90 = { reinterpret_cast<intptr_t> (Difficulty_t6F49E0019DDC17D3B6F8C2AB5B511CD41BA48266_0_0_0_var) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_91;
+		L_91 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_90, NULL);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_92 = V_0;
+		NullCheck(L_92);
+		int32_t L_93 = L_92->___difficulty;
+		int32_t L_94 = L_93;
+		RuntimeObject* L_95 = Box(Difficulty_t6F49E0019DDC17D3B6F8C2AB5B511CD41BA48266_il2cpp_TypeInfo_var, &L_94);
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.enum_class);
+		bool L_96;
+		L_96 = Enum_IsDefined_m1C9A0C4F54B0538351585FF563A01091A6FE2F28(L_91, L_95, NULL);
+		if (!L_96)
+		{
+			goto IL_020a;
+		}
+	}
+	{
+		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_97 = { reinterpret_cast<intptr_t> (RunPhase_tAE933FC45AF5DA79FA1EF0AFA317D3AFBE13F3B1_0_0_0_var) };
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.systemtype_class);
+		Type_t* L_98;
+		L_98 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_97, NULL);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_99 = V_0;
+		NullCheck(L_99);
+		int32_t L_100 = L_99->___phase;
+		int32_t L_101 = L_100;
+		RuntimeObject* L_102 = Box(RunPhase_tAE933FC45AF5DA79FA1EF0AFA317D3AFBE13F3B1_il2cpp_TypeInfo_var, &L_101);
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_defaults.enum_class);
+		bool L_103;
+		L_103 = Enum_IsDefined_m1C9A0C4F54B0538351585FF563A01091A6FE2F28(L_98, L_102, NULL);
+		if (L_103)
+		{
+			goto IL_0215;
+		}
+	}
+
+IL_020a:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:107>
+		InvalidDataException_t9D62CAAA10DD31CCD9C0F92AA5729A05282F18A1* L_104 = (InvalidDataException_t9D62CAAA10DD31CCD9C0F92AA5729A05282F18A1*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidDataException_t9D62CAAA10DD31CCD9C0F92AA5729A05282F18A1_il2cpp_TypeInfo_var)));
+		InvalidDataException__ctor_m514879053D89E3C8229A01AA8970237FA5409532(L_104, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral2A23C97478AD482C40AACCFEC10D259F41155975)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_104, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CozySave_Validate_m29FFB6618B8967A147F7C46F370D3D8770A79F89_RuntimeMethod_var)));
+	}
+
+IL_0215:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:108>
+		return;
+	}
+}
+// Method Definition Index: 65379
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* CozySave_Read_mEDD911E1654EE7D3C931436CA211E20441958F34 (CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83* __this, String_t* ___0_path, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CozyRun_t664438D37D010E4092B526226781841855621066_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JsonUtility_FromJson_TisCozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E_m76F8AF5249D05653795FF65DDB6B6DA4D13774B4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JsonUtility_FromJson_TisCozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9_m676D06558EE41538D74AC6E5DC5CC938D20E9ECE_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9* V_0 = NULL;
+	CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* V_1 = NULL;
+	CozyRun_t664438D37D010E4092B526226781841855621066* V_2 = NULL;
+	CozyRun_t664438D37D010E4092B526226781841855621066* G_B7_0 = NULL;
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:111>
+		String_t* L_0 = ___0_path;
+		String_t* L_1;
+		L_1 = File_ReadAllText_mA4A939F853D573379F7129AFDC469B91E9747BAA(L_0, NULL);
+		CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9* L_2;
+		L_2 = JsonUtility_FromJson_TisCozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9_m676D06558EE41538D74AC6E5DC5CC938D20E9ECE(L_1, JsonUtility_FromJson_TisCozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9_m676D06558EE41538D74AC6E5DC5CC938D20E9ECE_RuntimeMethod_var);
+		V_0 = L_2;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:112>
+		CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9* L_3 = V_0;
+		if (!L_3)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9* L_4 = V_0;
+		NullCheck(L_4);
+		String_t* L_5 = L_4->___payload;
+		bool L_6;
+		L_6 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_5, NULL);
+		if (L_6)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9* L_7 = V_0;
+		NullCheck(L_7);
+		String_t* L_8 = L_7->___sha256;
+		CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9* L_9 = V_0;
+		NullCheck(L_9);
+		String_t* L_10 = L_9->___payload;
+		String_t* L_11;
+		L_11 = CozySave_Digest_m4639E7B0045A7354F6D028E5141E156B76B8EC9D(L_10, NULL);
+		bool L_12;
+		L_12 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_8, L_11, NULL);
+		if (!L_12)
+		{
+			goto IL_003f;
+		}
+	}
+
+IL_0034:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:112>
+		InvalidDataException_t9D62CAAA10DD31CCD9C0F92AA5729A05282F18A1* L_13 = (InvalidDataException_t9D62CAAA10DD31CCD9C0F92AA5729A05282F18A1*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidDataException_t9D62CAAA10DD31CCD9C0F92AA5729A05282F18A1_il2cpp_TypeInfo_var)));
+		InvalidDataException__ctor_m514879053D89E3C8229A01AA8970237FA5409532(L_13, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral061C5A045E3C39E537BA1A713752B4C17D27C2EB)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_13, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CozySave_Read_mEDD911E1654EE7D3C931436CA211E20441958F34_RuntimeMethod_var)));
+	}
+
+IL_003f:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:113>
+		CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9* L_14 = V_0;
+		NullCheck(L_14);
+		String_t* L_15 = L_14->___payload;
+		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_16;
+		L_16 = JsonUtility_FromJson_TisCozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E_m76F8AF5249D05653795FF65DDB6B6DA4D13774B4(L_15, JsonUtility_FromJson_TisCozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E_m76F8AF5249D05653795FF65DDB6B6DA4D13774B4_RuntimeMethod_var);
+		V_1 = L_16;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:116>
+		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_17 = V_1;
+		if (L_17)
+		{
+			goto IL_0051;
+		}
+	}
+	{
+		G_B7_0 = ((CozyRun_t664438D37D010E4092B526226781841855621066*)(NULL));
+		goto IL_0057;
+	}
+
+IL_0051:
+	{
+		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_18 = V_1;
+		NullCheck(L_18);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_19 = L_18->___activeRun;
+		G_B7_0 = L_19;
+	}
+
+IL_0057:
+	{
+		V_2 = G_B7_0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:117>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:118>
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_20 = V_2;
+		if (!L_20)
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_21 = V_2;
+		NullCheck(L_21);
+		String_t* L_22 = L_21->___runId;
+		bool L_23;
+		L_23 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_22, NULL);
+		if (!L_23)
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_24 = V_2;
+		NullCheck(L_24);
+		uint32_t L_25 = L_24->___rng;
+		if (L_25)
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_26 = V_2;
+		String_t* L_27;
+		L_27 = JsonUtility_ToJson_m28CC6843B9D3723D88AD13EA3829B71FDE7826BA(L_26, NULL);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_28 = (CozyRun_t664438D37D010E4092B526226781841855621066*)il2cpp_codegen_object_new(CozyRun_t664438D37D010E4092B526226781841855621066_il2cpp_TypeInfo_var);
+		CozyRun__ctor_m40872D30751075A5D9E4B319F6CF3D532AB7E954(L_28, NULL);
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_29 = L_28;
+		CozyRun_t664438D37D010E4092B526226781841855621066* L_30 = V_2;
+		NullCheck(L_30);
+		String_t* L_31 = L_30->___rulesVersion;
+		NullCheck(L_29);
+		L_29->___rulesVersion = L_31;
+		Il2CppCodeGenWriteBarrier((void**)(&L_29->___rulesVersion), (void*)L_31);
+		String_t* L_32;
+		L_32 = JsonUtility_ToJson_m28CC6843B9D3723D88AD13EA3829B71FDE7826BA(L_29, NULL);
+		bool L_33;
+		L_33 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_27, L_32, NULL);
+		if (!L_33)
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:119>
+		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_34 = V_1;
+		NullCheck(L_34);
+		L_34->___activeRun = (CozyRun_t664438D37D010E4092B526226781841855621066*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&L_34->___activeRun), (void*)(CozyRun_t664438D37D010E4092B526226781841855621066*)NULL);
+	}
+
+IL_009a:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:120>
+		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_35 = V_1;
+		CozySave_Validate_m29FFB6618B8967A147F7C46F370D3D8770A79F89(L_35, NULL);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:120>
+		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_36 = V_1;
+		return L_36;
+	}
+}
+// Method Definition Index: 65380
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* CozySave_Load_mF84D8D8898A7801A08D9881965F5DCC8132B9422 (CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF0C44AECF717C8023FB058DEA0E7D69DA2D57F5A);
+		s_Il2CppMethodInitialized = true;
+	}
+	CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* V_0 = NULL;
+	Exception_t* V_1 = NULL;
+	Exception_t* V_2 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 2> __active_exceptions;
+	Exception_t* G_B8_0 = NULL;
+	Exception_t* G_B7_0 = NULL;
+	int32_t G_B15_0 = 0;
+	int32_t G_B14_0 = 0;
+	Exception_t* G_B20_0 = NULL;
+	Exception_t* G_B19_0 = NULL;
+	int32_t G_B28_0 = 0;
+	int32_t G_B27_0 = 0;
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:124>
+		CozySave_set_Notice_m72C28B92F668CE984077DCAD59802BBE0C3FE93A_inline(__this, (String_t*)NULL, NULL);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:124>
+		CozySave_set_ReadOnly_m00E0409EAF25726F6439A6C9AA6E9437C9288EF0_inline(__this, (bool)0, NULL);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:125>
+		String_t* L_0 = __this->___Path;
+		bool L_1;
+		L_1 = File_Exists_m95E329ABBE3EAD6750FE1989BBA6884457136D4A(L_0, NULL);
+		if (L_1)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		String_t* L_2 = __this->___Path;
+		String_t* L_3;
+		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_2, _stringLiteralF0C44AECF717C8023FB058DEA0E7D69DA2D57F5A, NULL);
+		bool L_4;
+		L_4 = File_Exists_m95E329ABBE3EAD6750FE1989BBA6884457136D4A(L_3, NULL);
+		if (L_4)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:125>
+		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_5 = (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E*)il2cpp_codegen_object_new(CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E_il2cpp_TypeInfo_var);
+		CozyProfile__ctor_m1B8C957BDF7C9DD9B69CE4A5C05FA3A249001D0D(L_5, NULL);
+		return L_5;
+	}
+
+IL_0038:
+	{
+	}
+	try
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:126>
+		String_t* L_6 = __this->___Path;
+		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_7;
+		L_7 = CozySave_Read_mEDD911E1654EE7D3C931436CA211E20441958F34(__this, L_6, NULL);
+		V_0 = L_7;
+		goto IL_012d;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_004b;
+		}
+		{
+			{
+				bool __filter_local = false;
+				try
+				{
+					{
+						Exception_t* L_8 = (Exception_t*)e.ex;;
+						Exception_t* L_9 = ((Exception_t*)IsInstClass((RuntimeObject*)L_8, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var))));
+						if (L_9)
+						{
+							G_B8_0 = L_9;
+							goto IL_0075;
+						}
+						G_B7_0 = L_9;
+					}
+					{
+						G_B15_0 = 0;
+						goto IL_00a5;
+					}
+
+IL_0075:
+					{
+						V_1 = G_B8_0;
+						//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:128>
+						Exception_t* L_10 = V_1;
+						if (((IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910*)IsInstClass((RuntimeObject*)L_10, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910_il2cpp_TypeInfo_var)))))
+						{
+							goto IL_00a1;
+						}
+					}
+					{
+						Exception_t* L_11 = V_1;
+						if (((InvalidDataException_t9D62CAAA10DD31CCD9C0F92AA5729A05282F18A1*)IsInstSealed((RuntimeObject*)L_11, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidDataException_t9D62CAAA10DD31CCD9C0F92AA5729A05282F18A1_il2cpp_TypeInfo_var)))))
+						{
+							goto IL_00a1;
+						}
+					}
+					{
+						Exception_t* L_12 = V_1;
+						if (((ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)IsInstClass((RuntimeObject*)L_12, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)))))
+						{
+							goto IL_00a1;
+						}
+					}
+					{
+						Exception_t* L_13 = V_1;
+						if (((NullReferenceException_tBDE63A6D24569B964908408389070C6A9F5005BB*)IsInstClass((RuntimeObject*)L_13, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NullReferenceException_tBDE63A6D24569B964908408389070C6A9F5005BB_il2cpp_TypeInfo_var)))))
+						{
+							goto IL_00a1;
+						}
+					}
+					{
+						Exception_t* L_14 = V_1;
+						G_B14_0 = ((!(((RuntimeObject*)(UnauthorizedAccessException_t8FC1F1DE7AA62456E9E25EFDFC658A623A626791*)((UnauthorizedAccessException_t8FC1F1DE7AA62456E9E25EFDFC658A623A626791*)IsInstClass((RuntimeObject*)L_14, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&UnauthorizedAccessException_t8FC1F1DE7AA62456E9E25EFDFC658A623A626791_il2cpp_TypeInfo_var))))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+						goto IL_00a2;
+					}
+
+IL_00a1:
+					{
+						G_B14_0 = 1;
+					}
+
+IL_00a2:
+					{
+						G_B15_0 = ((!(((uint32_t)G_B14_0) <= ((uint32_t)0)))? 1 : 0);
+					}
+
+IL_00a5:
+					{
+						__filter_local = (G_B15_0) ? true : false;
+					}
+				}
+				catch(Il2CppExceptionWrapper&)
+				{
+					__filter_local = false;
+				}
+				if (__filter_local)
+				{
+					IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+					goto FILTER_00a7;
+				}
+			}
+		}
+		throw e;
+	}
+
+CATCH_004b:
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_15 = ((NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)IL2CPP_GET_ACTIVE_EXCEPTION(NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*));;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:127>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:127>
+		CozySave_set_ReadOnly_m00E0409EAF25726F6439A6C9AA6E9437C9288EF0_inline(__this, (bool)1, NULL);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:127>
+		CozySave_set_Notice_m72C28B92F668CE984077DCAD59802BBE0C3FE93A_inline(__this, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralD2D2F8D3F9F04A081FFBE6B2AF7917BAAADFC052)), NULL);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:127>
+		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_16 = (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E_il2cpp_TypeInfo_var)));
+		CozyProfile__ctor_m1B8C957BDF7C9DD9B69CE4A5C05FA3A249001D0D(L_16, NULL);
+		V_0 = L_16;
+		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+		goto IL_012d;
+	}
+
+FILTER_00a7:
+	{
+		{
+			Exception_t* L_17 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+		}
+		try
+		{
+			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:130>
+			String_t* L_18 = __this->___Path;
+			String_t* L_19;
+			L_19 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_18, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralF0C44AECF717C8023FB058DEA0E7D69DA2D57F5A)), NULL);
+			CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_20;
+			L_20 = CozySave_Read_mEDD911E1654EE7D3C931436CA211E20441958F34(__this, L_19, NULL);
+			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:130>
+			CozySave_set_Notice_m72C28B92F668CE984077DCAD59802BBE0C3FE93A_inline(__this, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral40866342D5EA7852DF2154D8AC99B9DE56BB00D6)), NULL);
+			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:130>
+			V_0 = L_20;
+			goto IL_012d;
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			{
+				{
+					bool __filter_local = false;
+					try
+					{
+						{
+							Exception_t* L_21 = (Exception_t*)e.ex;;
+							Exception_t* L_22 = ((Exception_t*)IsInstClass((RuntimeObject*)L_21, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var))));
+							if (L_22)
+							{
+								G_B20_0 = L_22;
+								goto IL_00d8;
+							}
+							G_B19_0 = L_22;
+						}
+						{
+							G_B28_0 = 0;
+							goto IL_0110;
+						}
+
+IL_00d8:
+						{
+							V_2 = G_B20_0;
+							//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:131>
+							Exception_t* L_23 = V_2;
+							if (((IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910*)IsInstClass((RuntimeObject*)L_23, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910_il2cpp_TypeInfo_var)))))
+							{
+								goto IL_010c;
+							}
+						}
+						{
+							Exception_t* L_24 = V_2;
+							if (((InvalidDataException_t9D62CAAA10DD31CCD9C0F92AA5729A05282F18A1*)IsInstSealed((RuntimeObject*)L_24, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidDataException_t9D62CAAA10DD31CCD9C0F92AA5729A05282F18A1_il2cpp_TypeInfo_var)))))
+							{
+								goto IL_010c;
+							}
+						}
+						{
+							Exception_t* L_25 = V_2;
+							if (((ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)IsInstClass((RuntimeObject*)L_25, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)))))
+							{
+								goto IL_010c;
+							}
+						}
+						{
+							Exception_t* L_26 = V_2;
+							if (((NullReferenceException_tBDE63A6D24569B964908408389070C6A9F5005BB*)IsInstClass((RuntimeObject*)L_26, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NullReferenceException_tBDE63A6D24569B964908408389070C6A9F5005BB_il2cpp_TypeInfo_var)))))
+							{
+								goto IL_010c;
+							}
+						}
+						{
+							Exception_t* L_27 = V_2;
+							if (((NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)IsInstClass((RuntimeObject*)L_27, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)))))
+							{
+								goto IL_010c;
+							}
+						}
+						{
+							Exception_t* L_28 = V_2;
+							G_B27_0 = ((!(((RuntimeObject*)(UnauthorizedAccessException_t8FC1F1DE7AA62456E9E25EFDFC658A623A626791*)((UnauthorizedAccessException_t8FC1F1DE7AA62456E9E25EFDFC658A623A626791*)IsInstClass((RuntimeObject*)L_28, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&UnauthorizedAccessException_t8FC1F1DE7AA62456E9E25EFDFC658A623A626791_il2cpp_TypeInfo_var))))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+							goto IL_010d;
+						}
+
+IL_010c:
+						{
+							G_B27_0 = 1;
+						}
+
+IL_010d:
+						{
+							G_B28_0 = ((!(((uint32_t)G_B27_0) <= ((uint32_t)0)))? 1 : 0);
+						}
+
+IL_0110:
+						{
+							__filter_local = (G_B28_0) ? true : false;
+						}
+					}
+					catch(Il2CppExceptionWrapper&)
+					{
+						__filter_local = false;
+					}
+					if (__filter_local)
+					{
+						IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+						goto FILTER_0112;
+					}
+				}
+			}
+			throw e;
+		}
+
+FILTER_0112:
+		{
+			Exception_t* L_29 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:132>
+			CozySave_set_ReadOnly_m00E0409EAF25726F6439A6C9AA6E9437C9288EF0_inline(__this, (bool)1, NULL);
+			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:132>
+			CozySave_set_Notice_m72C28B92F668CE984077DCAD59802BBE0C3FE93A_inline(__this, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral5E2668F20FF14B96790BC5B6CADB121E596316B3)), NULL);
+			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:132>
+			CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_30 = (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E_il2cpp_TypeInfo_var)));
+			CozyProfile__ctor_m1B8C957BDF7C9DD9B69CE4A5C05FA3A249001D0D(L_30, NULL);
+			V_0 = L_30;
+			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+			goto IL_012d;
+		}
+	}
+
+IL_012d:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:134>
+		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_31 = V_0;
+		return L_31;
+	}
+}
+// Method Definition Index: 65381
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozySave_Write_mF3EE811583D7660666EB4A63BEF1098D635574F8 (CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83* __this, CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* ___0_profile, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2F67EDD17F502E8BE5C9CE81D80F4F4BC64E79B1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral40866342D5EA7852DF2154D8AC99B9DE56BB00D6);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF0C44AECF717C8023FB058DEA0E7D69DA2D57F5A);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	String_t* V_1 = NULL;
+	String_t* V_2 = NULL;
+	String_t* V_3 = NULL;
+	FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* V_4 = NULL;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_5 = NULL;
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:137>
+		bool L_0;
+		L_0 = CozySave_get_ReadOnly_m523A3BFEE6FAA79B44629ECEC795F8033EC2A800_inline(__this, NULL);
+		if (!L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:137>
+		IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910* L_1 = (IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910_il2cpp_TypeInfo_var)));
+		IOException__ctor_mE0612A16064F93C7EBB468D6874777BD70CB50CA(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralDD7CC68B9AF36896667037EB7C3EBF00EF044EF2)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CozySave_Write_mF3EE811583D7660666EB4A63BEF1098D635574F8_RuntimeMethod_var)));
+	}
+
+IL_0013:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:138>
+		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_2 = ___0_profile;
+		CozySave_Validate_m29FFB6618B8967A147F7C46F370D3D8770A79F89(L_2, NULL);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:139>
+		String_t* L_3 = __this->___Path;
+		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
+		String_t* L_4;
+		L_4 = Path_GetDirectoryName_m428BADBE493A3927B51A13DEF658929B430516F6(L_3, NULL);
+		V_0 = L_4;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:139>
+		String_t* L_5 = V_0;
+		bool L_6;
+		L_6 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_5, NULL);
+		if (L_6)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:139>
+		String_t* L_7 = V_0;
+		DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* L_8;
+		L_8 = Directory_CreateDirectory_m16EC5CE8561A997C6635E06DC24C77590F29D94F(L_7, NULL);
+	}
+
+IL_0034:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:140>
+		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_9 = ___0_profile;
+		String_t* L_10;
+		L_10 = JsonUtility_ToJson_m28CC6843B9D3723D88AD13EA3829B71FDE7826BA(L_9, NULL);
+		V_1 = L_10;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:141>
+		CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9* L_11 = (CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9*)il2cpp_codegen_object_new(CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9_il2cpp_TypeInfo_var);
+		CozySaveEnvelope__ctor_mA850EB8783A3FE90ADEEBDDDF698E0AD5178C0B7(L_11, NULL);
+		CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9* L_12 = L_11;
+		String_t* L_13 = V_1;
+		NullCheck(L_12);
+		L_12->___payload = L_13;
+		Il2CppCodeGenWriteBarrier((void**)(&L_12->___payload), (void*)L_13);
+		CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9* L_14 = L_12;
+		String_t* L_15 = V_1;
+		String_t* L_16;
+		L_16 = CozySave_Digest_m4639E7B0045A7354F6D028E5141E156B76B8EC9D(L_15, NULL);
+		NullCheck(L_14);
+		L_14->___sha256 = L_16;
+		Il2CppCodeGenWriteBarrier((void**)(&L_14->___sha256), (void*)L_16);
+		String_t* L_17;
+		L_17 = JsonUtility_ToJson_m28CC6843B9D3723D88AD13EA3829B71FDE7826BA(L_14, NULL);
+		V_2 = L_17;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:142>
+		String_t* L_18 = __this->___Path;
+		String_t* L_19;
+		L_19 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_18, _stringLiteral2F67EDD17F502E8BE5C9CE81D80F4F4BC64E79B1, NULL);
+		V_3 = L_19;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:143>
+		String_t* L_20 = V_3;
+		FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_21 = (FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8*)il2cpp_codegen_object_new(FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8_il2cpp_TypeInfo_var);
+		FileStream__ctor_mA39506EF7A1F33FCA0199B880BE1D82217E33EEC(L_21, L_20, 2, 2, 0, NULL);
+		V_4 = L_21;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_009a:
+			{
+				{
+					FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_22 = V_4;
+					if (!L_22)
+					{
+						goto IL_00a5;
+					}
+				}
+				{
+					FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_23 = V_4;
+					NullCheck(L_23);
+					InterfaceActionInvoker0::Invoke(0, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_23);
+				}
+
+IL_00a5:
+				{
+					return;
+				}
+			}
+		});
+		try
+		{
+			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:145>
+			Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_24;
+			L_24 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
+			String_t* L_25 = V_2;
+			NullCheck(L_24);
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_26;
+			L_26 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(16, L_24, L_25);
+			V_5 = L_26;
+			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:145>
+			FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_27 = V_4;
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_28 = V_5;
+			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_29 = V_5;
+			NullCheck(L_29);
+			NullCheck(L_27);
+			VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(24, L_27, L_28, 0, ((int32_t)(((RuntimeArray*)L_29)->max_length)));
+			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:145>
+			FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_30 = V_4;
+			NullCheck(L_30);
+			VirtualActionInvoker1< bool >::Invoke(28, L_30, (bool)1);
+			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:146>
+			goto IL_00a6;
+		}
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_00a6:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:147>
+		String_t* L_31 = __this->___Path;
+		bool L_32;
+		L_32 = File_Exists_m95E329ABBE3EAD6750FE1989BBA6884457136D4A(L_31, NULL);
+		if (!L_32)
+		{
+			goto IL_00f7;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:149>
+		String_t* L_33;
+		L_33 = CozySave_get_Notice_m2FE22EF927F14E85DB958FF18A5A2EDE19336B32_inline(__this, NULL);
+		bool L_34;
+		L_34 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_33, _stringLiteral40866342D5EA7852DF2154D8AC99B9DE56BB00D6, NULL);
+		if (!L_34)
+		{
+			goto IL_00da;
+		}
+	}
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:152>
+		String_t* L_35 = V_3;
+		String_t* L_36 = __this->___Path;
+		File_Replace_m2850C0BC483E696258D433AEF1DBFAA82185CD47(L_35, L_36, (String_t*)NULL, NULL);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:152>
+		CozySave_set_Notice_m72C28B92F668CE984077DCAD59802BBE0C3FE93A_inline(__this, (String_t*)NULL, NULL);
+		return;
+	}
+
+IL_00da:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:154>
+		String_t* L_37 = V_3;
+		String_t* L_38 = __this->___Path;
+		String_t* L_39 = __this->___Path;
+		String_t* L_40;
+		L_40 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_39, _stringLiteralF0C44AECF717C8023FB058DEA0E7D69DA2D57F5A, NULL);
+		File_Replace_m2850C0BC483E696258D433AEF1DBFAA82185CD47(L_37, L_38, L_40, NULL);
+		return;
+	}
+
+IL_00f7:
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:156>
+		String_t* L_41 = V_3;
+		String_t* L_42 = __this->___Path;
+		File_Move_mBC9450111E0144A55D893A720F19E612D658AC37(L_41, L_42, NULL);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:157>
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 65382
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 CozyTuning_Movement_mCA75821BAB252FCE9FEBFF0706746DB7913FEB60 (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_input, float ___1_speed, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyTuning.cs:26>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_input;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_1;
+		L_1 = Vector2_ClampMagnitude_m9BF093877BD11282C41088022FE4AE70A3A0ECA9_inline(L_0, (1.0f), NULL);
+		float L_2 = ___1_speed;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3;
+		L_3 = Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline(L_1, L_2, NULL);
+		return L_3;
+	}
+}
+// Method Definition Index: 65383
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CozyTuning_SpawnRate_m25429C434E8AEBA0FFCF69D6290E40E006DBF926 (float ___0_time, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyTuning.cs:27>
+		float L_0 = ___0_time;
+		if ((((float)L_0) < ((float)(30.0f))))
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		float L_1 = ___0_time;
+		if ((((float)L_1) < ((float)(60.0f))))
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		float L_2 = ___0_time;
+		if ((((float)L_2) < ((float)(120.0f))))
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		float L_3 = ___0_time;
+		if ((((float)L_3) < ((float)(180.0f))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		float L_4 = ___0_time;
+		if ((((float)L_4) < ((float)(300.0f))))
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		return (3.5999999f);
+	}
+
+IL_002e:
+	{
+		return (3.0f);
+	}
+
+IL_0034:
+	{
+		return (2.4000001f);
+	}
+
+IL_003a:
+	{
+		return (1.79999995f);
+	}
+
+IL_0040:
+	{
+		return (1.20000005f);
+	}
+
+IL_0046:
+	{
+		return (0.800000012f);
+	}
+}
+// Method Definition Index: 65384
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CozyTuning_ToughChance_mD8B32406DA4865BF8573D2FF59F0ED7789C2D7A8 (float ___0_time, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyTuning.cs:28>
+		float L_0 = ___0_time;
+		if ((((float)L_0) < ((float)(60.0f))))
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		float L_1 = ___0_time;
+		if ((((float)L_1) < ((float)(120.0f))))
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		float L_2 = ___0_time;
+		if ((((float)L_2) < ((float)(180.0f))))
+		{
+			goto IL_002c;
+		}
+	}
+	{
+		float L_3 = ___0_time;
+		if ((((float)L_3) < ((float)(300.0f))))
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		return (0.25f);
+	}
+
+IL_0026:
+	{
+		return (0.200000003f);
+	}
+
+IL_002c:
+	{
+		return (0.150000006f);
+	}
+
+IL_0032:
+	{
+		return (0.100000001f);
+	}
+
+IL_0038:
+	{
+		return (0.0f);
+	}
+}
+// Method Definition Index: 65385
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CozyTuning_SpeedMultiplier_m5EF56D6CC817AB7B0353FBC9D776C851F812317B (float ___0_time, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyTuning.cs:29>
+		float L_0 = ___0_time;
+		if ((((float)L_0) < ((float)(30.0f))))
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		float L_1 = ___0_time;
+		if ((((float)L_1) < ((float)(60.0f))))
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		float L_2 = ___0_time;
+		if ((((float)L_2) < ((float)(120.0f))))
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		float L_3 = ___0_time;
+		if ((((float)L_3) < ((float)(180.0f))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		float L_4 = ___0_time;
+		if ((((float)L_4) < ((float)(300.0f))))
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		return (1.25f);
+	}
+
+IL_002e:
+	{
+		return (1.20000005f);
+	}
+
+IL_0034:
+	{
+		return (1.14999998f);
+	}
+
+IL_003a:
+	{
+		return (1.10000002f);
+	}
+
+IL_0040:
+	{
+		return (1.04999995f);
+	}
+
+IL_0046:
+	{
+		return (1.0f);
+	}
+}
+// Method Definition Index: 65386
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyTuning__ctor_m42923F7D5B4DB4E9E9833CF308C6C9F4488C34A2 (CozyTuning_t2C3A8E24B6F8AE2378DB121DA1F9D19095B1142C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyTuning.cs:9>
+		__this->___moveSpeed = (220.0f);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyTuning.cs:10>
+		__this->___responseSeconds = (0.0799999982f);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyTuning.cs:11>
+		__this->___joystickRadius = (68.0f);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyTuning.cs:12>
+		__this->___deadZone = (0.0799999982f);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyTuning.cs:14>
+		__this->___orbitRadius = (88.0f);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyTuning.cs:15>
+		__this->___orbitSeconds = (2.4000001f);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyTuning.cs:16>
+		__this->___attackRadius = (16.0f);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyTuning.cs:17>
+		__this->___hitCooldown = (0.400000006f);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyTuning.cs:19>
+		__this->___health = 5;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyTuning.cs:20>
+		__this->___invulnerability = (1.0f);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyTuning.cs:21>
+		__this->___enemyLimit = ((int32_t)100);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyTuning.cs:23>
+		__this->___gentleMode = (bool)1;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozyTuning.cs:24>
+		__this->___gentleSpawnRate = (0.800000012f);
+		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 35465
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Min_m888083F74FF5655778F0403BB5E9608BEFDEA8CB_inline (int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t G_B3_0 = 0;
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:125>
+		int32_t L_0 = ___0_a;
+		int32_t L_1 = ___1_b;
+		if ((((int32_t)L_0) < ((int32_t)L_1)))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		int32_t L_2 = ___1_b;
+		G_B3_0 = L_2;
+		goto IL_0009;
+	}
+
+IL_0008:
+	{
+		int32_t L_3 = ___0_a;
+		G_B3_0 = L_3;
+	}
+
+IL_0009:
+	{
+		V_0 = G_B3_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:125>
+		int32_t L_4 = V_0;
+		return L_4;
+	}
+}
+// Method Definition Index: 35502
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:57>
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:57>
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:57>
+		return;
+	}
+}
+// Method Definition Index: 35527
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Multiply_m2D984B613020089BF5165BA4CA10988E2DC771FE_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, float ___1_d, const RuntimeMethod* method) 
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:573>
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_d;
+		(&V_0)->___x = ((float)il2cpp_codegen_multiply(L_1, L_2));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = ___0_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_d;
+		(&V_0)->___y = ((float)il2cpp_codegen_multiply(L_4, L_5));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 35522
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Addition_m8136742CE6EE33BA4EB81C5F584678455917D2AE_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_b, const RuntimeMethod* method) 
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:558>
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		(&V_0)->___x = ((float)il2cpp_codegen_add(L_1, L_3));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		(&V_0)->___y = ((float)il2cpp_codegen_add(L_5, L_7));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8 = V_0;
+		return L_8;
+	}
+}
+// Method Definition Index: 35534
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_zero_m32506C40EC2EE7D5D4410BF40D3EE683A3D5F32C_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:657>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ((Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields*)il2cpp_codegen_static_fields_for(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var))->___zeroVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 35523
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_Subtraction_m44475FCDAD2DA2F98D78A6625EC2DCDFE8803837_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_b, const RuntimeMethod* method) 
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:561>
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		(&V_0)->___x = ((float)il2cpp_codegen_subtract(L_1, L_3));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		(&V_0)->___y = ((float)il2cpp_codegen_subtract(L_5, L_7));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8 = V_0;
+		return L_8;
+	}
+}
+// Method Definition Index: 35517
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:281>
+		float L_0 = __this->___x;
+		float L_1 = __this->___x;
+		float L_2 = __this->___y;
+		float L_3 = __this->___y;
+		return ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_0, L_1)), ((float)il2cpp_codegen_multiply(L_2, L_3))));
+	}
+}
+// Method Definition Index: 35508
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_normalized_mF6722883AEFB5027690A778DF8ACC20F0FA65297_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:194>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
+		L_0 = Vector2_Normalize_m52526AC1D25ED668DF8A5DE540769FA7D5671FC7(__this, NULL);
+		return L_0;
+	}
+}
+// Method Definition Index: 35539
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_right_m99043ED6B3D5AEA5033313FE3DA9571F39D1B280_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:667>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ((Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields*)il2cpp_codegen_static_fields_for(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var))->___rightVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 35464
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Min_m747CA71A9483CDB394B13BD0AD048EE17E48FFE4_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float G_B3_0 = 0.0f;
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:102>
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		if ((((float)L_0) < ((float)L_1)))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		float L_2 = ___1_b;
+		G_B3_0 = L_2;
+		goto IL_0009;
+	}
+
+IL_0008:
+	{
+		float L_3 = ___0_a;
+		G_B3_0 = L_3;
+	}
+
+IL_0009:
+	{
+		V_0 = G_B3_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:102>
+		float L_4 = V_0;
+		return L_4;
+	}
+}
+// Method Definition Index: 35466
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float G_B3_0 = 0.0f;
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:148>
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		if ((((float)L_0) > ((float)L_1)))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		float L_2 = ___1_b;
+		G_B3_0 = L_2;
+		goto IL_0009;
+	}
+
+IL_0008:
+	{
+		float L_3 = ___0_a;
+		G_B3_0 = L_3;
+	}
+
+IL_0009:
+	{
+		V_0 = G_B3_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:148>
+		float L_4 = V_0;
+		return L_4;
+	}
+}
+// Method Definition Index: 35519
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_ClampMagnitude_m9BF093877BD11282C41088022FE4AE70A3A0ECA9_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_vector, float ___1_maxLength, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	bool V_1 = false;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_5;
+	memset((&V_5), 0, sizeof(V_5));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:354>
+		float L_0;
+		L_0 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&___0_vector), NULL);
+		V_0 = L_0;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:355>
+		float L_1 = V_0;
+		float L_2 = ___1_maxLength;
+		float L_3 = ___1_maxLength;
+		V_1 = (bool)((((float)L_1) > ((float)((float)il2cpp_codegen_multiply(L_2, L_3))))? 1 : 0);
+		bool L_4 = V_1;
+		if (!L_4)
+		{
+			goto IL_004b;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:357>
+		float L_5 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_6;
+		L_6 = sqrt(((double)L_5));
+		V_2 = ((float)L_6);
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:362>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_7 = ___0_vector;
+		float L_8 = L_7.___x;
+		float L_9 = V_2;
+		V_3 = ((float)(L_8/L_9));
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:363>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_10 = ___0_vector;
+		float L_11 = L_10.___y;
+		float L_12 = V_2;
+		V_4 = ((float)(L_11/L_12));
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:366>
+		float L_13 = V_3;
+		float L_14 = ___1_maxLength;
+		(&V_5)->___x = ((float)il2cpp_codegen_multiply(L_13, L_14));
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:367>
+		float L_15 = V_4;
+		float L_16 = ___1_maxLength;
+		(&V_5)->___y = ((float)il2cpp_codegen_multiply(L_15, L_16));
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:368>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_17 = V_5;
+		V_6 = L_17;
+		goto IL_0050;
+	}
+
+IL_004b:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:370>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18 = ___0_vector;
+		V_6 = L_18;
+		goto IL_0050;
+	}
+
+IL_0050:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:371>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_19 = V_6;
+		return L_19;
+	}
+}
+// Method Definition Index: 35505
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_MoveTowards_m138E823B0F25EF10A2261E57C5706232E8EA9A9A_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_current, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_target, float ___2_maxDistanceDelta, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	bool V_5 = false;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	int32_t G_B4_0 = 0;
+	int32_t G_B6_0 = 0;
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:106>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___1_target;
+		float L_1 = L_0.___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___0_current;
+		float L_3 = L_2.___x;
+		V_0 = ((float)il2cpp_codegen_subtract(L_1, L_3));
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:107>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___1_target;
+		float L_5 = L_4.___y;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___0_current;
+		float L_7 = L_6.___y;
+		V_1 = ((float)il2cpp_codegen_subtract(L_5, L_7));
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:109>
+		float L_8 = V_0;
+		float L_9 = V_0;
+		float L_10 = V_1;
+		float L_11 = V_1;
+		V_2 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_8, L_9)), ((float)il2cpp_codegen_multiply(L_10, L_11))));
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:111>
+		float L_12 = V_2;
+		if ((((float)L_12) == ((float)(0.0f))))
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		float L_13 = ___2_maxDistanceDelta;
+		if ((!(((float)L_13) >= ((float)(0.0f)))))
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		float L_14 = V_2;
+		float L_15 = ___2_maxDistanceDelta;
+		float L_16 = ___2_maxDistanceDelta;
+		G_B4_0 = ((((int32_t)((!(((float)L_14) <= ((float)((float)il2cpp_codegen_multiply(L_15, L_16)))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0041;
+	}
+
+IL_0040:
+	{
+		G_B4_0 = 0;
+	}
+
+IL_0041:
+	{
+		G_B6_0 = G_B4_0;
+		goto IL_0044;
+	}
+
+IL_0043:
+	{
+		G_B6_0 = 1;
+	}
+
+IL_0044:
+	{
+		V_5 = (bool)G_B6_0;
+		bool L_17 = V_5;
+		if (!L_17)
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:112>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_18 = ___1_target;
+		V_6 = L_18;
+		goto IL_0084;
+	}
+
+IL_004f:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:114>
+		float L_19 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_20;
+		L_20 = sqrt(((double)L_19));
+		V_3 = ((float)L_20);
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:117>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_21 = ___0_current;
+		float L_22 = L_21.___x;
+		float L_23 = V_0;
+		float L_24 = V_3;
+		float L_25 = ___2_maxDistanceDelta;
+		(&V_4)->___x = ((float)il2cpp_codegen_add(L_22, ((float)il2cpp_codegen_multiply(((float)(L_23/L_24)), L_25))));
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:118>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_26 = ___0_current;
+		float L_27 = L_26.___y;
+		float L_28 = V_1;
+		float L_29 = V_3;
+		float L_30 = ___2_maxDistanceDelta;
+		(&V_4)->___y = ((float)il2cpp_codegen_add(L_27, ((float)il2cpp_codegen_multiply(((float)(L_28/L_29)), L_30))));
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:119>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_31 = V_4;
+		V_6 = L_31;
+		goto IL_0084;
+	}
+
+IL_0084:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:120>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_32 = V_6;
+		return L_32;
+	}
+}
+// Method Definition Index: 35487
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Repeat_m6F1560A163481BB311D685294E1B463C3E4EB3BA_inline (float ___0_t, float ___1_length, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:514>
+		float L_0 = ___0_t;
+		float L_1 = ___0_t;
+		float L_2 = ___1_length;
+		float L_3;
+		L_3 = floorf(((float)(L_1/L_2)));
+		float L_4 = ___1_length;
+		float L_5 = ___1_length;
+		float L_6;
+		L_6 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(((float)il2cpp_codegen_subtract(L_0, ((float)il2cpp_codegen_multiply(L_3, L_4)))), (0.0f), L_5, NULL);
+		V_0 = L_6;
+		goto IL_001b;
+	}
+
+IL_001b:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:515>
+		float L_7 = V_0;
+		return L_7;
+	}
+}
+// Method Definition Index: 35518
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_Distance_mBACBB1609E1894D68F882D86A93519E311810C89_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_b, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:336>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		V_0 = ((float)il2cpp_codegen_subtract(L_1, L_3));
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:337>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		V_1 = ((float)il2cpp_codegen_subtract(L_5, L_7));
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:338>
+		float L_8 = V_0;
+		float L_9 = V_0;
+		float L_10 = V_1;
+		float L_11 = V_1;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_12;
+		L_12 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_8, L_9)), ((float)il2cpp_codegen_multiply(L_10, L_11))))));
+		V_2 = ((float)L_12);
+		goto IL_002e;
+	}
+
+IL_002e:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:339>
+		float L_13 = V_2;
+		return L_13;
+	}
+}
+// Method Definition Index: 35503
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_Lerp_m1A36103F7967F653A929556E26E6D052C298C00C_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:67>
+		float L_0 = ___2_t;
+		float L_1;
+		L_1 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_0, NULL);
+		___2_t = L_1;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:70>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___0_a;
+		float L_3 = L_2.___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___1_b;
+		float L_5 = L_4.___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___0_a;
+		float L_7 = L_6.___x;
+		float L_8 = ___2_t;
+		(&V_0)->___x = ((float)il2cpp_codegen_add(L_3, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_5, L_7)), L_8))));
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:71>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9 = ___0_a;
+		float L_10 = L_9.___y;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_11 = ___1_b;
+		float L_12 = L_11.___y;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_13 = ___0_a;
+		float L_14 = L_13.___y;
+		float L_15 = ___2_t;
+		(&V_0)->___y = ((float)il2cpp_codegen_add(L_10, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_12, L_14)), L_15))));
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:72>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_16 = V_0;
+		V_1 = L_16;
+		goto IL_0047;
+	}
+
+IL_0047:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:73>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_17 = V_1;
+		return L_17;
+	}
+}
+// Method Definition Index: 35515
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_Dot_mC1E68FDB4FB462A279A303C043B8FD0AC11C8458_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_lhs, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_rhs, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:264>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_lhs;
+		float L_1 = L_0.___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___1_rhs;
+		float L_3 = L_2.___x;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = ___0_lhs;
+		float L_5 = L_4.___y;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_6 = ___1_rhs;
+		float L_7 = L_6.___y;
+		return ((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7))));
+	}
+}
+// Method Definition Index: 35526
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_op_UnaryNegation_mBA9FC53A2194EE3CC067A12D11879F695B34D6F9_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_a, const RuntimeMethod* method) 
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:570>
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		(&V_0)->___x = ((-L_1));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_2 = ___0_a;
+		float L_3 = L_2.___y;
+		(&V_0)->___y = ((-L_3));
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_4 = V_0;
+		return L_4;
+	}
+}
+// Method Definition Index: 35482
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	bool V_2 = false;
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:318>
+		float L_0 = ___0_value;
+		V_0 = (bool)((((float)L_0) < ((float)(0.0f)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:319>
+		V_1 = (0.0f);
+		goto IL_002d;
+	}
+
+IL_0015:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:320>
+		float L_2 = ___0_value;
+		V_2 = (bool)((((float)L_2) > ((float)(1.0f)))? 1 : 0);
+		bool L_3 = V_2;
+		if (!L_3)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:321>
+		V_1 = (1.0f);
+		goto IL_002d;
+	}
+
+IL_0029:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:323>
+		float L_4 = ___0_value;
+		V_1 = L_4;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:324>
+		float L_5 = V_1;
+		return L_5;
+	}
+}
+// Method Definition Index: 35516
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_magnitude_m5C59B4056420AEFDB291AD0914A3F675330A75CE_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:274>
+		float L_0 = __this->___x;
+		float L_1 = __this->___x;
+		float L_2 = __this->___y;
+		float L_3 = __this->___y;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_4;
+		L_4 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_0, L_1)), ((float)il2cpp_codegen_multiply(L_2, L_3))))));
+		return ((float)L_4);
+	}
+}
+// Method Definition Index: 35538
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_left_m851D1A435131CE336F60115E19FC8C21480284BC_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:665>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ((Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields*)il2cpp_codegen_static_fields_for(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var))->___leftVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 35467
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_Max_m7FA442918DE37E3A00106D1F2E789D65829792B8_inline (int32_t ___0_a, int32_t ___1_b, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	int32_t G_B3_0 = 0;
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:171>
+		int32_t L_0 = ___0_a;
+		int32_t L_1 = ___1_b;
+		if ((((int32_t)L_0) > ((int32_t)L_1)))
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		int32_t L_2 = ___1_b;
+		G_B3_0 = L_2;
+		goto IL_0009;
+	}
+
+IL_0008:
+	{
+		int32_t L_3 = ___0_a;
+		G_B3_0 = L_3;
+	}
+
+IL_0009:
+	{
+		V_0 = G_B3_0;
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:171>
+		int32_t L_4 = V_0;
+		return L_4;
+	}
+}
+// Method Definition Index: 35537
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Vector2_get_down_m7672D87B9C778FB2AEF7BB79758142D01166B493_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector2.cs:663>
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = ((Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields*)il2cpp_codegen_static_fields_for(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var))->___downVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 35477
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline (float ___0_f, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:248>
+		float L_0 = ___0_f;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_1;
+		L_1 = floor(((double)L_0));
+		V_0 = il2cpp_codegen_cast_double_to_int<int32_t>(L_1);
+		goto IL_000c;
+	}
+
+IL_000c:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:248>
+		int32_t L_2 = V_0;
+		return L_2;
+	}
+}
+// Method Definition Index: 65373
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CozySave_set_Notice_m72C28B92F668CE984077DCAD59802BBE0C3FE93A_inline (CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:91>
+		String_t* L_0 = ___0_value;
+		__this->___U3CNoticeU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CNoticeU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 65375
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CozySave_set_ReadOnly_m00E0409EAF25726F6439A6C9AA6E9437C9288EF0_inline (CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83* __this, bool ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:92>
+		bool L_0 = ___0_value;
+		__this->___U3CReadOnlyU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 65374
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool CozySave_get_ReadOnly_m523A3BFEE6FAA79B44629ECEC795F8033EC2A800_inline (CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:92>
+		bool L_0 = __this->___U3CReadOnlyU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 65372
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* CozySave_get_Notice_m2FE22EF927F14E85DB958FF18A5A2EDE19336B32_inline (CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:91>
+		String_t* L_0 = __this->___U3CNoticeU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 21089
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+	}
+	{
+		int32_t L_1 = __this->____size;
+		V_0 = L_1;
+		__this->____size = 0;
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = __this->____items;
+		int32_t L_4 = V_0;
+		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_3, 0, L_4, NULL);
+		return;
+	}
+
+IL_003c:
+	{
+		return;
+	}
+}
+// Method Definition Index: 21081
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = V_0;
+		int32_t L_7 = V_1;
+		RuntimeObject* L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (RuntimeObject*)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		RuntimeObject* L_9 = ___0_item;
+		List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}
+// Method Definition Index: 21130
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		RuntimeObject* L_0 = __this->____current;
+		return L_0;
+	}
+}
+// Method Definition Index: 13807
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Nullable_1_get_HasValue_m2E9343B9161EB12C0123A2A9801D2BD86422CEEB_gshared_inline (Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		bool L_0 = __this->___hasValue;
+		return L_0;
+	}
+}
+// Method Definition Index: 13809
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Nullable_1_GetValueOrDefault_m5D8208F74E7F81ED6503E51361C8705A887AD96B_gshared_inline (Nullable_1_tAC9037ECF4C188DFFE614617119CAC19A784F9FD* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = __this->___value;
+		return L_0;
+	}
+}
+// Method Definition Index: 21071
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}
+// Method Definition Index: 21081
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_gshared_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_6 = V_0;
+		int32_t L_7 = V_1;
+		int32_t L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (int32_t)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		int32_t L_9 = ___0_item;
+		List_1_AddWithResize_m378B392086AAB6F400944FA9839516326B3F7BB8(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}
+// Method Definition Index: 21081
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mB5FDF069171C4CB1778BFAC3B9015A22EA7DFBCD_gshared_inline (List_1_t8F3790B7F8C471B3A1336522C7415FB0AC36D47B* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_item, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_6 = V_0;
+		int32_t L_7 = V_1;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_9 = ___0_item;
+		List_1_AddWithResize_m192785B048EDA211AEC7A758A37D0B1ACCB94B9C(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}
+// Method Definition Index: 21130
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 Enumerator_get_Current_m03DDB9D6C95434581544F1F2FF0D1A36EEAB09AF_gshared_inline (Enumerator_t24E4C96B84374CD9F71B748A47AB020F220D9931* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0 = __this->____current;
+		return L_0;
+	}
+}
+// Method Definition Index: 21089
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_gshared_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		__this->____size = 0;
+	}
+
+IL_003c:
+	{
+		return;
+	}
+}
+// Method Definition Index: 21071
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_gshared_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}
+// Method Definition Index: 35480
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline (float ___0_value, float ___1_min, float ___2_max, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	bool V_1 = false;
+	float V_2 = 0.0f;
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:289>
+		float L_0 = ___0_value;
+		float L_1 = ___1_min;
+		V_0 = (bool)((((float)L_0) < ((float)L_1))? 1 : 0);
+		bool L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_000e;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:290>
+		float L_3 = ___1_min;
+		___0_value = L_3;
+		goto IL_0019;
+	}
+
+IL_000e:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:291>
+		float L_4 = ___0_value;
+		float L_5 = ___2_max;
+		V_1 = (bool)((((float)L_4) > ((float)L_5))? 1 : 0);
+		bool L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:292>
+		float L_7 = ___2_max;
+		___0_value = L_7;
+	}
+
+IL_0019:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:293>
+		float L_8 = ___0_value;
+		V_2 = L_8;
+		goto IL_001d;
+	}
+
+IL_001d:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:294>
+		float L_9 = V_2;
+		return L_9;
+	}
+}

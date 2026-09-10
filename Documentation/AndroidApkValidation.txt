@@ -1,0 +1,28 @@
+Android animation update validation · 2026-09-10
+
+APK: Builds/Android/CozySurvivors-v0.3.1.apk
+Package: com.secondwindgames.cozysurvivors
+Version name: 0.3.1
+Version code: 4
+Minimum SDK: 26 (Android 8.0)
+Target/compile SDK: 36
+ABI: arm64-v8a
+Build: Development / debug signing
+APK bytes: 77443038
+SHA-256: 698D4D9E146D8474A4084D157EB6E46C9BE66C35124443BD79C48F4272F1084E
+
+PASS build completed with 0 errors (971 package/shader warnings; see AndroidBuild.txt)
+PASS 26 code/shader/animation files match the isolated build source
+PASS copied APK matches the built APK SHA-256
+PASS aapt package/version/minimum SDK/ABI inspection
+PASS apksigner verify --verbose (APK Signature Scheme v2; 1 signer)
+PASS zipalign -c -P 16 4 (16 KiB native-library alignment)
+PASS 129 simulation/growth/save/unlock regression checks
+PASS 16 animation assets and 2-second loop timing
+PASS 16 actual Unity UI frame renders with expected textures/material
+PASS 8 virtual touch/gamepad/focus checks at 2340x1080
+
+Selected art: Capybara candidate 1 / Yuzu Onsen; Cat candidate 2 / Calico letter carrier.
+Both use eight idle frames in play and animal selection.
+No physical Android device was connected. Installation, performance and physical touch have not been tested.
+Windows was used only as a rendering/input validation host; the target deliverable is Android.

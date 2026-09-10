@@ -16,12 +16,16 @@ public sealed class CozyAssetImporter : AssetPostprocessor
         t.alphaIsTransparency=true;t.wrapMode=TextureWrapMode.Clamp;
         t.filterMode=assetPath.EndsWith("Aurora.png")?FilterMode.Bilinear:FilterMode.Point;
         t.textureCompression=TextureImporterCompression.Uncompressed;t.maxTextureSize=2048;
+        if(assetPath.Contains("/Capybara/") || assetPath.Contains("/Cat/")) t.npotScale=TextureImporterNPOTScale.None;
     }
 }
 
 [InitializeOnLoad]
 public static class CozyBuild
 {
+    public const string Version="0.3.4";
+    public const int AndroidVersionCode=7;
+    public const string ApkPath="Builds/Android/CozySurvivors-v"+Version+".apk";
     const string AndroidPackageName="com.secondwindgames.cozysurvivors";
     const string ScenePath="Assets/Cozy/Scenes/AuroraSnowfield.unity";
     static bool busy;
@@ -102,7 +106,7 @@ public static class CozyBuild
         PlayerSettings.companyName="Cozy Studio";PlayerSettings.productName="CozySurvivors";
         CozyBranding.Apply();
         ApplyAndroidPackageName();
-        PlayerSettings.bundleVersion="0.2.1";PlayerSettings.Android.bundleVersionCode=3;
+        PlayerSettings.bundleVersion=Version;PlayerSettings.Android.bundleVersionCode=AndroidVersionCode;
         PlayerSettings.defaultInterfaceOrientation=UIOrientation.LandscapeLeft;
         PlayerSettings.allowedAutorotateToPortrait=false;PlayerSettings.allowedAutorotateToPortraitUpsideDown=false;
         PlayerSettings.allowedAutorotateToLandscapeLeft=true;PlayerSettings.allowedAutorotateToLandscapeRight=true;
@@ -130,13 +134,13 @@ public static class CozyBuild
     public static void BuildAndroid()
     {
         if(EditorApplication.isPlaying)throw new Exception("Exit Play mode before building.");
-        Setup();Directory.CreateDirectory("Builds/Android");
+        Setup();CozyCommercialBuild.Validate();CozyCommercialBuild.ValidateCharacterAssets();Directory.CreateDirectory("Builds/Android");
         var report=BuildPipeline.BuildPlayer(new BuildPlayerOptions{
-            scenes=new[]{ScenePath},locationPathName="Builds/Android/CozySurvivors-v0.2.1.apk",
+            scenes=new[]{ScenePath},locationPathName=ApkPath,
             target=BuildTarget.Android,options=BuildOptions.Development
         });
         File.WriteAllText("Builds/Android/build-report.txt",$"Result: {report.summary.result}\nSize: {report.summary.totalSize}\nDuration: {report.summary.totalTime}\nErrors: {report.summary.totalErrors}\nWarnings: {report.summary.totalWarnings}\nUnity: {Application.unityVersion}\nARM64 IL2CPP / Android 8.0+ / Development APK");
         if(report.summary.result!=BuildResult.Succeeded)throw new Exception("Android build failed: "+report.summary.result);
-        Debug.Log("COZY_BUILD_SUCCESS: Builds/Android/CozySurvivors-v0.2.1.apk");
+        Debug.Log("COZY_BUILD_SUCCESS: "+ApkPath);
     }
 }

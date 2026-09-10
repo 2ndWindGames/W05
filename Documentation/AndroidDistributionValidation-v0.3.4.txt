@@ -1,0 +1,29 @@
+Android test distribution update - 2026-09-10
+
+APK: Builds/Android/CozySurvivors-v0.3.4.apk
+Release notes: Documentation/RELEASE_NOTES_v0.3.4.en.md
+Package: com.secondwindgames.cozysurvivors
+Version: 0.3.4 (code 7)
+Minimum SDK: 26 / Target SDK: 36 / ABI: arm64-v8a
+Development APK / debug signature
+Bytes: 77448738
+SHA-256: 5882BC4750F6A29E53ECE2FA98C209A16D61AB344A67809F0A23752EA92FE622
+
+PASS Android build succeeded, 0 errors (971 package/shader warnings)
+PASS 141 regression checks
+PASS aapt confirms versionName 0.3.4 and versionCode 7
+PASS minimum SDK 26, target SDK 36 and ARM64 ABI
+PASS APK Signature Scheme v2 verification
+PASS signature matches v0.3.3 for an in-place application update
+PASS zipalign -c -P 16 4
+PASS copied APK SHA-256 equals the isolated build artifact
+
+Only the application version identifiers changed in game/build code.
+The saved Unlock all setting and existing progress are preserved.
+New test profiles default to Unlock all ON; the existing one-time
+migration applies to profiles from v0.3.2 or earlier.
+
+This APK is for direct installation and testing. The existing root
+W05.aab was not rebuilt or replaced by this operation. Rebuild the
+Google Play upload bundle from the updated project to use version code 7.
+No Google Play upload or physical-device testing was performed.

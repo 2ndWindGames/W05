@@ -1,0 +1,5 @@
+C:/SecondWindGames/Repositoires/Go/W05/.utmp/RelWithDebInfo/3y3k355r/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/SecondWindGames/Repositoires/Go/W05/.utmp/RelWithDebInfo/3y3k355r/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/SecondWindGames/Repositoires/Go/W05/.utmp/RelWithDebInfo/3y3k355r/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/SecondWindGames/Repositoires/Go/W05/.utmp/RelWithDebInfo/3y3k355r/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/SecondWindGames/Repositoires/Go/W05/.utmp/RelWithDebInfo/3y3k355r/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir

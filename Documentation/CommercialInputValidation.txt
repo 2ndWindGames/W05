@@ -1,0 +1,8 @@
+PASS touch drag moves through device input path
+PASS touch release clears movement
+PASS touch HUD button pauses
+PASS touch menu resumes
+PASS gamepad left stick moves through real input
+PASS gamepad START opens pause menu
+PASS gamepad A submits the focused menu button
+PASS normal play pauses on focus loss

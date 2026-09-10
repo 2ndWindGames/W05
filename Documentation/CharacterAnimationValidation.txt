@@ -1,0 +1,17 @@
+PASS Assets/Cozy/Resources/Cozy/Capybara/Idle0.png · 384x384, Point, uncompressed, no mipmaps
+PASS Assets/Cozy/Resources/Cozy/Capybara/Idle1.png · 384x384, Point, uncompressed, no mipmaps
+PASS Assets/Cozy/Resources/Cozy/Capybara/Idle2.png · 384x384, Point, uncompressed, no mipmaps
+PASS Assets/Cozy/Resources/Cozy/Capybara/Idle3.png · 384x384, Point, uncompressed, no mipmaps
+PASS Assets/Cozy/Resources/Cozy/Capybara/Idle4.png · 384x384, Point, uncompressed, no mipmaps
+PASS Assets/Cozy/Resources/Cozy/Capybara/Idle5.png · 384x384, Point, uncompressed, no mipmaps
+PASS Assets/Cozy/Resources/Cozy/Capybara/Idle6.png · 384x384, Point, uncompressed, no mipmaps
+PASS Assets/Cozy/Resources/Cozy/Capybara/Idle7.png · 384x384, Point, uncompressed, no mipmaps
+PASS Assets/Cozy/Resources/Cozy/Cat/Idle0.png · 384x384, Point, uncompressed, no mipmaps
+PASS Assets/Cozy/Resources/Cozy/Cat/Idle1.png · 384x384, Point, uncompressed, no mipmaps
+PASS Assets/Cozy/Resources/Cozy/Cat/Idle2.png · 384x384, Point, uncompressed, no mipmaps
+PASS Assets/Cozy/Resources/Cozy/Cat/Idle3.png · 384x384, Point, uncompressed, no mipmaps
+PASS Assets/Cozy/Resources/Cozy/Cat/Idle4.png · 384x384, Point, uncompressed, no mipmaps
+PASS Assets/Cozy/Resources/Cozy/Cat/Idle5.png · 384x384, Point, uncompressed, no mipmaps
+PASS Assets/Cozy/Resources/Cozy/Cat/Idle6.png · 384x384, Point, uncompressed, no mipmaps
+PASS Assets/Cozy/Resources/Cozy/Cat/Idle7.png · 384x384, Point, uncompressed, no mipmaps
+PASS all eight timed poses and 2-second repeat

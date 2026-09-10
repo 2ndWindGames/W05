@@ -1,5 +1,7 @@
 # 포근한모험 · CozySurvivors · 펭귄 안드로이드 프로토타입
 
+> 이 문서는 v0.2의 과거 구현 기록입니다. 현재 상용 기획서 기반 개발 빌드는 `COMMERCIAL_IMPLEMENTATION.md`를 참조하세요.
+
 기준: `Cozy_Animal_Survivors_Prototype_v0.2.pptx`.
 목적은 색감, 분위기, 이동과 자동 공격의 감각 확인입니다. 레벨 설계, 성장, 수익화는 포함하지 않습니다.
 

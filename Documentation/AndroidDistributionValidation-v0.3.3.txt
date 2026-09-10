@@ -1,0 +1,30 @@
+Android test distribution update - 2026-09-10
+
+APK: Builds/Android/CozySurvivors-v0.3.3.apk
+Release notes: Documentation/RELEASE_NOTES_v0.3.3.en.md
+Short notes: Builds/Android/CozySurvivors-v0.3.3-release-notes.en.txt
+Package: com.secondwindgames.cozysurvivors
+Version: 0.3.3 (code 6)
+Minimum SDK: 26 / Target SDK: 36 / ABI: arm64-v8a
+Development APK / debug signature
+Bytes: 77448738
+SHA-256: 4AC7462D10CAA39F55CB211C4C51C9C02BF4C968F5F4DF033E9A4A32E6D555D5
+
+PASS Android build succeeded, 0 errors (971 package/shader warnings)
+PASS 141 regression checks, including 2 unlock-on-update migration checks
+PASS an existing OFF profile enables all test content once on the v0.3.3 update
+PASS subsequent OFF preferences survive save/reload without being reset
+PASS migration preserves earned progress, purchased decorations and stars
+PASS all game sources and resources match the isolated build project
+PASS aapt package/version/SDK/ABI inspection
+PASS APK Signature Scheme v2 verification
+PASS signature matches v0.3.2 for an in-place application update
+PASS zipalign -c -P 16 4
+PASS copied APK SHA-256 equals the isolated build artifact
+
+All animals, regions, endless modes, decorations and letters are available
+with Test / Unlock all ON. First launch of v0.3.3 enables the setting once
+for both new profiles and existing profiles with the old setting OFF.
+Later preference changes are saved. Combat and balance are unchanged.
+
+This APK was not installed or tested on a physical Android device.

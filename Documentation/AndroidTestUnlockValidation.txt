@@ -1,0 +1,28 @@
+Android test-unlock update · 2026-09-10
+
+APK: Builds/Android/CozySurvivors-v0.3.2.apk
+Package: com.secondwindgames.cozysurvivors
+Version: 0.3.2 (code 5)
+Minimum SDK: 26 / Target SDK: 36 / ABI: arm64-v8a
+Development APK / debug signature
+Bytes: 77447114
+SHA-256: 43E1D2A6C178328E336228DA5F74E9073D6629D7133D937A7D9D05AB994DE4B6
+
+PASS Android build succeeded, 0 errors (971 package/shader warnings)
+PASS 139 regression checks including 10 test-unlock checks
+PASS all animals, regions, endless modes, decorations and letters are available in test mode
+PASS toggling does not alter earned progress, purchases, achievements or stars
+PASS enabled and disabled preferences survive save/reload
+PASS explicit OFF stays OFF on the next initialization
+PASS earned unlocks remain available when test mode is OFF
+PASS invalid content IDs stay invalid
+PASS aapt package/version/SDK/ABI inspection
+PASS APK Signature Scheme v2 verification
+PASS signature matches v0.3.1 for an in-place application update
+PASS zipalign -c -P 16 4
+PASS copied APK SHA-256 equals the isolated build artifact
+
+First setup in Editor/Development builds enables test unlocks once.
+Settings > Test / Unlock all controls the saved preference.
+Release builds ignore the stored test unlock flag through compile-time guards.
+This update was not installed or tested on a physical Android device.
