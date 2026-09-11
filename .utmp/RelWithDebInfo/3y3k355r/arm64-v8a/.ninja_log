@@ -1,10 +1,19 @@
 # ninja log v5
+3422	3761	8107457374052702	C:/SecondWindGames/Repositoires/Go/W05/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3y3k355r/obj/arm64-v8a/libgame.so	92177008603d1b35
+203	3173	8107457368169924	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	b901a33a6a581f4d
 53	2714	8107457363363204	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	2e157ea2d6421f9a
 85	2789	8107457363916504	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	71353e7e3128d488
 154	2805	8107457364044864	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	dc96e073259f1fce
-1	2811	8107457364194233	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	64754c0b63129078
 251	2896	8107457365348627	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	940c4f25bd33202f
-203	3173	8107457368169924	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	b901a33a6a581f4d
+1	2811	8107457364194233	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	64754c0b63129078
 114	3308	8107457369386512	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	fd63ef469fc2078c
 30	3422	8107457370604294	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	b722d180e5b26a7b
-3422	3761	8107457374052702	C:/SecondWindGames/Repositoires/Go/W05/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3y3k355r/obj/arm64-v8a/libgame.so	92177008603d1b35
+225	3761	8107888107373952	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	dc96e073259f1fce
+263	3781	8107888107734135	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	940c4f25bd33202f
+37	3906	8107888109013250	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	71353e7e3128d488
+11	3964	8107888109889176	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	64754c0b63129078
+97	4160	8107888111408836	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	2e157ea2d6421f9a
+142	4518	8107888115349947	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	fd63ef469fc2078c
+301	4623	8107888116399439	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	b901a33a6a581f4d
+60	4827	8107888118448260	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	b722d180e5b26a7b
+4829	5437	8107888124660382	C:/SecondWindGames/Repositoires/Go/W05/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3y3k355r/obj/arm64-v8a/libgame.so	92177008603d1b35
