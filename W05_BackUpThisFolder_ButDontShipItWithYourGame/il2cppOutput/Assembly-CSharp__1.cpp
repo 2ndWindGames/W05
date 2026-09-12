@@ -115,7 +115,7 @@ struct SemaphoreSlim_t0D5CB5685D9BFA5BF95CEC6E7395490F933E8DB2;
 struct String_t;
 struct Type_t;
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
-struct U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508;
+struct U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172;
 struct U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61;
 struct U3CU3Ec__DisplayClass83_0_tFF30C2917164E7EDAFF1506FD4F6623D33FEE32A;
 struct U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1;
@@ -164,7 +164,7 @@ IL2CPP_EXTERN_C RuntimeClass* RunEnemy_t1EACB20BA5DCB1657708C7ED52F1DFEE12E6179F
 IL2CPP_EXTERN_C RuntimeClass* RunPhase_tAE933FC45AF5DA79FA1EF0AFA317D3AFBE13F3B1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RunPickup_t85D89C4E74436D5E50978F04C47376264F4CF625_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass83_0_tFF30C2917164E7EDAFF1506FD4F6623D33FEE32A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass84_0_tB700CD3805A8A5E361C86311E5A573A44CDBBFB1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass89_0_tA49972326A06567F6670E6D335892A279618B867_il2cpp_TypeInfo_var;
@@ -270,7 +270,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CDirectorU3Eb__82_1_m7B07AEEF0D6C
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CDropXPU3Eb__95_1_m5C0342801081FA1534B8EC037EE90871C7A6C893_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CObjectiveRewardEffectsU3Eb__102_0_mE743DC39088461A221FC4E458582A7D458F874A0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CRemoveDeadU3Eb__93_0_m1D65A5C7D49B73EABD9768B2D7F7F29CFE15F167_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass21_0_U3CSettleU3Eb__0_mBD527A7D2EA394D20AFA669D69F46327C50C4A3D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass17_0_U3CSettleU3Eb__0_m0F1D63C5CD30EC6919984E0BCDE55B4256754615_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass83_0_U3CSpawnU3Eb__0_mD151A76B00274644431AEB24B2B27239AB4E01FB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass84_0_U3CMoveEnemiesU3Eb__0_mD1DFC48BC819269B07354B2EED99066E86E2824B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass89_0_U3CPlayerAttackU3Eb__0_m7D5F332A235831389261D383CFD4B49FCC16D0C3_RuntimeMethod_var;
@@ -458,7 +458,7 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
 {
 };
-struct U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508  : public RuntimeObject
+struct U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172  : public RuntimeObject
 {
 	CozyRun_t664438D37D010E4092B526226781841855621066* ___run;
 };
@@ -1818,10 +1818,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m697E646FF9D12E43B23493212E25A4DC4B50CBB6 (U3CU3Ec_tB6CC5CD7DF4FA3ED48583FD76EB5D4902F497F61* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Single_CompareTo_m06F7868162EB392D3E99103D1A0BD27463C9E66F (float* __this, float ___0_value, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Int32_CompareTo_mFA011811D4447442ED442B4A507BD4267621C586 (int32_t* __this, int32_t ___0_value, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyProfile_get_TestUnlocksEnabled_m07000EB665A8B2793112A28B70FC1ECF975AA390 (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyProfile_RegionUnlocked_m2BC6C9E7C5E778EA623B2E9177B85B9BBD19033F (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* __this, int32_t ___0_region, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyProfile_EndlessUnlocked_m2584075999E46B38B2E79BC3A0CAD71B966F0EA6 (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* __this, int32_t ___0_region, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyProfile_DecorationAvailable_m965EF4D4D2732F201CBC38D52A0392AC06FF1F37 (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* __this, int32_t ___0_id, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass21_0__ctor_mE03613CC0386E8E7762360E1157ADCC9AEFC0940 (U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass17_0__ctor_mFE56C74D5E33A36E84E07268BC9A5426F59D478F (U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* __this, const RuntimeMethod* method) ;
 inline bool List_1_Contains_m359254483BE42CAD4DCA8FBAFB87473FB4CF00E1 (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, String_t* ___0_item, const RuntimeMethod* method)
 {
 	return ((  bool (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, String_t*, const RuntimeMethod*))List_1_Contains_m4C9139C2A6B23E9343D3F87807B32C6E2CFE660D_gshared)(__this, ___0_item, method);
@@ -10704,20 +10704,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozySettings__ctor_m3E6E6E71AD2510DCBE6A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:15>
-		__this->___music = (0.699999988f);
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:15>
-		__this->___effects = (0.699999988f);
 		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:16>
+		__this->___music = (0.699999988f);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:16>
+		__this->___effects = (0.699999988f);
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:17>
 		__this->___up = _stringLiteralA9FEAF5F50923952C1AC3A473DE3C7E17D23B907;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___up), (void*)_stringLiteralA9FEAF5F50923952C1AC3A473DE3C7E17D23B907);
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:16>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:17>
 		__this->___down = _stringLiteralDAF2BD03270A51BF9C135F3694DCAD2D3E66F465;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___down), (void*)_stringLiteralDAF2BD03270A51BF9C135F3694DCAD2D3E66F465);
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:16>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:17>
 		__this->___left = _stringLiteral0A04B971B03DA607CE6C455184037B660CA89F78;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___left), (void*)_stringLiteral0A04B971B03DA607CE6C455184037B660CA89F78);
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:16>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:17>
 		__this->___right = _stringLiteralA02431CF7C501A5B368C91E41283419D8FA9FB03;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___right), (void*)_stringLiteralA02431CF7C501A5B368C91E41283419D8FA9FB03);
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
@@ -10750,228 +10750,93 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyRecord__ctor_m00002DB5AE4467D4A747EF
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // Method Definition Index: 65359
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyProfile_get_TestUnlocksEnabled_m07000EB665A8B2793112A28B70FC1ECF975AA390 (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyProfile_RegionUnlocked_m2BC6C9E7C5E778EA623B2E9177B85B9BBD19033F (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* __this, int32_t ___0_region, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:36>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:30>
+		int32_t L_0 = ___0_region;
+		if ((((int32_t)L_0) < ((int32_t)0)))
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		int32_t L_1 = ___0_region;
+		return (bool)((((int32_t)L_1) < ((int32_t)3))? 1 : 0);
+	}
+
+IL_0009:
+	{
 		return (bool)0;
 	}
 }
 // Method Definition Index: 65360
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyProfile_InitializeTestUnlocks_mDA1F7EFB438C6D2545D31280DCA0FF1962392E68 (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* __this, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:49>
-		return (bool)0;
-	}
-}
-// Method Definition Index: 65361
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyProfile_RegionUnlocked_m2BC6C9E7C5E778EA623B2E9177B85B9BBD19033F (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* __this, int32_t ___0_region, const RuntimeMethod* method) 
-{
-	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:51>
-		int32_t L_0 = ___0_region;
-		if ((((int32_t)L_0) < ((int32_t)0)))
-		{
-			goto IL_0020;
-		}
-	}
-	{
-		int32_t L_1 = ___0_region;
-		if ((((int32_t)L_1) >= ((int32_t)3)))
-		{
-			goto IL_0020;
-		}
-	}
-	{
-		bool L_2;
-		L_2 = CozyProfile_get_TestUnlocksEnabled_m07000EB665A8B2793112A28B70FC1ECF975AA390(__this, NULL);
-		if (L_2)
-		{
-			goto IL_001e;
-		}
-	}
-	{
-		int32_t L_3 = ___0_region;
-		if (!L_3)
-		{
-			goto IL_001e;
-		}
-	}
-	{
-		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_4 = __this->___cleared;
-		int32_t L_5 = ___0_region;
-		NullCheck(L_4);
-		int32_t L_6 = ((int32_t)il2cpp_codegen_subtract(L_5, 1));
-		uint8_t L_7 = (uint8_t)(L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
-		return (bool)L_7;
-	}
-
-IL_001e:
-	{
-		return (bool)1;
-	}
-
-IL_0020:
-	{
-		return (bool)0;
-	}
-}
-// Method Definition Index: 65362
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyProfile_AnimalUnlocked_mF53DE65D1D80680D979C63204C2E19CBAFA8E1F9 (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* __this, int32_t ___0_animal, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:52>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:31>
 		int32_t L_0 = ___0_animal;
 		if ((((int32_t)L_0) < ((int32_t)0)))
 		{
-			goto IL_001f;
+			goto IL_0009;
 		}
 	}
 	{
 		int32_t L_1 = ___0_animal;
-		if ((((int32_t)L_1) >= ((int32_t)3)))
-		{
-			goto IL_001f;
-		}
-	}
-	{
-		bool L_2;
-		L_2 = CozyProfile_get_TestUnlocksEnabled_m07000EB665A8B2793112A28B70FC1ECF975AA390(__this, NULL);
-		if (L_2)
-		{
-			goto IL_001d;
-		}
-	}
-	{
-		int32_t L_3 = ___0_animal;
-		if ((((int32_t)L_3) < ((int32_t)2)))
-		{
-			goto IL_001d;
-		}
-	}
-	{
-		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_4 = __this->___cleared;
-		NullCheck(L_4);
-		int32_t L_5 = 0;
-		uint8_t L_6 = (uint8_t)(L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
-		return (bool)L_6;
+		return (bool)((((int32_t)L_1) < ((int32_t)3))? 1 : 0);
 	}
 
-IL_001d:
-	{
-		return (bool)1;
-	}
-
-IL_001f:
+IL_0009:
 	{
 		return (bool)0;
 	}
 }
-// Method Definition Index: 65363
+// Method Definition Index: 65361
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyProfile_EndlessUnlocked_m2584075999E46B38B2E79BC3A0CAD71B966F0EA6 (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* __this, int32_t ___0_region, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:53>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:32>
 		int32_t L_0 = ___0_region;
-		if ((((int32_t)L_0) < ((int32_t)0)))
-		{
-			goto IL_001b;
-		}
-	}
-	{
-		int32_t L_1 = ___0_region;
-		if ((((int32_t)L_1) >= ((int32_t)3)))
-		{
-			goto IL_001b;
-		}
-	}
-	{
-		bool L_2;
-		L_2 = CozyProfile_get_TestUnlocksEnabled_m07000EB665A8B2793112A28B70FC1ECF975AA390(__this, NULL);
-		if (L_2)
-		{
-			goto IL_0019;
-		}
-	}
-	{
-		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_3 = __this->___cleared;
-		int32_t L_4 = ___0_region;
-		NullCheck(L_3);
-		int32_t L_5 = L_4;
-		uint8_t L_6 = (uint8_t)(L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
-		return (bool)L_6;
-	}
-
-IL_0019:
-	{
-		return (bool)1;
-	}
-
-IL_001b:
-	{
-		return (bool)0;
+		bool L_1;
+		L_1 = CozyProfile_RegionUnlocked_m2BC6C9E7C5E778EA623B2E9177B85B9BBD19033F(__this, L_0, NULL);
+		return L_1;
 	}
 }
-// Method Definition Index: 65364
+// Method Definition Index: 65362
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyProfile_LettersUnlocked_m2A5415F160D5B94CED41A4905856CEBFCAA6953D (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* __this, int32_t ___0_region, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:54>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:33>
 		int32_t L_0 = ___0_region;
 		bool L_1;
 		L_1 = CozyProfile_EndlessUnlocked_m2584075999E46B38B2E79BC3A0CAD71B966F0EA6(__this, L_0, NULL);
 		return L_1;
 	}
 }
-// Method Definition Index: 65365
+// Method Definition Index: 65363
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyProfile_DecorationAvailable_m965EF4D4D2732F201CBC38D52A0392AC06FF1F37 (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* __this, int32_t ___0_id, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:55>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:34>
 		int32_t L_0 = ___0_id;
 		if ((((int32_t)L_0) < ((int32_t)0)))
 		{
-			goto IL_0022;
+			goto IL_0010;
 		}
 	}
 	{
 		int32_t L_1 = ___0_id;
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_2 = __this->___cosmetics;
 		NullCheck(L_2);
-		if ((((int32_t)L_1) >= ((int32_t)((int32_t)(((RuntimeArray*)L_2)->max_length)))))
-		{
-			goto IL_0022;
-		}
-	}
-	{
-		bool L_3;
-		L_3 = CozyProfile_get_TestUnlocksEnabled_m07000EB665A8B2793112A28B70FC1ECF975AA390(__this, NULL);
-		if (L_3)
-		{
-			goto IL_0020;
-		}
-	}
-	{
-		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_4 = __this->___cosmetics;
-		int32_t L_5 = ___0_id;
-		NullCheck(L_4);
-		int32_t L_6 = L_5;
-		uint8_t L_7 = (uint8_t)(L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
-		return (bool)L_7;
+		return (bool)((((int32_t)L_1) < ((int32_t)((int32_t)(((RuntimeArray*)L_2)->max_length))))? 1 : 0);
 	}
 
-IL_0020:
-	{
-		return (bool)1;
-	}
-
-IL_0022:
+IL_0010:
 	{
 		return (bool)0;
 	}
 }
-// Method Definition Index: 65366
+// Method Definition Index: 65364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyProfile_BuyDecoration_m051C239C71F36C4F31ABF1B662757F39309668F3 (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* __this, int32_t ___0_id, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
@@ -10979,7 +10844,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyProfile_BuyDecoration_m051C239C71F36
 	BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* V_2 = NULL;
 	int32_t V_3 = 0;
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:58>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:37>
 		int32_t L_0 = ___0_id;
 		if ((((int32_t)L_0) < ((int32_t)0)))
 		{
@@ -11005,16 +10870,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozyProfile_BuyDecoration_m051C239C71F36
 
 IL_0012:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:58>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:37>
 		return (bool)0;
 	}
 
 IL_0014:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:59>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:38>
 		int32_t L_4 = ___0_id;
 		V_0 = ((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_add(((int32_t)(L_4/3)), 1)), ((int32_t)100)));
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:59>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:38>
 		int32_t L_5 = __this->___stars;
 		int32_t L_6 = V_0;
 		if ((((int32_t)L_5) >= ((int32_t)L_6)))
@@ -11023,24 +10888,24 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:59>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:38>
 		return (bool)0;
 	}
 
 IL_0028:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:60>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:39>
 		int32_t L_7 = __this->___stars;
 		int32_t L_8 = V_0;
 		__this->___stars = ((int32_t)il2cpp_codegen_subtract(L_7, L_8));
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:60>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:39>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_9 = __this->___cosmetics;
 		int32_t L_10 = ___0_id;
 		NullCheck(L_9);
 		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(L_10), (bool)1);
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:61>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:40>
 		V_1 = 0;
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:61>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:40>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_11 = __this->___cosmetics;
 		V_2 = L_11;
 		V_3 = 0;
@@ -11049,20 +10914,20 @@ IL_0028:
 
 IL_004c:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:61>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:40>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_12 = V_2;
 		int32_t L_13 = V_3;
 		NullCheck(L_12);
 		int32_t L_14 = L_13;
 		uint8_t L_15 = (uint8_t)(L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:61>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:40>
 		if (!L_15)
 		{
 			goto IL_0055;
 		}
 	}
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:61>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:40>
 		int32_t L_16 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_16, 1));
 	}
@@ -11075,7 +10940,7 @@ IL_0055:
 
 IL_0059:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:61>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:40>
 		int32_t L_18 = V_3;
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_19 = V_2;
 		NullCheck(L_19);
@@ -11085,7 +10950,7 @@ IL_0059:
 		}
 	}
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:62>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:41>
 		int32_t L_20 = V_1;
 		if ((((int32_t)L_20) < ((int32_t)1)))
 		{
@@ -11093,7 +10958,7 @@ IL_0059:
 		}
 	}
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:62>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:41>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_21 = __this->___achievements;
 		NullCheck(L_21);
 		(L_21)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)15)), (bool)1);
@@ -11101,7 +10966,7 @@ IL_0059:
 
 IL_006d:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:62>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:41>
 		int32_t L_22 = V_1;
 		if ((((int32_t)L_22) < ((int32_t)6)))
 		{
@@ -11109,7 +10974,7 @@ IL_006d:
 		}
 	}
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:62>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:41>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_23 = __this->___achievements;
 		NullCheck(L_23);
 		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)16)), (bool)1);
@@ -11117,7 +10982,7 @@ IL_006d:
 
 IL_007b:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:62>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:41>
 		int32_t L_24 = V_1;
 		if ((((int32_t)L_24) < ((int32_t)((int32_t)12))))
 		{
@@ -11125,7 +10990,7 @@ IL_007b:
 		}
 	}
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:62>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:41>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_25 = __this->___achievements;
 		NullCheck(L_25);
 		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)17)), (bool)1);
@@ -11133,11 +10998,11 @@ IL_007b:
 
 IL_008a:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:63>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:42>
 		return (bool)1;
 	}
 }
-// Method Definition Index: 65367
+// Method Definition Index: 65365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CozyProfile_Settle_m41EBA498A15054185617ACE96D1E3403C799C50E (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* __this, CozyRun_t664438D37D010E4092B526226781841855621066* ___0_run, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11150,11 +11015,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CozyProfile_Settle_m41EBA498A15054185
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Find_mD457FA9D5FADE5659E518809320E67375E70BC4B_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Predicate_1_t39E6A45E264C9EA977BDCF92A7EE05CEB60F43F3_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass21_0_U3CSettleU3Eb__0_mBD527A7D2EA394D20AFA669D69F46327C50C4A3D_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass17_0_U3CSettleU3Eb__0_m0F1D63C5CD30EC6919984E0BCDE55B4256754615_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* V_0 = NULL;
+	U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* V_0 = NULL;
 	int32_t V_1 = 0;
 	CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* V_2 = NULL;
 	float G_B18_0 = 0.0f;
@@ -11165,16 +11030,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CozyProfile_Settle_m41EBA498A15054185
 	float G_B19_1 = 0.0f;
 	CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* G_B19_2 = NULL;
 	{
-		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_0 = (U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508_il2cpp_TypeInfo_var);
-		U3CU3Ec__DisplayClass21_0__ctor_mE03613CC0386E8E7762360E1157ADCC9AEFC0940(L_0, NULL);
+		U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* L_0 = (U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass17_0__ctor_mFE56C74D5E33A36E84E07268BC9A5426F59D478F(L_0, NULL);
 		V_0 = L_0;
-		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_1 = V_0;
+		U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* L_1 = V_0;
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_2 = ___0_run;
 		NullCheck(L_1);
 		L_1->___run = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&L_1->___run), (void*)L_2);
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:67>
-		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_3 = V_0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:46>
+		U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* L_3 = V_0;
 		NullCheck(L_3);
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_4 = L_3->___run;
 		NullCheck(L_4);
@@ -11186,7 +11051,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CozyProfile_Settle_m41EBA498A15054185
 		}
 	}
 	{
-		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_6 = V_0;
+		U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* L_6 = V_0;
 		NullCheck(L_6);
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_7 = L_6->___run;
 		NullCheck(L_7);
@@ -11198,7 +11063,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CozyProfile_Settle_m41EBA498A15054185
 	}
 	{
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_9 = __this->___settledRuns;
-		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_10 = V_0;
+		U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* L_10 = V_0;
 		NullCheck(L_10);
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_11 = L_10->___run;
 		NullCheck(L_11);
@@ -11214,22 +11079,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CozyProfile_Settle_m41EBA498A15054185
 
 IL_003f:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:67>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:46>
 		return 0;
 	}
 
 IL_0041:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:68>
-		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_14 = V_0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:47>
+		U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* L_14 = V_0;
 		NullCheck(L_14);
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_15 = L_14->___run;
 		NullCheck(L_15);
 		int32_t L_16;
 		L_16 = CozyRun_CalculateStars_m331F5A0F2B211A1C31012726128950190BBDCFB7(L_15, NULL);
 		V_1 = L_16;
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:69>
-		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_17 = V_0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:48>
+		U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* L_17 = V_0;
 		NullCheck(L_17);
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_18 = L_17->___run;
 		NullCheck(L_18);
@@ -11240,9 +11105,9 @@ IL_0041:
 		}
 	}
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:71>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:50>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_20 = __this->___cleared;
-		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_21 = V_0;
+		U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* L_21 = V_0;
 		NullCheck(L_21);
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_22 = L_21->___run;
 		NullCheck(L_22);
@@ -11256,36 +11121,36 @@ IL_0041:
 		}
 	}
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:71>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:50>
 		int32_t L_26 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_26, ((int32_t)50)));
 	}
 
 IL_0074:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:72>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:51>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_27 = __this->___cleared;
-		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_28 = V_0;
+		U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* L_28 = V_0;
 		NullCheck(L_28);
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_29 = L_28->___run;
 		NullCheck(L_29);
 		int32_t L_30 = L_29->___region;
 		NullCheck(L_27);
 		(L_27)->SetAt(static_cast<il2cpp_array_size_t>(L_30), (bool)1);
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:72>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:51>
 		__this->___failures = 0;
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:73>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:52>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_31 = __this->___achievements;
-		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_32 = V_0;
+		U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* L_32 = V_0;
 		NullCheck(L_32);
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_33 = L_32->___run;
 		NullCheck(L_33);
 		int32_t L_34 = L_33->___region;
 		NullCheck(L_31);
 		(L_31)->SetAt(static_cast<il2cpp_array_size_t>(L_34), (bool)1);
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:73>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:52>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_35 = __this->___achievements;
-		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_36 = V_0;
+		U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* L_36 = V_0;
 		NullCheck(L_36);
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_37 = L_36->___run;
 		NullCheck(L_37);
@@ -11297,8 +11162,8 @@ IL_0074:
 
 IL_00b8:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:75>
-		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_39 = V_0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:54>
+		U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* L_39 = V_0;
 		NullCheck(L_39);
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_40 = L_39->___run;
 		NullCheck(L_40);
@@ -11309,15 +11174,15 @@ IL_00b8:
 		}
 	}
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:75>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:54>
 		int32_t L_42 = __this->___failures;
 		__this->___failures = ((int32_t)il2cpp_codegen_add(L_42, 1));
 	}
 
 IL_00d4:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:76>
-		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_43 = V_0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:55>
+		U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* L_43 = V_0;
 		NullCheck(L_43);
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_44 = L_43->___run;
 		NullCheck(L_44);
@@ -11328,9 +11193,9 @@ IL_00d4:
 		}
 	}
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:76>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:55>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_46 = __this->___achievements;
-		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_47 = V_0;
+		U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* L_47 = V_0;
 		NullCheck(L_47);
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_48 = L_47->___run;
 		NullCheck(L_48);
@@ -11341,8 +11206,8 @@ IL_00d4:
 
 IL_00f7:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:77>
-		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_50 = V_0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:56>
+		U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* L_50 = V_0;
 		NullCheck(L_50);
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_51 = L_50->___run;
 		NullCheck(L_51);
@@ -11353,14 +11218,14 @@ IL_00f7:
 		}
 	}
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:77>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:56>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_53 = __this->___achievements;
-		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_54 = V_0;
+		U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* L_54 = V_0;
 		NullCheck(L_54);
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_55 = L_54->___run;
 		NullCheck(L_55);
 		int32_t L_56 = L_55->___animal;
-		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_57 = V_0;
+		U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* L_57 = V_0;
 		NullCheck(L_57);
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_58 = L_57->___run;
 		NullCheck(L_58);
@@ -11371,16 +11236,16 @@ IL_00f7:
 
 IL_012b:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:78>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:57>
 		List_1_t7177B811EF7E8A8A9633AEC3E32FCCCB94C9BFC6* L_60 = __this->___records;
-		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_61 = V_0;
+		U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* L_61 = V_0;
 		Predicate_1_t39E6A45E264C9EA977BDCF92A7EE05CEB60F43F3* L_62 = (Predicate_1_t39E6A45E264C9EA977BDCF92A7EE05CEB60F43F3*)il2cpp_codegen_object_new(Predicate_1_t39E6A45E264C9EA977BDCF92A7EE05CEB60F43F3_il2cpp_TypeInfo_var);
-		Predicate_1__ctor_mF085A3C599CF5CFE76AA6C5FBA9D4837EC39FB68(L_62, L_61, (intptr_t)((void*)U3CU3Ec__DisplayClass21_0_U3CSettleU3Eb__0_mBD527A7D2EA394D20AFA669D69F46327C50C4A3D_RuntimeMethod_var), NULL);
+		Predicate_1__ctor_mF085A3C599CF5CFE76AA6C5FBA9D4837EC39FB68(L_62, L_61, (intptr_t)((void*)U3CU3Ec__DisplayClass17_0_U3CSettleU3Eb__0_m0F1D63C5CD30EC6919984E0BCDE55B4256754615_RuntimeMethod_var), NULL);
 		NullCheck(L_60);
 		CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* L_63;
 		L_63 = List_1_Find_mD457FA9D5FADE5659E518809320E67375E70BC4B(L_60, L_62, List_1_Find_mD457FA9D5FADE5659E518809320E67375E70BC4B_RuntimeMethod_var);
 		V_2 = L_63;
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:79>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:58>
 		CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* L_64 = V_2;
 		if (L_64)
 		{
@@ -11388,11 +11253,11 @@ IL_012b:
 		}
 	}
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:79>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:58>
 		CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* L_65 = (CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932*)il2cpp_codegen_object_new(CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932_il2cpp_TypeInfo_var);
 		CozyRecord__ctor_m00002DB5AE4467D4A747EFCCD21610645E3CEBCB(L_65, NULL);
 		CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* L_66 = L_65;
-		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_67 = V_0;
+		U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* L_67 = V_0;
 		NullCheck(L_67);
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_68 = L_67->___run;
 		NullCheck(L_68);
@@ -11402,7 +11267,7 @@ IL_012b:
 		L_66->___key = L_69;
 		Il2CppCodeGenWriteBarrier((void**)(&L_66->___key), (void*)L_69);
 		V_2 = L_66;
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:79>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:58>
 		List_1_t7177B811EF7E8A8A9633AEC3E32FCCCB94C9BFC6* L_70 = __this->___records;
 		CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* L_71 = V_2;
 		NullCheck(L_70);
@@ -11411,12 +11276,12 @@ IL_012b:
 
 IL_0169:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:80>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:59>
 		CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* L_72 = V_2;
 		CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* L_73 = V_2;
 		NullCheck(L_73);
 		int32_t L_74 = L_73->___score;
-		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_75 = V_0;
+		U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* L_75 = V_0;
 		NullCheck(L_75);
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_76 = L_75->___run;
 		NullCheck(L_76);
@@ -11426,12 +11291,12 @@ IL_0169:
 		L_78 = Math_Max_m530EBA549AFD98CFC2BD29FE86C6376E67DF11CF(L_74, L_77, NULL);
 		NullCheck(L_72);
 		L_72->___score = L_78;
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:80>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:59>
 		CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* L_79 = V_2;
 		CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* L_80 = V_2;
 		NullCheck(L_80);
 		float L_81 = L_80->___survival;
-		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_82 = V_0;
+		U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* L_82 = V_0;
 		NullCheck(L_82);
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_83 = L_82->___run;
 		NullCheck(L_83);
@@ -11442,12 +11307,12 @@ IL_0169:
 		L_86 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(L_81, L_85, NULL);
 		NullCheck(L_79);
 		L_79->___survival = L_86;
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:81>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:60>
 		CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* L_87 = V_2;
 		CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* L_88 = V_2;
 		NullCheck(L_88);
 		float L_89 = L_88->___bossTime;
-		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_90 = V_0;
+		U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* L_90 = V_0;
 		NullCheck(L_90);
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_91 = L_90->___run;
 		NullCheck(L_91);
@@ -11462,12 +11327,12 @@ IL_0169:
 		G_B17_1 = L_87;
 	}
 	{
-		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_93 = V_0;
+		U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* L_93 = V_0;
 		NullCheck(L_93);
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_94 = L_93->___run;
 		NullCheck(L_94);
 		float L_95 = L_94->___elapsed;
-		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_96 = V_0;
+		U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* L_96 = V_0;
 		NullCheck(L_96);
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_97 = L_96->___run;
 		NullCheck(L_97);
@@ -11491,41 +11356,41 @@ IL_01e2:
 		L_99 = Mathf_Max_mF5379E63D2BBAC76D090748695D833934F8AD051_inline(G_B19_1, G_B19_0, NULL);
 		NullCheck(G_B19_2);
 		G_B19_2->___bossTime = L_99;
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:82>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:61>
 		int32_t L_100 = __this->___stars;
 		int32_t L_101 = V_1;
 		__this->___stars = ((int32_t)il2cpp_codegen_add(L_100, L_101));
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:82>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:61>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_102 = __this->___settledRuns;
-		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_103 = V_0;
+		U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* L_103 = V_0;
 		NullCheck(L_103);
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_104 = L_103->___run;
 		NullCheck(L_104);
 		String_t* L_105 = L_104->___runId;
 		NullCheck(L_102);
 		List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_inline(L_102, L_105, List_1_Add_mF10DB1D3CBB0B14215F0E4F8AB4934A1955E5351_RuntimeMethod_var);
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:82>
-		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_106 = V_0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:61>
+		U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* L_106 = V_0;
 		NullCheck(L_106);
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_107 = L_106->___run;
 		NullCheck(L_107);
 		L_107->___rewardClaimed = (bool)1;
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:82>
-		U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* L_108 = V_0;
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:61>
+		U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* L_108 = V_0;
 		NullCheck(L_108);
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_109 = L_108->___run;
 		int32_t L_110 = V_1;
 		NullCheck(L_109);
 		L_109->___villageReward = L_110;
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:83>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:62>
 		__this->___activeRun = (CozyRun_t664438D37D010E4092B526226781841855621066*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___activeRun), (void*)(CozyRun_t664438D37D010E4092B526226781841855621066*)NULL);
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:83>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:62>
 		int32_t L_111 = V_1;
 		return L_111;
 	}
 }
-// Method Definition Index: 65368
+// Method Definition Index: 65366
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyProfile__ctor_m1B8C957BDF7C9DD9B69CE4A5C05FA3A249001D0D (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11540,31 +11405,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyProfile__ctor_m1B8C957BDF7C9DD9B69CE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:23>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:22>
 		__this->___profileVersion = 1;
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:24>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:23>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_0 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)3);
 		__this->___cleared = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___cleared), (void*)L_0);
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:24>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:23>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_1 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)((int32_t)12));
 		__this->___cosmetics = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___cosmetics), (void*)L_1);
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:24>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:23>
 		BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4* L_2 = (BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4*)SZArrayNew(BooleanU5BU5D_tD317D27C31DB892BE79FAE3AEBC0B3FFB73DE9B4_il2cpp_TypeInfo_var, (uint32_t)((int32_t)18));
 		__this->___achievements = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___achievements), (void*)L_2);
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:25>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:24>
 		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_3 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
 		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_3, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
 		__this->___settledRuns = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___settledRuns), (void*)L_3);
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:26>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:25>
 		List_1_t7177B811EF7E8A8A9633AEC3E32FCCCB94C9BFC6* L_4 = (List_1_t7177B811EF7E8A8A9633AEC3E32FCCCB94C9BFC6*)il2cpp_codegen_object_new(List_1_t7177B811EF7E8A8A9633AEC3E32FCCCB94C9BFC6_il2cpp_TypeInfo_var);
 		List_1__ctor_mACCD403943C43689954D7FB8BC64A121D55D54B6(L_4, List_1__ctor_mACCD403943C43689954D7FB8BC64A121D55D54B6_RuntimeMethod_var);
 		__this->___records = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___records), (void*)L_4);
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:27>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:26>
 		CozySettings_t00CF42F3FBEF7AD3710791EF2BF184080AA0DB47* L_5 = (CozySettings_t00CF42F3FBEF7AD3710791EF2BF184080AA0DB47*)il2cpp_codegen_object_new(CozySettings_t00CF42F3FBEF7AD3710791EF2BF184080AA0DB47_il2cpp_TypeInfo_var);
 		CozySettings__ctor_m3E6E6E71AD2510DCBE6AC505E0D41FEF500E2EEA(L_5, NULL);
 		__this->___settings = L_5;
@@ -11581,8 +11446,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyProfile__ctor_m1B8C957BDF7C9DD9B69CE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65369
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass21_0__ctor_mE03613CC0386E8E7762360E1157ADCC9AEFC0940 (U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* __this, const RuntimeMethod* method) 
+// Method Definition Index: 65367
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass17_0__ctor_mFE56C74D5E33A36E84E07268BC9A5426F59D478F (U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
 	{
@@ -11590,11 +11455,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass21_0__ctor_mE03613C
 		return;
 	}
 }
-// Method Definition Index: 65370
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass21_0_U3CSettleU3Eb__0_mBD527A7D2EA394D20AFA669D69F46327C50C4A3D (U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508* __this, CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* ___0_x, const RuntimeMethod* method) 
+// Method Definition Index: 65368
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass17_0_U3CSettleU3Eb__0_m0F1D63C5CD30EC6919984E0BCDE55B4256754615 (U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172* __this, CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* ___0_x, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:78>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:57>
 		CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932* L_0 = ___0_x;
 		NullCheck(L_0);
 		String_t* L_1 = L_0->___key;
@@ -11615,7 +11480,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass21_0_U3CSettleU3Eb_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65371
+// Method Definition Index: 65369
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozySaveEnvelope__ctor_mA850EB8783A3FE90ADEEBDDDF698E0AD5178C0B7 (CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -11632,60 +11497,60 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozySaveEnvelope__ctor_mA850EB8783A3FE90
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65372
+// Method Definition Index: 65370
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CozySave_get_Notice_m2FE22EF927F14E85DB958FF18A5A2EDE19336B32 (CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:91>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:70>
 		String_t* L_0 = __this->___U3CNoticeU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 65373
+// Method Definition Index: 65371
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozySave_set_Notice_m72C28B92F668CE984077DCAD59802BBE0C3FE93A (CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:91>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:70>
 		String_t* L_0 = ___0_value;
 		__this->___U3CNoticeU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CNoticeU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 65374
+// Method Definition Index: 65372
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CozySave_get_ReadOnly_m523A3BFEE6FAA79B44629ECEC795F8033EC2A800 (CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:92>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:71>
 		bool L_0 = __this->___U3CReadOnlyU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 65375
+// Method Definition Index: 65373
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozySave_set_ReadOnly_m00E0409EAF25726F6439A6C9AA6E9437C9288EF0 (CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:92>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:71>
 		bool L_0 = ___0_value;
 		__this->___U3CReadOnlyU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 65376
+// Method Definition Index: 65374
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozySave__ctor_m8B91E3EC4C7212AEE6802D35C15868E7E08B92DD (CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83* __this, String_t* ___0_path, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:93>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:72>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:93>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:72>
 		String_t* L_0 = ___0_path;
 		__this->___Path = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Path), (void*)L_0);
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:93>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:72>
 		return;
 	}
 }
-// Method Definition Index: 65377
+// Method Definition Index: 65375
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CozySave_Digest_m4639E7B0045A7354F6D028E5141E156B76B8EC9D (String_t* ___0_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11698,7 +11563,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* CozySave_Digest_m4639E7B0045A7354F6
 	SHA256_t6FEDD761EE6301127DAAF13320E8FD63296837F9* V_0 = NULL;
 	String_t* V_1 = NULL;
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:96>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:75>
 		SHA256_t6FEDD761EE6301127DAAF13320E8FD63296837F9* L_0;
 		L_0 = SHA256_Create_m41FBBA07C26677E1028E44E3530AC1BA17D26BBC(NULL);
 		V_0 = L_0;
@@ -11730,7 +11595,7 @@ IL_0028:
 		});
 		try
 		{
-			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:97>
+			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:76>
 			SHA256_t6FEDD761EE6301127DAAF13320E8FD63296837F9* L_3 = V_0;
 			Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_4;
 			L_4 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
@@ -11755,12 +11620,12 @@ IL_0028:
 
 IL_0029:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:98>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:77>
 		String_t* L_9 = V_1;
 		return L_9;
 	}
 }
-// Method Definition Index: 65378
+// Method Definition Index: 65376
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozySave_Validate_m29FFB6618B8967A147F7C46F370D3D8770A79F89 (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* ___0_p, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11779,7 +11644,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozySave_Validate_m29FFB6618B8967A147F7C
 	}
 	CozyRun_t664438D37D010E4092B526226781841855621066* V_0 = NULL;
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:101>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:80>
 		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_0 = ___0_p;
 		if (!L_0)
 		{
@@ -11891,7 +11756,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozySave_Validate_m29FFB6618B8967A147F7C
 
 IL_0068:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:102>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:81>
 		InvalidDataException_t9D62CAAA10DD31CCD9C0F92AA5729A05282F18A1* L_23 = (InvalidDataException_t9D62CAAA10DD31CCD9C0F92AA5729A05282F18A1*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidDataException_t9D62CAAA10DD31CCD9C0F92AA5729A05282F18A1_il2cpp_TypeInfo_var)));
 		InvalidDataException__ctor_m514879053D89E3C8229A01AA8970237FA5409532(L_23, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral309158D5045C01408A3469928795FFA8F434FB7B)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_23, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CozySave_Validate_m29FFB6618B8967A147F7C46F370D3D8770A79F89_RuntimeMethod_var)));
@@ -11899,12 +11764,12 @@ IL_0068:
 
 IL_0073:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:103>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:82>
 		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_24 = ___0_p;
 		NullCheck(L_24);
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_25 = L_24->___activeRun;
 		V_0 = L_25;
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:104>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:83>
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_26 = V_0;
 		if (L_26)
 		{
@@ -11912,13 +11777,13 @@ IL_0073:
 		}
 	}
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:104>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:83>
 		return;
 	}
 
 IL_007e:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:105>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:84>
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_27 = V_0;
 		NullCheck(L_27);
 		String_t* L_28 = L_27->___rulesVersion;
@@ -11930,7 +11795,7 @@ IL_007e:
 		}
 	}
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:105>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:84>
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_30 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
 		NotSupportedException__ctor_mE174750CF0247BBB47544FFD71D66BB89630945B(L_30, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral24E67EB8B9B345363DDF8E18EABA8A5D2142547D)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_30, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CozySave_Validate_m29FFB6618B8967A147F7C46F370D3D8770A79F89_RuntimeMethod_var)));
@@ -11938,7 +11803,7 @@ IL_007e:
 
 IL_009b:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:106>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:85>
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_31 = V_0;
 		NullCheck(L_31);
 		String_t* L_32 = L_31->___runId;
@@ -12212,7 +12077,7 @@ IL_009b:
 
 IL_020a:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:107>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:86>
 		InvalidDataException_t9D62CAAA10DD31CCD9C0F92AA5729A05282F18A1* L_104 = (InvalidDataException_t9D62CAAA10DD31CCD9C0F92AA5729A05282F18A1*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidDataException_t9D62CAAA10DD31CCD9C0F92AA5729A05282F18A1_il2cpp_TypeInfo_var)));
 		InvalidDataException__ctor_m514879053D89E3C8229A01AA8970237FA5409532(L_104, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral2A23C97478AD482C40AACCFEC10D259F41155975)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_104, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CozySave_Validate_m29FFB6618B8967A147F7C46F370D3D8770A79F89_RuntimeMethod_var)));
@@ -12220,11 +12085,11 @@ IL_020a:
 
 IL_0215:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:108>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:87>
 		return;
 	}
 }
-// Method Definition Index: 65379
+// Method Definition Index: 65377
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* CozySave_Read_mEDD911E1654EE7D3C931436CA211E20441958F34 (CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83* __this, String_t* ___0_path, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12240,14 +12105,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B5
 	CozyRun_t664438D37D010E4092B526226781841855621066* V_2 = NULL;
 	CozyRun_t664438D37D010E4092B526226781841855621066* G_B7_0 = NULL;
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:111>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:90>
 		String_t* L_0 = ___0_path;
 		String_t* L_1;
 		L_1 = File_ReadAllText_mA4A939F853D573379F7129AFDC469B91E9747BAA(L_0, NULL);
 		CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9* L_2;
 		L_2 = JsonUtility_FromJson_TisCozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9_m676D06558EE41538D74AC6E5DC5CC938D20E9ECE(L_1, JsonUtility_FromJson_TisCozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9_m676D06558EE41538D74AC6E5DC5CC938D20E9ECE_RuntimeMethod_var);
 		V_0 = L_2;
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:112>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:91>
 		CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9* L_3 = V_0;
 		if (!L_3)
 		{
@@ -12284,7 +12149,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B5
 
 IL_0034:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:112>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:91>
 		InvalidDataException_t9D62CAAA10DD31CCD9C0F92AA5729A05282F18A1* L_13 = (InvalidDataException_t9D62CAAA10DD31CCD9C0F92AA5729A05282F18A1*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidDataException_t9D62CAAA10DD31CCD9C0F92AA5729A05282F18A1_il2cpp_TypeInfo_var)));
 		InvalidDataException__ctor_m514879053D89E3C8229A01AA8970237FA5409532(L_13, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral061C5A045E3C39E537BA1A713752B4C17D27C2EB)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_13, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CozySave_Read_mEDD911E1654EE7D3C931436CA211E20441958F34_RuntimeMethod_var)));
@@ -12292,14 +12157,14 @@ IL_0034:
 
 IL_003f:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:113>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:92>
 		CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9* L_14 = V_0;
 		NullCheck(L_14);
 		String_t* L_15 = L_14->___payload;
 		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_16;
 		L_16 = JsonUtility_FromJson_TisCozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E_m76F8AF5249D05653795FF65DDB6B6DA4D13774B4(L_15, JsonUtility_FromJson_TisCozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E_m76F8AF5249D05653795FF65DDB6B6DA4D13774B4_RuntimeMethod_var);
 		V_1 = L_16;
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:116>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:95>
 		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_17 = V_1;
 		if (L_17)
 		{
@@ -12322,8 +12187,8 @@ IL_0051:
 IL_0057:
 	{
 		V_2 = G_B7_0;
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:117>
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:118>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:96>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:97>
 		CozyRun_t664438D37D010E4092B526226781841855621066* L_20 = V_2;
 		if (!L_20)
 		{
@@ -12373,7 +12238,7 @@ IL_0057:
 		}
 	}
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:119>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:98>
 		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_34 = V_1;
 		NullCheck(L_34);
 		L_34->___activeRun = (CozyRun_t664438D37D010E4092B526226781841855621066*)NULL;
@@ -12382,15 +12247,15 @@ IL_0057:
 
 IL_009a:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:120>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:99>
 		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_35 = V_1;
 		CozySave_Validate_m29FFB6618B8967A147F7C46F370D3D8770A79F89(L_35, NULL);
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:120>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:99>
 		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_36 = V_1;
 		return L_36;
 	}
 }
-// Method Definition Index: 65380
+// Method Definition Index: 65378
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* CozySave_Load_mF84D8D8898A7801A08D9881965F5DCC8132B9422 (CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12413,11 +12278,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B5
 	int32_t G_B28_0 = 0;
 	int32_t G_B27_0 = 0;
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:124>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:103>
 		CozySave_set_Notice_m72C28B92F668CE984077DCAD59802BBE0C3FE93A_inline(__this, (String_t*)NULL, NULL);
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:124>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:103>
 		CozySave_set_ReadOnly_m00E0409EAF25726F6439A6C9AA6E9437C9288EF0_inline(__this, (bool)0, NULL);
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:125>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:104>
 		String_t* L_0 = __this->___Path;
 		bool L_1;
 		L_1 = File_Exists_m95E329ABBE3EAD6750FE1989BBA6884457136D4A(L_0, NULL);
@@ -12438,7 +12303,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B5
 		}
 	}
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:125>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:104>
 		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_5 = (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E*)il2cpp_codegen_object_new(CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E_il2cpp_TypeInfo_var);
 		CozyProfile__ctor_m1B8C957BDF7C9DD9B69CE4A5C05FA3A249001D0D(L_5, NULL);
 		return L_5;
@@ -12449,7 +12314,7 @@ IL_0038:
 	}
 	try
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:126>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:105>
 		String_t* L_6 = __this->___Path;
 		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_7;
 		L_7 = CozySave_Read_mEDD911E1654EE7D3C931436CA211E20441958F34(__this, L_6, NULL);
@@ -12486,7 +12351,7 @@ IL_0038:
 IL_0075:
 					{
 						V_1 = G_B8_0;
-						//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:128>
+						//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:107>
 						Exception_t* L_10 = V_1;
 						if (((IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910*)IsInstClass((RuntimeObject*)L_10, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910_il2cpp_TypeInfo_var)))))
 						{
@@ -12552,12 +12417,12 @@ IL_00a5:
 CATCH_004b:
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_15 = ((NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)IL2CPP_GET_ACTIVE_EXCEPTION(NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*));;
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:127>
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:127>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:106>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:106>
 		CozySave_set_ReadOnly_m00E0409EAF25726F6439A6C9AA6E9437C9288EF0_inline(__this, (bool)1, NULL);
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:127>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:106>
 		CozySave_set_Notice_m72C28B92F668CE984077DCAD59802BBE0C3FE93A_inline(__this, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralD2D2F8D3F9F04A081FFBE6B2AF7917BAAADFC052)), NULL);
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:127>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:106>
 		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_16 = (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E_il2cpp_TypeInfo_var)));
 		CozyProfile__ctor_m1B8C957BDF7C9DD9B69CE4A5C05FA3A249001D0D(L_16, NULL);
 		V_0 = L_16;
@@ -12572,15 +12437,15 @@ FILTER_00a7:
 		}
 		try
 		{
-			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:130>
+			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:109>
 			String_t* L_18 = __this->___Path;
 			String_t* L_19;
 			L_19 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_18, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralF0C44AECF717C8023FB058DEA0E7D69DA2D57F5A)), NULL);
 			CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_20;
 			L_20 = CozySave_Read_mEDD911E1654EE7D3C931436CA211E20441958F34(__this, L_19, NULL);
-			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:130>
+			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:109>
 			CozySave_set_Notice_m72C28B92F668CE984077DCAD59802BBE0C3FE93A_inline(__this, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral40866342D5EA7852DF2154D8AC99B9DE56BB00D6)), NULL);
-			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:130>
+			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:109>
 			V_0 = L_20;
 			goto IL_012d;
 		}
@@ -12609,7 +12474,7 @@ FILTER_00a7:
 IL_00d8:
 						{
 							V_2 = G_B20_0;
-							//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:131>
+							//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:110>
 							Exception_t* L_23 = V_2;
 							if (((IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910*)IsInstClass((RuntimeObject*)L_23, ((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910_il2cpp_TypeInfo_var)))))
 							{
@@ -12682,11 +12547,11 @@ IL_0110:
 FILTER_0112:
 		{
 			Exception_t* L_29 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:132>
+			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:111>
 			CozySave_set_ReadOnly_m00E0409EAF25726F6439A6C9AA6E9437C9288EF0_inline(__this, (bool)1, NULL);
-			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:132>
+			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:111>
 			CozySave_set_Notice_m72C28B92F668CE984077DCAD59802BBE0C3FE93A_inline(__this, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral5E2668F20FF14B96790BC5B6CADB121E596316B3)), NULL);
-			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:132>
+			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:111>
 			CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_30 = (CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E_il2cpp_TypeInfo_var)));
 			CozyProfile__ctor_m1B8C957BDF7C9DD9B69CE4A5C05FA3A249001D0D(L_30, NULL);
 			V_0 = L_30;
@@ -12697,12 +12562,12 @@ FILTER_0112:
 
 IL_012d:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:134>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:113>
 		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_31 = V_0;
 		return L_31;
 	}
 }
-// Method Definition Index: 65381
+// Method Definition Index: 65379
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozySave_Write_mF3EE811583D7660666EB4A63BEF1098D635574F8 (CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83* __this, CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* ___0_profile, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12724,7 +12589,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozySave_Write_mF3EE811583D7660666EB4A63
 	FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* V_4 = NULL;
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_5 = NULL;
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:137>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:116>
 		bool L_0;
 		L_0 = CozySave_get_ReadOnly_m523A3BFEE6FAA79B44629ECEC795F8033EC2A800_inline(__this, NULL);
 		if (!L_0)
@@ -12733,7 +12598,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozySave_Write_mF3EE811583D7660666EB4A63
 		}
 	}
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:137>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:116>
 		IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910* L_1 = (IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&IOException_t5D599190B003D41D45D4839A9B6B9AB53A755910_il2cpp_TypeInfo_var)));
 		IOException__ctor_mE0612A16064F93C7EBB468D6874777BD70CB50CA(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralDD7CC68B9AF36896667037EB7C3EBF00EF044EF2)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&CozySave_Write_mF3EE811583D7660666EB4A63BEF1098D635574F8_RuntimeMethod_var)));
@@ -12741,16 +12606,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozySave_Write_mF3EE811583D7660666EB4A63
 
 IL_0013:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:138>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:117>
 		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_2 = ___0_profile;
 		CozySave_Validate_m29FFB6618B8967A147F7C46F370D3D8770A79F89(L_2, NULL);
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:139>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:118>
 		String_t* L_3 = __this->___Path;
 		il2cpp_codegen_runtime_class_init_inline(Path_t8A38A801D0219E8209C1B1D90D82D4D755D998BC_il2cpp_TypeInfo_var);
 		String_t* L_4;
 		L_4 = Path_GetDirectoryName_m428BADBE493A3927B51A13DEF658929B430516F6(L_3, NULL);
 		V_0 = L_4;
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:139>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:118>
 		String_t* L_5 = V_0;
 		bool L_6;
 		L_6 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_5, NULL);
@@ -12760,7 +12625,7 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:139>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:118>
 		String_t* L_7 = V_0;
 		DirectoryInfo_tEAEEC018EB49B4A71907FFEAFE935FAA8F9C1FE2* L_8;
 		L_8 = Directory_CreateDirectory_m16EC5CE8561A997C6635E06DC24C77590F29D94F(L_7, NULL);
@@ -12768,12 +12633,12 @@ IL_0013:
 
 IL_0034:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:140>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:119>
 		CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E* L_9 = ___0_profile;
 		String_t* L_10;
 		L_10 = JsonUtility_ToJson_m28CC6843B9D3723D88AD13EA3829B71FDE7826BA(L_9, NULL);
 		V_1 = L_10;
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:141>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:120>
 		CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9* L_11 = (CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9*)il2cpp_codegen_object_new(CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9_il2cpp_TypeInfo_var);
 		CozySaveEnvelope__ctor_mA850EB8783A3FE90ADEEBDDDF698E0AD5178C0B7(L_11, NULL);
 		CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9* L_12 = L_11;
@@ -12791,12 +12656,12 @@ IL_0034:
 		String_t* L_17;
 		L_17 = JsonUtility_ToJson_m28CC6843B9D3723D88AD13EA3829B71FDE7826BA(L_14, NULL);
 		V_2 = L_17;
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:142>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:121>
 		String_t* L_18 = __this->___Path;
 		String_t* L_19;
 		L_19 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_18, _stringLiteral2F67EDD17F502E8BE5C9CE81D80F4F4BC64E79B1, NULL);
 		V_3 = L_19;
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:143>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:122>
 		String_t* L_20 = V_3;
 		FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_21 = (FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8*)il2cpp_codegen_object_new(FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8_il2cpp_TypeInfo_var);
 		FileStream__ctor_mA39506EF7A1F33FCA0199B880BE1D82217E33EEC(L_21, L_20, 2, 2, 0, NULL);
@@ -12829,7 +12694,7 @@ IL_00a5:
 		});
 		try
 		{
-			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:145>
+			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:124>
 			Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_24;
 			L_24 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
 			String_t* L_25 = V_2;
@@ -12837,18 +12702,18 @@ IL_00a5:
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_26;
 			L_26 = VirtualFuncInvoker1< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, String_t* >::Invoke(16, L_24, L_25);
 			V_5 = L_26;
-			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:145>
+			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:124>
 			FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_27 = V_4;
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_28 = V_5;
 			ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_29 = V_5;
 			NullCheck(L_29);
 			NullCheck(L_27);
 			VirtualActionInvoker3< ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(24, L_27, L_28, 0, ((int32_t)(((RuntimeArray*)L_29)->max_length)));
-			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:145>
+			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:124>
 			FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8* L_30 = V_4;
 			NullCheck(L_30);
 			VirtualActionInvoker1< bool >::Invoke(28, L_30, (bool)1);
-			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:146>
+			//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:125>
 			goto IL_00a6;
 		}
 		catch(Il2CppExceptionWrapper& e)
@@ -12859,7 +12724,7 @@ IL_00a5:
 
 IL_00a6:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:147>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:126>
 		String_t* L_31 = __this->___Path;
 		bool L_32;
 		L_32 = File_Exists_m95E329ABBE3EAD6750FE1989BBA6884457136D4A(L_31, NULL);
@@ -12869,7 +12734,7 @@ IL_00a6:
 		}
 	}
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:149>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:128>
 		String_t* L_33;
 		L_33 = CozySave_get_Notice_m2FE22EF927F14E85DB958FF18A5A2EDE19336B32_inline(__this, NULL);
 		bool L_34;
@@ -12880,18 +12745,18 @@ IL_00a6:
 		}
 	}
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:152>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:131>
 		String_t* L_35 = V_3;
 		String_t* L_36 = __this->___Path;
 		File_Replace_m2850C0BC483E696258D433AEF1DBFAA82185CD47(L_35, L_36, (String_t*)NULL, NULL);
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:152>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:131>
 		CozySave_set_Notice_m72C28B92F668CE984077DCAD59802BBE0C3FE93A_inline(__this, (String_t*)NULL, NULL);
 		return;
 	}
 
 IL_00da:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:154>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:133>
 		String_t* L_37 = V_3;
 		String_t* L_38 = __this->___Path;
 		String_t* L_39 = __this->___Path;
@@ -12903,11 +12768,11 @@ IL_00da:
 
 IL_00f7:
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:156>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:135>
 		String_t* L_41 = V_3;
 		String_t* L_42 = __this->___Path;
 		File_Move_mBC9450111E0144A55D893A720F19E612D658AC37(L_41, L_42, NULL);
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:157>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:136>
 		return;
 	}
 }
@@ -12919,7 +12784,7 @@ IL_00f7:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 65382
+// Method Definition Index: 65380
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 CozyTuning_Movement_mCA75821BAB252FCE9FEBFF0706746DB7913FEB60 (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_input, float ___1_speed, const RuntimeMethod* method) 
 {
 	{
@@ -12933,7 +12798,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_3;
 	}
 }
-// Method Definition Index: 65383
+// Method Definition Index: 65381
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CozyTuning_SpawnRate_m25429C434E8AEBA0FFCF69D6290E40E006DBF926 (float ___0_time, const RuntimeMethod* method) 
 {
 	{
@@ -13001,7 +12866,7 @@ IL_0046:
 		return (0.800000012f);
 	}
 }
-// Method Definition Index: 65384
+// Method Definition Index: 65382
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CozyTuning_ToughChance_mD8B32406DA4865BF8573D2FF59F0ED7789C2D7A8 (float ___0_time, const RuntimeMethod* method) 
 {
 	{
@@ -13057,7 +12922,7 @@ IL_0038:
 		return (0.0f);
 	}
 }
-// Method Definition Index: 65385
+// Method Definition Index: 65383
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CozyTuning_SpeedMultiplier_m5EF56D6CC817AB7B0353FBC9D776C851F812317B (float ___0_time, const RuntimeMethod* method) 
 {
 	{
@@ -13125,7 +12990,7 @@ IL_0046:
 		return (1.0f);
 	}
 }
-// Method Definition Index: 65386
+// Method Definition Index: 65384
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CozyTuning__ctor_m42923F7D5B4DB4E9E9833CF308C6C9F4488C34A2 (CozyTuning_t2C3A8E24B6F8AE2378DB121DA1F9D19095B1142C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -13984,41 +13849,41 @@ IL_000c:
 		return L_2;
 	}
 }
-// Method Definition Index: 65373
+// Method Definition Index: 65371
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CozySave_set_Notice_m72C28B92F668CE984077DCAD59802BBE0C3FE93A_inline (CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:91>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:70>
 		String_t* L_0 = ___0_value;
 		__this->___U3CNoticeU3Ek__BackingField = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CNoticeU3Ek__BackingField), (void*)L_0);
 		return;
 	}
 }
-// Method Definition Index: 65375
+// Method Definition Index: 65373
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void CozySave_set_ReadOnly_m00E0409EAF25726F6439A6C9AA6E9437C9288EF0_inline (CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:92>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:71>
 		bool L_0 = ___0_value;
 		__this->___U3CReadOnlyU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 65374
+// Method Definition Index: 65372
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool CozySave_get_ReadOnly_m523A3BFEE6FAA79B44629ECEC795F8033EC2A800_inline (CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:92>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:71>
 		bool L_0 = __this->___U3CReadOnlyU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 65372
+// Method Definition Index: 65370
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* CozySave_get_Notice_m2FE22EF927F14E85DB958FF18A5A2EDE19336B32_inline (CozySave_t023E744F0467E829048A48CA77C3E60479FBDA83* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:91>
+		//<source_info:C:/SecondWindGames/Repositoires/Go/W05/Assets/Cozy/Scripts/CozySave.cs:70>
 		String_t* L_0 = __this->___U3CNoticeU3Ek__BackingField;
 		return L_0;
 	}

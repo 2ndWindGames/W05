@@ -1746,7 +1746,7 @@ struct U3CU3Ec__DisplayClass7_0_t5344BEFDD5F926CF931473188EDD0748971C9F61  : pub
 {
 	bool ___tough;
 };
-struct U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508  : public RuntimeObject
+struct U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172  : public RuntimeObject
 {
 	CozyRun_t664438D37D010E4092B526226781841855621066* ___run;
 };
@@ -34998,10 +34998,10 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7616[4] =
 	static_cast<int32_t>(offsetof(CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932, ___key)),static_cast<int32_t>(offsetof(CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932, ___score)),static_cast<int32_t>(offsetof(CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932, ___survival)),static_cast<int32_t>(offsetof(CozyRecord_t7890E15965E810A7F351D3F59A13E606D1D9F932, ___bossTime)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7617[1] = 
 {
-	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass21_0_tCD94C99FE4A580442A504D4E20C4469240DA5508, ___run)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7618[12] = 
+	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass17_0_t11AAA75538CD1A3E755AC566D0FF63473C078172, ___run)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7618[11] = 
 {
-	0,static_cast<int32_t>(offsetof(CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E, ___profileVersion)),static_cast<int32_t>(offsetof(CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E, ___stars)),static_cast<int32_t>(offsetof(CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E, ___failures)),static_cast<int32_t>(offsetof(CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E, ___legacyBest)),static_cast<int32_t>(offsetof(CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E, ___cleared)),static_cast<int32_t>(offsetof(CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E, ___cosmetics)),static_cast<int32_t>(offsetof(CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E, ___achievements)),static_cast<int32_t>(offsetof(CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E, ___settledRuns)),static_cast<int32_t>(offsetof(CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E, ___records)),static_cast<int32_t>(offsetof(CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E, ___settings)),static_cast<int32_t>(offsetof(CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E, ___activeRun)),};
+	static_cast<int32_t>(offsetof(CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E, ___profileVersion)),static_cast<int32_t>(offsetof(CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E, ___stars)),static_cast<int32_t>(offsetof(CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E, ___failures)),static_cast<int32_t>(offsetof(CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E, ___legacyBest)),static_cast<int32_t>(offsetof(CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E, ___cleared)),static_cast<int32_t>(offsetof(CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E, ___cosmetics)),static_cast<int32_t>(offsetof(CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E, ___achievements)),static_cast<int32_t>(offsetof(CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E, ___settledRuns)),static_cast<int32_t>(offsetof(CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E, ___records)),static_cast<int32_t>(offsetof(CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E, ___settings)),static_cast<int32_t>(offsetof(CozyProfile_tF49E6CDF09F99D0E973E3F1A51E4E4B58050BD5E, ___activeRun)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable7619[2] = 
 {
 	static_cast<int32_t>(offsetof(CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9, ___payload)),static_cast<int32_t>(offsetof(CozySaveEnvelope_t2C0D6D935F7C2C9CEACFE1DC3234941CBFF169F9, ___sha256)),};
