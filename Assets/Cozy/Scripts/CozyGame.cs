@@ -60,7 +60,6 @@ namespace Cozy
                 companionMaterial.SetVector("_BackgroundThresholds",new Vector4(.09f,.14f,0,0));
             }
             CreateIcons(); CreateCommercialIcons(); CreateScene(); CreateAudio();
-            if (!automatedReview && profile.InitializeTestUnlocks()) SaveProfile();
             Home();
         }
         string L(string ko, string en) => english ? en : ko;

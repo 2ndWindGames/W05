@@ -23,9 +23,10 @@ public sealed class CozyAssetImporter : AssetPostprocessor
 [InitializeOnLoad]
 public static class CozyBuild
 {
-    public const string Version="0.3.4";
-    public const int AndroidVersionCode=7;
+    public const string Version="0.3.5";
+    public const int AndroidVersionCode=8;
     public const string ApkPath="Builds/Android/CozySurvivors-v"+Version+".apk";
+    public const string BundlePath="Builds/Android/CozySurvivors-v"+Version+".aab";
     const string AndroidPackageName="com.secondwindgames.cozysurvivors";
     const string ScenePath="Assets/Cozy/Scenes/AuroraSnowfield.unity";
     static bool busy;
@@ -44,6 +45,9 @@ public static class CozyBuild
         {
             if(command=="setup")Setup();
             else if(command=="build")BuildAndroid();
+            else if(command=="buildbundle")BuildAndroidBundle();
+            else if(command=="buildinfo")
+                File.WriteAllText("Temp/CozyBuildInfo.txt",$"Playing: {EditorApplication.isPlaying}\nSceneDirty: {SceneManager.GetActiveScene().isDirty}\nTarget: {EditorUserBuildSettings.activeBuildTarget}\nHasKeystore: {!string.IsNullOrEmpty(PlayerSettings.Android.keystoreName)}\nHasKeystorePassword: {!string.IsNullOrEmpty(PlayerSettings.Android.keystorePass)}\nHasAliasPassword: {!string.IsNullOrEmpty(PlayerSettings.Android.keyaliasPass)}");
             else if(command=="play")EditorApplication.isPlaying=true;
             else if(command=="stop")EditorApplication.isPlaying=false;
             else if(command=="test")
@@ -115,11 +119,9 @@ public static class CozyBuild
         PlayerSettings.Android.targetSdkVersion=AndroidSdkVersions.AndroidApiLevelAuto;
         PlayerSettings.SetScriptingBackend(UnityEditor.Build.NamedBuildTarget.Android,ScriptingImplementation.IL2CPP);
         PlayerSettings.Android.targetArchitectures=AndroidArchitecture.ARM64;
-        PlayerSettings.Android.useCustomKeystore=false;
         PlayerSettings.runInBackground=false;
         PlayerSettings.defaultScreenWidth=1280;PlayerSettings.defaultScreenHeight=720;
         QualitySettings.vSyncCount=0;
-        EditorUserBuildSettings.buildAppBundle=false;
     }
 
     static void ApplyAndroidPackageName()
@@ -135,12 +137,40 @@ public static class CozyBuild
     {
         if(EditorApplication.isPlaying)throw new Exception("Exit Play mode before building.");
         Setup();CozyCommercialBuild.Validate();CozyCommercialBuild.ValidateCharacterAssets();Directory.CreateDirectory("Builds/Android");
-        var report=BuildPipeline.BuildPlayer(new BuildPlayerOptions{
-            scenes=new[]{ScenePath},locationPathName=ApkPath,
-            target=BuildTarget.Android,options=BuildOptions.Development
-        });
-        File.WriteAllText("Builds/Android/build-report.txt",$"Result: {report.summary.result}\nSize: {report.summary.totalSize}\nDuration: {report.summary.totalTime}\nErrors: {report.summary.totalErrors}\nWarnings: {report.summary.totalWarnings}\nUnity: {Application.unityVersion}\nARM64 IL2CPP / Android 8.0+ / Development APK");
-        if(report.summary.result!=BuildResult.Succeeded)throw new Exception("Android build failed: "+report.summary.result);
-        Debug.Log("COZY_BUILD_SUCCESS: "+ApkPath);
+        bool previousBundle=EditorUserBuildSettings.buildAppBundle,previousKeystore=PlayerSettings.Android.useCustomKeystore;
+        try
+        {
+            EditorUserBuildSettings.buildAppBundle=false;PlayerSettings.Android.useCustomKeystore=false;
+            var report=BuildPipeline.BuildPlayer(new BuildPlayerOptions{
+                scenes=new[]{ScenePath},locationPathName=ApkPath,
+                target=BuildTarget.Android,options=BuildOptions.None
+            });
+            File.WriteAllText("Builds/Android/build-report.txt",$"Result: {report.summary.result}\nSize: {report.summary.totalSize}\nDuration: {report.summary.totalTime}\nErrors: {report.summary.totalErrors}\nWarnings: {report.summary.totalWarnings}\nUnity: {Application.unityVersion}\nARM64 IL2CPP / Android 8.0+ / Non-development APK / Debug signing / All content unlocked");
+            if(report.summary.result!=BuildResult.Succeeded)throw new Exception("Android build failed: "+report.summary.result);
+            Debug.Log("COZY_BUILD_SUCCESS: "+ApkPath);
+        }
+        finally{EditorUserBuildSettings.buildAppBundle=previousBundle;PlayerSettings.Android.useCustomKeystore=previousKeystore;}
+    }
+
+    [MenuItem("Cozy/5. Build Android AAB (configured signing)")]
+    public static void BuildAndroidBundle()
+    {
+        if(EditorApplication.isPlaying)throw new Exception("Exit Play mode before building.");
+        if(string.IsNullOrEmpty(PlayerSettings.Android.keystoreName)||string.IsNullOrEmpty(PlayerSettings.Android.keyaliasName)||string.IsNullOrEmpty(PlayerSettings.Android.keystorePass)||string.IsNullOrEmpty(PlayerSettings.Android.keyaliasPass))
+            throw new Exception("Configure the existing upload keystore and passwords in Android Publishing Settings before building the AAB.");
+        Setup();CozyCommercialBuild.Validate();CozyCommercialBuild.ValidateCharacterAssets();Directory.CreateDirectory("Builds/Android");
+        bool previousBundle=EditorUserBuildSettings.buildAppBundle,previousKeystore=PlayerSettings.Android.useCustomKeystore;
+        try
+        {
+            EditorUserBuildSettings.buildAppBundle=true;PlayerSettings.Android.useCustomKeystore=true;
+            var report=BuildPipeline.BuildPlayer(new BuildPlayerOptions{
+                scenes=new[]{ScenePath},locationPathName=BundlePath,
+                target=BuildTarget.Android,options=BuildOptions.None
+            });
+            File.WriteAllText("Builds/Android/bundle-report.txt",$"Result: {report.summary.result}\nVersion: {Version} ({AndroidVersionCode})\nSize: {report.summary.totalSize}\nDuration: {report.summary.totalTime}\nErrors: {report.summary.totalErrors}\nWarnings: {report.summary.totalWarnings}\nUnity: {Application.unityVersion}\nARM64 IL2CPP / Android 8.0+ / Non-development AAB / Configured signing / All content unlocked");
+            if(report.summary.result!=BuildResult.Succeeded)throw new Exception("Android bundle build failed: "+report.summary.result);
+            Debug.Log("COZY_BUNDLE_SUCCESS: "+BundlePath);
+        }
+        finally{EditorUserBuildSettings.buildAppBundle=previousBundle;PlayerSettings.Android.useCustomKeystore=previousKeystore;}
     }
 }

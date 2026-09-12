@@ -58,7 +58,7 @@ namespace Cozy
             if(!profile.AnimalUnlocked((int)selectedAnimal))selectedAnimal=Animal.Penguin;
             if(!profile.RegionUnlocked((int)selectedRegion))selectedRegion=Region.Snowfield;
             if(!profile.EndlessUnlocked((int)selectedRegion))selectedEndless=false;
-            Panel("YOUR NEXT WALK",L("오늘의 모험","Today's adventure"),profile.TestUnlocksEnabled?L("테스트 전체 해금 ON · 모든 동물·지역·무한 모드를 선택할 수 있어요.","Test unlocks ON · Every animal, region and endless mode is available."):L("동물 · 지역 · 난도를 고르고 출발하세요. 모든 난도에서 해금과 기본 보상이 같아요.","Choose a friend, region and difficulty. All difficulties share unlocks and base rewards."));
+            Panel("YOUR NEXT WALK",L("오늘의 모험","Today's adventure"),L("전체 해금 · 모든 동물·지역·무한 모드를 선택할 수 있어요.","All content unlocked · Choose any animal, region or endless mode."));
             for(int i=0;i<3;i++)
             {
                 int index=i;float x=(i-1)*310;
@@ -152,12 +152,8 @@ namespace Cozy
                 Label(overlay,L("전투 화면을 누른 위치에 조이스틱이 나타나요.\n공격은 자동으로 진행됩니다.","The movement stick appears where you touch the field.\nYour animal attacks automatically."),20,new Vector2(0,-116),new Vector2(920,70),Ink);
             else for(int i=0;i<4;i++){string id=ids[i];Button(overlay,id.ToUpper()+"  ["+names[i].ToUpper()+"]",new Vector2((i-1.5f)*230,-116),new Vector2(215,54),()=>{rebind=id;Panel("CONTROLS",L("이동 키를 누르세요","Press a movement key"),L("문자 키를 선택하세요. ESC는 취소합니다.","Choose a letter key. Escape cancels."));});}
             Label(overlay,Application.isMobilePlatform?L("오른쪽 위 II: 일시정지 / 앱을 벗어나면 자동으로 멈춥니다.\n흔들림·화면 플래시·진동은 사용하지 않습니다.","Tap II to pause. Leaving the app pauses automatically.\nNo screen shake, full-screen flashes or vibration."):L("패드 A: 선택 / 방향키: 메뉴 이동 / START: 일시정지\n흔들림·화면 플래시·진동은 사용하지 않습니다.","Gamepad A: confirm / D-pad: navigate / START: pause\nNo screen shake, full-screen flashes or vibration."),16,new Vector2(0,-189),new Vector2(920,65),Ink);
-#if UNITY_EDITOR || DEVELOPMENT_BUILD
-            Button(overlay,L("테스트 · 전체 해금: ","Test · Unlock all: ")+(s.testUnlockAll?"ON":"OFF"),new Vector2(-240,-268),new Vector2(450,46),()=>Change(()=>{s.testUnlockAll=!s.testUnlockAll;s.testUnlockConfigured=true;if(run!=null)SetupTerrain();}),s.testUnlockAll);
+            Label(overlay,L("모든 콘텐츠 해금됨","All content unlocked"),20,new Vector2(-240,-268),new Vector2(450,46),Pink);
             Button(overlay,L("돌아가기","Back"),new Vector2(240,-268),new Vector2(450,46),()=>{if(settingsReturn=="pause")PauseMenu();else Home();});
-#else
-            Button(overlay,L("돌아가기","Back"),new Vector2(0,-268),new Vector2(410,46),()=>{if(settingsReturn=="pause")PauseMenu();else Home();});
-#endif
             FocusMenu();
         }
         void ReadRebind()
@@ -182,7 +178,7 @@ namespace Cozy
             string[] namesEN={"Star pot","Yuzu tree","Mailbox","Snow friend","Spa basket","Letter garland","Aurora lamp","Tea table","Star bench","Winter gazebo","Spa roof","Moon vane"};
             for(int i=0;i<12;i++)
             {
-                int id=i;bool owned=profile.DecorationAvailable(i);string title=(english?namesEN:namesKO)[i]+"\n"+(owned?(profile.cosmetics[i]?L("마을에 배치됨","Placed in village"):L("테스트 배치","Test preview")):(100*(i/3+1))+L(" 별"," stars"));
+                int id=i;bool owned=profile.DecorationAvailable(i);string title=(english?namesEN:namesKO)[i]+"\n"+(owned?L("마을에 배치됨","Placed in village"):(100*(i/3+1))+L(" 별"," stars"));
                 Button(overlay,title,new Vector2((i%3-1)*310,88-(i/3)*77),new Vector2(294,64),()=>{if(profile.BuyDecoration(id))SaveProfile();Village();},owned);
             }
             Button(overlay,L("편지 · 업적 · 기록", "Letters, achievements & records"),new Vector2(-240,-259),new Vector2(450,48),Collection);

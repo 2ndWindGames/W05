@@ -77,8 +77,8 @@ namespace Cozy
             }
             run=New();run.elapsed=720;run.objectives=3;run.phase=RunPhase.Won;var profile=new CozyProfile();Check(profile.Settle(run)==195,"full first clear pays 195 stars");
             string snapshot=JsonUtility.ToJson(run);var duplicate=JsonUtility.FromJson<CozyRun>(snapshot);duplicate.rewardClaimed=false;Check(profile.Settle(duplicate)==0,"run ID blocks replaying old unclaimed snapshot");
-            Check(profile.AnimalUnlocked(2)&&profile.RegionUnlocked(1)&&!profile.RegionUnlocked(2),"first clear unlocks cat and springs only");
-            Check(profile.BuyDecoration(0)&&profile.stars==95&&!profile.BuyDecoration(0)&&!profile.BuyDecoration(11),"cosmetic purchases enforce cost and uniqueness");
+            Check(profile.cleared[0]&&!profile.cleared[1]&&!profile.cleared[2]&&profile.RegionUnlocked(2),"all regions are available without inventing first-clear records");
+            Check(!profile.BuyDecoration(0)&&profile.stars==195&&!profile.BuyDecoration(11)&&Array.TrueForAll(profile.cosmetics,x=>!x),"included decorations never charge stars or invent purchase records");
             run=New();run.endless=true;run.elapsed=1000;run.objectives=3;run.Retire();Check(run.CalculateStars()==105,"endless and retirement rewards cap time at twelve minutes");
             string folder=System.IO.Path.Combine("Temp","CozySaveChecks-"+Guid.NewGuid().ToString("N"));Directory.CreateDirectory(folder);
             var disk=new CozySave(System.IO.Path.Combine(folder,"profile.json"));profile=new CozyProfile();run=New(Animal.Cat);profile.activeRun=run;
@@ -107,22 +107,23 @@ namespace Cozy
             File.WriteAllText(homeDisk.Path+".bak",malformedEnvelope);homeDisk.Load();
             Check(homeDisk.ReadOnly&&homeDisk.Notice=="damaged"&&File.ReadAllText(homeDisk.Path)==malformedEnvelope,"two structurally invalid saves remain intact and cannot crash startup");
             var testProfile=new CozyProfile{stars=500};
-            Check(testProfile.InitializeTestUnlocks()&&testProfile.TestUnlocksEnabled,"development profiles enable all unlocks on first setup");
-            for(int i=0;i<3;i++)Check(testProfile.AnimalUnlocked(i)&&testProfile.RegionUnlocked(i)&&testProfile.EndlessUnlocked(i)&&testProfile.LettersUnlocked(i),"test mode opens animal, region, endless and letters "+i);
+            Check(!testProfile.settings.testUnlockAll&&!testProfile.settings.testUnlockConfigured&&testProfile.AnimalUnlocked(2)&&testProfile.RegionUnlocked(2),"fresh profiles have all content without initialization or a test flag");
+            for(int i=0;i<3;i++)Check(testProfile.AnimalUnlocked(i)&&testProfile.RegionUnlocked(i)&&testProfile.EndlessUnlocked(i)&&testProfile.LettersUnlocked(i),"all-content edition opens animal, region, endless and letters "+i);
             bool allDecorations=true;for(int i=0;i<12;i++)allDecorations&=testProfile.DecorationAvailable(i);
-            Check(allDecorations&&!testProfile.BuyDecoration(0)&&testProfile.stars==500,"test decorations are available without spending stars");
-            Check(Array.TrueForAll(testProfile.cleared,x=>!x)&&Array.TrueForAll(testProfile.cosmetics,x=>!x)&&Array.TrueForAll(testProfile.achievements,x=>!x)&&testProfile.records.Count==0,"test unlocks preserve actual progress, purchases, achievements and records");
-            Check(!testProfile.AnimalUnlocked(3)&&!testProfile.RegionUnlocked(-1)&&!testProfile.EndlessUnlocked(3)&&!testProfile.DecorationAvailable(12),"test mode does not unlock invalid content IDs");
+            Check(allDecorations&&!testProfile.BuyDecoration(0)&&testProfile.stars==500,"all twelve decorations are available without spending stars");
+            Check(Array.TrueForAll(testProfile.cleared,x=>!x)&&Array.TrueForAll(testProfile.cosmetics,x=>!x)&&Array.TrueForAll(testProfile.achievements,x=>!x)&&testProfile.records.Count==0,"content access preserves actual progress, purchases, achievements and records");
+            Check(!testProfile.AnimalUnlocked(-1)&&!testProfile.AnimalUnlocked(3)&&!testProfile.RegionUnlocked(-1)&&!testProfile.RegionUnlocked(3)&&!testProfile.EndlessUnlocked(-1)&&!testProfile.EndlessUnlocked(3)&&!testProfile.LettersUnlocked(-1)&&!testProfile.LettersUnlocked(3)&&!testProfile.DecorationAvailable(-1)&&!testProfile.DecorationAvailable(12),"all-content edition rejects invalid IDs for every content type");
             var testDisk=new CozySave(System.IO.Path.Combine(folder,"test-unlocks.json"));testDisk.Write(testProfile);var testRestored=testDisk.Load();
-            Check(testRestored.TestUnlocksEnabled&&testRestored.settings.testUnlockConfigured&&testRestored.stars==500,"test unlock preference survives disk save and reload");
-            testRestored.settings.testUnlockAll=false;testDisk.Write(testRestored);testRestored=testDisk.Load();
-            Check(!testRestored.InitializeTestUnlocks()&&!testRestored.TestUnlocksEnabled&&!testRestored.AnimalUnlocked(2)&&!testRestored.RegionUnlocked(1)&&!testRestored.EndlessUnlocked(0)&&!testRestored.DecorationAvailable(0),"turning test unlocks off survives reload and restores the real locks");
+            Check(testRestored.RegionUnlocked(2)&&testRestored.DecorationAvailable(11)&&testRestored.stars==500,"all content remains available after a fresh save and reload");
+            testRestored.settings.testUnlockAll=false;testRestored.settings.testUnlockConfigured=true;testRestored.settings.testUnlockRevision=1;testDisk.Write(testRestored);testRestored=testDisk.Load();
+            Check(testRestored.AnimalUnlocked(2)&&testRestored.RegionUnlocked(2)&&testRestored.EndlessUnlocked(2)&&testRestored.LettersUnlocked(2)&&testRestored.DecorationAvailable(11),"v0.3.3 and v0.3.4 profiles saved with OFF still have every content type");
             testRestored.cleared[0]=true;testRestored.cosmetics[0]=true;
-            Check(testRestored.AnimalUnlocked(2)&&testRestored.RegionUnlocked(1)&&!testRestored.RegionUnlocked(2)&&testRestored.EndlessUnlocked(0)&&!testRestored.EndlessUnlocked(1)&&testRestored.DecorationAvailable(0)&&!testRestored.DecorationAvailable(1),"earned progress and purchased decorations remain available with test mode off");
+            testDisk.Write(testRestored);testRestored=testDisk.Load();
+            Check(testRestored.cleared[0]&&!testRestored.cleared[1]&&testRestored.cosmetics[0]&&!testRestored.cosmetics[1]&&testRestored.RegionUnlocked(2)&&testRestored.DecorationAvailable(11)&&testRestored.stars==500,"existing clears, purchases and stars survive alongside all-content access");
             testRestored.settings.testUnlockRevision=0;testDisk.Write(testRestored);testRestored=testDisk.Load();
-            Check(testRestored.InitializeTestUnlocks()&&testRestored.TestUnlocksEnabled&&testRestored.settings.testUnlockRevision==1&&testRestored.stars==500&&testRestored.cleared[0]&&testRestored.cosmetics[0],"v0.3.3 upgrade enables all test content even when previously OFF without changing earned progress");
-            testRestored.settings.testUnlockAll=false;testDisk.Write(testRestored);testRestored=testDisk.Load();
-            Check(!testRestored.InitializeTestUnlocks()&&!testRestored.TestUnlocksEnabled&&testRestored.settings.testUnlockRevision==1,"unlock migration runs only once and respects subsequent OFF across reloads");
+            Check(testRestored.AnimalUnlocked(2)&&testRestored.RegionUnlocked(2)&&testRestored.EndlessUnlocked(2)&&testRestored.LettersUnlocked(2)&&testRestored.DecorationAvailable(11),"pre-migration profiles saved with OFF also have every content type");
+            testRestored.settings.testUnlockAll=true;testDisk.Write(testRestored);testRestored=testDisk.Load();
+            Check(testRestored.AnimalUnlocked(2)&&testRestored.RegionUnlocked(2)&&testRestored.EndlessUnlocked(2)&&testRestored.LettersUnlocked(2)&&testRestored.DecorationAvailable(11),"old ON preferences remain compatible with all-content access");
             // Advance 30 minutes at 60 fixed steps/s. This checks bounds, not hardware frame rate.
             run=New(Animal.Capybara);run.endless=true;run.weaponLevel=5;run.branch=2;
             for(int i=0;i<108000;i++)

@@ -2,19 +2,19 @@
 
 기준 문서: `Cozy_Animal_Survivors_Commercial_GDD_v1.0.pptx` (2026-09-10, 52쪽).
 본문과 발표자 노트의 추출본은 `COMMERCIAL_GDD_SOURCE.txt`.
-게임 규칙 버전: `commercial-0.3.0`. 앱 버전: `0.3.4`. Unity: **6000.3.23f1**.
+게임 규칙 버전: `commercial-0.3.0`. 앱 버전: `0.3.5`. Unity: **6000.3.23f1**.
 사용자 확정 플랫폼(2026-09-10): **Android 모바일**, 가로 화면·터치 드래그. 기획서와 플랫폼 설명이 다를 경우 이 확정을 우선한다.
 
 ## 실행
 
 - `Assets/Cozy/Scenes/AuroraSnowfield.unity`를 열고 Play.
-- 새 모험에서 동물·지역·난도를 선택한다. 펭귄과 카피바라, 눈밭이 처음부터 열린다.
-- 눈밭을 완료하면 고양이·온천·눈밭 무한 도전, 온천을 완료하면 우체국이 열린다.
+- 새 모험에서 동물·지역·난도를 선택한다. v0.3.5는 모든 동물·지역·무한 모드·장식·편지가 처음부터 열린다.
+- 기존 저장의 OFF 설정과 관계없이 전체 해금이 적용되며, 실제 클리어·업적과 보상은 정상적으로 별도 기록한다.
 - WASD / 방향키 / 패드 왼쪽 스틱 / 화면 드래그로 이동한다. 자동 공격이다.
 - 메뉴는 마우스·터치, 키보드 방향키/Enter, 패드 방향키/A로 조작한다. ESC/START는 일시정지.
 - Unity 메뉴 `Cozy > 3. Validate commercial rules`로 시뮬레이션 회귀 검증.
-- `Cozy > 2. Build Android APK`로 `Builds/Android/CozySurvivors-v0.3.4.apk` 생성. Android 8.0+, ARM64 IL2CPP, 개발용 서명, 버전 코드 7.
-- 개발용 APK는 테스트 전체 해금이 기본 ON이다. v0.3.3 첫 실행에는 기존 OFF 설정도 ON으로 한 번 전환하고, 이후 변경한 설정은 유지한다. 설정 화면에서 OFF로 전환하면 실제 진행에 맞는 동물·지역·무한 모드·장식·편지 조건으로 돌아간다. 자세한 동작은 `TEST_MODE.md`를 참조한다.
+- `Cozy > 2. Build Android APK`로 `Builds/Android/CozySurvivors-v0.3.5.apk` 생성. Android 8.0+, ARM64 IL2CPP, 개발용 서명, 버전 코드 8, Development Build 꺼짐.
+- `Cozy > 5. Build Android AAB (configured signing)`은 Publishing Settings의 기존 업로드 키로 일반 AAB를 생성한다. 전체 해금은 일반 APK·AAB에서 동일하게 적용된다. 자세한 동작은 `TEST_MODE.md`를 참조한다.
 - `Cozy > 4. Build commercial Windows demo`는 개발 검증용 보조 빌드다.
 
 ## 구현한 게임 흐름
@@ -31,14 +31,15 @@
 
 수치는 출시 밸런스를 확정한 값이 아니라 기획서의 초기 검증값이다.
 
-## 검증 결과 (2026-09-10)
+## 검증 결과 (2026-09-11)
 
+- Android `0.3.5` / 코드 8 일반 APK 빌드 성공, 오류 0. 141개 회귀 검사와 실제 Android 릴리스 어셈블리의 전체 해금 검사 4개를 통과했다. 새 저장과 기존 OFF 저장에서 모두 해금되며 APK에 debuggable 플래그가 없음을 확인했다. 상세 결과는 `AndroidAllUnlockedValidation-v0.3.5.txt`. AAB는 사용자가 직접 빌드하기로 했다.
 - Android `0.3.4` / 코드 7 테스트 APK 빌드 성공, 오류 0, 141개 검사 통과. 버전 정보·APK 서명 호환·정렬·SHA-256 결과는 `AndroidDistributionValidation-v0.3.4.txt`에 기록했다. 게임 코드의 동작과 해금 설정은 v0.3.3을 유지한다.
 - Android `0.3.3` / 코드 6 테스트 배포 APK 빌드 성공, 오류 0. 기존 OFF 설정의 최초 ON 전환을 포함해 141개 검사 통과. 패키지·버전·기존 서명 호환·정렬·SHA-256 결과는 `AndroidDistributionValidation-v0.3.3.txt`, 영문 출시 노트는 `RELEASE_NOTES_v0.3.3.en.md`에 기록했다.
 - Android `0.3.2` 테스트 전체 해금 APK 빌드 성공, 오류 0. 설정 저장·해금 조건 복원·실제 진행 기록 보존 검사와 APK 서명/정렬/버전 검증은 `AndroidTestUnlockValidation.txt`에 기록했다.
 - Unity 컴파일 및 Windows Development 빌드 성공, 오류 0.
 - Android `0.3.1` APK 빌드 성공, 오류 0, 패키지/셰이더 경고 971개. 실제 APK는 77,443,038바이트이며 빌드 보고서의 전체 산출물 크기와 구분한다. 패키지·버전·서명·16KiB 정렬·복사 SHA-256을 `AndroidApkValidation.txt`에서 확인했다.
-- `CommercialValidation.txt`: 141개 시뮬레이션·성장·저장·해금 검사 통과. 빈 모험/손상 저장 복원 5개, 테스트 전체 해금·실제 기록 보존·설정 저장/복원 10개, 기존 OFF 저장의 업데이트 해금과 이후 OFF 설정 유지 2개를 포함한다.
+- `CommercialValidation.txt`: 141개 시뮬레이션·성장·저장·해금 검사. v0.3.5는 초기화 없는 새 프로필, 이전 ON/OFF 저장과 이관 전 저장의 전체 해금, 잘못된 콘텐츠 ID 거부, 실제 기록 보존을 검사한다.
 - `CommercialInputValidation.txt`: 실제 Input System 가상 장치의 터치 이동/해제/정지/재개, 패드 이동/START/A 선택 및 일반 플레이 포커스 정지, 총 8개 검사 통과. 숨김 창의 포커스 때문에 장치가 꺼지는 영향을 자동 검사에서만 분리하고 원래 설정을 복원한다.
 - `Review/01-home.png`~`09-settings-en.png`: 실제 게임 UI를 1280×720 렌더 타깃에 출력해 화면 배치를 확인했다. 검증용 상태를 주입한 이미지이며 정상 진행을 촬영한 플레이테스트 영상은 아니다.
 - `CharacterAnimationValidation.txt`, `Review/Animations/validation.txt`: 선택한 카피바라·고양이의 16프레임 임포트, 2초 루프, 실제 게임 UI의 텍스처/머티리얼 연결을 확인했다. 2340×1080 검증 플레이어에서 터치 좌표 변환과 입력 검사를 통과했다.

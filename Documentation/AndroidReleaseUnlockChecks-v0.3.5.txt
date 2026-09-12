@@ -1,0 +1,5 @@
+PASS stripped Android release assembly: every content type is available on a fresh profile without initialization
+PASS stripped Android release assembly: previous configured OFF preferences cannot lock any content
+PASS stripped Android release assembly: negative and out-of-range content IDs remain invalid
+PASS stripped Android release assembly: included decorations do not charge stars
+Managed logic executed from the actual Android ManagedStripped/Assembly-CSharp.dll produced with BuildOptions.None. This is not a physical-device test.

@@ -113,8 +113,8 @@ PASS: win/unlock/first-clear rewards 2/2/2
 PASS: idempotent settlement 2/2/2
 PASS: full first clear pays 195 stars
 PASS: run ID blocks replaying old unclaimed snapshot
-PASS: first clear unlocks cat and springs only
-PASS: cosmetic purchases enforce cost and uniqueness
+PASS: all regions are available without inventing first-clear records
+PASS: included decorations never charge stars or invent purchase records
 PASS: endless and retirement rewards cap time at twelve minutes
 PASS: save restores every simulation field
 PASS: resumed simulation preserves RNG, collisions and choices
@@ -126,17 +126,17 @@ PASS: settled run reloads as a home profile without losing rewards or history
 PASS: checksum InvalidDataException recovers the known-good backup
 PASS: invalid real run is rejected instead of treated as an empty run
 PASS: two structurally invalid saves remain intact and cannot crash startup
-PASS: development profiles enable all unlocks on first setup
-PASS: test mode opens animal, region, endless and letters 0
-PASS: test mode opens animal, region, endless and letters 1
-PASS: test mode opens animal, region, endless and letters 2
-PASS: test decorations are available without spending stars
-PASS: test unlocks preserve actual progress, purchases, achievements and records
-PASS: test mode does not unlock invalid content IDs
-PASS: test unlock preference survives disk save and reload
-PASS: turning test unlocks off survives reload and restores the real locks
-PASS: earned progress and purchased decorations remain available with test mode off
-PASS: v0.3.3 upgrade enables all test content even when previously OFF without changing earned progress
-PASS: unlock migration runs only once and respects subsequent OFF across reloads
+PASS: fresh profiles have all content without initialization or a test flag
+PASS: all-content edition opens animal, region, endless and letters 0
+PASS: all-content edition opens animal, region, endless and letters 1
+PASS: all-content edition opens animal, region, endless and letters 2
+PASS: all twelve decorations are available without spending stars
+PASS: content access preserves actual progress, purchases, achievements and records
+PASS: all-content edition rejects invalid IDs for every content type
+PASS: all content remains available after a fresh save and reload
+PASS: v0.3.3 and v0.3.4 profiles saved with OFF still have every content type
+PASS: existing clears, purchases and stars survive alongside all-content access
+PASS: pre-migration profiles saved with OFF also have every content type
+PASS: old ON preferences remain compatible with all-content access
 PASS: thirty-minute endless simulation remains bounded
 TOTAL: 141 checks passed / rules commercial-0.3.0

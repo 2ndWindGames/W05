@@ -1,7 +1,7 @@
 Result: Succeeded
-Size: 1073493094
-Duration: 00:00:34.6512941
+Size: 976981153
+Duration: 00:04:28.2229854
 Errors: 0
 Warnings: 971
 Unity: 6000.3.23f1
-ARM64 IL2CPP / Android 8.0+ / Development APK
+ARM64 IL2CPP / Android 8.0+ / Non-development APK / Debug signing / All content unlocked

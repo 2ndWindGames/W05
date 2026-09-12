@@ -10,6 +10,7 @@ namespace Cozy
     [Serializable] public sealed class CozySettings
     {
         public bool english, muted, largeText, reducedDecoration;
+        // Kept for older save files; content access no longer depends on these settings.
         public bool testUnlockAll, testUnlockConfigured;
         public int testUnlockRevision;
         public float music = .7f, effects = .7f;
@@ -18,41 +19,19 @@ namespace Cozy
     [Serializable] public sealed class CozyRecord { public string key; public int score; public float survival, bossTime; }
     [Serializable] public sealed class CozyProfile
     {
-        // v0.3.3 enables all test content once, including profiles that previously chose OFF.
-        const int TestUnlockRevision = 1;
         public int profileVersion = 1, stars, failures, legacyBest;
         public bool[] cleared = new bool[3], cosmetics = new bool[12], achievements = new bool[18];
         public List<string> settledRuns = new();
         public List<CozyRecord> records = new();
         public CozySettings settings = new();
         public CozyRun activeRun;
-        public bool TestUnlocksEnabled
-        {
-            get
-            {
-#if UNITY_EDITOR || DEVELOPMENT_BUILD
-                return settings.testUnlockAll;
-#else
-                return false;
-#endif
-            }
-        }
-        public bool InitializeTestUnlocks()
-        {
-#if UNITY_EDITOR || DEVELOPMENT_BUILD
-            if (!settings.testUnlockConfigured || settings.testUnlockRevision < TestUnlockRevision)
-            {
-                settings.testUnlockConfigured = true; settings.testUnlockAll = true;
-                settings.testUnlockRevision = TestUnlockRevision; return true;
-            }
-#endif
-            return false;
-        }
-        public bool RegionUnlocked(int region) => region >= 0 && region < 3 && (TestUnlocksEnabled || region == 0 || cleared[region - 1]);
-        public bool AnimalUnlocked(int animal) => animal >= 0 && animal < 3 && (TestUnlocksEnabled || animal < 2 || cleared[0]);
-        public bool EndlessUnlocked(int region) => region >= 0 && region < 3 && (TestUnlocksEnabled || cleared[region]);
+        // This edition includes all content in every build, including non-development Android AABs.
+        // Earned clears and purchases remain separate so rewards and existing saves stay intact.
+        public bool RegionUnlocked(int region) => region >= 0 && region < 3;
+        public bool AnimalUnlocked(int animal) => animal >= 0 && animal < 3;
+        public bool EndlessUnlocked(int region) => RegionUnlocked(region);
         public bool LettersUnlocked(int region) => EndlessUnlocked(region);
-        public bool DecorationAvailable(int id) => id >= 0 && id < cosmetics.Length && (TestUnlocksEnabled || cosmetics[id]);
+        public bool DecorationAvailable(int id) => id >= 0 && id < cosmetics.Length;
         public bool BuyDecoration(int id)
         {
             if (id < 0 || id >= 12 || DecorationAvailable(id)) return false;
